@@ -162,14 +162,20 @@ MESSAGE_NAME_TO_ID["ClientInfo1"] = 0
 # ─── Enums ───────────────────────────────────────────────────────────────────
 
 class Platform:
-    ANDROID = 0
-    IOS = 1
-    AMAZON = 2
+    # Must match APK: com.perblue.rpg.network.messages.Platform
+    DEFAULT = 0
+    ANDROID = 1
+    IPHONE = 2
+    IPAD = 3
+    WEB = 4
 
 class BuildSource:
-    GOOGLE_PLAY = 0
-    AMAZON = 1
-    IOS = 2
+    # Must match APK: com.perblue.rpg.network.messages.BuildSource
+    DEFAULT = 0
+    GOOGLE = 1
+    AMAZON = 2
+    IOS = 3
+    OTHER = 4
 
 class Rarity:
     # Must match client enum ordinals exactly (com.perblue.rpg.network.messages.Rarity)
@@ -226,13 +232,11 @@ class ResourceType:
     SOULMART_TOKENS = 16
     WAR_TOKENS = 17
     RUNICITE = 18
+    STONE_SHRINE_ROLLS = 19
+    CRYSTAL_SHRINE_ROLLS = 20
     BAZAAR_TOKENS = 21
-    ARENA_TOKENS = 6
-    COLISEUM_TOKENS = 7
-    GUILD_TOKENS = 8
-    CRYPT_TOKENS = 9
-    RAID_TICKETS = 10
-    BOSS_TOKENS = 11
+    PURPLE_CHEST = 22
+    ORANGE_CHEST = 23
 
 class GameMode:
     # Must match APK: com.perblue.rpg.network.messages.GameMode
@@ -275,13 +279,16 @@ class ArenaTier:
     CHALLENGER = 6
 
 class GuildNewMemberPolicy:
-    OPEN = 0
-    REQUEST = 1
-    CLOSED = 2
+    # Must match APK: com.perblue.rpg.network.messages.GuildNewMemberPolicy
+    PRIVATE = 0
+    APPLICATION_ONLY = 1
+    OPEN = 2
 
 class CampaignType:
+    # Must match APK: com.perblue.rpg.network.messages.CampaignType
     NORMAL = 0
     ELITE = 1
+    EXPERT = 2
 
 
 # ─── Message Parsing ────────────────────────────────────────────────────────
@@ -1904,7 +1911,7 @@ def build_boot_data(player_data, heroes_data, msg_number, response_to=0,
         user_id=player_data.get("user_id", 1),
         name=player_data.get("name", "Hero"),
         level=player_data.get("team_level", 1),
-        diamonds=player_data.get("diamonds", 500),
+        diamonds=player_data.get("diamonds", 0),
         shard_id=0,
     )
     buf.extend(bytes([TAG_FIELD]) + pack_submsg(user_info_body))

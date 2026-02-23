@@ -20,6 +20,7 @@ from messages import (
     build_message, build_boot_data, build_boot_data_minimal,
     build_user_info, build_server_info,
     build_hero_data, build_hero_persistent_data,
+    _build_campaign_level_status_body,
     pack_field_int, pack_field_long, pack_field_string, pack_field_bool,
     pack_field_enum, pack_field_list, pack_field_map, pack_field_message,
     pack_skip, pack_int, pack_long, pack_string, pack_size,
@@ -358,7 +359,7 @@ def handle_set_player_name(client_state, msg_name, msg_number, fields):
         user_id=player.get("user_id", 1),
         name=new_name,
         level=player.get("team_level", 1),
-        diamonds=player.get("diamonds", 500),
+        diamonds=player.get("diamonds", 0),
     )
 
     resp = build_message("UserInfo1", resp_num, response_to=msg_number, fields_data=ui_data)
@@ -471,6 +472,21 @@ def handle_campaign_attack(client_state, msg_name, msg_number, fields):
             update_player(player_id, conn=conn, stamina=new_stamina)
             player["stamina"] = new_stamina
             logger.info(f"Campaign {chapter}-{level}: LOST")
+
+        # Build CampaignLevelStatus1 response so the client unlocks the next level
+        if won:
+            now_ms = int(time.time() * 1000)
+            client_state["msg_counter"] = client_state.get("msg_counter", 0) + 1
+            resp_num = client_state["msg_counter"]
+            cls_body = _build_campaign_level_status_body(
+                chapter=chapter, level=level, stars=3,
+                campaign_type=fields.get("campaignType", 0),
+                total_wins=1, wins_at_current=1,
+                last_win_time=now_ms,
+            )
+            cls_resp = build_message("CampaignLevelStatus1", resp_num,
+                                     response_to=msg_number, fields_data=cls_body)
+            responses.append(cls_resp)
 
         # Build ResourceUpdate1 response
         client_state["msg_counter"] = client_state.get("msg_counter", 0) + 1
@@ -757,9 +773,9 @@ def handle_logout(client_state, msg_name, msg_number, fields):
             # Save player-level data
             update_player(
                 player["id"], conn=conn,
-                stamina=player.get("stamina", 120),
-                gold=player.get("gold", 50000),
-                diamonds=player.get("diamonds", 500),
+                stamina=player.get("stamina", 0),
+                gold=player.get("gold", 0),
+                diamonds=player.get("diamonds", 0),
                 xp=player.get("xp", 0),
                 team_level=player.get("team_level", 1),
                 items=player.get("items", {}),
@@ -1058,11 +1074,12 @@ def handle_action(client_state, msg_name, msg_number, fields):
         logger.info(f"  → BUY_STAMINA: stamina now {player['stamina']}")
     
     elif cmd_name == "BUY_GOLD" and player:
-        # ── Buy gold (free on private server) ───────────────────────
-        player["gold"] = player.get("gold", 0) + 50000
+        # ── Buy gold (costs diamonds in real game, free on private server) ──
+        # Give a reasonable amount (500), not 50000 which breaks the economy
+        player["gold"] = player.get("gold", 0) + 500
         if conn:
             update_player(player["id"], conn=conn, gold=player["gold"])
-        logger.info(f"  → BUY_GOLD: gold now {player['gold']}")
+        logger.info(f"  → BUY_GOLD: +500g, gold now {player['gold']}")
     
     elif cmd_name in ("COMPLETE_QUEST", "VIEW_DAILY_QUESTS", "CLAIM_SIGNIN_REWARD",
                        "VIEW_TREASURE", "REFRESH_SPECIAL_EVENTS", "UPDATE_TIME"):

@@ -196,9 +196,9 @@ async def handle_client(reader, writer, db_conn):
                 from database import update_player, update_hero
                 update_player(
                     player["id"], conn=db_conn,
-                    stamina=player.get("stamina", 120),
+                    stamina=player.get("stamina", 0),
                     gold=player.get("gold", 0),
-                    diamonds=player.get("diamonds", 500),
+                    diamonds=player.get("diamonds", 0),
                     xp=player.get("xp", 0),
                     team_level=player.get("team_level", 1),
                     items=player.get("items", {}),
