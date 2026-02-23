@@ -488,15 +488,56 @@ def handle_campaign_attack(client_state, msg_name, msg_number, fields):
                                      response_to=msg_number, fields_data=cls_body)
             responses.append(cls_resp)
 
-        # Build ResourceUpdate1 response
-        client_state["msg_counter"] = client_state.get("msg_counter", 0) + 1
-        resp_num = client_state["msg_counter"]
+        # ── Send ResourceUpdate1 messages ──
+        # ResourceUpdate1 field order (from APK writeData):
+        #   field 1: delta (Integer) — the change amount
+        #   field 2: type  (ResourceType enum) — which resource
 
-        buf = bytearray()
-        buf.extend(pack_field_int(ResourceType.GOLD))      # resourceType
-        buf.extend(pack_field_int(player.get("gold", 0)))   # amount
-        resp = build_message("ResourceUpdate1", resp_num, response_to=msg_number, fields_data=bytes(buf))
-        responses.append(resp)
+        if won:
+            # Gold gained
+            if drops["gold"] > 0:
+                client_state["msg_counter"] = client_state.get("msg_counter", 0) + 1
+                resp_num = client_state["msg_counter"]
+                buf = bytearray()
+                buf.extend(pack_field_int(drops["gold"]))              # delta
+                buf.extend(pack_field_enum(ResourceType.GOLD))         # type
+                responses.append(build_message("ResourceUpdate1", resp_num,
+                                               response_to=msg_number, fields_data=bytes(buf)))
+
+            # Team XP gained
+            if drops["xp"] > 0:
+                client_state["msg_counter"] = client_state.get("msg_counter", 0) + 1
+                resp_num = client_state["msg_counter"]
+                buf = bytearray()
+                buf.extend(pack_field_int(drops["xp"]))                # delta
+                buf.extend(pack_field_enum(ResourceType.TEAM_XP))      # type
+                responses.append(build_message("ResourceUpdate1", resp_num,
+                                               response_to=msg_number, fields_data=bytes(buf)))
+
+        # Stamina deducted (always, win or lose)
+        if stamina_cost > 0:
+            client_state["msg_counter"] = client_state.get("msg_counter", 0) + 1
+            resp_num = client_state["msg_counter"]
+            buf = bytearray()
+            buf.extend(pack_field_int(-stamina_cost))                  # delta (negative)
+            buf.extend(pack_field_enum(ResourceType.STAMINA))          # type
+            responses.append(build_message("ResourceUpdate1", resp_num,
+                                           response_to=msg_number, fields_data=bytes(buf)))
+
+        # ── Send ItemUpdate1 for each item dropped ──
+        # ItemUpdate1 field order (from APK writeData):
+        #   field 1: delta (Integer) — quantity gained
+        #   field 2: type  (ItemType enum) — which item
+        if won:
+            for item_id in drops.get("items", []):
+                client_state["msg_counter"] = client_state.get("msg_counter", 0) + 1
+                resp_num = client_state["msg_counter"]
+                buf = bytearray()
+                buf.extend(pack_field_int(1))                          # delta
+                buf.extend(pack_field_enum(item_id))                   # type
+                responses.append(build_message("ItemUpdate1", resp_num,
+                                               response_to=msg_number, fields_data=bytes(buf)))
+
     else:
         logger.warning(f"CampaignAttack1: no player_id in client_state, ignoring")
 
@@ -662,13 +703,13 @@ def handle_buy_chests(client_state, msg_name, msg_number, fields):
         update_player(player_id, conn=conn, items=items)
         player["items"] = items
 
-        # Send ResourceUpdate for diamonds
+        # Send ResourceUpdate for diamonds (delta, then type)
         client_state["msg_counter"] = client_state.get("msg_counter", 0) + 1
         resp_num = client_state["msg_counter"]
 
         buf = bytearray()
-        buf.extend(pack_field_int(ResourceType.DIAMONDS))
-        buf.extend(pack_field_int(new_diamonds))
+        buf.extend(pack_field_int(-cost))                          # delta (negative = spent)
+        buf.extend(pack_field_enum(ResourceType.DIAMONDS))         # type
         resp = build_message("ResourceUpdate1", resp_num, response_to=msg_number, fields_data=bytes(buf))
         responses.append(resp)
 

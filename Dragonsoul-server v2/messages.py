@@ -1033,7 +1033,7 @@ def _build_hero_skills(hero_type, level, rarity):
 # ─── Hero Data Builders (FIXED field orders from APK) ────────────────────────
 
 def build_hero_data(hero_type, level=1, stars=1, rarity=Rarity.WHITE,
-                    hero_num=0, items=None, skills=None):
+                    hero_num=0, items=None, skills=None, xp=0):
     """
     Build HeroData1 sub-message body.
 
@@ -1061,7 +1061,7 @@ def build_hero_data(hero_type, level=1, stars=1, rarity=Rarity.WHITE,
     # 3. level: Integer
     buf.extend(pack_field_int(level))
     # 4. eXP: Integer
-    buf.extend(pack_field_int(0))
+    buf.extend(pack_field_int(xp))
     # 5. stars: Integer
     buf.extend(pack_field_int(stars))
     # 6. skills: Map<Integer, Integer> KEYS-FIRST (aVar.a() after key loop)
@@ -1358,16 +1358,56 @@ def build_heroes_columnar(heroes_data):
             vals.extend(pack_int(v))
     
     # Field 7: items (Map<HeroEquipSlot, EquippedItemData>) - KEYS-FIRST with bounded sub-fields
-    # Structure: TAG_FIELD + counts(per hero) + keys(per hero, 0 here) + bounded_size + sub-field data
+    # Structure: TAG_FIELD + counts(per hero) + keys(per hero) + bounded_size + sub-field columns
     # Items has its OWN bounded context (reader.a()/reader.b()) for EquippedItemData sub-fields.
-    # With count=0: no keys, no objects, bounded_size=0.
-    # Inside the 0-byte bounded context, all shouldReadNext calls return END → skip sub-fields.
-    # DO NOT put TAG_FIELD bytes for sub-fields here — they would pollute the hero bounded context!
+    # EquippedItemData sub-fields: type(enum), stars(int), totalPoints(int), enchantMaterialPoints(int)
     vals.append(TAG_FIELD)
+    # Collect equipment data for all heroes
+    hero_equips = []  # list of list of (slot, item_type) per hero
     for h in hero_list:
-        vals.extend(pack_size(0))  # count=0 items per hero
-    # No keys (count=0 for all heroes)
-    vals.extend(pack_size(0))  # bounded_size=0 for EquippedItemData sub-fields
+        equip = h.get("equipment", {})
+        if equip and isinstance(equip, dict):
+            hero_equips.append([(int(slot), int(itype)) for slot, itype in equip.items()])
+        else:
+            hero_equips.append([])
+    total_items = sum(len(e) for e in hero_equips)
+    if total_items > 0:
+        # Phase 1: counts per hero
+        for eq in hero_equips:
+            vals.extend(pack_size(len(eq)))
+        # Phase 2: keys (slot numbers) for all heroes
+        for eq in hero_equips:
+            for slot, _ in eq:
+                vals.extend(pack_int(slot))
+        # Phase 3: bounded sub-field context for EquippedItemData columns
+        sub_buf = bytearray()
+        # Sub-field 1: type (ItemType enum)
+        sub_buf.append(TAG_FIELD)
+        for eq in hero_equips:
+            for _, itype in eq:
+                sub_buf.extend(pack_enum(itype))
+        # Sub-field 2: stars (Integer)
+        sub_buf.append(TAG_FIELD)
+        for eq in hero_equips:
+            for _ in eq:
+                sub_buf.extend(pack_int(0))
+        # Sub-field 3: totalPoints (Integer)
+        sub_buf.append(TAG_FIELD)
+        for eq in hero_equips:
+            for _ in eq:
+                sub_buf.extend(pack_int(0))
+        # Sub-field 4: enchantMaterialPoints (Integer)
+        sub_buf.append(TAG_FIELD)
+        for eq in hero_equips:
+            for _ in eq:
+                sub_buf.extend(pack_int(0))
+        vals.extend(pack_size(len(sub_buf)))
+        vals.extend(sub_buf)
+    else:
+        # All heroes have empty equipment
+        for h in hero_list:
+            vals.extend(pack_size(0))  # count=0 per hero
+        vals.extend(pack_size(0))  # bounded_size=0
     
     # Field 8: heroNum (Integer)
     vals.append(TAG_FIELD)
