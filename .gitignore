@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# SQLite runtime databases
+*.db
+*.db-shm
+*.db-wal
+
+# Server logs
+log.txt
