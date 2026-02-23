@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/zendesk_toolbar"/>
+        <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" style="@style/support_search_input_container">
+            <EditText android:id="@+id/support_search_input" android:hint="@string/support_list_search_hint" style="@style/support_list_search_editor"/>
+            <LinearLayout android:orientation="vertical" style="@style/support_list_seperator_container">
+                <View style="@style/support_list_seperator_border"/>
+                <View style="@style/support_list_seperator_body"/>
+                <View style="@style/support_list_seperator_border"/>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/support_fragment_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:id="@+id/support_activity_progress" style="@style/support_activity_progress"/>
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/include_no_network_view"/>
+    <include layout="@layout/include_retry_view"/>
+</merge>

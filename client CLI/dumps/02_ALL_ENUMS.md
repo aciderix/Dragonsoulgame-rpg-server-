@@ -1,0 +1,14703 @@
+# DragonSoul - All Enum Types
+
+## a.a.c$a
+  field: private static final int[] c
+  method: a() -> int[]
+
+## android.arch.lifecycle.b
+Values (7):
+  0. ON_CREATE
+  1. ON_START
+  2. ON_RESUME
+  3. ON_PAUSE
+  4. ON_STOP
+  5. ON_DESTROY
+  6. ON_ANY
+
+## android.arch.lifecycle.c
+Values (5):
+  0. DESTROYED
+  1. INITIALIZED
+  2. CREATED
+  3. STARTED
+  4. RESUMED
+  field: private static final c[] f
+
+## android.database.CursorJoiner$Result
+Values (3):
+  0. BOTH
+  1. LEFT
+  2. RIGHT
+
+## android.graphics.AvoidXfermode$Mode
+Values (2):
+  0. AVOID
+  1. TARGET
+
+## android.graphics.Bitmap$CompressFormat
+Values (3):
+  0. JPEG
+  1. PNG
+  2. WEBP
+
+## android.graphics.Bitmap$Config
+Values (4):
+  0. ALPHA_8
+  1. ARGB_4444
+  2. ARGB_8888
+  3. RGB_565
+
+## android.graphics.BlurMaskFilter$Blur
+Values (4):
+  0. INNER
+  1. NORMAL
+  2. OUTER
+  3. SOLID
+
+## android.graphics.Canvas$EdgeType
+Values (2):
+  0. AA
+  1. BW
+
+## android.graphics.Canvas$VertexMode
+Values (3):
+  0. TRIANGLES
+  1. TRIANGLE_FAN
+  2. TRIANGLE_STRIP
+
+## android.graphics.Interpolator$Result
+Values (3):
+  0. FREEZE_END
+  1. FREEZE_START
+  2. NORMAL
+
+## android.graphics.Matrix$ScaleToFit
+Values (4):
+  0. CENTER
+  1. END
+  2. FILL
+  3. START
+
+## android.graphics.Paint$Align
+Values (3):
+  0. CENTER
+  1. LEFT
+  2. RIGHT
+
+## android.graphics.Paint$Cap
+Values (3):
+  0. BUTT
+  1. ROUND
+  2. SQUARE
+
+## android.graphics.Paint$Join
+Values (3):
+  0. BEVEL
+  1. MITER
+  2. ROUND
+
+## android.graphics.Paint$Style
+Values (3):
+  0. FILL
+  1. FILL_AND_STROKE
+  2. STROKE
+
+## android.graphics.Path$Direction
+Values (2):
+  0. CCW
+  1. CW
+
+## android.graphics.Path$FillType
+Values (4):
+  0. EVEN_ODD
+  1. INVERSE_EVEN_ODD
+  2. INVERSE_WINDING
+  3. WINDING
+
+## android.graphics.PathDashPathEffect$Style
+Values (3):
+  0. MORPH
+  1. ROTATE
+  2. TRANSLATE
+
+## android.graphics.PorterDuff$Mode
+Values (18):
+  0. ADD
+  1. CLEAR
+  2. DARKEN
+  3. DST
+  4. DST_ATOP
+  5. DST_IN
+  6. DST_OUT
+  7. DST_OVER
+  8. LIGHTEN
+  9. MULTIPLY
+  10. OVERLAY
+  11. SCREEN
+  12. SRC
+  13. SRC_ATOP
+  14. SRC_IN
+  15. SRC_OUT
+  16. SRC_OVER
+  17. XOR
+
+## android.graphics.Region$Op
+Values (6):
+  0. DIFFERENCE
+  1. INTERSECT
+  2. REPLACE
+  3. REVERSE_DIFFERENCE
+  4. UNION
+  5. XOR
+
+## android.graphics.Shader$TileMode
+Values (3):
+  0. CLAMP
+  1. MIRROR
+  2. REPEAT
+
+## android.graphics.drawable.GradientDrawable$Orientation
+Values (8):
+  0. BL_TR
+  1. BOTTOM_TOP
+  2. BR_TL
+  3. LEFT_RIGHT
+  4. RIGHT_LEFT
+  5. TL_BR
+  6. TOP_BOTTOM
+  7. TR_BL
+
+## android.net.LocalSocketAddress$Namespace
+Values (3):
+  0. ABSTRACT
+  1. FILESYSTEM
+  2. RESERVED
+
+## android.net.NetworkInfo$DetailedState
+Values (12):
+  0. AUTHENTICATING
+  1. BLOCKED
+  2. CONNECTED
+  3. CONNECTING
+  4. DISCONNECTED
+  5. DISCONNECTING
+  6. FAILED
+  7. IDLE
+  8. OBTAINING_IPADDR
+  9. SCANNING
+  10. SUSPENDED
+  11. VERIFYING_POOR_LINK
+
+## android.net.NetworkInfo$State
+Values (6):
+  0. CONNECTED
+  1. CONNECTING
+  2. DISCONNECTED
+  3. DISCONNECTING
+  4. SUSPENDED
+  5. UNKNOWN
+
+## android.net.wifi.SupplicantState
+Values (13):
+  0. ASSOCIATED
+  1. ASSOCIATING
+  2. AUTHENTICATING
+  3. COMPLETED
+  4. DISCONNECTED
+  5. DORMANT
+  6. FOUR_WAY_HANDSHAKE
+  7. GROUP_HANDSHAKE
+  8. INACTIVE
+  9. INTERFACE_DISABLED
+  10. INVALID
+  11. SCANNING
+  12. UNINITIALIZED
+  method: describeContents() -> int
+  method: writeToParcel(Parcel, int) -> void
+  method: isValidState(SupplicantState) -> boolean
+
+## android.os.AsyncTask$Status
+Values (3):
+  0. FINISHED
+  1. PENDING
+  2. RUNNING
+
+## android.renderscript.Allocation$MipmapControl
+Values (3):
+  0. MIPMAP_FULL
+  1. MIPMAP_NONE
+  2. MIPMAP_ON_SYNC_TO_TEXTURE
+
+## android.renderscript.Element$DataKind
+Values (7):
+  0. PIXEL_A
+  1. PIXEL_DEPTH
+  2. PIXEL_L
+  3. PIXEL_LA
+  4. PIXEL_RGB
+  5. PIXEL_RGBA
+  6. USER
+
+## android.renderscript.Element$DataType
+Values (29):
+  0. BOOLEAN
+  1. FLOAT_32
+  2. FLOAT_64
+  3. MATRIX_2X2
+  4. MATRIX_3X3
+  5. MATRIX_4X4
+  6. NONE
+  7. RS_ALLOCATION
+  8. RS_ELEMENT
+  9. RS_FONT
+  10. RS_MESH
+  11. RS_PROGRAM_FRAGMENT
+  12. RS_PROGRAM_RASTER
+  13. RS_PROGRAM_STORE
+  14. RS_PROGRAM_VERTEX
+  15. RS_SAMPLER
+  16. RS_SCRIPT
+  17. RS_TYPE
+  18. SIGNED_16
+  19. SIGNED_32
+  20. SIGNED_64
+  21. SIGNED_8
+  22. UNSIGNED_16
+  23. UNSIGNED_32
+  24. UNSIGNED_4_4_4_4
+  25. UNSIGNED_5_5_5_1
+  26. UNSIGNED_5_6_5
+  27. UNSIGNED_64
+  28. UNSIGNED_8
+
+## android.renderscript.FileA3D$EntryType
+Values (2):
+  0. MESH
+  1. UNKNOWN
+
+## android.renderscript.Font$Style
+Values (4):
+  0. BOLD
+  1. BOLD_ITALIC
+  2. ITALIC
+  3. NORMAL
+
+## android.renderscript.Mesh$Primitive
+Values (6):
+  0. LINE
+  1. LINE_STRIP
+  2. POINT
+  3. TRIANGLE
+  4. TRIANGLE_FAN
+  5. TRIANGLE_STRIP
+
+## android.renderscript.Program$TextureType
+Values (2):
+  0. TEXTURE_2D
+  1. TEXTURE_CUBE
+
+## android.renderscript.ProgramFragmentFixedFunction$Builder$EnvMode
+Values (3):
+  0. DECAL
+  1. MODULATE
+  2. REPLACE
+
+## android.renderscript.ProgramFragmentFixedFunction$Builder$Format
+Values (4):
+  0. ALPHA
+  1. LUMINANCE_ALPHA
+  2. RGB
+  3. RGBA
+
+## android.renderscript.ProgramRaster$CullMode
+Values (3):
+  0. BACK
+  1. FRONT
+  2. NONE
+
+## android.renderscript.ProgramStore$BlendDstFunc
+Values (8):
+  0. DST_ALPHA
+  1. ONE
+  2. ONE_MINUS_DST_ALPHA
+  3. ONE_MINUS_SRC_ALPHA
+  4. ONE_MINUS_SRC_COLOR
+  5. SRC_ALPHA
+  6. SRC_COLOR
+  7. ZERO
+
+## android.renderscript.ProgramStore$BlendSrcFunc
+Values (9):
+  0. DST_ALPHA
+  1. DST_COLOR
+  2. ONE
+  3. ONE_MINUS_DST_ALPHA
+  4. ONE_MINUS_DST_COLOR
+  5. ONE_MINUS_SRC_ALPHA
+  6. SRC_ALPHA
+  7. SRC_ALPHA_SATURATE
+  8. ZERO
+
+## android.renderscript.ProgramStore$DepthFunc
+Values (7):
+  0. ALWAYS
+  1. EQUAL
+  2. GREATER
+  3. GREATER_OR_EQUAL
+  4. LESS
+  5. LESS_OR_EQUAL
+  6. NOT_EQUAL
+
+## android.renderscript.RenderScript$Priority
+Values (2):
+  0. LOW
+  1. NORMAL
+
+## android.renderscript.Sampler$Value
+Values (6):
+  0. CLAMP
+  1. LINEAR
+  2. LINEAR_MIP_LINEAR
+  3. LINEAR_MIP_NEAREST
+  4. NEAREST
+  5. WRAP
+
+## android.renderscript.Type$CubemapFace
+Values (9):
+  0. NEGATIVE_X
+  1. NEGATIVE_Y
+  2. NEGATIVE_Z
+  3. POSITIVE_X
+  4. POSITIVE_Y
+  5. POSITIVE_Z
+  6. POSITVE_X
+  7. POSITVE_Y
+  8. POSITVE_Z
+
+## android.support.v4.content.ModernAsyncTask$Status
+Values (3):
+  0. PENDING
+  1. RUNNING
+  2. FINISHED
+
+## android.telephony.SmsMessage$MessageClass
+Values (5):
+  0. CLASS_0
+  1. CLASS_1
+  2. CLASS_2
+  3. CLASS_3
+  4. UNKNOWN
+
+## android.telephony.gsm.SmsMessage$MessageClass
+Values (5):
+  0. CLASS_0
+  1. CLASS_1
+  2. CLASS_2
+  3. CLASS_3
+  4. UNKNOWN
+
+## android.text.Layout$Alignment
+Values (3):
+  0. ALIGN_CENTER
+  1. ALIGN_NORMAL
+  2. ALIGN_OPPOSITE
+
+## android.text.TextUtils$TruncateAt
+Values (4):
+  0. END
+  1. MARQUEE
+  2. MIDDLE
+  3. START
+
+## android.text.method.TextKeyListener$Capitalize
+Values (4):
+  0. CHARACTERS
+  1. NONE
+  2. SENTENCES
+  3. WORDS
+
+## android.util.JsonToken
+Values (10):
+  0. BEGIN_ARRAY
+  1. BEGIN_OBJECT
+  2. BOOLEAN
+  3. END_ARRAY
+  4. END_DOCUMENT
+  5. END_OBJECT
+  6. NAME
+  7. NULL
+  8. NUMBER
+  9. STRING
+
+## android.util.Xml$Encoding
+Values (4):
+  0. ISO_8859_1
+  1. US_ASCII
+  2. UTF_16
+  3. UTF_8
+
+## android.view.ViewDebug$HierarchyTraceType
+Values (8):
+  0. BUILD_CACHE
+  1. DRAW
+  2. INVALIDATE
+  3. INVALIDATE_CHILD
+  4. INVALIDATE_CHILD_IN_PARENT
+  5. ON_LAYOUT
+  6. ON_MEASURE
+  7. REQUEST_LAYOUT
+
+## android.view.ViewDebug$RecyclerTraceType
+Values (6):
+  0. BIND_VIEW
+  1. MOVE_FROM_ACTIVE_TO_SCRAP_HEAP
+  2. MOVE_TO_SCRAP_HEAP
+  3. NEW_VIEW
+  4. RECYCLE_FROM_ACTIVE_HEAP
+  5. RECYCLE_FROM_SCRAP_HEAP
+
+## android.webkit.ConsoleMessage$MessageLevel
+Values (5):
+  0. DEBUG
+  1. ERROR
+  2. LOG
+  3. TIP
+  4. WARNING
+
+## android.webkit.WebSettings$LayoutAlgorithm
+Values (3):
+  0. NARROW_COLUMNS
+  1. NORMAL
+  2. SINGLE_COLUMN
+
+## android.webkit.WebSettings$PluginState
+Values (3):
+  0. OFF
+  1. ON
+  2. ON_DEMAND
+
+## android.webkit.WebSettings$RenderPriority
+Values (3):
+  0. HIGH
+  1. LOW
+  2. NORMAL
+
+## android.webkit.WebSettings$TextSize
+Values (5):
+  0. LARGER
+  1. LARGEST
+  2. NORMAL
+  3. SMALLER
+  4. SMALLEST
+
+## android.webkit.WebSettings$ZoomDensity
+Values (3):
+  0. CLOSE
+  1. FAR
+  2. MEDIUM
+
+## android.widget.ImageView$ScaleType
+Values (8):
+  0. CENTER
+  1. CENTER_CROP
+  2. CENTER_INSIDE
+  3. FIT_CENTER
+  4. FIT_END
+  5. FIT_START
+  6. FIT_XY
+  7. MATRIX
+
+## android.widget.TextView$BufferType
+Values (3):
+  0. EDITABLE
+  1. NORMAL
+  2. SPANNABLE
+
+## c.a.a.n
+Values (4):
+  0. PostThread
+  1. MainThread
+  2. BackgroundThread
+  3. Async
+  field: private static final n[] e
+
+## com.a.a.a.b.d$a
+  field: private static final int[] f
+  method: a() -> int[]
+
+## com.a.a.a.c.ak$a
+  field: private static final int[] i
+  method: a() -> int[]
+
+## com.a.a.a.c.e$a
+  field: private static final int[] m
+  method: a() -> int[]
+
+## com.a.a.a.c.f$a
+  field: private static final int[] t
+  method: a() -> int[]
+
+## com.a.a.a.e.b$a
+Values (8):
+  0. Boolean
+  1. Char
+  2. Byte
+  3. Short
+  4. Int
+  5. Long
+  6. Float
+  7. Double
+  field: private static final a[] j
+  field: final String i
+
+## com.adjust.sdk.ActivityKind
+Values (8):
+  0. unknown
+  1. session
+  2. event
+  3. click
+  4. attribution
+  5. unknown
+  6. unknown
+  7. info
+  method: fromString(String) -> ActivityKind
+  method: toString() -> String
+
+## com.adjust.sdk.BackoffStrategy
+Values (4):
+  0. LONG_WAIT
+  1. SHORT_WAIT
+  2. TEST_WAIT
+  3. NO_WAIT
+  field:  double maxRange
+  field:  long maxWait
+  field:  long milliSecondMultiplier
+  field:  double minRange
+  field:  int minRetries
+
+## com.adjust.sdk.LogLevel
+Values (7):
+  0. VERBOSE
+  1. DEBUG
+  2. INFO
+  3. WARN
+  4. ERROR
+  5. ASSERT
+  6. SUPRESS
+  field: final int androidLogLevel
+  method: getAndroidLogLevel() -> int
+
+## com.amazon.device.iap.internal.model.a
+  field: private static final a[] c
+
+## com.amazon.device.iap.internal.util.c
+  field: private static final c[] e
+  field: private int d
+  method: a() -> c[]
+
+## com.amazon.device.iap.model.FulfillmentResult
+Values (2):
+  0. FULFILLED
+  1. UNAVAILABLE
+
+## com.amazon.device.iap.model.ProductDataResponse$RequestStatus
+Values (3):
+  0. SUCCESSFUL
+  1. FAILED
+  2. NOT_SUPPORTED
+
+## com.amazon.device.iap.model.ProductType
+Values (3):
+  0. CONSUMABLE
+  1. ENTITLED
+  2. SUBSCRIPTION
+
+## com.amazon.device.iap.model.PurchaseResponse$RequestStatus
+Values (5):
+  0. SUCCESSFUL
+  1. FAILED
+  2. INVALID_SKU
+  3. ALREADY_PURCHASED
+  4. NOT_SUPPORTED
+  method: safeValueOf(String) -> RequestStatus
+
+## com.amazon.device.iap.model.PurchaseUpdatesResponse$RequestStatus
+Values (3):
+  0. SUCCESSFUL
+  1. FAILED
+  2. NOT_SUPPORTED
+
+## com.amazon.device.iap.model.UserDataResponse$RequestStatus
+Values (3):
+  0. SUCCESSFUL
+  1. FAILED
+  2. NOT_SUPPORTED
+
+## com.b.a.q$a
+Values (3):
+  0. MICRO
+  1. MINI
+  2. FULL
+  field: private static final a[] g
+  field: final int d
+  field: final int e
+  field: final int f
+
+## com.b.a.r
+Values (2):
+  0. NO_CACHE
+  1. NO_STORE
+  field: private static final r[] d
+  field: private int c
+  method: b(int) -> boolean
+  method: a(int) -> boolean
+
+## com.b.a.s
+Values (3):
+  0. NO_CACHE
+  1. NO_STORE
+  2. OFFLINE
+  field: private static final s[] e
+  field: final int c
+  method: b(int) -> boolean
+  method: c(int) -> boolean
+  method: a(int) -> boolean
+
+## com.b.a.v$c
+Values (3):
+  0. MEMORY
+  1. DISK
+  2. NETWORK
+  field: private static final c[] e
+  field: final int d
+
+## com.b.a.v$d
+  field: private static final int[] d
+
+## com.badlogic.gdx.a$a
+  field: private static final int[] g
+  method: a() -> int[]
+
+## com.badlogic.gdx.e$a
+Values (5):
+  0. Classpath
+  1. Internal
+  2. External
+  3. Absolute
+  4. Local
+  field: private static final a[] f
+
+## com.badlogic.gdx.e.a.b$b
+Values (27):
+  0. Boolean
+  1. Byte
+  2. Char
+  3. Short
+  4. Integer
+  5. Long
+  6. Float
+  7. Double
+  8. Buffer
+  9. ByteBuffer
+  10. CharBuffer
+  11. ShortBuffer
+  12. IntBuffer
+  13. LongBuffer
+  14. FloatBuffer
+  15. DoubleBuffer
+  16. BooleanArray
+  17. ByteArray
+  18. CharArray
+  19. ShortArray
+  20. IntegerArray
+  21. LongArray
+  22. FloatArray
+  23. DoubleArray
+  24. String
+  25. Object
+  26. ObjectArray
+  field: private static final b[] C
+  field: private final String B
+  method: b() -> boolean
+  method: c() -> boolean
+  method: f() -> String
+  method: d() -> boolean
+  method: a() -> boolean
+  method: e() -> boolean
+
+## com.badlogic.gdx.e.e$a
+Values (5):
+  0. Windows
+  1. Linux
+  2. MacOsX
+  3. Android
+  4. IOS
+  field: private static final a[] f
+
+## com.badlogic.gdx.e.f$a
+Values (2):
+  0. Classpath
+  1. Absolute
+  field: private static final a[] c
+
+## com.badlogic.gdx.f$c
+  field: private static final int[] h
+
+## com.badlogic.gdx.g$a
+  field: private static final int[] c
+
+## com.badlogic.gdx.graphics.g2d.a$a
+  field: private static final int[] g
+  method: a() -> int[]
+
+## com.badlogic.gdx.graphics.g2d.h$g
+Values (3):
+  0. both
+  1. top
+  2. bottom
+  field: private static final g[] d
+
+## com.badlogic.gdx.graphics.g2d.h$h
+Values (4):
+  0. point
+  1. line
+  2. square
+  3. ellipse
+  field: private static final h[] e
+
+## com.badlogic.gdx.graphics.g3d.particles.e$a
+  field: private static final int[] d
+
+## com.badlogic.gdx.graphics.g3d.particles.e$d
+  field: private static final int[] c
+
+## com.badlogic.gdx.graphics.g3d.particles.emitters.RegularEmitter$a
+  field: private static final int[] d
+
+## com.badlogic.gdx.graphics.g3d.particles.values.PrimitiveSpawnShapeValue$a
+Values (3):
+  0. both
+  1. top
+  2. bottom
+  field: private static final a[] d
+
+## com.badlogic.gdx.graphics.glutils.g$a
+  field: private static final int[] e
+
+## com.badlogic.gdx.graphics.glutils.u$a
+Values (3):
+  0. Point
+  1. Line
+  2. Filled
+  field: private static final a[] e
+  field: private final int d
+  method: a() -> int
+
+## com.badlogic.gdx.graphics.i$a
+  field: private static final int[] e
+  method: a() -> int[]
+
+## com.badlogic.gdx.graphics.k$a
+  field: private static final int[] c
+
+## com.badlogic.gdx.graphics.k$b
+Values (7):
+  0. Alpha
+  1. Intensity
+  2. LuminanceAlpha
+  3. RGB565
+  4. RGBA4444
+  5. RGB888
+  6. RGBA8888
+  field: private static final b[] h
+  method: b(b) -> int
+  method: c(b) -> int
+  method: a(b) -> int
+  method: a(int) -> b
+
+## com.badlogic.gdx.graphics.n$a
+Values (7):
+  0. Nearest
+  1. Linear
+  2. MipMap
+  3. MipMapNearestNearest
+  4. MipMapLinearNearest
+  5. MipMapNearestLinear
+  6. MipMapLinearLinear
+  field: private static final a[] i
+  field: final int c
+  method: b() -> int
+  method: a() -> boolean
+
+## com.badlogic.gdx.graphics.n$b
+Values (3):
+  0. MirroredRepeat
+  1. ClampToEdge
+  2. Repeat
+  field: private static final b[] e
+  field: final int c
+  method: a() -> int
+
+## com.badlogic.gdx.graphics.p$a
+  field: private static final int[] c
+
+## com.badlogic.gdx.scenes.scene2d.b.k$a
+  field: private static final int[] c
+  method: a() -> int[]
+
+## com.badlogic.gdx.scenes.scene2d.f$a
+Values (10):
+  0. touchDown
+  1. touchUp
+  2. touchDragged
+  3. mouseMoved
+  4. enter
+  5. exit
+  6. scrolled
+  7. keyDown
+  8. keyUp
+  9. keyTyped
+  field: private static final a[] k
+
+## com.badlogic.gdx.scenes.scene2d.ui.j$a
+  field: private static final int[] f
+
+## com.badlogic.gdx.utils.ah
+Values (8):
+  0. fit
+  1. fill
+  2. fillX
+  3. fillY
+  4. stretch
+  5. stretchX
+  6. stretchY
+  7. none
+  field: private static final p i
+  field: private static final ah[] j
+  method: a(float, float, float, float) -> p
+
+## com.badlogic.gdx.utils.t$c
+Values (7):
+  0. object
+  1. array
+  2. stringValue
+  3. doubleValue
+  4. longValue
+  5. booleanValue
+  6. nullValue
+  field: private static final c[] h
+
+## com.badlogic.gdx.utils.u$b
+Values (3):
+  0. json
+  1. javascript
+  2. minimal
+  field: private static Pattern d
+  field: private static Pattern e
+  field: private static Pattern f
+  field: private static final b[] g
+  method: a(Object) -> String
+  method: a(String) -> String
+
+## com.esotericsoftware.spine.BlendMode
+Values (4):
+  0. normal
+  1. additive
+  2. multiply
+  3. screen
+  field: public static BlendMode[] values
+  field:  int dest
+  field:  int source
+  field:  int sourcePMA
+  method: getDest() -> int
+  method: getSource(boolean) -> int
+
+## com.esotericsoftware.spine.PathConstraintData$PositionMode
+Values (2):
+  0. fixed
+  1. percent
+  field: public static final PositionMode[] values
+
+## com.esotericsoftware.spine.PathConstraintData$RotateMode
+Values (3):
+  0. tangent
+  1. chain
+  2. chainScale
+  field: public static final RotateMode[] values
+
+## com.esotericsoftware.spine.PathConstraintData$SpacingMode
+Values (3):
+  0. length
+  1. fixed
+  2. percent
+  field: public static final SpacingMode[] values
+
+## com.esotericsoftware.spine.attachments.AttachmentType
+Values (5):
+  0. region
+  1. boundingbox
+  2. mesh
+  3. linkedmesh
+  4. path
+  field: public static AttachmentType[] values
+
+## com.esotericsoftware.spine.attachments.RegionSequenceAttachment$Mode
+Values (6):
+  0. forward
+  1. backward
+  2. forwardLoop
+  3. backwardLoop
+  4. pingPong
+  5. random
+
+## com.facebook.AccessTokenSource
+Values (7):
+  0. NONE
+  1. FACEBOOK_APPLICATION_WEB
+  2. FACEBOOK_APPLICATION_NATIVE
+  3. FACEBOOK_APPLICATION_SERVICE
+  4. WEB_VIEW
+  5. TEST_USER
+  6. CLIENT_TOKEN
+  field: private final boolean canExtendToken
+  method: canExtendToken() -> boolean
+
+## com.facebook.AppEventsLogger$FlushBehavior
+Values (2):
+  0. AUTO
+  1. EXPLICIT_ONLY
+
+## com.facebook.AppEventsLogger$FlushReason
+Values (6):
+  0. EXPLICIT
+  1. TIMER
+  2. SESSION_CHANGE
+  3. PERSISTED_EVENTS
+  4. EVENT_THRESHOLD
+  5. EAGER_FLUSHING_EVENT
+
+## com.facebook.AppEventsLogger$FlushResult
+Values (4):
+  0. SUCCESS
+  1. SERVER_ERROR
+  2. NO_CONNECTIVITY
+  3. UNKNOWN_ERROR
+
+## com.facebook.AuthorizationClient$Result$Code
+Values (3):
+  0. SUCCESS
+  1. CANCEL
+  2. ERROR
+  field: private final String loggingValue
+  method: getLoggingValue() -> String
+
+## com.facebook.FacebookRequestError$Category
+Values (8):
+  0. AUTHENTICATION_RETRY
+  1. AUTHENTICATION_REOPEN_SESSION
+  2. PERMISSION
+  3. SERVER
+  4. THROTTLING
+  5. OTHER
+  6. BAD_REQUEST
+  7. CLIENT
+
+## com.facebook.HttpMethod
+Values (3):
+  0. GET
+  1. POST
+  2. DELETE
+
+## com.facebook.LoggingBehavior
+Values (6):
+  0. REQUESTS
+  1. INCLUDE_ACCESS_TOKENS
+  2. INCLUDE_RAW_RESPONSES
+  3. CACHE
+  4. APP_EVENTS
+  5. DEVELOPER_ERRORS
+  field: public static final LoggingBehavior INSIGHTS
+
+## com.facebook.Response$PagingDirection
+Values (2):
+  0. NEXT
+  1. PREVIOUS
+
+## com.facebook.SessionDefaultAudience
+Values (4):
+  0. NONE
+  1. ONLY_ME
+  2. FRIENDS
+  3. EVERYONE
+  field: private final String nativeProtocolAudience
+  method: getNativeProtocolAudience() -> String
+
+## com.facebook.SessionLoginBehavior
+Values (3):
+  0. SSO_WITH_FALLBACK
+  1. SSO_ONLY
+  2. SUPPRESS_SSO
+  field: private final boolean allowsKatanaAuth
+  field: private final boolean allowsWebViewAuth
+  method: allowsKatanaAuth() -> boolean
+  method: allowsWebViewAuth() -> boolean
+
+## com.facebook.SessionState
+Values (7):
+  0. CREATED
+  1. CREATED_TOKEN_LOADED
+  2. OPENING
+  3. OPENED
+  4. OPENED_TOKEN_UPDATED
+  5. CLOSED_LOGIN_FAILED
+  6. CLOSED
+  field: private final Category category
+  method: isClosed() -> boolean
+  method: isOpened() -> boolean
+
+## com.facebook.SessionState$Category
+Values (3):
+  0. CREATED_CATEGORY
+  1. OPENED_CATEGORY
+  2. CLOSED_CATEGORY
+
+## com.facebook.TestSession$Mode
+Values (2):
+  0. PRIVATE
+  1. SHARED
+
+## com.facebook.internal.LikeActionController$LikeDialogFeature
+Values (1):
+  0. LIKE_DIALOG
+  field: private int minVersion
+  method: getMinVersion() -> int
+  method: getAction() -> String
+
+## com.facebook.internal.LikeBoxCountView$LikeBoxCountViewCaretPosition
+Values (4):
+  0. LEFT
+  1. TOP
+  2. RIGHT
+  3. BOTTOM
+
+## com.facebook.internal.SessionAuthorizationType
+Values (2):
+  0. READ
+  1. PUBLISH
+
+## com.facebook.widget.FacebookDialog$MessageDialogFeature
+Values (2):
+  0. MESSAGE_DIALOG
+  1. PHOTOS
+  field: private int minVersion
+  method: getMinVersion() -> int
+  method: getAction() -> String
+
+## com.facebook.widget.FacebookDialog$OpenGraphActionDialogFeature
+Values (1):
+  0. OG_ACTION_DIALOG
+  field: private int minVersion
+  method: getMinVersion() -> int
+  method: getAction() -> String
+
+## com.facebook.widget.FacebookDialog$OpenGraphMessageDialogFeature
+Values (1):
+  0. OG_MESSAGE_DIALOG
+  field: private int minVersion
+  method: getMinVersion() -> int
+  method: getAction() -> String
+
+## com.facebook.widget.FacebookDialog$ShareDialogFeature
+Values (2):
+  0. SHARE_DIALOG
+  1. PHOTOS
+  field: private int minVersion
+  method: getMinVersion() -> int
+  method: getAction() -> String
+
+## com.facebook.widget.FriendPickerFragment$FriendPickerType
+Values (3):
+  0. FRIENDS
+  1. TAGGABLE_FRIENDS
+  2. INVITABLE_FRIENDS
+  field: private final boolean requestIsCacheable
+  field: private final String requestPath
+  method: isCacheable() -> boolean
+  method: getRequestPath() -> String
+
+## com.facebook.widget.GraphObjectAdapter$SectionAndItem$Type
+Values (3):
+  0. GRAPH_OBJECT
+  1. SECTION_HEADER
+  2. ACTIVITY_CIRCLE
+
+## com.facebook.widget.LikeView$AuxiliaryViewPosition
+Values (3):
+  0. bottom
+  1. inline
+  2. top
+  field: static AuxiliaryViewPosition DEFAULT
+  field: private int intValue
+  field: private String stringValue
+  method: fromInt(int) -> AuxiliaryViewPosition
+  method: toString() -> String
+  method: getValue() -> int
+
+## com.facebook.widget.LikeView$HorizontalAlignment
+Values (3):
+  0. center
+  1. left
+  2. right
+  field: static HorizontalAlignment DEFAULT
+  field: private int intValue
+  field: private String stringValue
+  method: fromInt(int) -> HorizontalAlignment
+  method: toString() -> String
+  method: getValue() -> int
+
+## com.facebook.widget.LikeView$Style
+Values (3):
+  0. standard
+  1. button
+  2. box_count
+  field: static Style DEFAULT
+  field: private int intValue
+  field: private String stringValue
+  method: fromInt(int) -> Style
+  method: toString() -> String
+  method: getValue() -> int
+
+## com.facebook.widget.LoginButton$ToolTipMode
+Values (3):
+  0. DEFAULT
+  1. DISPLAY_ALWAYS
+  2. NEVER_DISPLAY
+
+## com.facebook.widget.ToolTipPopup$Style
+Values (2):
+  0. BLUE
+  1. BLACK
+
+## com.google.android.gms.internal.zzasb
+Values (6):
+  0. NONE
+  1. BATCH_BY_SESSION
+  2. BATCH_BY_TIME
+  3. BATCH_BY_BRUTE_FORCE
+  4. BATCH_BY_COUNT
+  5. BATCH_BY_SIZE
+  field: private static final zzasb[] zzeas
+  method: zzej(String) -> zzasb
+
+## com.google.android.gms.internal.zzash
+Values (2):
+  0. NONE
+  1. GZIP
+  field: private static final zzash[] zzeay
+  method: zzek(String) -> zzash
+
+## com.google.android.gms.internal.zzbh
+Values (117):
+  0. _aid
+  1. _ate
+  2. _ai
+  3. _an
+  4. _av
+  5. _jsm
+  6. _c
+  7. _k
+  8. _v
+  9. _ctv
+  10. _dbg
+  11. _dn
+  12. _dt
+  13. _d
+  14. _eam
+  15. _et
+  16. _eu
+  17. _e
+  18. _func
+  19. _hid
+  20. _j
+  21. _l
+  22. _mqp
+  23. _ov
+  24. _p
+  25. _r
+  26. _f
+  27. _rs
+  28. _rv
+  29. _sv
+  30. _smm
+  31. _t
+  32. _u
+  33. _awcr
+  34. _did
+  35. _enc
+  36. _gtmv
+  37. _hsh
+  38. _ir
+  39. _jn
+  40. _awid
+  41. _reg
+  42. _dlw
+  43. _ls
+  44. _us
+  45. _ee
+  46. _ie
+  47. _evi
+  48. _euid
+  49. _aud
+  50. _sel
+  51. _gacid
+  52. _geo
+  53. _uagt
+  54. _gafp
+  55. _xxd
+  56. _uv
+  57. _exs
+  58. _prodset
+  59. _gaoo_c
+  60. _gaoo_s
+  61. _re
+  62. _sw
+  63. _ew
+  64. _cn
+  65. _eq
+  66. _lt
+  67. _le
+  68. _gt
+  69. _ge
+  70. _css
+  71. _um
+  72. _img
+  73. _html
+  74. _ga
+  75. _awct
+  76. _sp
+  77. _flc
+  78. _fls
+  79. _bzi
+  80. _qcm
+  81. _ta
+  82. _mpr
+  83. _csm
+  84. _tc
+  85. _tdc
+  86. _m6d
+  87. _ua
+  88. _mpm
+  89. _vdc
+  90. _gan
+  91. _ms
+  92. _asp
+  93. _cv
+  94. _ts
+  95. _cts
+  96. _lcl
+  97. _fsl
+  98. _tl
+  99. _cl
+  100. _jel
+  101. _hl
+  102. _ea
+  103. _ec
+  104. _em
+  105. _esc
+  106. _est
+  107. _etx
+  108. _ol
+  109. _dr
+  110. _uae
+  111. _gag
+  112. _adm
+  113. _awut
+  114. _pr
+  115. _avn
+  116. _exsu
+  field: private static final zzbh[] zzmg
+  field: private final String name
+  method: toString() -> String
+
+## com.google.android.gms.internal.zzbi
+Values (255):
+  0. abort_event_after
+  1. account
+  2. activity
+  3. activate
+  4. additional_params
+  5. advertiser
+  6. affects_selectors
+  7. algorithm
+  8. allow_anchor
+  9. allow_hash
+  10. allow_linker
+  11. analytics_fields
+  12. analytics_pass_through
+  13. anonymize_ip
+  14. any_of
+  15. app_name
+  16. app_version
+  17. arg0
+  18. arg1
+  19. attribute
+  20. attribution_fields
+  21. auto_link_domains
+  22. blacklisted_behavior
+  23. cache_buster
+  24. cache_buster_value
+  25. campaign_content_key
+  26. campaign_content_override
+  27. campaign_cookie_timeout
+  28. campaign_medium_key
+  29. campaign_medium_override
+  30. campaign_name_key
+  31. campaign_name_override
+  32. campaign_no_key
+  33. campaign_source_key
+  34. campaign_source_override
+  35. campaign_term_key
+  36. campaign_term_override
+  37. campaign_track
+  38. category
+  39. check_validation
+  40. child_index
+  41. clear_data_layer_prefix
+  42. click_id
+  43. client_info
+  44. collect_adid
+  45. company
+  46. component
+  47. content_description
+  48. content_group
+  49. conversion_id
+  50. cookie_domain
+  51. cookie_expiration
+  52. cookie_name
+  53. cookie_path
+  54. cookie_path_copy
+  55. country
+  56. css_id
+  57. css_important
+  58. css_conditional
+  59. css_property
+  60. css_rule
+  61. css_value
+  62. currency_code
+  63. custom_url_source
+  64. custom_vars
+  65. customer_id
+  66. data_layer_version
+  67. data_provider_id
+  68. debug
+  69. decode
+  70. decorate_form
+  71. decorate_forms_auto_link
+  72. decorate_link
+  73. default_pages
+  74. default_value
+  75. dependencies
+  76. detect_flash
+  77. detect_title
+  78. dimension
+  79. dispatch_on_fire
+  80. domain_name
+  81. double_click
+  82. ecommerce_macro_data
+  83. ecommerce_use_data_layer
+  84. element
+  85. element_id
+  86. elements
+  87. email
+  88. employee_range
+  89. enable_attribution
+  90. enable_ecommerce
+  91. enable_all_videos
+  92. enable_product_reporting
+  93. enable_remarketing_lists
+  94. escape
+  95. event_action
+  96. event_category
+  97. event_label
+  98. event_value
+  99. exception_description
+  100. exception_fatal
+  101. experiment_combination
+  102. experiment_id
+  103. experiment_key
+  104. expiration_day
+  105. expiration_dates
+  106. failed_behavior
+  107. fields_to_set
+  108. force_ssl
+  109. form_object
+  110. function
+  111. function_call_macro_name
+  112. group
+  113. hit_callback
+  114. hit_level_fields_to_set
+  115. html
+  116. id
+  117. ignored_organic
+  118. ignored_ref
+  119. ignore_case
+  120. input
+  121. input_format
+  122. instance_name
+  123. instance_label
+  124. internal
+  125. interval
+  126. item_separator
+  127. javascript
+  128. json
+  129. keyword
+  130. key_value_separator
+  131. label
+  132. language
+  133. limit
+  134. link
+  135. link_by_post
+  136. link_id
+  137. live_only
+  138. local_gif_path
+  139. locale
+  140. location
+  141. malware_disabled
+  142. map
+  143. max
+  144. metric
+  145. min
+  146. mode
+  147. name
+  148. namespace_code
+  149. namespace_id
+  150. namespace_value
+  151. new_state
+  152. noninteraction
+  153. not_default_macro
+  154. no_padding
+  155. number
+  156. once_per_event
+  157. once_per_load
+  158. optout
+  159. order
+  160. order_id
+  161. order_value
+  162. ordinal
+  163. organic
+  164. output_format
+  165. page
+  166. page_path
+  167. params
+  168. partition
+  169. percentage
+  170. pixel
+  171. placement
+  172. platform
+  173. position
+  174. prices
+  175. priority
+  176. product
+  177. product_data
+  178. product_id
+  179. product_ids
+  180. product_setting_field_path
+  181. push_after_evaluate
+  182. quantity
+  183. query_key
+  184. query_lists
+  185. referrer
+  186. referrer_override
+  187. requires_content
+  188. revenue
+  189. sample_rate
+  190. section_index
+  191. selector
+  192. send_hits_to_google
+  193. session_control
+  194. session_cookie_timeout
+  195. setup_tags
+  196. site_speed_sample_rate
+  197. social_action
+  198. social_action_target
+  199. social_network
+  200. social_use_data_layer
+  201. server_side
+  202. standard_industrial_classification
+  203. string
+  204. strip_www
+  205. tag_id
+  206. tag_list
+  207. tag_list_context
+  208. tag_list_index
+  209. tag_reference
+  210. target_css_id
+  211. target_elements
+  212. target_selector
+  213. target_url
+  214. teardown_tags
+  215. text
+  216. timing_category
+  217. timing_label
+  218. timing_sample_rate
+  219. timing_value
+  220. timing_var
+  221. title
+  222. track_appview
+  223. track_data
+  224. track_event
+  225. track_exception
+  226. track_social
+  227. track_timing
+  228. track_transaction
+  229. tracker_name
+  230. tracking_id
+  231. transaction_datalayer_map
+  232. transaction_id
+  233. transaction_item_datalayer_map
+  234. transaction_variable
+  235. treatment_id
+  236. type
+  237. unique_trigger_id
+  238. unlimited
+  239. unrepeatable
+  240. url
+  241. use_data_layer
+  242. use_hash
+  243. use_iframe
+  244. use_image_tag
+  245. use_postscribe
+  246. user_id
+  247. user_variable
+  248. value
+  249. value_in_dollars
+  250. vendor_template_version
+  251. visitor_cookie_timeout
+  252. wait_for_tags
+  253. wait_for_tags_timeout
+  254. widget_ids
+  field: private static final zzbi[] zzwd
+  field: private final String zzwc
+  method: toString() -> String
+
+## com.google.android.gms.internal.zzfky
+Values (18):
+  0. DOUBLE
+  1. FLOAT
+  2. INT64
+  3. UINT64
+  4. INT32
+  5. FIXED64
+  6. FIXED32
+  7. BOOL
+  8. STRING
+  9. GROUP
+  10. MESSAGE
+  11. BYTES
+  12. UINT32
+  13. ENUM
+  14. SFIXED32
+  15. SFIXED64
+  16. SINT32
+  17. SINT64
+  field: private static final zzfky[] zzpus
+  field: private final zzfld zzpuq
+  field: private final int zzpur
+  method: zzdcj() -> int
+  method: zzdci() -> zzfld
+
+## com.google.android.gms.internal.zzfld
+Values (9):
+  0. INT
+  1. LONG
+  2. FLOAT
+  3. DOUBLE
+  4. BOOLEAN
+  5. STRING
+  6. BYTE_STRING
+  7. ENUM
+  8. MESSAGE
+  field: private static final zzfld[] zzpvd
+  field: private final Object zzpvc
+
+## com.google.android.gms.internal.zzfle
+Values (3):
+  0. LOOSE
+  1. STRICT
+  2. LAZY
+  field: private static final zzfle[] zzpvh
+  method: zza(zzfhb) -> Object
+
+## com.google.android.gms.internal.zzu
+Values (4):
+  0. LOW
+  1. NORMAL
+  2. HIGH
+  3. IMMEDIATE
+  field: private static final zzu[] zzaz
+
+## com.google.android.gms.tagmanager.zzei$zza
+Values (3):
+  0. NONE
+  1. CONTAINER
+  2. CONTAINER_DEBUG
+  field: private static final zza[] zzkrs
+
+## com.google.gson.FieldNamingPolicy
+Values (5):
+  0. IDENTITY
+  1. UPPER_CAMEL_CASE
+  2. UPPER_CAMEL_CASE_WITH_SPACES
+  3. LOWER_CASE_WITH_UNDERSCORES
+  4. LOWER_CASE_WITH_DASHES
+  method: upperCaseFirstLetter(String) -> String
+  method: modifyString(char, String, int) -> String
+  method: separateCamelCase(String, String) -> String
+
+## com.google.gson.LongSerializationPolicy
+Values (2):
+  0. DEFAULT
+  1. STRING
+  method: serialize(Long) -> JsonElement
+
+## com.google.gson.stream.JsonToken
+Values (10):
+  0. BEGIN_ARRAY
+  1. END_ARRAY
+  2. BEGIN_OBJECT
+  3. END_OBJECT
+  4. NAME
+  5. STRING
+  6. NUMBER
+  7. BOOLEAN
+  8. NULL
+  9. END_DOCUMENT
+
+## com.newrelic.agent.android.ApplicationPlatform
+Values (7):
+  0. Native
+  1. Cordova
+  2. PhoneGap
+  3. Xamarin
+  4. Unity
+  5. Appcelerator
+  6. React
+
+## com.newrelic.agent.android.FeatureFlag
+Values (5):
+  0. HttpResponseBodyCapture
+  1. CrashReporting
+  2. AnalyticsEvents
+  3. InteractionTracing
+  4. DefaultInteractions
+  field: public static final Set enabledFeatures
+  method: enableFeature(FeatureFlag) -> void
+  method: disableFeature(FeatureFlag) -> void
+  method: featureEnabled(FeatureFlag) -> boolean
+
+## com.newrelic.agent.android.analytics.AnalyticAttribute$AttributeDataType
+Values (4):
+  0. VOID
+  1. STRING
+  2. FLOAT
+  3. BOOLEAN
+
+## com.newrelic.agent.android.analytics.AnalyticsEventCategory
+Values (6):
+  0. Session
+  1. Interaction
+  2. Crash
+  3. Custom
+  4. RequestError
+  5. Breadcrumb
+  method: fromString(String) -> AnalyticsEventCategory
+
+## com.newrelic.agent.android.api.v1.DeviceForm
+Values (5):
+  0. UNKNOWN
+  1. SMALL
+  2. NORMAL
+  3. LARGE
+  4. XLARGE
+
+## com.newrelic.agent.android.harvest.HarvestResponse$Code
+Values (8):
+  0. OK
+  1. UNAUTHORIZED
+  2. FORBIDDEN
+  3. ENTITY_TOO_LARGE
+  4. INVALID_AGENT_ID
+  5. UNSUPPORTED_MEDIA_TYPE
+  6. INTERNAL_SERVER_ERROR
+  7. UNKNOWN
+  field:  int statusCode
+  method: isOK() -> boolean
+  method: getStatusCode() -> int
+  method: isError() -> boolean
+
+## com.newrelic.agent.android.harvest.Harvester$State
+Values (4):
+  0. UNINITIALIZED
+  1. DISCONNECTED
+  2. CONNECTED
+  3. DISABLED
+
+## com.newrelic.agent.android.harvest.type.Harvestable$Type
+Values (3):
+  0. OBJECT
+  1. ARRAY
+  2. VALUE
+
+## com.newrelic.agent.android.instrumentation.MetricCategory
+Values (7):
+  0. NONE
+  1. VIEW_LOADING
+  2. VIEW_LAYOUT
+  3. DATABASE
+  4. IMAGE
+  5. JSON
+  6. NETWORK
+  field: private static final Map methodMap
+  field: private String categoryName
+  method: getCategoryName() -> String
+  method: categoryForMethod(String) -> MetricCategory
+
+## com.newrelic.agent.android.instrumentation.TransactionState$State
+Values (3):
+  0. READY
+  1. SENT
+  2. COMPLETE
+
+## com.newrelic.agent.android.measurement.MeasurementType
+Values (7):
+  0. Network
+  1. HttpError
+  2. Method
+  3. Activity
+  4. Custom
+  5. Any
+  6. Machine
+
+## com.newrelic.agent.android.metric.MetricUnit
+Values (5):
+  0. PERCENT
+  1. BYTES
+  2. SECONDS
+  3. BYTES_PER_SECOND
+  4. OPERATIONS
+  field: private String label
+  method: setLabel(String) -> void
+  method: getLabel() -> String
+
+## com.newrelic.agent.android.stats.TicToc$State
+Values (2):
+  0. STOPPED
+  1. STARTED
+
+## com.newrelic.agent.android.tracing.Sample$SampleType
+Values (2):
+  0. MEMORY
+  1. CPU
+
+## com.newrelic.agent.android.tracing.TraceType
+Values (2):
+  0. TRACE
+  1. NETWORK
+
+## com.newrelic.agent.android.util.NetworkFailure
+Values (7):
+  0. Unknown
+  1. BadURL
+  2. TimedOut
+  3. CannotConnectToHost
+  4. DNSLookupFailed
+  5. BadServerResponse
+  6. SecureConnectionFailed
+  field: private static final AgentLog log
+  field: private int errorCode
+  method: exceptionToErrorCode(Exception) -> int
+  method: exceptionToNetworkFailure(Exception) -> NetworkFailure
+  method: fromErrorCode(int) -> NetworkFailure
+  method: getErrorCode() -> int
+
+## com.newrelic.com.google.gson.FieldNamingPolicy
+Values (5):
+  0. IDENTITY
+  1. UPPER_CAMEL_CASE
+  2. UPPER_CAMEL_CASE_WITH_SPACES
+  3. LOWER_CASE_WITH_UNDERSCORES
+  4. LOWER_CASE_WITH_DASHES
+  method: upperCaseFirstLetter(String) -> String
+  method: modifyString(char, String, int) -> String
+  method: separateCamelCase(String, String) -> String
+
+## com.newrelic.com.google.gson.LongSerializationPolicy
+Values (2):
+  0. DEFAULT
+  1. STRING
+  method: serialize(Long) -> JsonElement
+
+## com.newrelic.com.google.gson.stream.JsonToken
+Values (10):
+  0. BEGIN_ARRAY
+  1. END_ARRAY
+  2. BEGIN_OBJECT
+  3. END_OBJECT
+  4. NAME
+  5. STRING
+  6. NUMBER
+  7. BOOLEAN
+  8. NULL
+  9. END_DOCUMENT
+
+## com.perblue.a.a.l
+Values (2):
+  0. V1
+  1. V2
+  field: private static final l[] d
+  field: private final int c
+  method: a() -> int
+
+## com.perblue.common.b.ax
+Values (3):
+  0. INTEGER
+  1. FLOAT
+  2. BOOLEAN
+  field: private static final ax[] d
+  method: a(String) -> boolean
+
+## com.perblue.common.e.a.a$b
+  field: private static final int[] c
+  method: a() -> int[]
+
+## com.perblue.common.stats.DropTableStats$a
+Values (5):
+  0. NODE
+  1. WEIGHT
+  2. QUANTITY
+  3. RESULT
+  4. BEHAVIOR
+  field: private static final a[] f
+
+## com.perblue.rpg.AssetCategory
+Values (6):
+  0. WORLD_INITIAL_INTERNAL
+  1. WORLD_ADDITIONAL
+  2. UI_INITIAL
+  3. UI_DYNAMIC
+  4. SOUND
+  5. TEXT
+  method: isSound() -> boolean
+  method: isExternal() -> boolean
+  method: isText() -> boolean
+
+## com.perblue.rpg.AssetCompression
+Values (5):
+  0. ETC
+  1. PVRTC
+  2. OGG
+  3. MP3
+  4. TXT
+  method: isSound() -> boolean
+  method: isText() -> boolean
+
+## com.perblue.rpg.AssetDensity
+Values (3):
+  0. MDPI
+  1. HDPI
+  2. XHDPI
+  field: private final float logicalDensity
+  method: getLogicalDensity() -> float
+
+## com.perblue.rpg.AssetLoadType
+Values (3):
+  0. FULL
+  1. LOAD_ONLY
+  2. NO_LOAD
+
+## com.perblue.rpg.BuildType
+Values (3):
+  0. DEVELOPER
+  1. RELEASE
+  2. BETA
+
+## com.perblue.rpg.ServerType
+Values (7):
+  0. NONE
+  1. LOCAL
+  2. TRUNK
+  3. DEV
+  4. QA1
+  5. QA2
+  6. LIVE
+  field: private String contentLocation
+  field: private String gameHost
+  field: private int gamePort
+  method: getContentLocation() -> String
+  method: getGameHost() -> String
+  method: getGamePort() -> int
+
+## com.perblue.rpg.ToolType
+Values (6):
+  0. NONE
+  1. ANIMATION
+  2. COMBAT_SIMULATOR
+  3. COMBAT_RENDER
+  4. COMBAT_AUTOMATOR
+  5. COMBAT_SIMULATOR_RANDOM
+
+## com.perblue.rpg.assets.Sounds
+Values (1297):
+  0. arena_promotion
+  1. battle_music
+  2. chest_open_chest
+  3. chest_open_single_item
+  4. chest_open_ten_items
+  5. chest_open_ten_single_item
+  6. chest_open_ten_single_item_A
+  7. chest_open_ten_single_item_B
+  8. combat_hero_skill
+  9. combat_physical_hit
+  10. combat_stun_1
+  11. combat_stun_2
+  12. combat_stun_3
+  13. craft_success
+  14. crafting_moment
+  15. diamonds_to_gold
+  16. gear_into_frame
+  17. got_a_new_hero
+  18. green_mist
+  19. hero_apprentice_attack_fire_1
+  20. hero_apprentice_attack_fire_2
+  21. hero_apprentice_attack_hit
+  22. hero_apprentice_death
+  23. hero_apprentice_skill1_bust_through_ground
+  24. hero_apprentice_skill1_fire
+  25. hero_apprentice_skill2_fire
+  26. hero_apprentice_skill2_hit
+  27. hero_apprentice_skill3_fire
+  28. hero_apprentice_skill3_hit
+  29. hero_apprentice_skill6_shot
+  30. hero_apprentice_victory
+  31. hero_brozerker_attack_1
+  32. hero_brozerker_attack_2
+  33. hero_brozerker_boobs
+  34. hero_brozerker_bros
+  35. hero_brozerker_death
+  36. hero_brozerker_foes
+  37. hero_brozerker_skill1
+  38. hero_brozerker_skill2_dmg
+  39. hero_brozerker_skill2_heal
+  40. hero_brozerker_skill3
+  41. hero_brozerker_victory
+  42. hero_brute_dragon_attack
+  43. hero_brute_dragon_death
+  44. hero_brute_dragon_skill1_fire
+  45. hero_brute_dragon_skill1_hit
+  46. hero_brute_dragon_skill2_bubbling
+  47. hero_brute_dragon_skill2_fire
+  48. hero_brute_dragon_skill3
+  49. hero_brute_dragon_skill6
+  50. hero_brute_dragon_victory
+  51. hero_centaur_attack_fire_1
+  52. hero_centaur_attack_fire_2
+  53. hero_centaur_attack_hit_1
+  54. hero_centaur_attack_hit_2
+  55. hero_centaur_death
+  56. hero_centaur_skill1_fire
+  57. hero_centaur_skill1_hit
+  58. hero_centaur_skill2_fire
+  59. hero_centaur_skill2_hit
+  60. hero_centaur_skill3_fire
+  61. hero_centaur_skill3_hit
+  62. hero_centaur_victory
+  63. hero_demon_totem1_skill5_end
+  64. hero_dragon_lady_attack_1
+  65. hero_dragon_lady_attack_2
+  66. hero_dragon_lady_death
+  67. hero_dragon_lady_skill1_fire
+  68. hero_dragon_lady_skill1_hit
+  69. hero_dragon_lady_skill2
+  70. hero_dragon_lady_skill3
+  71. hero_dragon_lady_victory
+  72. hero_electroyeti_attack_1
+  73. hero_electroyeti_attack_2
+  74. hero_electroyeti_death
+  75. hero_electroyeti_skill1_fire
+  76. hero_electroyeti_skill1_mult_lightning_1
+  77. hero_electroyeti_skill2_fire
+  78. hero_electroyeti_skill2_hit
+  79. hero_electroyeti_skill3
+  80. hero_electroyeti_victory
+  81. hero_equip_item
+  82. hero_evolve_sequence
+  83. hero_faith_healer_attack_fire_1
+  84. hero_faith_healer_attack_fire_2
+  85. hero_faith_healer_attack_hit
+  86. hero_faith_healer_death
+  87. hero_faith_healer_skill1
+  88. hero_faith_healer_skill2_fire
+  89. hero_faith_healer_skill3
+  90. hero_faith_healer_victory
+  91. hero_landing
+  92. hero_level_up
+  93. hero_ninja_dwarf_attack_1
+  94. hero_ninja_dwarf_attack_2
+  95. hero_ninja_dwarf_death
+  96. hero_ninja_dwarf_skill1_hit
+  97. hero_ninja_dwarf_skill1_teleport
+  98. hero_ninja_dwarf_skill1_whirl
+  99. hero_ninja_dwarf_skill2_hit
+  100. hero_ninja_dwarf_skill2_teleport
+  101. hero_ninja_dwarf_skill2_whirl
+  102. hero_ninja_dwarf_skill6_impact
+  103. hero_ninja_dwarf_victory
+  104. hero_pch_anubis_dragon_basic_attack_auragathering
+  105. hero_pch_anubis_dragon_basic_attack_hit
+  106. hero_pch_anubis_dragon_basic_attack_sandball
+  107. hero_pch_anubis_dragon_death
+  108. hero_pch_anubis_dragon_hit_shell
+  109. hero_pch_anubis_dragon_skill1_impact
+  110. hero_pch_anubis_dragon_skill1_start
+  111. hero_pch_anubis_dragon_skill3
+  112. hero_pch_anubis_dragon_skill4
+  113. hero_pch_anubis_dragon_victory
+  114. hero_polemaster_attack_1
+  115. hero_polemaster_attack_2
+  116. hero_polemaster_death
+  117. hero_polemaster_skill1_fire
+  118. hero_polemaster_skill1_hit
+  119. hero_polemaster_skill3_fire
+  120. hero_polemaster_victory
+  121. hero_promote_sequence
+  122. hero_red_shaman_attack_1
+  123. hero_red_shaman_attack_2
+  124. hero_red_shaman_death
+  125. hero_red_shaman_skill1
+  126. hero_red_shaman_skill2
+  127. hero_red_shaman_skill3
+  128. hero_red_shaman_victory
+  129. hero_roller_viking_attack_1
+  130. hero_roller_viking_attack_2
+  131. hero_roller_viking_death
+  132. hero_roller_viking_skill1
+  133. hero_roller_viking_skill2
+  134. hero_roller_viking_victory
+  135. hero_sand_dragon_attack_fire
+  136. hero_sand_dragon_attack_hit
+  137. hero_sand_dragon_death
+  138. hero_sand_dragon_skill1_fire
+  139. hero_sand_dragon_skill1_hit_A
+  140. hero_sand_dragon_skill1_hit_B
+  141. hero_sand_dragon_skill2_fire
+  142. hero_sand_dragon_skill2_hit
+  143. hero_sand_dragon_skill3_burn
+  144. hero_sand_dragon_skill3_fire
+  145. hero_sand_dragon_skill3_hit
+  146. hero_sand_dragon_skill4_fire
+  147. hero_sand_dragon_victory
+  148. hero_shadow_of_sven_attack
+  149. hero_shadow_of_sven_attack_hit
+  150. hero_shadow_of_sven_attack_recover
+  151. hero_shadow_of_sven_attack_slash
+  152. hero_shadow_of_sven_attack_windup
+  153. hero_shadow_of_sven_death_banish
+  154. hero_shadow_of_sven_death_sword
+  155. hero_shadow_of_sven_skill1_end_orbdissappear
+  156. hero_shadow_of_sven_skill1_end_swing
+  157. hero_shadow_of_sven_skill1_end_swordfromground
+  158. hero_shadow_of_sven_skill1_loop_lightning
+  159. hero_shadow_of_sven_skill1_loop_orb
+  160. hero_shadow_of_sven_skill1_start_ground
+  161. hero_shadow_of_sven_skill1_start_portal
+  162. hero_shadow_of_sven_skill1_start_swing
+  163. hero_shadow_of_sven_skill2
+  164. hero_shadow_of_sven_skill5_blast
+  165. hero_shadow_of_sven_skill5_charge
+  166. hero_shadow_of_sven_victory_ground
+  167. hero_shadow_of_sven_victory_swing
+  168. hero_summon_sequence
+  169. hero_umlaut_the_first_attack
+  170. hero_umlaut_the_first_attack_hit
+  171. hero_umlaut_the_first_death
+  172. hero_umlaut_the_first_skill1
+  173. hero_umlaut_the_first_skill2
+  174. hero_umlaut_the_first_victory
+  175. hero_vampire_dragon_attack_1
+  176. hero_vampire_dragon_attack_2
+  177. hero_vampire_dragon_attack_hit
+  178. hero_vampire_dragon_death
+  179. hero_vampire_dragon_skill1_DOT
+  180. hero_vampire_dragon_skill1_fire
+  181. hero_vampire_dragon_skill1_suck
+  182. hero_vampire_dragon_skill2_fire
+  183. hero_vampire_dragon_skill2_hit
+  184. hero_vampire_dragon_skill3_fire
+  185. hero_vampire_dragon_victory
+  186. hero_vulcan_elf_attack_1
+  187. hero_vulcan_elf_attack_2
+  188. hero_vulcan_elf_death
+  189. hero_vulcan_elf_skill1
+  190. hero_vulcan_elf_skill2
+  191. hero_vulcan_elf_skill3_fire
+  192. hero_vulcan_elf_skill3_hit
+  193. hero_vulcan_elf_victory
+  194. loss_music
+  195. main_screen_big_fire
+  196. main_screen_crickets
+  197. main_screen_music
+  198. main_screen_small_fire
+  199. monster_archer_grunt_attack_fire
+  200. monster_archer_grunt_attack_hit
+  201. monster_archer_grunt_death
+  202. monster_archer_grunt_victory
+  203. monster_archer_magic_attack_fire
+  204. monster_archer_magic_attack_hit
+  205. monster_archer_magic_death
+  206. monster_archer_magic_victory
+  207. monster_archer_phys_attack_fire
+  208. monster_archer_phys_attack_hit
+  209. monster_archer_phys_death
+  210. monster_archer_phys_victory
+  211. monster_boss_abyss_dragon_basic_attack
+  212. monster_boss_abyss_dragon_basic_attack_hit
+  213. monster_boss_abyss_dragon_death
+  214. monster_boss_abyss_dragon_skill1_impact
+  215. monster_boss_abyss_dragon_skill1_start
+  216. monster_boss_abyss_dragon_skill2
+  217. monster_boss_abyss_dragon_victory
+  218. monster_boss_anubis_dragon_basic_attack_auragathering
+  219. monster_boss_anubis_dragon_basic_attack_hit
+  220. monster_boss_anubis_dragon_basic_attack_sandball
+  221. monster_boss_anubis_dragon_death
+  222. monster_boss_anubis_dragon_hit_shell
+  223. monster_boss_anubis_dragon_skill1_bracelet_brilliant
+  224. monster_boss_anubis_dragon_skill1_hit
+  225. monster_boss_anubis_dragon_skill1_sandwave_1
+  226. monster_boss_anubis_dragon_skill1_sandwave_2
+  227. monster_boss_anubis_dragon_skill1_sandwave_3
+  228. monster_boss_anubis_dragon_victory
+  229. monster_boss_umlaut_the_first_attack
+  230. monster_boss_umlaut_the_first_attack_hit
+  231. monster_boss_umlaut_the_first_death
+  232. monster_boss_umlaut_the_first_skill1
+  233. monster_boss_umlaut_the_first_skill2
+  234. monster_boss_umlaut_the_first_victory
+  235. monster_boss_umlautthefifth_first_basic_attack
+  236. monster_boss_umlautthefifth_first_basic_attack_hit
+  237. monster_boss_umlautthefifth_first_death
+  238. monster_boss_umlautthefifth_first_skill1_attack
+  239. monster_boss_umlautthefifth_first_skill1_start
+  240. monster_boss_umlautthefifth_first_skill2
+  241. monster_boss_umlautthefifth_first_skill3_intro
+  242. monster_boss_umlautthefifth_first_skill3_lightning
+  243. monster_boss_umlautthefifth_first_skill3_noise
+  244. monster_boss_umlautthefifth_first_skill3_shaking
+  245. monster_boss_umlautthefifth_first_victory
+  246. monster_goblin_attack
+  247. monster_goblin_death
+  248. monster_goblin_victory
+  249. monster_magic_golem_attack_fire
+  250. monster_magic_golem_attack_hit
+  251. monster_magic_golem_death
+  252. monster_magic_golem_victory
+  253. monster_magic_imp_attack_fire
+  254. monster_magic_imp_attack_hit
+  255. monster_magic_imp_death
+  256. monster_magic_imp_victory
+  257. monster_man_eating_plant_attack
+  258. monster_man_eating_plant_death
+  259. monster_man_eating_plant_hide
+  260. monster_man_eating_plant_out
+  261. monster_man_eating_plant_victory
+  262. monster_man_eating_plant_walk
+  263. monster_phys_golem_attack_fire
+  264. monster_phys_golem_attack_hit
+  265. monster_phys_golem_death
+  266. monster_phys_golem_victory
+  267. perblue
+  268. power_points_lvl_up
+  269. purchase_diamonds
+  270. quest_collect
+  271. raid_result
+  272. regular_purchase
+  273. reward_claim_button
+  274. sign_in_reward
+  275. team_level_up
+  276. ui_button_tap
+  277. ui_menu_back
+  278. ui_menu_close
+  279. ui_menu_popup_close
+  280. ui_menu_popup_open
+  281. ui_menu_scroll_close
+  282. ui_menu_scroll_open
+  283. victory_fanfare
+  284. vip_level_up
+  285. you_won_seq
+  286. boss_pit_ui_defeated
+  287. boss_pit_ui_fled
+  288. bossbattle_music_boss
+  289. bosspit_evil_wizard_death
+  290. bosspit_evil_wizard_flee
+  291. bosspit_evil_wizard_summon
+  292. bosspit_evil_wizard_throw_fire
+  293. bosspit_evil_wizard_throw_hit
+  294. bosspit_evil_wizard_victory
+  295. bosspit_giant_plant_bite_attack_1
+  296. bosspit_giant_plant_bite_attack_2
+  297. bosspit_giant_plant_bite_attack_idle
+  298. bosspit_giant_plant_bite_attack_pullback
+  299. bosspit_giant_plant_bite_attack_swallow
+  300. bosspit_giant_plant_bite_cliff_fall
+  301. bosspit_giant_plant_bite_pullback_to_pot
+  302. bosspit_giant_plant_death
+  303. bosspit_giant_plant_flee_loop
+  304. bosspit_giant_plant_flee_start
+  305. bosspit_giant_plant_hide
+  306. bosspit_giant_plant_hop
+  307. bosspit_giant_plant_minion_attack_loop
+  308. bosspit_giant_plant_minion_death
+  309. bosspit_giant_plant_minion_growth
+  310. bosspit_giant_plant_poison
+  311. bosspit_giant_plant_pot_breaking
+  312. bosspit_giant_plant_spew
+  313. bosspit_giant_plant_unhide
+  314. bosspit_giant_plant_victory
+  315. bosspit_gold_colossus_attack
+  316. bosspit_gold_colossus_coin_fire
+  317. bosspit_gold_colossus_coin_hit
+  318. bosspit_gold_colossus_death
+  319. bosspit_gold_colossus_eat
+  320. bosspit_gold_colossus_jump
+  321. bosspit_gold_colossus_land
+  322. bosspit_gold_colossus_victory
+  323. bosspit_gold_colossus_wind
+  324. bosspit_music_colossus
+  325. bosspit_music_plant
+  326. bosspit_music_wizard
+  327. cave_difficulty
+  328. enchanting_choose_hero
+  329. enchanting_get_item
+  330. expeditions_chest_open_reward
+  331. expeditions_fightbutton_press
+  332. expeditions_green_checkmark
+  333. expeditions_wave_end_chest_open
+  334. expeditions_wave_start
+  335. hero_abyss_dragon_basic_attack
+  336. hero_abyss_dragon_basic_attack_hit
+  337. hero_abyss_dragon_death
+  338. hero_abyss_dragon_skill1_impact
+  339. hero_abyss_dragon_skill1_start
+  340. hero_abyss_dragon_skill2
+  341. hero_abyss_dragon_skill3_attack
+  342. hero_abyss_dragon_skill4_attack
+  343. hero_abyss_dragon_victory
+  344. hero_ancient_dwarf_attack
+  345. hero_ancient_dwarf_attack_hit
+  346. hero_ancient_dwarf_death
+  347. hero_ancient_dwarf_skill1_buff
+  348. hero_ancient_dwarf_skill1_shout
+  349. hero_ancient_dwarf_skill2_hit_1
+  350. hero_ancient_dwarf_skill2_hit_2
+  351. hero_ancient_dwarf_skill2_hit_3
+  352. hero_ancient_dwarf_skill2_shoot_1
+  353. hero_ancient_dwarf_skill2_shoot_2
+  354. hero_ancient_dwarf_skill2_shoot_3
+  355. hero_ancient_dwarf_skill3_healing
+  356. hero_ancient_dwarf_skill3_hoof
+  357. hero_ancient_dwarf_skill4_hit
+  358. hero_ancient_dwarf_skill4_shoot
+  359. hero_ancient_dwarf_victory
+  360. hero_angel_dragon_attack
+  361. hero_angel_dragon_attack_hit
+  362. hero_angel_dragon_skill1_end
+  363. hero_angel_dragon_skill1_loop
+  364. hero_angel_dragon_skill1_start
+  365. hero_angel_dragon_skill2_end
+  366. hero_angel_dragon_skill2_loop
+  367. hero_angel_dragon_skill2_start
+  368. hero_angel_dragon_skill4
+  369. hero_angelic_herald_attack
+  370. hero_angelic_herald_skill1
+  371. hero_angelic_herald_skill2
+  372. hero_angelic_herald_skill2_attack1
+  373. hero_angelic_herald_skill2_attack2
+  374. hero_angelic_herald_skill5_shimmer
+  375. hero_angelic_herald_skill5_trumpet
+  376. hero_aquatic_man_attack_fire
+  377. hero_aquatic_man_attack_hit
+  378. hero_aquatic_man_death
+  379. hero_aquatic_man_skill1_fire
+  380. hero_aquatic_man_skill1_hit
+  381. hero_aquatic_man_skill2_fire
+  382. hero_aquatic_man_skill2_spout
+  383. hero_aquatic_man_skill2_swirl
+  384. hero_aquatic_man_skill3_buff
+  385. hero_aquatic_man_skill3_fire
+  386. hero_aquatic_man_skill3_hit
+  387. hero_aquatic_man_victory
+  388. hero_banshee_attack_fire
+  389. hero_banshee_attack_hit
+  390. hero_banshee_death
+  391. hero_banshee_skill1_end
+  392. hero_banshee_skill1_loop_1
+  393. hero_banshee_skill1_loop_2
+  394. hero_banshee_skill1_start
+  395. hero_banshee_skill3_loop
+  396. hero_banshee_skill3_start
+  397. hero_banshee_victory
+  398. hero_bardbarian_attack_fire
+  399. hero_bardbarian_attack_hit
+  400. hero_bardbarian_death
+  401. hero_bardbarian_skill1
+  402. hero_bardbarian_skill2_fire
+  403. hero_bardbarian_skill2_hit_wave
+  404. hero_bardbarian_skill3_hit
+  405. hero_bardbarian_victory
+  406. hero_black_wing_attack
+  407. hero_black_wing_death
+  408. hero_black_wing_skill1
+  409. hero_black_wing_skill1_fire
+  410. hero_black_wing_skill1_impact
+  411. hero_black_wing_skill2
+  412. hero_black_wing_skill4
+  413. hero_black_wing_victory
+  414. hero_bone_dragon_attack_fire
+  415. hero_bone_dragon_attack_hit
+  416. hero_bone_dragon_death
+  417. hero_bone_dragon_skill1_fire
+  418. hero_bone_dragon_skill1_hit
+  419. hero_bone_dragon_skill1_smoulder
+  420. hero_bone_dragon_skill2_fire
+  421. hero_bone_dragon_skill2_hit
+  422. hero_bone_dragon_skill3_fire
+  423. hero_bone_dragon_skill3_heal
+  424. hero_bone_dragon_victory
+  425. hero_bulwark_angel_attack
+  426. hero_bulwark_angel_skill1
+  427. hero_bulwark_angel_skill2_end
+  428. hero_bulwark_angel_skill2_loop
+  429. hero_bulwark_angel_skill2_start
+  430. hero_bulwark_angel_skill3_loop
+  431. hero_bulwark_angel_skill3_start
+  432. hero_burnt_one_attack
+  433. hero_burnt_one_death
+  434. hero_burnt_one_skill1_active_end
+  435. hero_burnt_one_skill1_active_start
+  436. hero_burnt_one_skill1_passive_end
+  437. hero_burnt_one_skill1_passive_loop
+  438. hero_burnt_one_skill1_passive_start
+  439. hero_burnt_one_skill3_hit
+  440. hero_burnt_one_skill3_lava
+  441. hero_catapult_knight_attack_fire
+  442. hero_catapult_knight_attack_hit
+  443. hero_catapult_knight_death
+  444. hero_catapult_knight_skill1_fire
+  445. hero_catapult_knight_skill1_hit
+  446. hero_catapult_knight_skill2_fire
+  447. hero_catapult_knight_skill2_hit
+  448. hero_catapult_knight_skill3
+  449. hero_catapult_knight_victory
+  450. hero_claw_man_basic_attack
+  451. hero_claw_man_death
+  452. hero_claw_man_skill1
+  453. hero_claw_man_skill1_jump
+  454. hero_claw_man_skill2_1
+  455. hero_claw_man_skill2_2
+  456. hero_claw_man_skill4
+  457. hero_claw_man_victory
+  458. hero_cursed_statue_attack_beam
+  459. hero_cursed_statue_attack_fire
+  460. hero_cursed_statue_death
+  461. hero_cursed_statue_skill1_fire
+  462. hero_cursed_statue_skill1_hit
+  463. hero_cursed_statue_skill2_fire
+  464. hero_cursed_statue_skill2_switch
+  465. hero_cursed_statue_skill3
+  466. hero_cursed_statue_victory
+  467. hero_cyclops_wizard_attack_fire
+  468. hero_cyclops_wizard_attack_hit
+  469. hero_cyclops_wizard_death
+  470. hero_cyclops_wizard_skill1
+  471. hero_cyclops_wizard_skill1_hit
+  472. hero_cyclops_wizard_skill2_fire
+  473. hero_cyclops_wizard_skill2_hit
+  474. hero_cyclops_wizard_skill3_fire
+  475. hero_cyclops_wizard_skill3_hit
+  476. hero_cyclops_wizard_victory
+  477. hero_dark_hero_attack
+  478. hero_dark_hero_skill1_end
+  479. hero_dark_hero_skill1_loop
+  480. hero_dark_hero_skill1_start
+  481. hero_dark_hero_skill2
+  482. hero_dark_hero_skill4
+  483. hero_dark_hero_victory
+  484. hero_dark_horse_attack
+  485. hero_dark_horse_death
+  486. hero_dark_horse_skill1
+  487. hero_dark_horse_skill2
+  488. hero_dark_horse_skill3
+  489. hero_dark_horse_victory
+  490. hero_deep_dragon_attack_fire
+  491. hero_deep_dragon_attack_hit
+  492. hero_deep_dragon_death
+  493. hero_deep_dragon_skill1_end
+  494. hero_deep_dragon_skill1_loop_1
+  495. hero_deep_dragon_skill1_loop_2
+  496. hero_deep_dragon_skill1_start
+  497. hero_deep_dragon_skill2
+  498. hero_deep_dragon_skill3_fire
+  499. hero_deep_dragon_skill3_hit
+  500. hero_deep_dragon_skill6_hit
+  501. hero_deep_dragon_victory
+  502. hero_demon_totem_attack_stacked
+  503. hero_demon_totem_skill2_stacked
+  504. hero_demon_totem_skill3_stacked
+  505. hero_demon_totem_t1_attack
+  506. hero_demon_totem_t1_death
+  507. hero_demon_totem_t1_skill1
+  508. hero_demon_totem_t1_skill2
+  509. hero_demon_totem_t1_skill3
+  510. hero_demon_totem_t1_skill6
+  511. hero_demon_totem_t1_victory
+  512. hero_demon_totem_t2_attack
+  513. hero_demon_totem_t2_death
+  514. hero_demon_totem_t2_skill1
+  515. hero_demon_totem_t2_skill2
+  516. hero_demon_totem_t2_skill3
+  517. hero_demon_totem_t2_skill6
+  518. hero_demon_totem_t2_victory
+  519. hero_demon_totem_t3_attack
+  520. hero_demon_totem_t3_death
+  521. hero_demon_totem_t3_skill1
+  522. hero_demon_totem_t3_skill2
+  523. hero_demon_totem_t3_skill3
+  524. hero_demon_totem_t3_skill6
+  525. hero_demon_totem_t3_victory
+  526. hero_demon_totem_victory_stacked
+  527. hero_digger_mole_attack
+  528. hero_digger_mole_attack_hit
+  529. hero_digger_mole_death
+  530. hero_digger_mole_skill1_1
+  531. hero_digger_mole_skill1_2
+  532. hero_digger_mole_skill1_3
+  533. hero_digger_mole_skill2
+  534. hero_digger_mole_skill2_hit
+  535. hero_digger_mole_skill2_molark
+  536. hero_digger_mole_skill3
+  537. hero_digger_mole_skill3_molark
+  538. hero_digger_mole_skill4_guard
+  539. hero_digger_mole_skill4_hit
+  540. hero_digger_mole_skill4_jump
+  541. hero_digger_mole_skill5
+  542. hero_digger_mole_victory
+  543. hero_doppelganger_attack_fire
+  544. hero_doppelganger_attack_hit
+  545. hero_doppelganger_death
+  546. hero_doppelganger_mimi_hit
+  547. hero_doppelganger_mimi_loop_1
+  548. hero_doppelganger_mimi_loop_2
+  549. hero_doppelganger_mimi_loop_3
+  550. hero_doppelganger_mimi_loop_4
+  551. hero_doppelganger_skill1
+  552. hero_doppelganger_skill1_idle_1
+  553. hero_doppelganger_skill1_idle_2
+  554. hero_doppelganger_skill2_fire
+  555. hero_doppelganger_skill2_hit
+  556. hero_doppelganger_skill3
+  557. hero_doppelganger_victory
+  558. hero_dragon_slayer_attack
+  559. hero_dragon_slayer_death
+  560. hero_dragon_slayer_skill1
+  561. hero_dragon_slayer_skill3
+  562. hero_dragon_slayer_victory
+  563. hero_dragzilla_attack_fire
+  564. hero_dragzilla_attack_hit
+  565. hero_dragzilla_death
+  566. hero_dragzilla_foot1
+  567. hero_dragzilla_foot2
+  568. hero_dragzilla_hit
+  569. hero_dragzilla_skill1_fire
+  570. hero_dragzilla_skill1_hit
+  571. hero_dragzilla_skill2_fire
+  572. hero_dragzilla_skill2_hit
+  573. hero_dragzilla_victory
+  574. hero_druidinatrix_attack
+  575. hero_druidinatrix_death
+  576. hero_druidinatrix_skill1_fire
+  577. hero_druidinatrix_skill1_hit
+  578. hero_druidinatrix_skill2
+  579. hero_druidinatrix_skill3_fire
+  580. hero_druidinatrix_skill3_hit
+  581. hero_druidinatrix_victory
+  582. hero_druidinatrix_wings
+  583. hero_dungeon_man_attack
+  584. hero_dungeon_man_attack_dice_impact
+  585. hero_dungeon_man_death
+  586. hero_dungeon_man_skill1
+  587. hero_dungeon_man_skill1_hit
+  588. hero_dungeon_man_skill2
+  589. hero_dungeon_man_skill3
+  590. hero_dungeon_man_skill3_hit
+  591. hero_dungeon_man_victory
+  592. hero_dwarven_archer_attack_fire
+  593. hero_dwarven_archer_attack_hit
+  594. hero_dwarven_archer_death
+  595. hero_dwarven_archer_skill1
+  596. hero_dwarven_archer_skill2_fire
+  597. hero_dwarven_archer_skill2_hit
+  598. hero_dwarven_archer_skill3
+  599. hero_dwarven_archer_victory
+  600. hero_eternal_enchanter_attack
+  601. hero_eternal_enchanter_attack_hit
+  602. hero_eternal_enchanter_death
+  603. hero_eternal_enchanter_skill1_end
+  604. hero_eternal_enchanter_skill1_loop
+  605. hero_eternal_enchanter_skill1_start
+  606. hero_eternal_enchanter_skill2
+  607. hero_eternal_enchanter_skill3_end
+  608. hero_eternal_enchanter_skill3_loop
+  609. hero_eternal_enchanter_skill3_start
+  610. hero_eternal_enchanter_victory
+  611. hero_fairy_dragon_attack_fire
+  612. hero_fairy_dragon_attack_hit
+  613. hero_fairy_dragon_death
+  614. hero_fairy_dragon_skill1_charge
+  615. hero_fairy_dragon_skill1_fire
+  616. hero_fairy_dragon_skill2_buff
+  617. hero_fairy_dragon_skill2_fire
+  618. hero_fairy_dragon_skill3_fire
+  619. hero_fairy_dragon_skill3_hit
+  620. hero_fairy_dragon_victory
+  621. hero_forgotten_dragon_attack
+  622. hero_forgotten_dragon_attack_hit
+  623. hero_forgotten_dragon_death
+  624. hero_forgotten_dragon_hit
+  625. hero_forgotten_dragon_skill1
+  626. hero_forgotten_dragon_skill1_coo
+  627. hero_forgotten_dragon_skill2
+  628. hero_forgotten_dragon_skill2_coo
+  629. hero_forgotten_dragon_skill3
+  630. hero_forgotten_dragon_skill4
+  631. hero_forgotten_dragon_victory
+  632. hero_forgotten_dragon_victory_pops
+  633. hero_frost_giant_attack_fire
+  634. hero_frost_giant_attack_hit
+  635. hero_frost_giant_death
+  636. hero_frost_giant_skill1
+  637. hero_frost_giant_skill2_fire
+  638. hero_frost_giant_skill2_hit
+  639. hero_frost_giant_skill3
+  640. hero_frost_giant_victory
+  641. hero_genie_attack_cow
+  642. hero_genie_attack_fire
+  643. hero_genie_death
+  644. hero_genie_skill1_fire
+  645. hero_genie_skill1_hit
+  646. hero_genie_skill1_loop
+  647. hero_genie_skill2_end
+  648. hero_genie_skill2_start
+  649. hero_genie_skill3_goat
+  650. hero_genie_skill3_hit
+  651. hero_genie_skill5_build
+  652. hero_genie_skill5_polymorph
+  653. hero_genie_victory
+  654. hero_grand_huntress_attack
+  655. hero_grand_huntress_attack_hit
+  656. hero_grand_huntress_death
+  657. hero_grand_huntress_skill1
+  658. hero_grand_huntress_skill1_barrage
+  659. hero_grand_huntress_skill1_hit
+  660. hero_grand_huntress_skill1_loop
+  661. hero_grand_huntress_skill2
+  662. hero_grand_huntress_skill3
+  663. hero_grand_huntress_skill3_hit
+  664. hero_grand_huntress_victory
+  665. hero_greedy_dragon_basic_attack
+  666. hero_greedy_dragon_death
+  667. hero_greedy_dragon_skill1_end
+  668. hero_greedy_dragon_skill1_explode
+  669. hero_greedy_dragon_skill1_loop
+  670. hero_greedy_dragon_skill1_start
+  671. hero_greedy_dragon_skill2
+  672. hero_greedy_dragon_skill3
+  673. hero_greedy_dragon_victory
+  674. hero_groovy_druid_attack_fire
+  675. hero_groovy_druid_attack_hit
+  676. hero_groovy_druid_death
+  677. hero_groovy_druid_disco_death
+  678. hero_groovy_druid_disco_skill1
+  679. hero_groovy_druid_disco_skill1_hit
+  680. hero_groovy_druid_disco_skill2
+  681. hero_groovy_druid_disco_skill2_hit
+  682. hero_groovy_druid_disco_skill3
+  683. hero_groovy_druid_skill1_fire
+  684. hero_groovy_druid_skill1_hit
+  685. hero_groovy_druid_skill2_cast
+  686. hero_groovy_druid_skill2_hit
+  687. hero_groovy_druid_skill3_cast
+  688. hero_groovy_druid_victory
+  689. hero_karaoke_king_attack
+  690. hero_karaoke_king_attack_hit
+  691. hero_karaoke_king_death
+  692. hero_karaoke_king_skill1_end
+  693. hero_karaoke_king_skill1_loop
+  694. hero_karaoke_king_skill1_start
+  695. hero_karaoke_king_skill2
+  696. hero_karaoke_king_skill3
+  697. hero_karaoke_king_skill4
+  698. hero_karaoke_king_victory
+  699. hero_karaoke_king_victory_alt
+  700. hero_kraken_king_attack
+  701. hero_kraken_king_death
+  702. hero_kraken_king_mechalord_attack
+  703. hero_kraken_king_mechalord_attack_hit
+  704. hero_kraken_king_mechalord_skill1_giant_tentacle
+  705. hero_kraken_king_mechalord_skill3
+  706. hero_kraken_king_skill1
+  707. hero_kraken_king_skill3
+  708. hero_kraken_king_tentacle
+  709. hero_kraken_king_victory
+  710. hero_last_defender_basic_attack_hammer
+  711. hero_last_defender_basic_attack_hammer_1
+  712. hero_last_defender_basic_attack_hammer_end
+  713. hero_last_defender_basic_attack_shield
+  714. hero_last_defender_basic_attack_shield_1
+  715. hero_last_defender_death
+  716. hero_last_defender_skill1
+  717. hero_last_defender_skill5
+  718. hero_last_defender_victory
+  719. hero_magic_dragon_attack_fire
+  720. hero_magic_dragon_attack_hit
+  721. hero_magic_dragon_death
+  722. hero_magic_dragon_skill1_fire
+  723. hero_magic_dragon_skill1_hit
+  724. hero_magic_dragon_skill2_fire
+  725. hero_magic_dragon_skill2_hit
+  726. hero_magic_dragon_skill3_fire
+  727. hero_magic_dragon_skill3_generate
+  728. hero_magic_dragon_skill3_hit
+  729. hero_magic_dragon_victory
+  730. hero_medusa_attack_fire
+  731. hero_medusa_attack_hit
+  732. hero_medusa_death
+  733. hero_medusa_skill1_fire
+  734. hero_medusa_skill1_hit
+  735. hero_medusa_skill2_fire
+  736. hero_medusa_skill2_hit
+  737. hero_medusa_skill3
+  738. hero_medusa_victory
+  739. hero_minotaur_attack
+  740. hero_minotaur_death
+  741. hero_minotaur_skill1
+  742. hero_minotaur_skill2_hit
+  743. hero_minotaur_skill2_run
+  744. hero_minotaur_skill3
+  745. hero_minotaur_victory
+  746. hero_mistress_manicure_attack
+  747. hero_mistress_manicure_attack_impact
+  748. hero_mistress_manicure_death
+  749. hero_mistress_manicure_skill1_end
+  750. hero_mistress_manicure_skill1_loop
+  751. hero_mistress_manicure_skill1_start
+  752. hero_mistress_manicure_skill2
+  753. hero_mistress_manicure_skill3
+  754. hero_mistress_manicure_victory
+  755. hero_orc_monk_attack
+  756. hero_orc_monk_death
+  757. hero_orc_monk_skill1
+  758. hero_orc_monk_skill2
+  759. hero_orc_monk_skill3
+  760. hero_orc_monk_victory
+  761. hero_pirate_attack_fire
+  762. hero_pirate_attack_hit
+  763. hero_pirate_death
+  764. hero_pirate_skill1_fire
+  765. hero_pirate_skill1_hit
+  766. hero_pirate_skill2
+  767. hero_pirate_skill2_yar
+  768. hero_pirate_skill3_fire
+  769. hero_pirate_skill3_hit
+  770. hero_pirate_victory
+  771. hero_plague_entrepreneur_attack
+  772. hero_plague_entrepreneur_death
+  773. hero_plague_entrepreneur_skill1
+  774. hero_plague_entrepreneur_skill2
+  775. hero_plague_entrepreneur_skill2_hit
+  776. hero_plant_soul_attack
+  777. hero_plant_soul_death
+  778. hero_plant_soul_skill1_end
+  779. hero_plant_soul_skill1_loop
+  780. hero_plant_soul_skill1_start
+  781. hero_plant_soul_victory
+  782. hero_rabid_dragon_attack_fire
+  783. hero_rabid_dragon_attack_hit
+  784. hero_rabid_dragon_death
+  785. hero_rabid_dragon_skill1_seq1
+  786. hero_rabid_dragon_skill1_seq2
+  787. hero_rabid_dragon_skill1_seq4
+  788. hero_rabid_dragon_skill1_seq5
+  789. hero_rabid_dragon_skill2_fire
+  790. hero_rabid_dragon_skill2_hit
+  791. hero_rabid_dragon_skill3
+  792. hero_rabid_dragon_victory
+  793. hero_raging_revenant_attack
+  794. hero_raging_revenant_attack_impact
+  795. hero_raging_revenant_death
+  796. hero_raging_revenant_skill1
+  797. hero_raging_revenant_skill2_fire
+  798. hero_raging_revenant_skill2_hit
+  799. hero_raging_revenant_skill3
+  800. hero_raging_revenant_skill4
+  801. hero_raging_revenant_skill5_loop
+  802. hero_raging_revenant_victory
+  803. hero_sadistic_dancer_basic_attack_hit
+  804. hero_sadistic_dancer_basic_attack_thunder
+  805. hero_sadistic_dancer_basic_attack_whip
+  806. hero_sadistic_dancer_death
+  807. hero_sadistic_dancer_skill1_damage_up
+  808. hero_sadistic_dancer_skill1_energy_down
+  809. hero_sadistic_dancer_skill1_loop
+  810. hero_sadistic_dancer_skill1_ring_fingers
+  811. hero_sadistic_dancer_skill2_end
+  812. hero_sadistic_dancer_skill2_loop
+  813. hero_sadistic_dancer_skill2_start
+  814. hero_sadistic_dancer_victory
+  815. hero_satyr_attack
+  816. hero_satyr_death
+  817. hero_satyr_hit
+  818. hero_satyr_skill1
+  819. hero_satyr_skill2
+  820. hero_satyr_stunheal
+  821. hero_satyr_victory
+  822. hero_savage_cutie_attack
+  823. hero_savage_cutie_death
+  824. hero_savage_cutie_hit
+  825. hero_savage_cutie_skill1
+  826. hero_savage_cutie_skill2
+  827. hero_savage_cutie_skill3
+  828. hero_savage_cutie_victory
+  829. hero_shadow_assassin_attack_fire
+  830. hero_shadow_assassin_attack_hit
+  831. hero_shadow_assassin_death
+  832. hero_shadow_assassin_skill1_end
+  833. hero_shadow_assassin_skill1_fire
+  834. hero_shadow_assassin_skill1_hit
+  835. hero_shadow_assassin_skill2_fire
+  836. hero_shadow_assassin_skill2_hit
+  837. hero_shadow_assassin_skill3_fire
+  838. hero_shadow_assassin_skill3_hit
+  839. hero_shadow_assassin_victory
+  840. hero_silent_spirit_attack
+  841. hero_silent_spirit_skill1
+  842. hero_silent_spirit_skill2
+  843. hero_silent_spirit_skill3
+  844. hero_silent_spirit_skill4
+  845. hero_silent_spirit_skill4_end
+  846. hero_silent_spirit_victory
+  847. hero_skeleton_king_attack_fire
+  848. hero_skeleton_king_attack_hit
+  849. hero_skeleton_king_death
+  850. hero_skeleton_king_hit
+  851. hero_skeleton_king_skill1
+  852. hero_skeleton_king_skill2_dmg
+  853. hero_skeleton_king_skill2_fire
+  854. hero_skeleton_king_skill2_heal
+  855. hero_skeleton_king_skill3
+  856. hero_skeleton_king_victory
+  857. hero_snake_dragon_attack
+  858. hero_snake_dragon_death
+  859. hero_snake_dragon_skill1_fire
+  860. hero_snake_dragon_skill1_hit
+  861. hero_snake_dragon_skill3
+  862. hero_snake_dragon_victory
+  863. hero_sniper_wolf_attack_fire
+  864. hero_sniper_wolf_attack_hit
+  865. hero_sniper_wolf_death
+  866. hero_sniper_wolf_skill1
+  867. hero_sniper_wolf_skill2
+  868. hero_sniper_wolf_skill3_fire
+  869. hero_sniper_wolf_skill3_wolf_loop
+  870. hero_sniper_wolf_victory
+  871. hero_sniper_wolf_victory_wolf
+  872. hero_sojourner_sorceress_attack
+  873. hero_sojourner_sorceress_attack_hit
+  874. hero_sojourner_sorceress_death
+  875. hero_sojourner_sorceress_skill1
+  876. hero_sojourner_sorceress_skill1_hit
+  877. hero_sojourner_sorceress_skill2_cast
+  878. hero_sojourner_sorceress_skill2_hit
+  879. hero_sojourner_sorceress_skill2_pop
+  880. hero_sojourner_sorceress_skill3
+  881. hero_sojourner_sorceress_skill5_fireballs
+  882. hero_sojourner_sorceress_skill5_scream
+  883. hero_sojourner_sorceress_victory
+  884. hero_solid_longevity_basic_attack
+  885. hero_solid_longevity_basic_attack_hit
+  886. hero_solid_longevity_death
+  887. hero_solid_longevity_skill1_attack
+  888. hero_solid_longevity_skill1_loop
+  889. hero_solid_longevity_skill1_start
+  890. hero_solid_longevity_skill2
+  891. hero_solid_longevity_skill3
+  892. hero_solid_longevity_skill4
+  893. hero_solid_longevity_victory
+  894. hero_spectral_dragon_attack_fire
+  895. hero_spectral_dragon_attack_hit
+  896. hero_spectral_dragon_death
+  897. hero_spectral_dragon_skill1
+  898. hero_spectral_dragon_skill2_flame1
+  899. hero_spectral_dragon_skill2_flame2
+  900. hero_spectral_dragon_skill2_flame3_fire
+  901. hero_spectral_dragon_skill2_hit
+  902. hero_spectral_dragon_skill3
+  903. hero_spectral_dragon_victory
+  904. hero_spider_queen_attack
+  905. hero_spider_queen_coccoon_deflate
+  906. hero_spider_queen_coccoon_fall
+  907. hero_spider_queen_coccoon_pop
+  908. hero_spider_queen_death
+  909. hero_spider_queen_skill1_end
+  910. hero_spider_queen_skill1_loop
+  911. hero_spider_queen_skill1_spray
+  912. hero_spider_queen_skill1_start
+  913. hero_spider_queen_skill2
+  914. hero_spider_queen_victory
+  915. hero_spikey_dragon_attack_fire
+  916. hero_spikey_dragon_attack_hit
+  917. hero_spikey_dragon_death
+  918. hero_spikey_dragon_skill1_fire
+  919. hero_spikey_dragon_skill1_hit
+  920. hero_spikey_dragon_skill2_fire
+  921. hero_spikey_dragon_skill2_hit
+  922. hero_spikey_dragon_skill3
+  923. hero_spikey_dragon_victory
+  924. hero_stepladder_brothers_attack_hit
+  925. hero_stepladder_brothers_attack_projectile
+  926. hero_stepladder_brothers_attack_throw
+  927. hero_stepladder_brothers_death
+  928. hero_stepladder_brothers_skill1_end_hit
+  929. hero_stepladder_brothers_skill1_end_projectile
+  930. hero_stepladder_brothers_skill1_end_throw
+  931. hero_stepladder_brothers_skill1_loop
+  932. hero_stepladder_brothers_skill1_start
+  933. hero_stepladder_brothers_skill2
+  934. hero_stepladder_brothers_skill2_wall
+  935. hero_stepladder_brothers_skill3
+  936. hero_stepladder_brothers_skill4_hit
+  937. hero_stepladder_brothers_skill4_objectappear
+  938. hero_stepladder_brothers_skill4_throw
+  939. hero_stepladder_brothers_victory
+  940. hero_storm_dragon_attack_fire
+  941. hero_storm_dragon_attack_hit
+  942. hero_storm_dragon_death
+  943. hero_storm_dragon_skill1_fire
+  944. hero_storm_dragon_skill1_hit
+  945. hero_storm_dragon_skill2_fire
+  946. hero_storm_dragon_skill2_hit
+  947. hero_storm_dragon_skill3_fire
+  948. hero_storm_dragon_skill3_hit
+  949. hero_storm_dragon_victory
+  950. hero_stowaway_attack_fire
+  951. hero_stowaway_attack_hit
+  952. hero_stowaway_death
+  953. hero_stowaway_skill1_bomb
+  954. hero_stowaway_skill1_boomerang
+  955. hero_stowaway_skill1_fire
+  956. hero_stowaway_skill1_grenade
+  957. hero_stowaway_skill1_pennies
+  958. hero_stowaway_skill1_tears
+  959. hero_stowaway_skill2_end
+  960. hero_stowaway_skill2_grab
+  961. hero_stowaway_skill2_start
+  962. hero_stowaway_skill4_end
+  963. hero_stowaway_skill4_hit
+  964. hero_stowaway_skill4_loop_1
+  965. hero_stowaway_skill4_loop_2
+  966. hero_stowaway_victory
+  967. hero_sun_seeker_attack_1
+  968. hero_sun_seeker_attack_2
+  969. hero_sun_seeker_death
+  970. hero_sun_seeker_skill1_fire
+  971. hero_sun_seeker_skill1_fireball
+  972. hero_sun_seeker_skill1_hitball
+  973. hero_sun_seeker_skill1_hitenemy
+  974. hero_sun_seeker_skill1_throw
+  975. hero_sun_seeker_skill2_explosion
+  976. hero_sun_seeker_skill2_firehand
+  977. hero_sun_seeker_skill2_sunlight
+  978. hero_sun_seeker_skill4_cross_scoops
+  979. hero_sun_seeker_skill4_fire_scoops
+  980. hero_sun_seeker_skill4_hit_enemy_fire
+  981. hero_sun_seeker_skill4_hit_enemy_scoops
+  982. hero_sun_seeker_skill4_hit_get_scoop
+  983. hero_sun_seeker_skill4_hit_put_away_scoop
+  984. hero_sun_seeker_skill4_sun
+  985. hero_sun_seeker_victory
+  986. hero_tomb_angel_attack
+  987. hero_tomb_angel_prison_end
+  988. hero_tomb_angel_prison_start
+  989. hero_tomb_angel_skill2
+  990. hero_tomb_angel_skill3
+  991. hero_triple_threat_attack
+  992. hero_triple_threat_death
+  993. hero_triple_threat_skill1
+  994. hero_triple_threat_skill2
+  995. hero_triple_threat_skill3
+  996. hero_triple_threat_skill3_hit
+  997. hero_triple_threat_victory
+  998. hero_unicorgi_attack
+  999. hero_unicorgi_death
+  1000. hero_unicorgi_skill1_part1
+  1001. hero_unicorgi_skill1_part2
+  1002. hero_unicorgi_skill1_part3
+  1003. hero_unicorgi_skill2
+  1004. hero_unicorgi_skill3
+  1005. hero_unicorgi_victory
+  1006. hero_unripe_mythology_attack
+  1007. hero_unripe_mythology_death_dragon
+  1008. hero_unripe_mythology_death_egg
+  1009. hero_unripe_mythology_skill1_blast
+  1010. hero_unripe_mythology_skill1_impact
+  1011. hero_unripe_mythology_skill1_spin
+  1012. hero_unripe_mythology_skill3_end
+  1013. hero_unripe_mythology_skill3_loop
+  1014. hero_unripe_mythology_skill4
+  1015. hero_unripe_mythology_victory
+  1016. hero_vermilion_bird_basic_attack
+  1017. hero_vermilion_bird_basic_attack_hit
+  1018. hero_vermilion_bird_death
+  1019. hero_vermilion_bird_skill1_attack
+  1020. hero_vermilion_bird_skill1_hit
+  1021. hero_vermilion_bird_skill1_loop
+  1022. hero_vermilion_bird_skill1_start
+  1023. hero_vermilion_bird_skill2
+  1024. hero_vermilion_bird_skill3_loop
+  1025. hero_vermilion_bird_skill4
+  1026. hero_vermilion_bird_victory
+  1027. hero_vile_bile_attack
+  1028. hero_vile_bile_death
+  1029. hero_vile_bile_skill1_end
+  1030. hero_vile_bile_skill1_loop
+  1031. hero_vile_bile_skill2
+  1032. hero_vile_bile_skill4
+  1033. hero_void_wyvern_attack
+  1034. hero_void_wyvern_death
+  1035. hero_void_wyvern_skill1_end
+  1036. hero_void_wyvern_skill1_loop
+  1037. hero_void_wyvern_skill2_fire
+  1038. hero_void_wyvern_skill2_hit_01
+  1039. hero_void_wyvern_skill2_hit_02
+  1040. hero_void_wyvern_skill2_hit_03
+  1041. hero_void_wyvern_skill3
+  1042. hero_void_wyvern_victory
+  1043. hero_vulture_dragon_attack
+  1044. hero_vulture_dragon_death
+  1045. hero_vulture_dragon_skill1_end
+  1046. hero_vulture_dragon_skill1_loop
+  1047. hero_vulture_dragon_skill1_loop_slash_1
+  1048. hero_vulture_dragon_skill1_loop_slash_2
+  1049. hero_vulture_dragon_skill1_start
+  1050. hero_vulture_dragon_skill1_swoop
+  1051. hero_vulture_dragon_skill2_fire
+  1052. hero_vulture_dragon_skill2_sizzle
+  1053. hero_vulture_dragon_skill5
+  1054. hero_vulture_dragon_victory
+  1055. hero_wee_witch_attack
+  1056. hero_wee_witch_death
+  1057. hero_wee_witch_skill1
+  1058. hero_wee_witch_skill1_hit
+  1059. hero_wee_witch_skill2
+  1060. hero_wee_witch_victory
+  1061. hero_weredragon_attack_dragon
+  1062. hero_weredragon_attack_dragon_v2
+  1063. hero_weredragon_attack_man
+  1064. hero_weredragon_attack_man_v1
+  1065. hero_weredragon_death_dragon
+  1066. hero_weredragon_death_man
+  1067. hero_weredragon_skill1
+  1068. hero_weredragon_skill1_revert
+  1069. hero_weredragon_skill2
+  1070. hero_weredragon_skill3
+  1071. hero_weredragon_skill3_hit
+  1072. hero_weredragon_skill5
+  1073. hero_weredragon_skill5_revert
+  1074. hero_weredragon_victory
+  1075. hero_white_tiger_basic_attack
+  1076. hero_white_tiger_basic_attack_hit
+  1077. hero_white_tiger_death
+  1078. hero_white_tiger_skill1_attack
+  1079. hero_white_tiger_skill1_hit
+  1080. hero_white_tiger_skill3_attack
+  1081. hero_white_tiger_skill3_hit
+  1082. hero_white_tiger_skill3_impact
+  1083. hero_white_tiger_victory
+  1084. hero_zombie_squire_attack
+  1085. hero_zombie_squire_death
+  1086. hero_zombie_squire_hit_organs
+  1087. hero_zombie_squire_skill1
+  1088. hero_zombie_squire_skill2
+  1089. hero_zombie_squire_skill4
+  1090. hero_zombie_squire_victory
+  1091. monster_angelic_avenger_attack
+  1092. monster_ant_ambush
+  1093. monster_ant_attack
+  1094. monster_ant_death
+  1095. monster_ant_pre_attack
+  1096. monster_ant_victory
+  1097. monster_anubis_dragon_basic_attack_auragathering
+  1098. monster_anubis_dragon_basic_attack_hit
+  1099. monster_anubis_dragon_basic_attack_sandball
+  1100. monster_anubis_dragon_death
+  1101. monster_anubis_dragon_hit_shell
+  1102. monster_anubis_dragon_skill1_bracelet_brilliant
+  1103. monster_anubis_dragon_skill1_hit
+  1104. monster_anubis_dragon_skill1_sandwave_1
+  1105. monster_anubis_dragon_skill1_sandwave_2
+  1106. monster_anubis_dragon_skill1_sandwave_3
+  1107. monster_anubis_dragon_victory
+  1108. monster_blue_dragon_basic_attack
+  1109. monster_blue_dragon_basic_attack_hit
+  1110. monster_blue_dragon_death
+  1111. monster_blue_dragon_skill1_impact
+  1112. monster_blue_dragon_skill1_start
+  1113. monster_blue_dragon_skill2
+  1114. monster_blue_dragon_victory
+  1115. monster_breaker_mkii_attack
+  1116. monster_breaker_mkii_death_explode
+  1117. monster_breaker_mkii_death_heat
+  1118. monster_breaker_mkii_death_steam
+  1119. monster_breaker_mkii_skill1_end
+  1120. monster_breaker_mkii_skill1_hit
+  1121. monster_breaker_mkii_skill1_start
+  1122. monster_breaker_mkii_skill1_steam
+  1123. monster_breaker_mkii_victory_drill
+  1124. monster_breaker_mkii_victory_steam
+  1125. monster_cauldron_monster_death
+  1126. monster_cauldron_monster_hit
+  1127. monster_cauldron_monster_victory
+  1128. monster_cauldron_monster_walk_loop
+  1129. monster_cauldron_monster_walk_start
+  1130. monster_cauldron_monster_walk_stop
+  1131. monster_cloud_attack
+  1132. monster_cloud_death
+  1133. monster_cloud_hit
+  1134. monster_cloud_shield
+  1135. monster_cloud_victory
+  1136. monster_crystal_lizard_attack_hit
+  1137. monster_crystal_lizard_attack_swing
+  1138. monster_crystal_lizard_death
+  1139. monster_crystal_lizard_skill1_end
+  1140. monster_crystal_lizard_skill1_explode
+  1141. monster_crystal_lizard_skill1_loop
+  1142. monster_crystal_lizard_skill1_start
+  1143. monster_crystal_lizard_victory_eat
+  1144. monster_crystal_lizard_victory_fly
+  1145. monster_crystal_lizard_victory_growl
+  1146. monster_eyeball_attack_fire
+  1147. monster_eyeball_attack_hit
+  1148. monster_eyeball_death
+  1149. monster_eyeball_eyepops
+  1150. monster_eyeball_victory
+  1151. monster_flea_demon_attack
+  1152. monster_head_crab_attack_death
+  1153. monster_head_crab_attack_end
+  1154. monster_head_crab_attack_loop
+  1155. monster_head_crab_attack_start
+  1156. monster_head_crab_death
+  1157. monster_head_crab_victory
+  1158. monster_head_crab_walk
+  1159. monster_inferno_spider_attack_fire
+  1160. monster_inferno_spider_attack_hit
+  1161. monster_inferno_spider_death
+  1162. monster_inferno_spider_victory
+  1163. monster_kamikaze_gnome_attack
+  1164. monster_kamikaze_gnome_tick
+  1165. monster_king_imp_attack_fire
+  1166. monster_king_imp_attack_hit
+  1167. monster_king_imp_death
+  1168. monster_king_imp_skill2
+  1169. monster_king_imp_victory
+  1170. monster_lying_lantern_attack
+  1171. monster_lying_lantern_death
+  1172. monster_lying_lantern_skill
+  1173. monster_lying_lantern_skill_hit
+  1174. monster_mr_smashy_attack
+  1175. monster_mr_smashy_death
+  1176. monster_mr_smashy_step
+  1177. monster_mr_smashy_victory
+  1178. monster_mushroom_attack
+  1179. monster_mushroom_death
+  1180. monster_mushroom_victory
+  1181. monster_phys_imp_attack_fire
+  1182. monster_phys_imp_attack_hit
+  1183. monster_phys_imp_death
+  1184. monster_phys_imp_victory
+  1185. monster_plague_skulker_attack
+  1186. monster_plague_skulker_death
+  1187. monster_plague_skulker_hit_react
+  1188. monster_plague_skulker_victory
+  1189. monster_redtiger_basic_attack
+  1190. monster_redtiger_skill1_end
+  1191. monster_redtiger_skill1_loop
+  1192. monster_redtiger_skill1_start
+  1193. monster_scarecrow_attack_fire
+  1194. monster_scarecrow_attack_hit
+  1195. monster_scarecrow_death
+  1196. monster_scarecrow_victory
+  1197. monster_shark_attack
+  1198. monster_shark_death
+  1199. monster_shark_hit
+  1200. monster_shark_skill1
+  1201. monster_shark_victory
+  1202. monster_sinister_assailant_attack
+  1203. monster_sinister_assailant_death
+  1204. monster_sinister_assailant_skill1
+  1205. monster_sinister_assailant_skill1_impact
+  1206. monster_sinister_assailant_victory
+  1207. monster_sinister_assailant_victory_scythe_throw
+  1208. monster_skeleton_deer_attack
+  1209. monster_skeleton_deer_charge
+  1210. monster_skeleton_deer_death
+  1211. monster_skeleton_deer_stun
+  1212. monster_skeleton_deer_victory
+  1213. monster_sprite_buff_attack_fire
+  1214. monster_sprite_buff_attack_hit
+  1215. monster_sprite_buff_death
+  1216. monster_sprite_buff_victory
+  1217. monster_sprite_heal_attack_fire
+  1218. monster_sprite_heal_attack_hit
+  1219. monster_sprite_heal_death
+  1220. monster_sprite_heal_victory
+  1221. monster_squid_squirter_attack_fire
+  1222. monster_squid_squirter_attack_hit
+  1223. monster_squid_squirter_death
+  1224. monster_squid_squirter_victory
+  1225. monster_squirrel_attack_hit_1
+  1226. monster_squirrel_attack_hit_2
+  1227. monster_squirrel_attack_start
+  1228. monster_squirrel_death
+  1229. monster_squirrel_hit
+  1230. monster_squirrel_throw_1
+  1231. monster_squirrel_throw_2
+  1232. monster_squirrel_throw_3
+  1233. monster_squirrel_throw_4
+  1234. monster_squirrel_victory
+  1235. monster_troll_blob_attack
+  1236. monster_troll_blob_death
+  1237. monster_troll_blob_victory
+  1238. monster_umlautthefifth_first_basic_attack
+  1239. monster_umlautthefifth_first_basic_attack_hit
+  1240. monster_umlautthefifth_first_death
+  1241. monster_umlautthefifth_first_skill1_attack
+  1242. monster_umlautthefifth_first_skill1_start
+  1243. monster_umlautthefifth_first_skill2
+  1244. monster_umlautthefifth_first_victory
+  1245. narrator_text
+  1246. skull_anim
+  1247. temple_ui_coffin
+  1248. temple_ui_coffin_open
+  1249. temple_ui_doors_close
+  1250. temple_ui_doors_open
+  1251. temple_ui_rotate
+  1252. temple_ui_view_hero
+  1253. ui_chat_close
+  1254. ui_chat_mini_close
+  1255. ui_chat_mini_open
+  1256. ui_chat_open
+  1257. ui_contest_bell1
+  1258. ui_contest_bell2
+  1259. ui_contest_progress_meter
+  1260. ui_doppleganger_character_select
+  1261. ui_fusion_dialog_choose
+  1262. ui_fusion_dialog_fuse
+  1263. ui_rune_embue
+  1264. ui_rune_empower10_rumble_1
+  1265. ui_rune_empower10_rumble_2
+  1266. ui_rune_empower10_success
+  1267. ui_rune_empower_success
+  1268. ui_rune_frames_seperate
+  1269. ui_rune_fusion_dialog_loop
+  1270. ui_rune_fusion_fuse_1
+  1271. ui_rune_fusion_fuse_2
+  1272. ui_rune_fusion_fuse_5
+  1273. ui_rune_fusion_nostars
+  1274. ui_rune_fusion_place_in_shrine
+  1275. ui_rune_fusion_post_dialog
+  1276. ui_rune_fusion_select_offering_1
+  1277. ui_rune_fusion_select_offering_2
+  1278. ui_rune_fusion_select_rune
+  1279. ui_rune_place_rune
+  1280. ui_rune_remove_rune
+  1281. ui_rune_sell_rune
+  1282. ui_rune_server_latency_A
+  1283. ui_rune_server_latency_B
+  1284. war_battle_music
+  1285. war_button_heroes
+  1286. war_button_items
+  1287. war_check_mark
+  1288. war_coin_sack
+  1289. war_defeat
+  1290. war_menu_music
+  1291. war_progress_meter
+  1292. war_reward_banner
+  1293. war_reward_shield
+  1294. war_victory
+  1295. war_you_lost
+  1296. war_you_won_broken_shield
+  field: private static final Map VARIATIONS
+  field: private String assetName
+  field: private final boolean internal
+  method: getRandomVariation() -> Sounds
+  method: isInternal() -> boolean
+  method: getAsset() -> String
+  method: init(String, String) -> void
+
+## com.perblue.rpg.assetupdate.CategoryUpdater$Content
+Values (2):
+  0. INDEX
+  1. ARCHIVE
+
+## com.perblue.rpg.g2d.CoffinState
+Values (3):
+  0. CLOSED
+  1. CLOSED_GLOWING
+  2. OPEN
+
+## com.perblue.rpg.g2d.FrameRateManager$ApplicationState
+Values (3):
+  0. RUNNING
+  1. PAUSED
+  2. STOPPING
+
+## com.perblue.rpg.g2d.ParticleLayer
+Values (5):
+  0. BACKGROUND
+  1. ENTITY_BACKGROUND
+  2. ENTITY
+  3. ENTITY_FOREGROUND
+  4. FOREGROUND
+
+## com.perblue.rpg.g2d.RPGShader$RenderType
+Values (3):
+  0. NORMAL
+  1. DESATURATED
+  2. BRIGHTEN
+  field: private float value
+  method: getValue() -> float
+
+## com.perblue.rpg.g2d.RepresentationManager$CombatTextType
+Values (10):
+  0. PHYSICAL_DAMAGE
+  1. MAGIC_DAMAGE
+  2. HEAL
+  3. BUFF
+  4. DEBUFF
+  5. ENERGY
+  6. DODGE
+  7. DEBUG
+  8. RESIST
+  9. MISS
+
+## com.perblue.rpg.g2d.RotationType
+Values (3):
+  0. NONE
+  1. MIRROR_ONLY
+  2. FULL
+
+## com.perblue.rpg.g2d.ShaderFactory$ShaderAttribute
+Values (6):
+  0. ALPHA_ATLAS
+  1. ALPHA_TEST
+  2. RENDER_TYPE
+  3. DARKEN
+  4. DESATURATE
+  5. HSV
+
+## com.perblue.rpg.g2d.layers.RenderGroupType
+Values (7):
+  0. BACKGROUND
+  1. SHADOWS
+  2. PARTICLES_GROUND
+  3. ENTITY
+  4. PARTICLES_FOREGROUND
+  5. FOREGROUND
+  6. FADE_LAYER
+  field: public final boolean sheared
+  field: public final boolean shouldSort
+
+## com.perblue.rpg.game.buff.ShieldBuff$ShieldType
+Values (4):
+  0. ALL_DAMAGE
+  1. PHYSICAL
+  2. MAGIC
+  3. ENERGY
+
+## com.perblue.rpg.game.buff.SimpleDurationBuff$StackingEffect
+Values (7):
+  0. KEEP_BOTH
+  1. KEEP_NEW
+  2. KEEP_OLD
+  3. ADD_TIME_KEEP_OLD
+  4. ADD_TIME_KEEP_NEW
+  5. MAX_TIME_KEEP_OLD
+  6. MAX_TIME_KEEP_NEW
+
+## com.perblue.rpg.game.buff.StatModificationIcons$ModificationType
+Values (3):
+  0. POSITIVE
+  1. NEGATIVE
+  2. OTHER
+
+## com.perblue.rpg.game.data.DifficultyModeStats$DifficultyModeEnemyStats$Col
+Values (8):
+  0. ENEMY_LEVEL
+  1. ENEMY_STARS
+  2. ENEMY_RARITY
+  3. EXP_REWARD
+  4. ENVIRONMENT
+  5. STAGE_ONE
+  6. STAGE_TWO
+  7. STAGE_THREE
+
+## com.perblue.rpg.game.data.HeroRole
+Values (5):
+  0. NONE
+  1. TANK
+  2. DPS
+  3. SUPPORT
+  4. CONTROL
+
+## com.perblue.rpg.game.data.HeroSort
+Values (6):
+  0. POWER
+  1. LEVEL
+  2. RARITY
+  3. STARS
+  4. ROLE
+  5. NAME
+
+## com.perblue.rpg.game.data.Level
+Values (23):
+  0. ZERO
+  1. ONE
+  2. TWO
+  3. THREE
+  4. FOUR
+  5. FIVE
+  6. SIX
+  7. SEVEN
+  8. EIGHT
+  9. NINE
+  10. TEN
+  11. ELEVEN
+  12. TWELVE
+  13. THIRTEEN
+  14. FOURTEEN
+  15. FIFTEEN
+  16. SIXTEEN
+  17. SEVENTEEN
+  18. EIGHTEEN
+  19. NINETEEN
+  20. TWENTY
+  21. TWENTYONE
+  22. TWENTYTWO
+  field: private static int maxVal
+  field: private final int val
+  method: getVal() -> int
+  method: getMaxVal() -> int
+
+## com.perblue.rpg.game.data.ModeDifficulty
+Values (32):
+  0. ONE
+  1. TWO
+  2. THREE
+  3. FOUR
+  4. FIVE
+  5. SIX
+  6. SEVEN
+  7. EIGHT
+  8. NINE
+  9. TEN
+  10. ELEVEN
+  11. TWELVE
+  12. THIRTEEN
+  13. FOURTEEN
+  14. FIFTEEN
+  15. SIXTEEN
+  16. SEVENTEEN
+  17. EIGHTEEN
+  18. NINETEEN
+  19. TWENTY
+  20. TWENTYONE
+  21. TWENTYTWO
+  22. TWENTYTHREE
+  23. TWENTYFOUR
+  24. TWENTYFIVE
+  25. TWENTYSIX
+  26. TWENTYSEVEN
+  27. TWENTYEIGHT
+  28. TWENTYNINE
+  29. THIRTY
+  30. THIRTYONE
+  31. THIRTYTWO
+  field: private static ModeDifficulty[] values
+  method: valuesCached() -> ModeDifficulty[]
+  method: get(int) -> ModeDifficulty
+  method: getIndex() -> int
+
+## com.perblue.rpg.game.data.arena.ArenaStats$ArenaConstant
+Values (18):
+  0. LEAGUE_SIZE
+  1. PROMOTION_POSITIONS
+  2. PROMOTION_LEAGUE_SIZE
+  3. COPPER_PROMOTE_TIME
+  4. BRONZE_PROMOTE_TIME
+  5. SILVER_PROMOTE_TIME
+  6. GOLD_PROMOTE_TIME
+  7. PLATINUM_PROMOTE_TIME
+  8. SKIP_COOLDOWN_COST
+  9. DEFENSE_REWARD
+  10. DAILY_REWARD_HOUR
+  11. DAILY_REWARD_EXPIRATION
+  12. DEMOTION_START_DELAY
+  13. DEMOTION_RANK_WINDOW
+  14. DEMOTION_TIME_WINDOW
+  15. COOLDOWN_DURATION
+  16. DEMOTION_WARNING_TIME
+  17. DEMOTION_INACTIVE_TIME
+
+## com.perblue.rpg.game.data.arena.ArenaStats$ArenaConstantStats$Col
+Values (2):
+  0. FIGHT_PIT_VALUE
+  1. COLISEUM_VALUE
+
+## com.perblue.rpg.game.data.arena.ArenaStats$ArenaDailyRewards$Col
+Values (8):
+  0. TIER
+  1. DIVISION
+  2. MIN_POS
+  3. MAX_POS
+  4. DIAMONDS
+  5. GOLD
+  6. FIGHT_TOKENS
+  7. ITEM_REWARDS
+
+## com.perblue.rpg.game.data.arena.ArenaStats$ArenaHeroEXPStats$Col
+Values (1):
+  0. EXP
+
+## com.perblue.rpg.game.data.arena.ArenaStats$ArenaPromotionRewards$Col
+Values (6):
+  0. TIER
+  1. DIVISION
+  2. DIAMONDS
+  3. GOLD
+  4. FIGHT_TOKENS
+  5. ITEM_REWARDS
+
+## com.perblue.rpg.game.data.arena.ArenaStats$ArenaResetStats$Col
+Values (1):
+  0. COST
+
+## com.perblue.rpg.game.data.bossbattle.BossBattleStats$StageResetStats$Col
+Values (1):
+  0. COST
+
+## com.perblue.rpg.game.data.bosspit.BossPitStats$BattleStats$Col
+Values (4):
+  0. SKILLS
+  1. TAGS
+  2. HP_TO_PROGRESS
+  3. AMOUNT_OF_TIME
+
+## com.perblue.rpg.game.data.bosspit.BossPitStats$ExtraStats$Col
+Values (5):
+  0. LEVEL
+  1. RARITY
+  2. STARS
+  3. GOLD
+  4. XP
+
+## com.perblue.rpg.game.data.campaign.CampaignStats$CampaignData$Col
+Values (12):
+  0. ENEMY_LEVEL
+  1. ENEMY_STARS
+  2. ENEMY_RARITY
+  3. STAMINA_COST
+  4. IS_MAJOR
+  5. EXP_REWARD
+  6. STAGE_ONE
+  7. STAGE_TWO
+  8. STAGE_THREE
+  9. PRIMARY_LOOT
+  10. SECONDARY_LOOT
+  11. ENVIRONMENT
+
+## com.perblue.rpg.game.data.campaign.CampaignStats$EliteResetStats$Col
+Values (1):
+  0. COST
+
+## com.perblue.rpg.game.data.chest.ChestStats$ChestDisplayStats$Col
+Values (5):
+  0. PRICE_1
+  1. PRICE_10
+  2. CURRENCY
+  3. POSSIBLE_HEROES
+  4. POSSIBLE_LOOT
+
+## com.perblue.rpg.game.data.content.ContentUpdate
+Values (30):
+  0. UNKNOWN
+  1. R1
+  2. R2
+  3. R0_2
+  4. R0_3
+  5. R1_0
+  6. R1_1
+  7. R1_2
+  8. R1_3
+  9. R1_4
+  10. R2_1
+  11. R2_2
+  12. R2_3
+  13. R2_5
+  14. R2_6
+  15. R2_7
+  16. R2_8
+  17. R2_9
+  18. R2_10
+  19. R2_11
+  20. R2_13
+  21. R2_14
+  22. R2_15
+  23. R2_16
+  24. R2_17
+  25. R2_18
+  26. R2_20
+  27. R2_21
+  28. R2_22
+  29. R3
+  field: public static final int BETA_0_2_VERSION
+  field: public static final int BETA_0_3_VERSION
+  field: public static final int NEW_CHEST_SEEDS_VERSION
+  field: public static final int WW_1_0_VERSION
+  field: private static ContentUpdate[] values
+  method: valuesCached() -> ContentUpdate[]
+
+## com.perblue.rpg.game.data.crypt.CryptRaidStats$DifficultyStats$Col
+Values (5):
+  0. LEGION_SCALAR
+  1. COMPLETION_REWARD
+  2. SILVER_SKULL_VALUE
+  3. GOLD_SKULL_VALUE
+  4. SCORE_TO_TOKEN_MULT
+
+## com.perblue.rpg.game.data.crypt.CryptRaidStats$MatchmakingStats$Col
+Values (5):
+  0. BASE_VALUE
+  1. UP_POWER_DELTA
+  2. DOWN_POWER_DELTA
+  3. UP_BACKOFF
+  4. DOWN_BACKOFF
+
+## com.perblue.rpg.game.data.display.VFXUtil$HIT_LOCATION
+Values (3):
+  0. HIT_POS
+  1. EVENT_POS
+  2. UNIT_BASE
+
+## com.perblue.rpg.game.data.expedition.ExpeditionStats$DifficultyStats$Col
+Values (2):
+  0. EXTRA_LEVELS
+  1. GOLD_MULT
+
+## com.perblue.rpg.game.data.expedition.ExpeditionStats$MatchmakingStats$Col
+Values (4):
+  0. UP_POWER_DELTA
+  1. DOWN_POWER_DELTA
+  2. UP_BACKOFF
+  3. DOWN_BACKOFF
+
+## com.perblue.rpg.game.data.expedition.ExpeditionStats$RewardStats$Col
+Values (2):
+  0. GOLD
+  1. NUM_ITEMS
+
+## com.perblue.rpg.game.data.item.CraftingStats$Col
+Values (9):
+  0. CRAFTING_GOLD
+  1. PART1_QUANTITY
+  2. PART1_TYPE
+  3. PART2_QUANTITY
+  4. PART2_TYPE
+  5. PART3_QUANTITY
+  6. PART3_TYPE
+  7. PART4_QUANTITY
+  8. PART4_TYPE
+
+## com.perblue.rpg.game.data.item.GearTicketStats$Col
+Values (1):
+  0. GEAR_TICKET_COST
+
+## com.perblue.rpg.game.data.item.ItemCategory
+Values (9):
+  0. HIDDEN
+  1. GEAR
+  2. MISC
+  3. STONE
+  4. HERO
+  5. REEL
+  6. SHARD
+  7. TRASH
+  8. RUNE
+
+## com.perblue.rpg.game.data.item.StatType
+Values (62):
+  0. CATEGORY
+  1. RARITY
+  2. REQUIRED_LEVEL
+  3. VEND_VALUE
+  4. GOLD_PRICE
+  5. DIAMOND_PRICE
+  6. FIGHT_PIT_TOKEN_PRICE
+  7. ENCHANT_POINTS
+  8. EXP_GIVEN
+  9. CONTENT_UPDATE
+  10. STRENGTH
+  11. INTELLECT
+  12. AGILITY
+  13. MAX_HP
+  14. HP_REGEN
+  15. MAX_ENERGY
+  16. ENERGY_REGEN
+  17. ATTACK_DAMAGE
+  18. MAGIC_POWER
+  19. ARMOR
+  20. MAGIC_RESISTANCE
+  21. ARMOR_PENETRATION
+  22. IGNORE_MAGIC_RESISTANCE
+  23. PHYSICAL_CRIT
+  24. CRIT_DAMAGE_BONUS
+  25. CRIT_DMG_REDUX
+  26. LIFE_STEAL_RATING
+  27. MAGIC_VAMP
+  28. DODGE
+  29. ACCURACY
+  30. ENERGY_WHEN_ATTACKED
+  31. STARTING_ENERGY
+  32. ENERGY_CONSUMPTION_REDUCTION
+  33. ENERGY_GAIN
+  34. IMPROVE_HEALING
+  35. TENACITY
+  36. LONGER_DISABLES
+  37. SKILL_LEVEL
+  38. MOVEMENT_SPEED_MODIFIER
+  39. ATTACK_SPEED_MODIFIER
+  40. COOLDOWN_REDUCTION
+  41. LARGER_SHIELDS
+  42. LONGER_SHIELDS
+  43. BASHING_DMG_AMP
+  44. PIERCING_DMG_AMP
+  45. SLASHING_DMG_AMP
+  46. WATER_DMG_AMP
+  47. NECROTIC_DMG_AMP
+  48. TOXIC_DMG_AMP
+  49. ELECTRICAL_DMG_AMP
+  50. FIRE_DMG_AMP
+  51. HOLY_DMG_AMP
+  52. MAGIC_CRIT
+  53. BASHING_DMG_REDUX
+  54. PIERCING_DMG_REDUX
+  55. SLASHING_DMG_REDUX
+  56. WATER_DMG_REDUX
+  57. NECROTIC_DMG_REDUX
+  58. TOXIC_DMG_REDUX
+  59. ELECTRICAL_DMG_REDUX
+  60. FIRE_DMG_REDUX
+  61. HOLY_DMG_REDUX
+  field: public static final Set PERCENT_VALUED_STATS
+  field: public static final Set UNIT_STATS
+  field: private static StatType[] values
+  method: defaultHide() -> boolean
+  method: getBaseHideValue() -> float
+  method: isCoreStat() -> boolean
+  method: isPercentStat() -> boolean
+  method: valuesCached() -> StatType[]
+
+## com.perblue.rpg.game.data.item.enchanting.EnchantingStats$EnchantingValues
+Values (10):
+  0. NON_ENCHANT_RETURN
+  1. ENCHANT_RETURN
+  2. GREEN_COST_PER_POINT
+  3. BLUE_COST_PER_POINT
+  4. PURPLE_COST_PER_POINT
+  5. ORANGE_COST_PER_POINT
+  6. CYAN_COST_PER_POINT
+  7. RED_COST_PER_POINT
+  8. STAT_INCREASE
+  9. DIAMOND_COST
+
+## com.perblue.rpg.game.data.item.enchanting.EnchantingStats$PointStats$Col
+Values (2):
+  0. POINTS
+  1. REFUND
+
+## com.perblue.rpg.game.data.item.enchanting.EnchantingStats$StatIncreaseStats$Col
+Values (1):
+  0. STAT_INCREASE
+
+## com.perblue.rpg.game.data.item.enchanting.EnchantingStats$ValueStats$Col
+Values (1):
+  0. VALUE
+
+## com.perblue.rpg.game.data.misc.GoldDrop$GoldDropConstants$Col
+Values (1):
+  0. VALUE
+
+## com.perblue.rpg.game.data.misc.GoldDrop$GoldDropConstants$Row
+Values (5):
+  0. ELITE_CAMPAIGN_MULTIPLIER
+  1. BOSS_MULTIPLIER
+  2. CRYPT_RAID_FUNCTION
+  3. TITAN_TEMPLE_MULTIPLIER
+  4. EXPERT_CAMPAIGN_MULTIPLIER
+
+## com.perblue.rpg.game.data.misc.GoldDrop$GoldDropValues$Col
+Values (1):
+  0. VALUE
+
+## com.perblue.rpg.game.data.misc.MerchantStats$CostStats$Col
+Values (1):
+  0. COST
+
+## com.perblue.rpg.game.data.misc.MerchantStats$MerchantConstant
+Values (9):
+  0. FOUND_DURATION
+  1. COOLDOWN_DURATION
+  2. PEDDLER_STAMINA_REQ
+  3. BLACK_MARKET_STAMINA_REQ
+  4. PEDDLER_UNLOCK_COST
+  5. BLACK_MARKET_UNLOCK_COST
+  6. SOULMART_TOKEN_RATE
+  7. OLD_ITEM_DISCOUNT_THRESHOLD
+  8. OLD_ITEM_DISCOUNT_PERCENT
+
+## com.perblue.rpg.game.data.misc.MerchantStats$MerchantConstantStats$Col
+Values (1):
+  0. VALUE
+
+## com.perblue.rpg.game.data.misc.MerchantStats$SoulmartRefreshCostStats$Col
+Values (1):
+  0. COST
+
+## com.perblue.rpg.game.data.misc.MerchantStats$TypeStats$Col
+Values (4):
+  0. INVENTORY_SIZE
+  1. REFRESH_COST_OFFSET
+  2. REFRESH_RESOURCE_TYPE
+  3. REFRESH_TIMES
+
+## com.perblue.rpg.game.data.misc.MidasStats$CritStats$Col
+Values (1):
+  0. CHANCE
+
+## com.perblue.rpg.game.data.misc.MidasStats$ValueStats$Col
+Values (3):
+  0. BASE_GOLD
+  1. TOTAL_GOLD
+  2. COST
+
+## com.perblue.rpg.game.data.misc.QuestStats$Col
+Values (20):
+  0. QUEST_TYPE
+  1. KEY
+  2. SORT_INDEX
+  3. ICON
+  4. BUTTON_ACTION
+  5. REWARD_1
+  6. REWARD_1_QTY
+  7. REWARD_2
+  8. REWARD_2_QTY
+  9. REWARD_3
+  10. REWARD_3_QTY
+  11. PREVIOUS_QUEST
+  12. UNLOCK_REQUIREMENTS
+  13. COMPLETE_REQUIREMENTS
+  14. EXTRA
+  15. CAMPAIGN_TYPE
+  16. CAMPAIGN_CHAPTER
+  17. CAMPAIGN_LEVEL
+  18. GOOGLE_ID
+  19. VALUE
+
+## com.perblue.rpg.game.data.misc.QuestStats$QuestType
+Values (6):
+  0. ACHIEVEMENT
+  1. DAILY_QUEST
+  2. MONTHLY_CARD
+  3. FREE_STAMINA
+  4. LEGENDARY
+  5. MASTERY
+
+## com.perblue.rpg.game.data.misc.QuestStats$RequirementStats$Col
+Values (9):
+  0. PROPERTY
+  1. OPERATION
+  2. VALUE
+  3. EXTRA
+  4. PROGRESS_NUM
+  5. PROGRESS_DENOM
+  6. CAMPAIGN_TYPE
+  7. CAMPAIGN_CHAPTER
+  8. CAMPAIGN_LEVEL
+
+## com.perblue.rpg.game.data.misc.QuestStats$RequirementStats$Operation
+Values (14):
+  0. ZERO
+  1. NOT_ZERO
+  2. EQUAL
+  3. NOT_EQUAL
+  4. GREATER
+  5. GREATER_OR_EQUAL
+  6. LESS_OR_EQUAL
+  7. LESS
+  8. SAME_DAY
+  9. NOT_SAME_DAY
+  10. SAME_EVENT_DAY
+  11. NOT_SAME_EVENT_DAY
+  12. OR
+  13. AND
+  field: private boolean greater
+  field: private boolean less
+  field: private boolean negate
+  field: private int type
+  method: isSatisfied(IUser, long, long) -> boolean
+
+## com.perblue.rpg.game.data.misc.QuestStats$RequirementStats$Property
+Values (53):
+  0. SERVER_TIME
+  1. SERVER_TIME_OF_DAY
+  2. USER_TZ_TIME_OF_DAY
+  3. TEAM_LEVEL
+  4. VIP_LEVEL
+  5. DAILY_USES
+  6. DAILY_CHANCES
+  7. USER_FLAG
+  8. USER_COUNT
+  9. CAMPAIGN_STAGE_WINS
+  10. CAMPAIGN_STAGE_LAST_WIN
+  11. CAMPAIGN_STAGE_BEST_STARS
+  12. CAMPAIGN_STAGE_WINS_AT_BEST_STARS
+  13. QUEST_COMPLETION_COUNT
+  14. QUEST_LAST_COMPLETED
+  15. HIGHEST_HERO_LEVEL
+  16. HERO_COUNT
+  17. HERO_COUNT_AT_RARITY
+  18. HERO_COUNT_AT_STARS
+  19. HERO_COUNT_AT_LEVEL
+  20. ITEM_COUNT
+  21. GUILD_ID
+  22. BOSS_PIT_WINS
+  23. HERO_AT_RARITY
+  24. QUEST_COUNT
+  25. DAILY_QUEST_COUNT
+  26. CONSEC_QUEST_COUNT
+  27. SAC_QUEST_COUNT
+  28. SAC_CONSEC_QUEST_COUNT
+  29. NOT_CONSEC_QUEST_COUNT
+  30. MOON_PHASE
+  31. HERO_COUNT_MAX_ENCHANT
+  32. CHAPTER_COUNT
+  33. MAX_TEAM_LEVEL
+  34. RUNES_UNLOCKED
+  35. TOTAL_POWER
+  36. TOTAL_STARS
+  37. OPENED_CHESTS
+  38. FIGHT_PIT_TIER_AND_DIVISION
+  39. COLISEUM_TIER_AND_DIVISION
+  40. HERO_COUNT_AT_SKILL_LEVEL
+  41. UNIQUE_HERO_AT_LEVEL
+  42. UNIQUE_HERO_AT_STARS
+  43. UNIQUE_HERO_AT_RARITY
+  44. UNIQUE_HERO_AT_SKILL_LEVEL
+  45. UNIQUE_HERO_UNIQUE_SKILL_AT_SKILL_LEVEL
+  46. GAMEMODE_COMPLETION_COUNT
+  47. CONTEST_AVAILABLE
+  48. CONTEST_POINTS
+  49. EXPEDITION_STAGE_COMPLETION_COUNT
+  50. BOSS_BATTLE_WINS
+  51. DEBUG_ONLY
+  52. EXPERT_CHAPTER_COUNT
+
+## com.perblue.rpg.game.data.misc.RaidTicketPurchaseStats$Col
+Values (1):
+  0. COST
+
+## com.perblue.rpg.game.data.misc.StaminaStats$Col
+Values (4):
+  0. COST
+  1. ALTERNATE_COST
+  2. DROP_MULTIPLIER
+  3. DROP_COUNT
+
+## com.perblue.rpg.game.data.misc.SupportLinks$Col
+Values (1):
+  0. VALUE
+
+## com.perblue.rpg.game.data.misc.SupportLinks$SupportLink
+Values (25):
+  0. TUTORIAL_EMAIL_ADDRESS
+  1. TUTORIAL_EMAIL_SUBJECT
+  2. RECOVERY_EMAIL_ADDRESS
+  3. RECOVERY_EMAIL_SUBJECT
+  4. PAYMENT_EMAIL_ADDRESS
+  5. PAYMENT_EMAIL_SUBJECT
+  6. OTHER_EMAIL_ADDRESS
+  7. OTHER_EMAIL_SUBJECT
+  8. COMMUNITY_URL
+  9. WHATS_NEW_URL
+  10. FAQ_URL
+  11. USER_VOICE_BUGS_FORUM
+  12. USER_VOICE_IDEAS_FORUM
+  13. USER_VOICE_URL
+  14. FACEBOOK_HOMEPAGE_URL
+  15. FACEBOOK_PAGE_ID
+  16. REPORT_VIOLATION_EMAIL
+  17. REPORT_VIOLATION_SUBJECT
+  18. WAR_GUIDE
+  19. RUNE_GUIDE
+  20. DISCOURSE_AUTH_URL
+  21. DISCOURSE_NEWS_AND_FEEDBACK
+  22. DISCOURSE_COMMUNITY
+  23. LOST_ACCOUNT_FAQ
+  24. DISCOURSE_SHARE_IDEA
+
+## com.perblue.rpg.game.data.misc.TeamLevelStats$Col
+Values (5):
+  0. EXP_TO_NEXT_LEVEL
+  1. MAX_HERO_LEVEL
+  2. MAX_STAMINA
+  3. STAMINA_GAIN_ON_LEVEL
+  4. POOL_EXP_PER_STAMINA
+
+## com.perblue.rpg.game.data.misc.Unlockable
+Values (165):
+  0. CHAPTER_2
+  1. CHAPTER_3
+  2. CHAPTER_4
+  3. CHAPTER_5
+  4. CHAPTER_6
+  5. CHAPTER_7
+  6. CHAPTER_8
+  7. CHAPTER_9
+  8. CHAPTER_10
+  9. CHAPTER_11
+  10. CHAPTER_12
+  11. CHAPTER_13
+  12. CHAPTER_14
+  13. CHAPTER_15
+  14. CHAPTER_16
+  15. CHAPTER_17
+  16. CHAPTER_18
+  17. CHAPTER_19
+  18. CHAPTER_20
+  19. CHAPTER_21
+  20. CHAPTER_22
+  21. CHAPTER_23
+  22. CHAPTER_24
+  23. CHAPTER_25
+  24. CHAPTER_26
+  25. CHAPTER_27
+  26. CHAPTER_28
+  27. CHAPTER_29
+  28. POWER_UPGRADE
+  29. FIGHT_PIT
+  30. ELITE_CAMPAIGN
+  31. EXPERT_CAMPAIGN
+  32. ALCHEMY
+  33. ENCHANTING
+  34. WORLD_CHANNEL
+  35. CHALLENGES
+  36. CHALLENGES_2
+  37. CHALLENGES_3
+  38. CHALLENGES_4
+  39. CHALLENGES_5
+  40. CHALLENGES_6
+  41. CHALLENGES_7
+  42. CHALLENGES_8
+  43. CHALLENGES_9
+  44. CHALLENGES_10
+  45. CHALLENGES_11
+  46. CHALLENGES_12
+  47. CHALLENGES_13
+  48. CHALLENGES_14
+  49. CHALLENGES_15
+  50. CHALLENGES_16
+  51. CHALLENGES_17
+  52. CHALLENGES_18
+  53. CHALLENGES_19
+  54. CHALLENGES_20
+  55. CHALLENGES_21
+  56. CHALLENGES_22
+  57. EXPEDITION
+  58. PEDDLER
+  59. GUILDS
+  60. BLACK_MARKET
+  61. BAZAAR
+  62. TREASURE_CRYPT
+  63. THE_MOUNTAIN
+  64. THE_MOUNTAIN_2
+  65. THE_MOUNTAIN_3
+  66. THE_MOUNTAIN_4
+  67. THE_MOUNTAIN_5
+  68. THE_MOUNTAIN_6
+  69. THE_MOUNTAIN_7
+  70. THE_MOUNTAIN_8
+  71. THE_MOUNTAIN_9
+  72. THE_MOUNTAIN_10
+  73. THE_MOUNTAIN_11
+  74. THE_MOUNTAIN_12
+  75. THE_MOUNTAIN_13
+  76. THE_MOUNTAIN_14
+  77. THE_MOUNTAIN_15
+  78. THE_MOUNTAIN_16
+  79. THE_MOUNTAIN_17
+  80. THE_MOUNTAIN_18
+  81. THE_MOUNTAIN_19
+  82. THE_MOUNTAIN_20
+  83. THE_MOUNTAIN_21
+  84. THE_MOUNTAIN_22
+  85. COLISEUM
+  86. TRADER
+  87. RANKINGS
+  88. CRYPT_RAID
+  89. TITAN_TEMPLE
+  90. BOSS_PIT
+  91. BOSS_PIT_EVIL_WIZARD_1
+  92. BOSS_PIT_EVIL_WIZARD_2
+  93. BOSS_PIT_EVIL_WIZARD_3
+  94. BOSS_PIT_EVIL_WIZARD_4
+  95. BOSS_PIT_EVIL_WIZARD_5
+  96. BOSS_PIT_EVIL_WIZARD_6
+  97. BOSS_PIT_EVIL_WIZARD_7
+  98. BOSS_PIT_EVIL_WIZARD_8
+  99. BOSS_PIT_EVIL_WIZARD_9
+  100. BOSS_PIT_EVIL_WIZARD_10
+  101. BOSS_PIT_EVIL_WIZARD_11
+  102. BOSS_PIT_EVIL_WIZARD_12
+  103. BOSS_PIT_EVIL_WIZARD_13
+  104. BOSS_PIT_EVIL_WIZARD_14
+  105. BOSS_PIT_EVIL_WIZARD_15
+  106. BOSS_PIT_EVIL_WIZARD_16
+  107. BOSS_PIT_EVIL_WIZARD_17
+  108. BOSS_PIT_EVIL_WIZARD_18
+  109. BOSS_PIT_EVIL_WIZARD_19
+  110. BOSS_PIT_GIANT_PLANT_1
+  111. BOSS_PIT_GIANT_PLANT_2
+  112. BOSS_PIT_GIANT_PLANT_3
+  113. BOSS_PIT_GIANT_PLANT_4
+  114. BOSS_PIT_GIANT_PLANT_5
+  115. BOSS_PIT_GIANT_PLANT_6
+  116. BOSS_PIT_GIANT_PLANT_7
+  117. BOSS_PIT_GIANT_PLANT_8
+  118. BOSS_PIT_GIANT_PLANT_9
+  119. BOSS_PIT_GIANT_PLANT_10
+  120. BOSS_PIT_GIANT_PLANT_11
+  121. BOSS_PIT_GIANT_PLANT_12
+  122. BOSS_PIT_GIANT_PLANT_13
+  123. BOSS_PIT_GIANT_PLANT_14
+  124. BOSS_PIT_GIANT_PLANT_15
+  125. BOSS_PIT_GIANT_PLANT_16
+  126. BOSS_PIT_GIANT_PLANT_17
+  127. BOSS_PIT_GIANT_PLANT_18
+  128. BOSS_PIT_GIANT_PLANT_19
+  129. BOSS_PIT_GOLD_COLOSSUS_1
+  130. BOSS_PIT_GOLD_COLOSSUS_2
+  131. BOSS_PIT_GOLD_COLOSSUS_3
+  132. BOSS_PIT_GOLD_COLOSSUS_4
+  133. BOSS_PIT_GOLD_COLOSSUS_5
+  134. BOSS_PIT_GOLD_COLOSSUS_6
+  135. BOSS_PIT_GOLD_COLOSSUS_7
+  136. BOSS_PIT_GOLD_COLOSSUS_8
+  137. BOSS_PIT_GOLD_COLOSSUS_9
+  138. BOSS_PIT_GOLD_COLOSSUS_10
+  139. BOSS_PIT_GOLD_COLOSSUS_11
+  140. BOSS_PIT_GOLD_COLOSSUS_12
+  141. BOSS_PIT_GOLD_COLOSSUS_13
+  142. BOSS_PIT_GOLD_COLOSSUS_14
+  143. BOSS_PIT_GOLD_COLOSSUS_15
+  144. BOSS_PIT_GOLD_COLOSSUS_16
+  145. BOSS_PIT_GOLD_COLOSSUS_17
+  146. BOSS_PIT_GOLD_COLOSSUS_18
+  147. BOSS_PIT_GOLD_COLOSSUS_19
+  148. SOULMART
+  149. GUILD_WAR
+  150. RUNES
+  151. FAST_FORWARD
+  152. SKINS
+  153. ADVANCED_TAGS
+  154. PURPLE_CHEST
+  155. ORANGE_CHEST
+  156. FIGHT_PIT_QUICK_ATTACK
+  157. CRYPT_RAID_QUICK_ATTACK
+  158. EXPEDITION_QUICK_ATTACK
+  159. TITAN_TEMPLE_QUICK_ATTACK
+  160. COLISEUM_QUICK_ATTACK
+  161. GUILD_WAR_QUICK_ATTACK
+  162. BOSS_BATTLE
+  163. PURCHASE
+  164. SERVICE_OPEN
+  field: private static Unlockable[] values
+  method: getUnlockableForBossPit(UnitType, ModeDifficulty) -> Unlockable
+  method: getUnlockableForChapter(int) -> Unlockable
+  method: getUnlockableForChests(ChestType) -> Unlockable
+  method: getUnlockableForGameMode(GameMode, ModeDifficulty) -> Unlockable
+  method: getChapterIndex() -> int
+  method: getUnlockables(int, int) -> Set
+  method: isCampaign() -> boolean
+  method: isFeature() -> boolean
+  method: valuesCached() -> Unlockable[]
+  method: isHidden() -> boolean
+
+## com.perblue.rpg.game.data.misc.Unlockables$Col
+Values (1):
+  0. TEAM_LEVEL_REQ
+
+## com.perblue.rpg.game.data.misc.UserValue
+Values (69):
+  0. PRIMARY_LOOT_FUNC
+  1. SECONDARY_LOOT_FUNC
+  2. LOOT_MEMORY_FUNC
+  3. RAID_TICKET_LOOT_FUNCTION
+  4. RAID_TICKET_LOOT_MEM_FUNCTION
+  5. FIRST_WIN_MAJOR_STAGE_LOOT_MULT
+  6. FIRST_WIN_MINOR_STAGE_LOOT_MULT
+  7. SS_PRIME_LOOT
+  8. SS_PRIME_LOOT_MEM
+  9. WHITE_PRIME_LOOT
+  10. WHITE_PRIME_LOOT_MEM
+  11. GREEN_PRIME_LOOT
+  12. GREEN_PRIME_LOOT_MEM
+  13. BLUE_PRIME_LOOT
+  14. BLUE_PRIME_LOOT_MEM
+  15. PURPLE_PRIME_LOOT
+  16. PURPLE_PRIME_LOOT_MEM
+  17. SS_SECOND_LOOT
+  18. WHITE_SECOND_LOOT
+  19. GREEN_SECOND_LOOT
+  20. BLUE_SECOND_LOOT
+  21. PURPLE_SECOND_LOOT
+  22. MIN_CHAPTER_FOR_ELITE
+  23. FIGHT_PIT_CONTENT_UPDATE_LOCK
+  24. CRYPT_RECOMMENDED_POWER_SCALAR
+  25. MIN_STONE_FOR_10X_GOLD_CHEST
+  26. CAMPAIGN_LOOT_LIMIT
+  27. BLOCKED_LIST_LIMIT
+  28. THOUGHT_BUBBLE_MIN_LEVEL
+  29. THOUGHT_BUBBLE_PROBABILITY
+  30. MAX_RARITY
+  31. EXP_DECANTER_CHANCE
+  32. EXP_FLASK_CHANCE
+  33. EXP_PHILTER_CHANCE
+  34. EXP_VIAL_CHANCE
+  35. BOSS_PIT_ATTEMPTS
+  36. PROMO_CODE_ENABLED
+  37. COLISEUM_THREE_ATTACKS
+  38. ORANGE_PRIME_LOOT
+  39. ORANGE_PRIME_LOOT_MEM
+  40. ORANGE_SECOND_LOOT
+  41. CHAT_APP_BUTTON
+  42. CHAT_APP_IMAGE_LINK
+  43. CHAT_APP_UPSELL
+  44. PM_ROOM_LIMIT
+  45. FRIEND_LIMIT
+  46. SYMMETRIC_LOOT
+  47. SYMMETRIC_LOOT_MEM
+  48. ALLOWED_UNACKNOWLEDGED_CHESTS
+  49. TIME_ZONE_CHANGE_INTERVAL
+  50. STAMINA_GENERATION_INTERVAL
+  51. SKILL_POINT_GENERATION_INTERVAL
+  52. GOLD_CHEST_GENERATION_INTERVAL
+  53. SOUL_CHEST_GENERATION_INTERVAL
+  54. PURPLE_CHEST_GENERATION_INTERVAL
+  55. ORANGE_CHEST_GENERATION_INTERVAL
+  56. PURPLE_CHEST_ENABLED
+  57. ORANGE_CHEST_ENABLED
+  58. SECOND_GOLD_CHEST_GENERATION_INTERVAL
+  59. STAMINA_HARD_CAP
+  60. STAMINA_PURCHASE_AMOUNT
+  61. SKILL_POINT_PURCHASE_AMOUNT
+  62. STONE_SHRINE_GENERATION_INTERVAL
+  63. CRYSTAL_SHRINE_GENERATION_INTERVAL
+  64. STONE_SHRINE_ROLL_CAPACITY
+  65. CRYSTAL_SHRINE_ROLL_CAPACITY
+  66. RAID_TICKETS_PURCHASE_AMOUNT
+  67. QUICK_ATTACK_ENABLED
+  68. QUICK_ATTACK_PLAY_SPEED
+
+## com.perblue.rpg.game.data.misc.UserValues$Col
+Values (1):
+  0. VALUE
+
+## com.perblue.rpg.game.data.misc.VIPFeature
+Values (55):
+  0. VIP_TICKETS
+  1. EXPEDITION_RUN
+  2. USE_RAID_TICKETS
+  3. BONUS_DIAMOND_PERCENT
+  4. RAID_TICKETS
+  5. STAMINA_PURCHASE
+  6. ALCHEMY
+  7. RUNICITE_ALCHEMY
+  8. REFILL_POWER_POINTS
+  9. ELITE_RESET
+  10. FAST_FORWARD
+  11. FIGHT_PIT_RESET
+  12. COLISEUM_RESET
+  13. CLEAR_FIGHT_PIT_COOLDOWN
+  14. CLEAR_COLISEUM_COOLDOWN
+  15. RAID_10
+  16. VIP_CHAT
+  17. RAID_CHALLENGES
+  18. RAID_MOUNTAIN
+  19. POWER_POINTS
+  20. SILVER_CHEST_GENERATION
+  21. CHALLENGES_COOLDOWN
+  22. MOUNTAIN_COOLDOWN
+  23. GUILD_COIN_BONUS
+  24. GUILD_RAID_GOLD_MULT
+  25. TEMPLE_TOKEN_MULT
+  26. ENCHANT_MAX
+  27. WAR_TOKEN_BONUS
+  28. PEDDLER_PERM
+  29. EXPEDITION_TOKEN_BONUS
+  30. EXPEDITION_GOLD_BONUS
+  31. SOUL_CHEST
+  32. BLACK_MARKET_PERM
+  33. BOSS_PIT_BETTER_REWARDS
+  34. MERCENARY_HALL_HEROES
+  35. SOULMART_RESETS
+  36. RAID_BOSS_PIT
+  37. BOSS_PIT_RUNS
+  38. ARENA_BATTLES_PER_RESET
+  39. FREE_MERCHANT_RESETS
+  40. EXTRA_STAMINA_CAP
+  41. EXTRA_FREE_STAMINA
+  42. STAMINA_HOURS
+  43. DOUBLE_RUNE_OFFERING_CHANCE
+  44. FREE_RUNE_REMOVALS
+  45. SIGN_IN_MULTIPLIER
+  46. MOUNTAIN_RESETS
+  47. CHALLENGE_RESETS
+  48. EXTRA_WAR_PICK_REWARDS
+  49. WEEKLY_FREE_ITEMS
+  50. RAID_TICKET_PURCHASE_LIMIT
+  51. MAX_LEVEL_FROM_XP
+  52. BOOTY_CAVES
+  53. GUILD_ADMIRATION
+  54. DIAMONDS_ADMIRATION
+  method: isEverFeature() -> boolean
+  method: isNewFeature(int) -> boolean
+  method: isEverPerk() -> boolean
+  method: shouldHide(IUser) -> boolean
+
+## com.perblue.rpg.game.data.rune.RuneStats$BonusFunction
+Values (3):
+  0. ADD
+  1. MULTIPLY
+  2. PERCENT
+
+## com.perblue.rpg.game.data.rune.RuneStats$RuneBonusStats$Col
+Values (6):
+  0. IS_GROWTH
+  1. MAJOR_BONUS
+  2. BONUS_FUNCTION
+  3. PRIMARY
+  4. SECONDARY
+  5. TERTIARY
+
+## com.perblue.rpg.game.data.rune.RuneStats$RuneConstant
+Values (9):
+  0. EMPOWER_ODDS
+  1. EMPOWER_ODDS_MEM
+  2. FIRST_SLOT_OFFERING_CHAPTER
+  3. HERO_LEVEL_REQ
+  4. SHARDS_IGNORING_HERO_LEVEL_REQS
+  5. FUSION_UNLOCK_RUNE_LEVEL
+  6. EMPOWER_MULTIPLE_UNLOCK_RUNE_LEVEL
+  7. SERVERS_WITH_5_STAR_RUNE_MAX
+  8. SERVERS_WITH_12_ENCHANT_MAX
+  field: private Class clazz
+  method: getConstantType() -> Class
+
+## com.perblue.rpg.game.data.rune.RuneStats$RuneConstants$Col
+Values (1):
+  0. Value
+
+## com.perblue.rpg.game.data.rune.RuneStats$RuneHeroKeystones$Col
+Values (3):
+  0. HERO
+  1. BONUS
+  2. MAGNITUDE
+
+## com.perblue.rpg.game.data.rune.RuneStats$RuneHeroRecommendedSetStats$Col
+Values (1):
+  0. SETS
+
+## com.perblue.rpg.game.data.rune.RuneStats$RuneOfferingPackageStats$Col
+Values (1):
+  0. COST
+
+## com.perblue.rpg.game.data.rune.RuneStats$RuneRarityStats$Col
+Values (2):
+  0. LEVEL
+  1. BONUSES
+
+## com.perblue.rpg.game.data.rune.RuneStats$RuneSetStats$Col
+Values (7):
+  0. RUNE_SET_EFFECT
+  1. SET_SIZE
+  2. BONUS_FUNCTION
+  3. MAGNITUDE
+  4. MIN_TEAM_LEVEL
+  5. CONTENT_UPDATE
+  6. SHARDS_IGNORING_TL_CU
+
+## com.perblue.rpg.game.data.rune.RuneStats$RuneShrineStats$Col
+Values (1):
+  0. DIAMOND_COST
+
+## com.perblue.rpg.game.data.rune.RuneStats$RuneStarStats$Col
+Values (3):
+  0. UNEQUIP_COST
+  1. FUSION_POINT_COST
+  2. FUSION_POINT_VALUE
+
+## com.perblue.rpg.game.data.rune.RuneStats$RuniciteCritStats$Col
+Values (1):
+  0. CHANCE
+
+## com.perblue.rpg.game.data.rune.RuneStats$RuniciteMidasStats$Col
+Values (3):
+  0. BASE_RUNICITE
+  1. TOTAL_RUNICITE
+  2. COST
+
+## com.perblue.rpg.game.data.sound.SoundData$SoundType
+Values (3):
+  0. NORMAL
+  1. SPLASH
+  2. DOT
+
+## com.perblue.rpg.game.data.titantemple.TitanTempleStats$Constant
+Values (1):
+  0. LEVELS_PER_WIN
+  field: private int value
+
+## com.perblue.rpg.game.data.titantemple.TitanTempleStats$EnemyLevelStats$Col
+Values (2):
+  0. STARS
+  1. RARITY
+
+## com.perblue.rpg.game.data.titantemple.TitanTempleStats$WinStreakStats$Col
+Values (2):
+  0. DROPS
+  1. TOKENS
+
+## com.perblue.rpg.game.data.tutorial.TutorialStats$Col
+Values (4):
+  0. PHASE
+  1. SIDE
+  2. STARS
+  3. LEVEL
+
+## com.perblue.rpg.game.data.tutorial.TutorialStats$Side
+Values (2):
+  0. PLAYER
+  1. AI
+
+## com.perblue.rpg.game.data.unit.BaseUnitStats$Col
+Values (3):
+  0. STRENGTH
+  1. INTELLECT
+  2. AGILITY
+
+## com.perblue.rpg.game.data.unit.GeneralUnitStats$Col
+Values (19):
+  0. STARTING_STARS
+  1. SECTION
+  2. SUB_SECTION
+  3. STRENGTH
+  4. INTELLECT
+  5. AGILITY
+  6. MAX_HP
+  7. ATTACK_DAMAGE
+  8. MAGIC_POWER
+  9. ARMOR
+  10. MAGIC_RESISTANCE
+  11. PHYSICAL_CRIT
+  12. ACCURACY
+  13. IS_HERO
+  14. CORE_STAT
+  15. ROLE
+  16. VERTICAL_SORTING
+  17. STARTING_SKILLS
+  18. TAGS
+
+## com.perblue.rpg.game.data.unit.ProjectileStats$Col
+Values (6):
+  0. MIN_LAUNCH_SPEED
+  1. MAX_LAUNCH_SPEED
+  2. MIN_LAUNCH_ANGLE
+  3. MAX_LAUNCH_ANGLE
+  4. GRAVITY
+  5. HOMING
+
+## com.perblue.rpg.game.data.unit.UnitStats$CoreStats$Col
+Values (2):
+  0. STAT
+  1. MAX_VALUE
+
+## com.perblue.rpg.game.data.unit.UnitStats$HeroEXPStats$Col
+Values (1):
+  0. EXP
+
+## com.perblue.rpg.game.data.unit.UnitStats$HeroStoneStats$Col
+Values (3):
+  0. STONES
+  1. EVOLVE_COST
+  2. UNLOCK_COST
+
+## com.perblue.rpg.game.data.unit.UnitStats$NpcGrowthStats$Col
+Values (6):
+  0. STRENGTH
+  1. INTELLECT
+  2. AGILITY
+  3. ACCURACY
+  4. DODGE
+  5. LIFE_STEAL_RATING
+
+## com.perblue.rpg.game.data.unit.UnitStats$PowerStats$Col
+Values (1):
+  0. POWER
+
+## com.perblue.rpg.game.data.unit.UnitStats$PromotionStats$Col
+Values (3):
+  0. STRENGTH
+  1. INTELLECT
+  2. AGILITY
+
+## com.perblue.rpg.game.data.unit.skill.BaseSkillsStats$Col
+Values (0):
+
+## com.perblue.rpg.game.data.unit.skill.GeneralSkillStats$Col
+Values (18):
+  0. UNIT
+  1. RARITY
+  2. CATEGORY
+  3. VISUAL_DURATION
+  4. DURATION
+  5. COOLDOWN
+  6. INIT_COOLDOWN
+  7. PRIORITY
+  8. TRIGGER_RANGE
+  9. CAST_RANGE
+  10. SPLASH_RANGE
+  11. MISC_RANGE
+  12. DAMAGE_TYPE
+  13. DAMAGE_SUB_TYPE
+  14. TAGS
+  15. PROJECTILE_TYPE
+  16. ENERGY_GAIN
+  17. TARGET_TAG
+
+## com.perblue.rpg.game.data.unit.skill.SkillStats$CombatStats$Col
+Values (1):
+  0. VALUE
+
+## com.perblue.rpg.game.data.unit.skill.SkillStats$CombatStats$Row
+Values (1):
+  0. HP_PERCENT_TO_STAGGER
+
+## com.perblue.rpg.game.data.unit.skill.SkillStats$PowerStats$Col
+Values (2):
+  0. POWER_PER_POINT
+  1. UNLOCK_POWER
+
+## com.perblue.rpg.game.data.unit.skill.SkillStats$PurchaseCostStats$Col
+Values (1):
+  0. COST
+
+## com.perblue.rpg.game.data.unit.skill.SkillStats$SkillDynamicStats$Col
+Values (5):
+  0. STAT_X
+  1. STAT_Y
+  2. STAT_Z
+  3. STAT_W
+  4. EFFECT_DURATION
+
+## com.perblue.rpg.game.data.war.GuildWarStats$ContributionRewardSaclars$Col
+Values (1):
+  0. Scalar
+
+## com.perblue.rpg.game.data.war.GuildWarStats$GuildWarConstant
+Values (31):
+  0. BATTLE_ATK_WIN_WAR_TOKENS
+  1. BATTLE_ATK_LOSS_WAR_TOKENS
+  2. BATTLE_DEF_WIN_WAR_TOKENS
+  3. BATTLE_DEF_LOSS_WAR_TOKENS
+  4. FITNESS_DEFENSE_PENALTY
+  5. MAX_DEFENSIVE_BATTLES
+  6. MMR_SEARCH_INITIAL_RANGE
+  7. MMR_SEARCH_BACKOFF
+  8. MMR_SCALAR
+  9. MMR_K
+  10. INITIAL_MMR
+  11. BATTLE_WIN_STREAK_COUNT
+  12. BATTLE_WIN_STREAK_REWARD
+  13. BATTLE_WIN_STREAK_MAX_MMR
+  14. MMR_DECAY_THRESHOLD
+  15. MMR_DECAY_RATE
+  16. MAX_WAR_TICKET_STORAGE
+  17. ATTACKS_PER_BATTLE
+  18. MAX_BATTLES_PER_WAR
+  19. MIN_ELIGIBLE_MEMBERS
+  20. HANDICAP_SIZE
+  21. VICTORY_TARGET
+  22. BATTLE_GOLD_REWARD
+  23. SURRENDER_DISABLE_TIME
+  24. RECOMMENDED_POWER_SCALAR
+  25. MEMBER_DROP_KICK_THRESHOLD
+  26. TOP_LINEUP_BONUS_PERCENT
+  27. TOP_LINEUP_BONUS_AMOUNT
+  28. RETRIES_PER_ATTACK
+  29. RANK_MATCHMAKING_THRESHOLD
+  30. OPT_OUT_COOLDOWN_MINUTES
+
+## com.perblue.rpg.game.data.war.GuildWarStats$GuildWarConstants$Col
+Values (1):
+  0. Value
+
+## com.perblue.rpg.game.data.war.GuildWarStats$GuildWarFightStats$Col
+Values (5):
+  0. BATTLE_POINTS
+  1. ATK_WIN_GOLD
+  2. ATK_WIN_CONTRIB
+  3. ATK_LOSS_CONTRIB
+  4. DEF_SURVIVE_CONTRIB
+
+## com.perblue.rpg.game.data.war.GuildWarStats$GuildWarRewards$Col
+Values (8):
+  0. ICON
+  1. LOWEST_RANK
+  2. INTERPOLATE_TOKENS
+  3. MAX_TOKENS
+  4. PICK_A
+  5. PICK_B
+  6. PICK_C
+  7. PICK_D
+
+## com.perblue.rpg.game.data.war.GuildWarStats$PickRewardAmounts$Col
+Values (1):
+  0. NumPicks
+
+## com.perblue.rpg.game.data.war.GuildWarStats$WarModifierSetStats$Col
+Values (1):
+  0. MODIFIERS
+
+## com.perblue.rpg.game.data.war.GuildWarStats$WarModifierStats$Col
+Values (9):
+  0. EFFECT_UNIT
+  1. EFFECT
+  2. EFFECT_TYPE
+  3. EFFECT_AMOUNT
+  4. EFFECT_DURATION
+  5. ICON_TAG
+  6. ATTACKER_COLOR
+  7. DEFENDER_COLOR
+  8. EFFECT_TAGS
+
+## com.perblue.rpg.game.data.war.StatEffectType
+Values (4):
+  0. PERCENT
+  1. FLAT
+  2. GROWTH
+  3. SET
+
+## com.perblue.rpg.game.data.war.TagColor
+Values (3):
+  0. WHITE
+  1. GREEN
+  2. RED
+
+## com.perblue.rpg.game.data.war.WarModifierSetType
+Values (22):
+  0. NONE
+  1. RIP
+  2. DRAGON_WAGON
+  3. HORROR_FLICK_SPECIAL
+  4. SHARP_OBJECTS
+  5. LEVEL_1
+  6. BORING_ARGUMENT
+  7. THE_HUNT
+  8. ARMOR_UP
+  9. AN_APPLE_A_DAY
+  10. POMPEII
+  11. TOP_DRAGONSOUL_CHEF
+  12. RAINY_DAY
+  13. IRON_ARMOR
+  14. CLEAN_ENERGY
+  15. STEROIDS
+  16. POINTY_THINGS
+  17. HIGH_NOON
+  18. THRIFT_SHOP
+  19. WISDOM_KILLS
+  20. BRAINS_OVER_BRAWN
+  21. TOXIC_DARTS
+
+## com.perblue.rpg.game.data.war.WarModifierType
+Values (41):
+  0. IRON_PROTECTION
+  1. ENHANCED_CONDUCTIVITY
+  2. ARMOR_PIERCER
+  3. UNFOCUSED
+  4. BLACK_DEATH
+  5. THROMBOCYTOPENIA
+  6. SUNNY_DAY
+  7. OLD_AMMO
+  8. ACHILLES_HEEL
+  9. FRIED_UP
+  10. SLICE_AND_DICE
+  11. TENDER_MEAT
+  12. NO_PAIN_NO_GAIN
+  13. JUICED
+  14. BOOK_OF_DRAGONS
+  15. DRAGON_SLAYER
+  16. MASTER_OF_THE_SEA
+  17. PACIFIST
+  18. LONG_DAY
+  19. POT_SMASH
+  20. VAMPIRESOUL
+  21. CHAIN_MAIL
+  22. SLASHER
+  23. DULL_POINT
+  24. PIERCED_TONGUE
+  25. HYDRATION
+  26. DRUGS
+  27. STEALBACK
+  28. TAMER_OF_FIRE
+  29. BOOK_OF_TESLA
+  30. MASTER_OF_DEATH
+  31. BRAINS_OVER_BRAWN
+  32. TOXIC_DARTS
+  33. HEAVY_AMMO
+  34. QUICK_DRAW
+  35. EASY_PICKINGS
+  36. FAITH
+  37. NOOBS
+  38. DUMB_PROTAGONISTS
+  39. XL_OUT_OF_STOCK
+  40. SMART_SHOPPERS
+
+## com.perblue.rpg.game.event.SkillStatusChangeEvent$SkillStatusChangeType
+Values (6):
+  0. ACTIVATED
+  1. TITAN_ACTIVATION
+  2. ANIMATION_EVENT
+  3. SPECIAL_EVENT
+  4. CANCELLED
+  5. COMPLETED
+
+## com.perblue.rpg.game.logic.BossBattleCampaignHelper$BossBattleAdvanceType
+Values (1):
+  0. FREE
+
+## com.perblue.rpg.game.logic.BossBattleCampaignHelper$BossBattleResetType
+Values (3):
+  0. PAID
+  1. ITEM
+  2. FREE
+
+## com.perblue.rpg.game.logic.BossBattleCampaignHelper$CampaignLevelLockStatusType
+Values (2):
+  0. PREVIOUS_LEVEL_NOT_COMPLETE
+  1. UNLOCKED
+
+## com.perblue.rpg.game.logic.CampaignHelper$CampaignLevelLockStatusType
+Values (7):
+  0. TEAM_LEVEL_NOT_HIGH_ENOUGH
+  1. ELITE_CAMPAIGN_LOCKED
+  2. EXPERT_CAMPAIGN_LOCKED
+  3. NORMAL_CHAPTER_NOT_COMPLETE
+  4. ELITE_CHAPTER_NOT_COMPLETE
+  5. PREVIOUS_LEVEL_NOT_COMPLETE
+  6. UNLOCKED
+
+## com.perblue.rpg.game.logic.ExpeditionHelper$ExpeditionStringType
+Values (8):
+  0. NAME
+  1. AVAILABLE
+  2. INFO
+  3. LOCKED_INFO
+  4. UNLOCK_ERROR
+  5. ONLY_ON_RESET_ERROR
+  6. REWARDS
+  7. GOLD_TOTAL
+  field: private final String postfix
+  method: getIdentifier(int) -> String
+
+## com.perblue.rpg.game.logic.GuildHelper$GuildPermission
+Values (15):
+  0. PROMOTE_LOWER
+  1. DEMOTE_LOWER
+  2. CLAIM_LEADER
+  3. KICK_LOWER
+  4. ACCEPT_NEW_MEMBER
+  5. EDIT_DESCRIPTION
+  6. EDIT_EMBLEM
+  7. EDIT_ALL
+  8. MAKE_LEADER
+  9. EDIT_GUILD_WALL
+  10. EDIT_CRYPT_DIFFICULTY
+  11. MANAGE_WAR
+  12. SURRENDER_OR_FINISH_WAR
+  13. DELETE_GUILD_WALL_POSTS
+  14. CHANGE_WAR_MEMBERS
+
+## com.perblue.rpg.game.logic.HeroHelper$GearState
+Values (8):
+  0. READY_TO_EQUIP
+  1. CRAFT_TO_EQUIP
+  2. TOO_LOW_LEVEL_EQUIP
+  3. TOO_LOW_LEVEL_CRAFT
+  4. DONT_HAVE
+  5. CANT_HAVE
+  6. EQUIPPED
+  7. UNRELEASED
+
+## com.perblue.rpg.game.logic.LapsedCatchUpHelper$CatchUpPeriod
+Values (3):
+  0. FIVE_DAY
+  1. TEN_DAY
+  2. FIFTEEN_DAY
+  field: public static final long DURATION
+  field: private final String description
+  field: private final int staminaPacks
+  field: private final long startInterval
+  method: getStaminaPacks() -> int
+  method: getByTime(long) -> CatchUpPeriod
+  method: getDescription() -> String
+  method: contains(long) -> boolean
+
+## com.perblue.rpg.game.logic.LegendaryQuestType
+Values (19):
+  0. BASIC_SINGLE_DAY
+  1. SACRIFICE_RESOURCES
+  2. SACRIFICE_ITEMS
+  3. SACRIFICE_ITEM_CONSECUTIVE
+  4. WIN_FIGHT_PIT
+  5. WIN_COLISEUM
+  6. WIN_BOSS_PIT
+  7. WIN_ELITE_NODE
+  8. WIN_FIGHT_PIT_CONSECUTIVE
+  9. WIN_COLISEUM_CONSECUTIVE
+  10. TITAN_KILLS
+  11. HERO_ABSTINENCE
+  12. FULL_MOON
+  13. WIN_HARD_EXPEDITION_BATTLE
+  14. BUY_MERCHANT_ITEMS
+  15. OPEN_CHESTS
+  16. CHAT_CONSECUTIVE
+  17. ENCHANT_HEROES
+  18. QUARTER_MOON
+
+## com.perblue.rpg.game.logic.MerchantHelper$MerchantRefreshType
+Values (4):
+  0. AUTO
+  1. PAID
+  2. ITEM
+  3. VIP
+
+## com.perblue.rpg.game.logic.SpecialEventsHelper$MultiplierType
+Values (8):
+  0. STAMINA_PURCHASE_COST
+  1. ALCHEMY_COST
+  2. RUNICITE_ALCHEMY_COST
+  3. RUNE_OFFERING_PACKAGE_COST
+  4. RUNE_REMOVAL_COST
+  5. BONUS_STAMINA
+  6. BONUS_ALCHEMY
+  7. BONUS_RUNICITE_ALCHEMY
+
+## com.perblue.rpg.game.logic.UpperLimit$UpperLimitType
+Values (3):
+  0. NOT_OVER_LIMIT
+  1. OVER_LIMIT
+  2. ALREADY_OVER_LIMIT
+
+## com.perblue.rpg.game.objects.EnvEntityType
+Values (59):
+  0. SNAKE
+  1. FISH
+  2. PIE
+  3. CHICKEN
+  4. JELLO
+  5. SMOKE_TEST_RL
+  6. SMOKE_TEST_LR
+  7. ZOMBIE_ORGAN
+  8. ZOMBIE_ORGAN_SKIN_DIGITAL
+  9. SHADOW_ASSASSIN_SHADOW
+  10. SHADOW_ASSASSIN_SHADOW_SKIN_WATCH
+  11. SPOTLIGHT
+  12. GIANT_PLANT
+  13. COLOSSUS_FLAG
+  14. COLOSSUS_GOLD_PILE
+  15. STORM_DRAGON_TWISTER
+  16. UNICORGI_RAINBOW
+  17. GENIE_GOAT
+  18. SNIPER_WOLF_WOLF
+  19. SNIPER_WOLF_VICTORY_WOLF
+  20. ALLEY_EYE_BLUE
+  21. ALLEY_EYE_GREEN
+  22. ALLEY_EYE_YELLOW
+  23. ALLEY_LIGHT_RAY
+  24. TAVERN_DUST
+  25. MARINA_BOATS
+  26. MARINA_FRONT_BOAT
+  27. SEAGULLS
+  28. KRAKEN_KING_TENTACLE_1
+  29. KRAKEN_KING_TENTACLE_3
+  30. KRAKEN_KING_MECHALORD_TENTACLE_1
+  31. KRAKEN_KING_MECHALORD_TENTACLE_3
+  32. SPIDER_QUEEN_COCOON
+  33. SPIDER_QUEEN_STRING
+  34. SILENT_SPIRIT_WALL
+  35. PARTICLE_EFFECT
+  36. DUNGEON_MAN_DOOR_BACKGROUND
+  37. DUNGEON_MAN_DOOR_FOREGROUND
+  38. DUNGEON_MAN_DOOR
+  39. DUNGEON_MAN_DOOR_BACKGROUND_MASTERY
+  40. DUNGEON_MAN_DOOR_FOREGROUND_MASTERY
+  41. DUNGEON_MAN_DOOR_MASTERY
+  42. DUNGEON_MAN_DOOR_BACKGROUND_MECHA
+  43. DUNGEON_MAN_DOOR_FOREGROUND_MECHA
+  44. DUNGEON_MAN_DOOR_MECHA
+  45. VILE_BILE_PUDDLE
+  46. TOMB_ANGEL_TOMB
+  47. PLAGUE_SKULKER_CORPSE
+  48. DRAGON_SLAYER_BANNER
+  49. DRAGON_SLAYER_BANNER_UNICORN
+  50. DIGGER_MOLE_SKILL2
+  51. DIGGER_MOLE_SKILL3
+  52. NPC_ANUBIS_DRAGON_SAND_FOREGROUND
+  53. NPC_ANUBIS_DRAGON_SAND_BACKGROUND
+  54. NPC_ABYSS_DRAGON_RAIN
+  55. NPC_BOSS_ANUBIS_DRAGON_SAND_FOREGROUND
+  56. NPC_BOSS_ANUBIS_DRAGON_SAND_BACKGROUND
+  57. ABYSS_DRAGON_RAIN
+  58. NPC_BOSS_ABYSS_DRAGON_RAIN
+
+## com.perblue.rpg.game.objects.ProjectileType
+Values (211):
+  0. NONE
+  1. ARCHER_ARROW
+  2. LIGHTNING
+  3. BOUNCING_LIGHTNING
+  4. CENTAUR_OF_ATTENTION_0
+  5. CENTAUR_OF_ATTENTION_1
+  6. CENTAUR_OF_ATTENTION_2
+  7. CENTAUR_OF_ATTENTION_3
+  8. FAITH_HEALER_BOOK_1
+  9. FAITH_HEALER_BOOK_2
+  10. SNAKE_DRAGON_SONIC_WAVE
+  11. DRAGON_LADY_DRAGON
+  12. NPC_FIREBALL
+  13. NPC_AOE_PHYS_CRYSTAL
+  14. NPC_AOE_MAGIC_CRYSTAL
+  15. NPC_MONSTER_PHYS_IMP
+  16. CRIMSON_WITCH_WRAITH_0
+  17. CRIMSON_WITCH_WRAITH_1
+  18. DUST_DEVIL_0
+  19. DUST_DEVIL_1
+  20. DUST_DEVIL_2
+  21. DUST_DEVIL_3
+  22. DUST_DEVIL_4
+  23. MOON_DRAKE_ENERGY_BLUE
+  24. MOON_DRAKE_LIGHT_BEAM
+  25. MOON_DRAKE_ENERGY_RED
+  26. UNDERSTUDY_0
+  27. UNDERSTUDY_0_BEAM
+  28. UNDERSTUDY_1
+  29. UNDERSTUDY_1_HAND
+  30. UNDERSTUDY_2
+  31. WILDLING_ARCHER_0
+  32. WILDLING_SNIPER_0
+  33. MYSTIC_WILDLING_0
+  34. DARK_DRACUL_0
+  35. DARK_DRACUL_1
+  36. BRUTE_DRAGON_1
+  37. BRUTE_DRAGON_2
+  38. COSMIC_ELF_0
+  39. COSMIC_ELF_3
+  40. CATAPULT_KNIGHT_0
+  41. CATAPULT_KNIGHT_1
+  42. CATAPULT_KNIGHT_2
+  43. CATAPULT_KNIGHT_3
+  44. CATAPULT_KNIGHT_VICTORY
+  45. MEDUSA_0
+  46. MEDUSA_1
+  47. MEDUSA_2
+  48. MEDUSA_3
+  49. AQUATIC_1
+  50. BARDBARIAN_0
+  51. BONE_DRAGON_0
+  52. BONE_DRAGON_1
+  53. BONE_DRAGON_2
+  54. NPC_INFERNO_SPIDER_0
+  55. MAGIC_DRAGON_0
+  56. MAGIC_DRAGON_1
+  57. MAGIC_DRAGON_2
+  58. MAGIC_DRAGON_3
+  59. MAGIC_DRAGON_VICTORY
+  60. SHADOW_ASSASSIN_0
+  61. SHADOW_ASSASSIN_2
+  62. SHADOW_ASSASSIN_3
+  63. GROOVY_DRUID_0
+  64. GROOVY_DRUID_1
+  65. GROOVY_DRUID_2
+  66. NPC_SCARECROW_0
+  67. SPIKEY_DRAGON_0_0
+  68. SPIKEY_DRAGON_0_1
+  69. SPIKEY_DRAGON_0_2
+  70. SPIKEY_DRAGON_0_3
+  71. SPIKEY_DRAGON_0_4
+  72. SPIKEY_DRAGON_1
+  73. SPIKEY_DRAGON_2
+  74. SPIKEY_DRAGON_3
+  75. FROST_GIANT_0
+  76. FROST_GIANT_1
+  77. FROST_GIANT_2
+  78. DRUIDINATRIX_1
+  79. DRUIDINATRIX_3
+  80. NPC_EVIL_WIZARD_BOMB
+  81. DWARVEN_ARCHER_0
+  82. DWARVEN_ARCHER_2
+  83. RABID_DRAGON_0
+  84. RABID_DRAGON_2
+  85. NPC_GOLD_COLOSSUS_GOLD
+  86. NPC_GIANT_PLANT_SPEW_POISON
+  87. NPC_SQUID_SQUIRT
+  88. NPC_MUSHROOM_0
+  89. SATYR_1
+  90. SATYR_2
+  91. STORM_DRAGON_0
+  92. STORM_DRAGON_1
+  93. STORM_DRAGON_3
+  94. SKELETON_KING_0
+  95. GENIE_0
+  96. GENIE_1
+  97. SNIPER_WOLF_0
+  98. DRAGZILLA_0
+  99. DRAGZILLA_2
+  100. PIRATE_0
+  101. PIRATE_1
+  102. PIRATE_3
+  103. PIRATE_4
+  104. PIRATE_5
+  105. CYCLOPS_WIZARD_0
+  106. CYCLOPS_WIZARD_1
+  107. CYCLOPS_WIZARD_2
+  108. CYCLOPS_WIZARD_3
+  109. NPC_EYEBALL_0
+  110. DOPPELGANGER_0
+  111. DOPPELGANGER_2
+  112. NPC_SQUIRREL_0
+  113. DEEP_DRAGON_0
+  114. DEEP_DRAGON_3
+  115. STOWAWAY_0
+  116. STOWAWAY_1
+  117. STOWAWAY_4
+  118. CURSED_STATUE_0
+  119. CURSED_STATUE_1
+  120. CURSED_STATUE_3
+  121. VULTURE_DRAGON_2
+  122. PLANT_SOUL_1
+  123. GENIE_TITAN
+  124. BANSHEE_0
+  125. BANSHEE_1
+  126. RAGING_REVENANT_0
+  127. RAGING_REVENANT_1
+  128. RAGING_REVENANT_2
+  129. SPECTRAL_DRAGON_0
+  130. SPECTRAL_DRAGON_1
+  131. SPECTRAL_DRAGON_2_0
+  132. SPECTRAL_DRAGON_2_1
+  133. SPECTRAL_DRAGON_2_2
+  134. SPECTRAL_DRAGON_2_3
+  135. SPECTRAL_DRAGON_2_4
+  136. SPECTRAL_DRAGON_2_5
+  137. SPECTRAL_DRAGON_2_6
+  138. SPECTRAL_DRAGON_2_7
+  139. SPECTRAL_DRAGON_4
+  140. NPC_LYING_LANTERN_1
+  141. WEREDRAGON_0
+  142. WEE_WITCH_0
+  143. WEE_WITCH_1
+  144. DUNGEON_MAN_0
+  145. DUNGEON_MAN_1
+  146. DUNGEON_MAN_2
+  147. NPC_PLAGUE_SKULKER_1_RAT1
+  148. NPC_PLAGUE_SKULKER_1_RAT2
+  149. NPC_PLAGUE_SKULKER_1_RAT3
+  150. PLAGUE_ENTREPRENEUR_2
+  151. MISTRESS_MANICURE_0
+  152. MISTRESS_MANICURE_3
+  153. VOID_WYVERN_0
+  154. VOID_WYVERN_2
+  155. VOID_WYVERN_3
+  156. TOMB_ANGEL_0
+  157. TOMB_ANGEL_2
+  158. ANGELIC_HERALD_0
+  159. TRIPLE_THREAT_3
+  160. ETERNAL_ENCHANTER_0
+  161. ETERNAL_ENCHANTER_2
+  162. GRAND_HUNTRESS_0
+  163. GRAND_HUNTRESS_3
+  164. SOJOURNER_SORCERESS_0
+  165. SOJOURNER_SORCERESS_1
+  166. SOJOURNER_SORCERESS_2
+  167. KARAOKE_KING_0
+  168. KARAOKE_KING_2
+  169. SUN_SEEKER_1
+  170. STEPLADDER_BROTHERS_0
+  171. STEPLADDER_BROTHERS_1
+  172. STEPLADDER_BROTHERS_4
+  173. NPC_CRYSTAL_LIZARD_0
+  174. BLACK_WING_0
+  175. BLACK_WING_1
+  176. UNRIPE_MYTHOLOGY_0
+  177. UNRIPE_MYTHOLOGY_1
+  178. UNRIPE_MYTHOLOGY_3
+  179. ANCIENT_DWARF_0
+  180. ANCIENT_DWARF_4
+  181. NPC_ANUBIS_DRAGON_0
+  182. SADISTIC_DANCER_2_1
+  183. SADISTIC_DANCER_2_2
+  184. NPC_KING_IMP_0
+  185. WHITE_TIGRESS_0_0
+  186. WHITE_TIGRESS_0_1
+  187. WHITE_TIGRESS_0_2
+  188. WHITE_TIGRESS_1
+  189. WHITE_TIGRESS_3
+  190. CENTAUR_OF_ATTENTION_6
+  191. VERMILION_PRIESTESS_0
+  192. VERMILION_PRIESTESS_1
+  193. NPC_ABYSS_DRAGON_0_0
+  194. NPC_ABYSS_DRAGON_0_1
+  195. NPC_ABYSS_DRAGON_0_2
+  196. NPC_ABYSS_DRAGON_1_0
+  197. NPC_ABYSS_DRAGON_1_1
+  198. NPC_ABYSS_DRAGON_2_0
+  199. NPC_BOSS_ANUBIS_DRAGON_0
+  200. PCH_ANUBIS_DRAGON_0
+  201. PCH_ANUBIS_DRAGON_1
+  202. UNDERSTUDY_6
+  203. DEEP_DRAGON_6
+  204. NPC_SINISTER_ASSAILANT_1
+  205. DARK_HERO_1
+  206. DARK_HERO_2
+  207. SPECTRAL_DRAGON_2_0_SKIN_REDDRAGON
+  208. SPECTRAL_DRAGON_2_1_SKIN_REDDRAGON
+  209. SPECTRAL_DRAGON_2_2_SKIN_REDDRAGON
+  210. SPECTRAL_DRAGON_2_3_SKIN_REDDRAGON
+
+## com.perblue.rpg.game.objects.RuneEventType
+Values (10):
+  0. ATTACHED
+  1. REMOVED
+  2. SOLD
+  3. ADDED_SOULSTONE
+  4. EMPOWER_SUCCESS
+  5. EMPOWER_FAILED
+  6. DEBUG_GIVE_RUNE
+  7. FUSION_DESTROYED
+  8. FUSION_IMPROVED
+  9. DESTROYED
+
+## com.perblue.rpg.game.objects.SceneFlag
+Values (7):
+  0. DEFENDERS_GREEN_EYES
+  1. DEFENDERS_ACTIVES_FREEZE
+  2. ATTACKERS_ACTIVES_FREEZE
+  3. TEMPLE_SHADOW
+  4. ONLY_IDLE_AI
+  5. DONT_FADE_ON_REMOVE
+  6. DONT_SKEW_WORLD
+
+## com.perblue.rpg.game.objects.SceneInt
+Values (1):
+  0. BOSS_STAGE
+  field: private final int defaultValue
+  method: getDefaultValue() -> int
+
+## com.perblue.rpg.game.objects.UserFlag
+Values (80):
+  0. SILVER_CHEST_ROLLS
+  1. GOLD_CHEST_ROLLS
+  2. SOUL_CHEST_ROLLS
+  3. PURPLE_CHEST_ROLLS
+  4. ORANGE_CHEST_ROLLS
+  5. CAMPAIGN_BATTLES_DONE
+  6. ELITE_CAMPAIGN_BATTLES_DONE
+  7. CAMPAIGN_UNLOCKED
+  8. MONTHLY_DIAMOND_DAYS
+  9. FREE_NAME_CHANGE
+  10. FIGHT_PIT_VICTORIES
+  11. CAMPAIGN_KILLS
+  12. MERCENARY_GOLD
+  13. BETA_0_2
+  14. NO_LOOT_LAST_BATTLE
+  15. BETA_0_3
+  16. WW_1_0
+  17. SILVER_10_CHEST_ROLLS
+  18. GOLD_10_CHEST_ROLLS
+  19. PURPLE_10_CHEST_ROLLS
+  20. ORANGE_10_CHEST_ROLLS
+  21. CHATS
+  22. LAST_CRYPT_SCORE
+  23. EVENT_CHEST_ROLLS
+  24. EVENT_10_CHEST_ROLLS
+  25. COLISEUM_RUNS
+  26. COLISEUM_VICTORIES
+  27. FREE_TIME_ZONE_RESET
+  28. UNLOCKED_HARD_EXPEDITION
+  29. FACEBOOK_LIKED
+  30. HOW_TO_PLAY_EXPEDITION
+  31. HOW_TO_PLAY_VIP
+  32. VIEWED_CRYPT_RESULTS
+  33. TITANS_KILLED
+  34. TEMPLE_INVITES
+  35. TEMPLE_STAMINA_MEMORY
+  36. TEMPLE_WIN_STREAK
+  37. NEW_CHEST_SEEDS
+  38. REPLAYKIT_COUNT
+  39. NOT_FIRST_ACCOUNT
+  40. PROMO_CODE_ATTEMPTS
+  41. VIEWED_LAST_CHANCE_PROMO_WINDOW
+  42. PAID_SOUL_CHEST_ROLLS
+  43. VIEWED_SOULMART_INFO
+  44. FREE_GOLD_CHEST_ROLLS
+  45. FREE_PURPLE_CHEST_ROLLS
+  46. FREE_ORANGE_CHEST_ROLLS
+  47. TEMPROARY_VIP_LEVEL
+  48. VIEWED_BATTLE_STATS
+  49. L15_RUNES_CREATED
+  50. GOT_TUTORIAL_RUNE
+  51. OPTED_OUT_OF_WAR
+  52. WAR_ATTACK_ATTEMPTS
+  53. GOT_TUTORIAL_RUNE_OFFERING
+  54. TUTORIAL_RIGGED_RUNE_SHRINE
+  55. FAILED_AN_EMPOWER
+  56. MONTHLY_PURCHASE
+  57. HAS_SEEN_CONTEST_START
+  58. HAS_NEW_MAINSCREEN_CONTEST_PROGRESS
+  59. IS_RUNE_TOGGLE_ON
+  60. CHAT_APP_REWARD_SENT
+  61. IN_LAPSED_CATCH_UP_PERIOD
+  62. COMMUNITY_BUTTON_SHOWN_NAME_CHANGE_PROMPT
+  63. EVENTS_WINDOW_ON_MAINSCREEN
+  64. HAS_SKIN_FOR_TUTORIAL
+  65. AB_VIP5_FREE_CONSUMABLE_SHOULD_BE_GIVEN
+  66. EXPEDITION_MAX_DIFFICULTY
+  67. VIP_TICKET_FIXED
+  68. FIGHT_PIT_BATTLE_COUNT
+  69. COLISEUM_BATTLE_COUNT
+  70. CRYPT_BATTLE_COUNT
+  71. CRYPT_RAID_WIN_COUNT
+  72. CRYPT_OPPONENTS_DEFEAT_COUNT
+  73. CRYPT_OPPONENT_HEROES_DEFEAT_COUNT
+  74. EXPEDITION_BATTLE_COUNT
+  75. BOSS_PIT_BATTLE_COUNT
+  76. TEMPLE_WIN_COUNT
+  77. CONTEST_PARTICIPATION_COUNT
+  78. BOSS_BATTLE_COUNT
+  79. EXPERT_CAMPAIGN_BATTLES_DONE
+  method: isAvailable(ContentUpdate) -> boolean
+
+## com.perblue.rpg.game.objects.UserProperty
+Values (25):
+  0. DIAMONDS
+  1. NAME
+  2. LANGUAGE
+  3. GOLD
+  4. STAMINA
+  5. TEAM_LEVEL
+  6. TEAM_XP
+  7. VIP_TICKETS
+  8. VIP_LEVEL
+  9. ITEMS
+  10. HEROES
+  11. QUEST_PROGRESS
+  12. AVATAR
+  13. MAILBOX
+  14. FIGHT_TOKENS
+  15. SIGNIN
+  16. MONTHLY_CARD
+  17. GUILD
+  18. GUILD_TOKENS
+  19. COLISEUM_TOKENS
+  20. SOULMART_TOKENS
+  21. EXPEDITION_TOKENS
+  22. GUILD_WAR_TOKENS
+  23. RUNICITE
+  24. BAZAAR_TOKENS
+  method: get(ResourceType) -> UserProperty
+
+## com.perblue.rpg.game.specialevent.BossBattleCampaignInfo$BossBattleFieldBuff$EffectType
+Values (5):
+  0. STAT_TYPE
+  1. DAMAGE_ATTACK
+  2. DAMAGE_DEFENSE
+  3. DOT
+  4. NPC_POP
+
+## com.perblue.rpg.game.specialevent.BossBattleCampaignInfo$BossBattleFieldBuffBattleStatus$StatusType
+Values (4):
+  0. DAMAGE_TRUE
+  1. DAMAGE_PHYSICAL
+  2. DAMAGE_MAGIC
+  3. ENERGY
+
+## com.perblue.rpg.game.specialevent.BossBattleCampaignInfo$TimeBonus$RankType
+Values (6):
+  0. SS
+  1. S
+  2. A
+  3. B
+  4. C
+  5. D
+
+## com.perblue.rpg.game.specialevent.BossBattleInfo$BossBattleEnum
+Values (3):
+  0. TimeBonus
+  1. StageData
+  2. FieldBuff
+
+## com.perblue.rpg.game.specialevent.BossBattleInfo$FieldBuffEnum
+Values (11):
+  0. KEY
+  1. EFFECT_TYPE
+  2. EFFECT_UNIT
+  3. EFFECT
+  4. AMOUNT_TYPE
+  5. EFFECT_AMOUNT
+  6. EFFECT_DURATION
+  7. EFFECT_LOOP_TIME
+  8. EFFECT_DELAY
+  9. VFX
+  10. VFX_POS
+  field: private final int stageColumn
+  method: getColumn() -> int
+
+## com.perblue.rpg.game.specialevent.BossBattleInfo$ShopDataEnum
+Values (5):
+  0. ItemType
+  1. ItemNumber
+  2. PurchasesNumber
+  3. ConsumptionItemsType
+  4. ConsumptionNumber
+  field: private final int shopColumn
+  method: getColumn() -> int
+
+## com.perblue.rpg.game.specialevent.BossBattleInfo$StageDataEnum
+Values (26):
+  0. StageNumber
+  1. Background
+  2. FlavorText
+  3. Unit1
+  4. Unit1Level
+  5. Unit1Rarity
+  6. Unit1Stars
+  7. Unit2
+  8. Unit2Level
+  9. Unit2Rarity
+  10. Unit2Stars
+  11. Unit3
+  12. Unit3Level
+  13. Unit3Rarity
+  14. Unit3Stars
+  15. Unit4
+  16. Unit4Level
+  17. Unit4Rarity
+  18. Unit4Stars
+  19. Unit5
+  20. Unit5Level
+  21. Unit5Rarity
+  22. Unit5Stars
+  23. ClearCompensationItem
+  24. ClearCompensationGold
+  25. ClearCompensationTeamXP
+  field: private final int stageColumn
+  method: getColumn() -> int
+
+## com.perblue.rpg.game.specialevent.BossBattleInfo$TimeBonusEnum
+Values (4):
+  0. Rank
+  1. ElapsedSeconds
+  2. Compensation
+  3. Sort
+  field: private final int timeBonusColumn
+  method: getColumn() -> int
+
+## com.perblue.rpg.game.specialevent.SpecialEventType
+Values (29):
+  0. GENERIC
+  1. DROP_BONUS
+  2. FREE_STUFF_AFTER_PURCHASE
+  3. GUILD_GIFT_AFTER_PURCHASE
+  4. FREE_STUFF_AFTER_FIRST_DAILY_PURCHASE
+  5. FREE_STUFF_AT_TEAM_LEVEL
+  6. FREE_STUFF_EVERY_X_TEAM_LEVEL
+  7. TRADER_DISCOUNT
+  8. TRADER_REFRESH_DISCOUNT
+  9. MODES_OPEN
+  10. STAMINA_DISCOUNT
+  11. ALCHEMY_DISCOUNT
+  12. EXTRA_CHEST
+  13. CONTEST
+  14. FREE_STUFF_AFTER_FIRST_PURCHASE
+  15. RUNICITE_ALCHEMY_DISCOUNT
+  16. RUNE_OFFERING_PACKAGE_DISCOUNT
+  17. RUNE_SHRINE_COST_DISCOUNT
+  18. RUNE_REMOVAL_DISCOUNT
+  19. DISABLE_SKIN_BUY
+  20. SKIN_BUY_DISCOUNT
+  21. CHEST_DISCOUNT
+  22. MISC_BONUS
+  23. SHOP_BONUS
+  24. BIRTHDAY
+  25. CRAFT_SUCCESS
+  26. XP_BONUS
+  27. EVENT_SIGNIN_BONUS
+  28. BOSS_BATTLE
+
+## com.perblue.rpg.game.specialevent.TargetAttribute
+Values (5):
+  0. SPEND_AMOUNT
+  1. DAYS_SINCE_SPEND
+  2. PURCHASE_COUNT
+  3. TEAM_LEVEL
+  4. USER_AGE
+  method: setMin(SpecialEventInfo, long) -> void
+  method: setMax(SpecialEventInfo, long) -> void
+
+## com.perblue.rpg.game.tutorial.AbstractTutorialAct$TutCompletionState
+Values (3):
+  0. IN_PROG
+  1. DONE
+  2. REMOVE
+
+## com.perblue.rpg.game.tutorial.NarratorLocation
+Values (4):
+  0. LOWER_LEFT
+  1. LOWER_RIGHT
+  2. UPPER_LEFT
+  3. UPPER_RIGHT
+
+## com.perblue.rpg.game.tutorial.NarratorState
+Values (3):
+  0. NORMAL
+  1. TAP_TO_CONTINUE
+  2. DEEMPHASISED
+
+## com.perblue.rpg.game.tutorial.NarratorType
+Values (155):
+  0. BROZERKER
+  1. BROZERKER_POSSESSED
+  2. CENTAUR_OF_ATTENTION
+  3. CENTAUR_OF_ATTENTION_SNAKE_HAT
+  4. CENTAUR_OF_ATTENTION_CHEST_HAIR
+  5. CRIMSON_WITCH
+  6. CRIMSON_WITCH_POSSESSED
+  7. DARK_DRACUL
+  8. DARK_DRACUL_POSSESSED
+  9. DRAGON_LADY
+  10. DUST_DEVIL
+  11. DUST_DEVIL_POSSESSED
+  12. ELECTROYETI
+  13. ELECTROYETI_POSSESSED
+  14. GOBLIN
+  15. HYDRA
+  16. HYDRA_POSSESSED
+  17. MOON_DRAKE
+  18. MOON_DRAKE_POSSESSED
+  19. SNAP_DRAGON
+  20. SNAP_DRAGON_POSSESSED
+  21. UNSTABLE_UNDERSTUDY
+  22. UNSTABLE_UNDERSTUDY_POSSESSED
+  23. VULCAN
+  24. MAGIC_DRAGON
+  25. MAGIC_DRAGON_POSSESSED
+  26. BONE_DRAGON
+  27. BONE_DRAGON_POSSESSED
+  28. SAVAGE_CUTIE_CUTE
+  29. SAVAGE_CUTIE_CUTE_POSSESSED
+  30. SAVAGE_CUTIE_EVIL
+  31. SAVAGE_CUTIE_EVIL_POSSESSED
+  32. SPIKEY_DRAGON
+  33. SPIKEY_DRAGON_POSSESSED
+  34. MR_SMASHY_HAPPY
+  35. MR_SMASHY_ANGRY
+  36. ROLLER_WARRIOR
+  37. RABID_DRAGON
+  38. RABID_DRAGON_POSSESSED
+  39. EVIL_WIZARD
+  40. GIANT_PLANT
+  41. GOLDEN_COLOSSUS
+  42. ZOMBIE_SQUIRE
+  43. POLEMASTER
+  44. GROOVY_DRUID
+  45. MEDUSA
+  46. STORM_DRAGON
+  47. STORM_DRAGON_POSSESSED
+  48. CATAPULT_KNIGHT
+  49. FAITH_HEALER
+  50. NINJA_DWARF
+  51. FROST_GIANT
+  52. SHADOW_ASSASSIN
+  53. DRAGZILLA
+  54. DRAGZILLA_POSSESSED
+  55. BARDBARIAN
+  56. ORC_MONK
+  57. AQUATIC_MAN
+  58. PIRATE
+  59. DRUIDINATRIX
+  60. DEEP_DRAGON
+  61. DEEP_DRAGON_POSSESSED
+  62. STOWAWAY
+  63. SNIPER_WOLF
+  64. PLANT_SOUL
+  65. VULTURE_DRAGON
+  66. BANSHEE
+  67. SPECTRAL_DRAGON
+  68. SPECTRAL_DRAGON_POSSESSED
+  69. WEREDRAGON
+  70. WEREDRAGON_POSSESSED
+  71. DUNGEON_MAN
+  72. VILE_BILE
+  73. VOID_WYVERN
+  74. VOID_WYVERN_POSSESSED
+  75. DARK_HORSE
+  76. DWARVEN_ARCHER
+  77. SATYR
+  78. SKELETON_KING
+  79. UNICORGI
+  80. MINOTAUR
+  81. WEE_WITCH
+  82. DEMON_TOTEM
+  83. DEMON_TOTEM_GREEN
+  84. DEMON_TOTEM_BLUE
+  85. DEMON_TOTEM_RED
+  86. GENIE
+  87. BULWARK_ANGEL
+  88. ANGELIC_AVENGER
+  89. ANGELIC_HERALD
+  90. TOMB_ANGEL
+  91. ANGEL_DRAGON
+  92. TOMB_ANGEL_POSSESSED
+  93. ANGEL_DRAGON_POSSESSED
+  94. DRAGON_SLAYER
+  95. ETERNAL_ENCHANTER
+  96. GRAND_HUNTRESS
+  97. TRIPLE_THREAT
+  98. DRAGON_SLAYER_POSSESSED
+  99. GRAND_HUNTRESS_POSSESSED
+  100. TRIPLE_THREAT_POSSESSED
+  101. CENTAUR_MASTERY
+  102. ELECTROYETI_MASTERY
+  103. UNDERSTUDY_MAGICAL_GIRL
+  104. LAST_DEFENDER
+  105. LAST_DEFENDER_POSSESSED
+  106. SOJOURNER_SORCERESS
+  107. SOJOURNER_SORCERESS_POSSESSED
+  108. KARAOKE_KING
+  109. KARAOKE_KING_POSSESSED
+  110. SHADOW_OF_SVEN
+  111. SHADOW_OF_SVEN_POSSESSED
+  112. SUN_SEEKER
+  113. SUN_SEEKER_POSSESSED
+  114. STEPLADDER_BROTHERS
+  115. STEPLADDER_BROTHERS_POSSESSED
+  116. FORGOTTEN_DRAGON
+  117. FORGOTTEN_DRAGON_POSSESSED
+  118. BLACK_WING
+  119. BLACK_WING_POSSESSED
+  120. GREED_DRAGON
+  121. GREED_DRAGON_POSSESSED
+  122. UNRIPE_MYTHOLOGY
+  123. UNRIPE_MYTHOLOGY_POSSESSED
+  124. UNRIPE_MYTHOLOGY_EGG
+  125. UMLAUT_CH25
+  126. UMLAUT_CH25_POSSESSED
+  127. ANCIENT_DWARF
+  128. ANCIENT_DWARF_POSSESSED
+  129. DIGGER_MOLE
+  130. DIGGER_MOLE_POSSESSED
+  131. SADISTIC_DANCER
+  132. SADISTIC_DANCER_POSSESSED
+  133. ANUBIS_DRAGON
+  134. ANUBIS_DRAGON_POSSESSED
+  135. RAGING_REVENANT
+  136. KING_IMP
+  137. SNAPPER_BONE
+  138. SNAPPER_BONE_POSSESSED
+  139. WHITE_TIGRESS
+  140. VERMILION_PRIESTESS
+  141. VERMILION_PRIESTESS_POSSESSED
+  142. ABYSS_DRAGON
+  143. ABYSS_DRAGON_POSSESSED
+  144. PCH_ANUBIS_DRAGON
+  145. PCH_ANUBIS_DRAGON_POSSESSED
+  146. UMLAUT_THE_FIRST
+  147. UMLAUT_THE_FIRST_POSSESSED
+  148. NPC_UMLAUT_THE_FIFTH_FIRST
+  149. NPC_UMLAUT_THE_FIFTH_FIRST_POSSESSED
+  150. EVERYONE
+  151. CLAW_MAN
+  152. DARK_HERO
+  153. REDTIGER
+  154. NPC_SINISTER_ASSAILANT_POSSESSED
+
+## com.perblue.rpg.game.tutorial.TransitionDataType
+Values (7):
+  0. SCREEN
+  1. WINDOW
+  2. EVENT
+  3. OLD_VALUE
+  4. NEW_VALUE
+  5. TYPE
+  6. UNIT
+
+## com.perblue.rpg.game.tutorial.TutorialFlag
+Values (46):
+  0. SUPRESS_NORMAL_SCREEN_AFTER_SPLASH
+  1. ATTACK_SCREEN_HIDE_TOP_HUD
+  2. ATTACK_SCREEN_HIDE_THOUGHT_BUBBLES
+  3. ATTACK_SCREEN_HIDE_HERO_BUTTONS
+  4. MAIN_SCREEN_HIDE_TOP_HUD
+  5. MAIN_SCREEN_HIDE_CHESTS
+  6. HIDE_CHAT
+  7. MAIN_SCREEN_HIDE_NON_TUTORIAL_OBJECTS
+  8. MAIN_SCREEN_HIDE_OBJECT_NAMES
+  9. MAIN_SCREEN_DISABLE_CAMPAIGN_BUTTON
+  10. MAIN_SCREEN_DISABLE_SIGN_IN_BUTTON
+  11. CHEST_SCREEN_PREVENT_OPENING_SILVER_CHEST
+  12. CHEST_SCREEN_PREVENT_OPENING_SOUL_CHEST
+  13. CHEST_SCREEN_PREVENT_OPENING_EVENT_CHEST
+  14. CHEST_SCREEN_PREVENT_10_X_ROLLS
+  15. CHEST_SCREEN_PREVENT_OPENING_PURPLE_CHEST
+  16. CHEST_SCREEN_PREVENT_OPENING_ORANGE_CHEST
+  17. BACK_BUTTON_EXITS_APP_FROM_ATTACK_SCREEN
+  18. SUPPRESS_CAMPAIGN_VICTORY_WINDOW
+  19. HIDE_MAIN_MENU_RED_NOTIF_BADGES
+  20. HIDE_TAP_FOR_DETAILS_ON_LOOT
+  21. HIDE_SIDE_MENU_RED_NOTIF_BADGES
+  22. PREVENT_NON_CENTAUR_EQUIPPING
+  23. HERO_SUMMARY_WINDOW_HIDE_LEFT_AND_RIGHT_ARROWS
+  24. HERO_CHOOSER_PREVENT_CONTINUE
+  25. HERO_SUMMARY_WINDOW_CLOSE_POP_TO_MAIN_MENU
+  26. MAIN_SCREEN_HIDE_SIGN_IN_NAME
+  27. MAIN_SCREEN_HIGHLIGHT_CAMPAIGN
+  28. ATTACK_SCREEN_SHOW_TAP_TO_CONTINUE_TEXT
+  29. NARRATOR_VIEW_SHOW_TAP_TO_CONTINUE_TEXT
+  30. CAMPAIGN_BATTLE_INFO_HIGHLIGHT_CONTINUE
+  31. ATTACK_SCREEN_FADE_OUT_HERO_BUTTONS
+  32. PREVENT_SELLING_OF_ENCHANT_MATERIALS
+  33. MAIN_SCREEN_SCROLL_TO_CRYPT
+  34. MAIN_SCREEN_START_SCROLLED_LEFT
+  35. CRATING_WINDOW_ONLY_SHOW_FIRST_CARD
+  36. MAIN_SCREEN_DO_CAMERA_PAN
+  37. WAR_SCREEN_SCROLL_TO_RECOMMENDED
+  38. WAR_SCREEN_HIGHLIGHT_DEFENSE_BUTTON
+  39. RUNE_SHRINE_DISABLE_STONE
+  40. RUNE_SHRINE_DISABLE_CRYSTAL
+  41. MAIN_SCREEN_START_SCROLLED_RIGHT
+  42. RUNE_SHRINE_RESET_ON_SHOW
+  43. RUNE_TEMPLE_SCROLL_TO_FIRST_RUNE
+  44. RUNE_SHRINE_DISABLE_NON_TUTORIAL_OFFERINGS
+  45. HIDE_RESOURCE_SALES
+
+## com.perblue.rpg.game.tutorial.TutorialPointerDir
+Values (6):
+  0. AUTO
+  1. DOWN
+  2. UP
+  3. LEFT
+  4. RIGHT
+  5. DOWN_LOW
+
+## com.perblue.rpg.game.tutorial.TutorialPointerType
+Values (3):
+  0. QUEST
+  1. FINGER
+  2. NOTIF_BADGE
+
+## com.perblue.rpg.game.tutorial.TutorialTransition
+Values (40):
+  0. VIEW_SCREEN
+  1. LEAVE_SCREEN
+  2. START_APP
+  3. ACT_COMPLETE
+  4. VIEW_WINDOW
+  5. CLOSE_WINDOW
+  6. BUTTON_PRESSED
+  7. ENTITY_SELECTED
+  8. ENTITY_UNSELECTED
+  9. MODAL_WINDOW_SHOWN
+  10. MODAL_WINDOW_HIDDEN
+  11. TAB_CHANGE
+  12. TUTORIAL_COMABT_OVER
+  13. GENERIC_TAP_TO_CONTINUE
+  14. GENERIC_TIMER_EVENT
+  15. ACTIVE_SKILL_USED
+  16. SIDE_MENU_OPENED
+  17. SIDE_MENU_CLOSED
+  18. HERO_LINEUP_CHANGE
+  19. NEW_COMBAT_STAGE_STARTED
+  20. HERO_SUMMARY_TAB_CHANGE
+  21. ACTIVE_SKILL_READY
+  22. CAMPAIGN_VICTORY_WINDOW_SUPPRESSED
+  23. ENCHANTING_STATE_CHANGE
+  24. ENCHANTING_SUCCESSFUL
+  25. TEMPLE_SCREEN_MODE_CHANGE
+  26. TEMPLE_REWARD_CLAIMED
+  27. WAR_SCREEN_LAYOUT
+  28. WAR_ATTACK_DETAILS_LAYOUT
+  29. LEGENDARY_QUEST_COMPLETED
+  30. RUNE_CIRCLE_UPDATED
+  31. RUNE_EMPOWERING_SUCCESS
+  32. RUNE_EMPOWERING_FAILURE
+  33. RUNE_ATTACHED
+  34. RUNE_OFFERING_TAPPED
+  35. RUNE_OFFERING_SLOTTED
+  36. RUNE_SHRINE_ACTIVATED
+  37. SHRINE_TAB_SWITCH
+  38. HERO_SKIN_UNDERSTUDY_MASTERY_SELECTED
+  39. HERO_SKIN_EQUIPPED
+
+## com.perblue.rpg.game.tutorial.UIComponentName
+Values (95):
+  0. TICKETS_METER
+  1. VIP_LEVEL_LABEL
+  2. EQUIP_GEAR_PROMPT_EQUIP_BUTTON
+  3. HERO_LIST_VIEW_HERO
+  4. ATTACK_SCREEN_HERO_BUTTON
+  5. MAIN_SCREEN_CHESTS_BUTTON
+  6. MAIN_SCREEN_CAMPAIGN_BUTTON
+  7. MAIN_SCREEN_FIGHT_PIT_BUTTON
+  8. MAIN_SCREEN_ENCHANTING_BUTTON
+  9. MAIN_SCREEN_CRYPT_BUTTON
+  10. MAIN_SCREEN_TEMPLE_BUTTON
+  11. MAIN_SCREEN_BOSS_PIT_BUTTON
+  12. MAIN_SCREEN_GUILD_WAR_BUTTON
+  13. MAIN_SCREEN_RUNE_SHRINE_BUTTON
+  14. MAIN_SCREEN_RUNE_TEMPLE_BUTTON
+  15. CHEST_SCREEN_CHEST_1
+  16. CHEST_SCREEN_CHEST_2
+  17. CHEST_DETAILS_BUY_ONE_LEVEL_1
+  18. CHEST_DETAILS_BUY_ONE_LEVEL_2
+  19. BASE_MENU_BUTTON
+  20. BASE_MENU_HERO_BUTTON
+  21. BASE_MENU_ACHIEVEMENTS_BUTTON
+  22. BASE_MENU_DAILY_QUESTS_BUTTON
+  23. HERO_MGMT_CENTUAR
+  24. HERO_SUMMARY_ITEM_SLOT
+  25. CLOSE_WINDOW
+  26. CAMPAIGN_SCREEN_LEVEL_1
+  27. CAMPAIGN_BATTLE_INFO_CONTINUE
+  28. HERO_CHOOSER_FIGHT_BUTTON
+  29. VICTORY_CONTINUE_BUTTON
+  30. BACK_BUTTON
+  31. ACHIEVEMENT_WINDOW_CLAIM_ACHIEVEMENT
+  32. FIGHT_PIT_TARGETED_OPPONENT
+  33. AUTO_FIGHT_BUTTON
+  34. CRAFTING_INSUFFICENT_INGREDIENT_BUTTON
+  35. CRAFT_BUTTON
+  36. RECIPE_BUTTON
+  37. DAILY_QUEST_WINDOW_CLAIM_REWARD
+  38. HERO_SUMMARY_EVOLVE_BUTTON
+  39. HERO_MGMT_EVOLVABLE
+  40. HERO_MGMT_DRAGON_LADY
+  41. EVOLVE_HERO_PROMPT_CONFIRM
+  42. HERO_SUMMARY_PROMOTE_BUTTON
+  43. HERO_SUMMARY_BUY_POWER_POINTS
+  44. HERO_SUMMARY_UPGRADE_SKILL_BUTTON
+  45. HERO_SUMMARY_SKILLS_TAB
+  46. HERO_SUMMARY_UNLOCK_LEGENDARY
+  47. SUMMON_HERO_PROMPT_CONFIRM_BUTTON
+  48. HERO_SUMMARY_WINDOW_EXP_ADD_WIDGET
+  49. ADD_EXP_BUTTON
+  50. HERO_MGMT_YETI
+  51. HERO_SUMMARY_EXP_PLUS_BUTTON
+  52. PROMOTE_HERO_PROMPT_CONFIRM
+  53. TUTORIAL_HELP_BUTTON
+  54. CLOSE_WINDOW_NEW_HERO_OVERLAY
+  55. CRAFTING_WINDOW_EQUIP_BUTTON
+  56. HERO_SKIN_UNDERSTUDY
+  57. HERO_SKIN_UNDERSTUDY_MASTERY
+  58. HERO_AVAILABLE_SKIN_ROW
+  59. HERO_AVAILABLE_SKIN_EQUIP_BUTTON
+  60. MAIN_SCREEN_MYSTIC_CLOSET
+  61. ENCHANTING_SCREEN_HERO_RIGHT_ARROW
+  62. ENCHANTING_SCREEN_GEAR_SLOT
+  63. ENCHANTING_SCREEN_VOID_DUST_BUTTON
+  64. ENCHANTING_SCREEN_ENCHANT_BUTTON
+  65. CRYPT_SCREEN_RECOMENDED_BUTTON
+  66. TEMPLE_VIEW_TITAN_BUTTON
+  67. TEMPLE_COLLECT_REWARD_BUTTON
+  68. TEMPLE_VIEW_YOURS_BUTTON
+  69. TEMPLE_VIEW_INVITE_BUTTON
+  70. TEMPLE_FIGHT_BUTTON
+  71. TEMPLE_INVITE_BUTTON
+  72. BOSS_PIT_ENTRY_EVIL_WIZARD_BUTTON
+  73. BOSS_PIT_STATE_CONTINUE_BUTTON
+  74. DIFFICULTY_CHOOSER_CONTINUE_BUTTON
+  75. DECISION_PROMPT_BUTTON_1
+  76. DECISION_PROMPT_BUTTON_2
+  77. WAR_DEFENSE_BUTTON
+  78. WAR_FIRST_DEFENSE_LINEUP_EDIT_BUTTON
+  79. WAR_SECOND_DEFENSE_LINEUP_EDIT_BUTTON
+  80. WAR_RECOMMENDED_NODE
+  81. WAR_LINEUP_ATTACK_BUTTON
+  82. RUNES_ATTACHABLE_RUNE
+  83. RUNES_ATTACH_BUTTON
+  84. RUNES_EMPOWERABLE_RUNE
+  85. RUNES_EMPOWER_BUTTON
+  86. RUNES_ATTACH_CONFIRM_BUTTON
+  87. RUNES_DO_EMPOWER_BUTTON_ENABLED
+  88. RUNES_FUSION_BUTTON
+  89. SHRINE_SET_ICON
+  90. SHRINE_WOOD_SLOT
+  91. SHRINE_ACTIVATE_BUTTON
+  92. SHRINE_SET_TAB
+  93. SHRINE_SLOT_TAB
+  94. SHRINE_REUSLTS_DONE_BUTTON
+  field: private static UIComponentName[] values
+  method: valuesCached() -> UIComponentName[]
+
+## com.perblue.rpg.network.messages.ActionExtraType
+Values (19):
+  0. DEFAULT
+  1. UPSELL
+  2. ID
+  3. ENTRY_POINT
+  4. PRODUCT_ID
+  5. REASON
+  6. REASON_2
+  7. SLOT
+  8. SKILL
+  9. TYPE
+  10. COUNT
+  11. INDEX
+  12. TIME
+  13. CHAPTER
+  14. LEVEL
+  15. FORCE
+  16. USE_ITEM
+  17. TEXT
+  18. COST
+  field: private static ActionExtraType[] values
+  method: valuesCached() -> ActionExtraType[]
+
+## com.perblue.rpg.network.messages.AppReviewStatus
+Values (3):
+  0. NO_RESPONSE
+  1. REVIEWED
+  2. NEVER
+  field: private static AppReviewStatus[] values
+  method: valuesCached() -> AppReviewStatus[]
+
+## com.perblue.rpg.network.messages.ArenaTier
+Values (7):
+  0. DEFAULT
+  1. COPPER
+  2. BRONZE
+  3. SILVER
+  4. GOLD
+  5. PLATINUM
+  6. CHALLENGER
+  field: private static ArenaTier[] values
+  method: valuesCached() -> ArenaTier[]
+
+## com.perblue.rpg.network.messages.ArenaType
+Values (3):
+  0. DEFAULT
+  1. FIGHT_PIT
+  2. COLISEUM
+  field: private static ArenaType[] values
+  method: valuesCached() -> ArenaType[]
+
+## com.perblue.rpg.network.messages.AuthType
+Values (7):
+  0. EMAIL
+  1. GOOGLE_PLUS
+  2. GAME_CENTER
+  3. FACEBOOK
+  4. GAME_CIRCLE
+  5. FORCED
+  6. DEVICE
+  field: private static AuthType[] values
+  method: valuesCached() -> AuthType[]
+
+## com.perblue.rpg.network.messages.BuildSource
+Values (5):
+  0. DEFAULT
+  1. GOOGLE
+  2. AMAZON
+  3. IOS
+  4. OTHER
+  field: private static BuildSource[] values
+  method: valuesCached() -> BuildSource[]
+
+## com.perblue.rpg.network.messages.CampaignType
+Values (3):
+  0. NORMAL
+  1. ELITE
+  2. EXPERT
+  field: private static CampaignType[] values
+  method: valuesCached() -> CampaignType[]
+
+## com.perblue.rpg.network.messages.ChatExtraType
+Values (10):
+  0. DEFAULT
+  1. PERBLUE_STAFF
+  2. FLAG_AS_NEW
+  3. LIKE_COUNT
+  4. HERO_TYPE
+  5. SHARD_ID
+  6. STICKY
+  7. MOTD
+  8. RECEIVER_NAME
+  9. RECEIVER_ID
+  field: private static ChatExtraType[] values
+  method: valuesCached() -> ChatExtraType[]
+
+## com.perblue.rpg.network.messages.ChatRoomType
+Values (6):
+  0. GLOBAL
+  1. GUILD
+  2. HERO_WALL
+  3. VIP
+  4. GUILD_WALL
+  5. PERSONAL_MESSAGE
+  field: private static ChatRoomType[] values
+  method: valuesCached() -> ChatRoomType[]
+
+## com.perblue.rpg.network.messages.ChatType
+Values (12):
+  0. NORMAL
+  1. JOIN_GUILD
+  2. LEAVE_GUILD
+  3. JOIN_GUILD_REQUEST
+  4. RANK_CHANGE
+  5. RULES
+  6. GUILD_WALL
+  7. CHAT_APP_IMAGE
+  8. CHAT_APP_UPSELL
+  9. ADD_FRIEND
+  10. REMOVE_FRIEND
+  11. DELETE_CHAT
+  field: private static ChatType[] values
+  method: valuesCached() -> ChatType[]
+
+## com.perblue.rpg.network.messages.ChestType
+Values (8):
+  0. DEFAULT
+  1. SILVER
+  2. GOLD
+  3. SOUL
+  4. EXPEDITION
+  5. EVENT
+  6. PURPLE
+  7. ORANGE
+  field: private static ChestType[] values
+  method: valuesCached() -> ChestType[]
+
+## com.perblue.rpg.network.messages.CombatOutcome
+Values (3):
+  0. RETREAT
+  1. LOSS
+  2. WIN
+  field: private static CombatOutcome[] values
+  method: valuesCached() -> CombatOutcome[]
+
+## com.perblue.rpg.network.messages.CommandType
+Values (121):
+  0. DEFAULT
+  1. EQUIP_ITEM
+  2. UNLOCK_HERO
+  3. PROMOTE
+  4. EVOLVE
+  5. UPGRADE_SKILL
+  6. ADD_HERO_EXP
+  7. VIEW_TREASURE
+  8. BUY_STAMINA
+  9. BUY_POWER_POINTS
+  10. BUY_GOLD
+  11. GET_NEW_MAIL_MESSAGES
+  12. MARK_MAIL_OPENED
+  13. TAKE_MAIL_ATTACHMENTS
+  14. REFRESH_TRADER
+  15. PURCHASE_TRADER_ITEM
+  16. SELL_ITEM
+  17. REFRESH_SPECIAL_EVENTS
+  18. CLAIM_SIGNIN_REWARD
+  19. DEBUG_COMMAND
+  20. DEBUG_GIVE_ITEM
+  21. DEBUG_GIVE_RESOURCE
+  22. DEBUG_SET_TEAM_LEVEL
+  23. DEBUG_SET_VIP_LEVEL
+  24. DEBUG_SET_SIGNINS
+  25. BUY_NEW_ACCOUNT
+  26. RESET_ELITE_LEVEL
+  27. START_FIGHT_PIT_ATTACK
+  28. RESET_FIGHT_PIT_CHANCES
+  29. CLAIM_FIGHT_PIT_PROMOTION_REWARD
+  30. COMPLETE_QUEST
+  31. GET_PLAYER_RANKINGS
+  32. REFRESH_SOUL_CHEST_DROPS
+  33. CLEAR_FIGHT_PIT_DEMOTION
+  34. UPDATE_TIME
+  35. VIEW_DAILY_QUESTS
+  36. REVIEW_APP
+  37. NEVER_REVIEW
+  38. SKIPPED_REVIEW
+  39. OPEN_EXPEDITION_CHEST
+  40. CREATE_GUILD
+  41. GET_GUILD_RANKINGS
+  42. POST_HERO
+  43. HIRE_HERO
+  44. GET_HEROES_FOR_HIRE
+  45. DISBAND_GUILD
+  46. THIRD_PARTY_QUEST_UPDATE
+  47. LIKE_HERO_WALL_POST
+  48. LEAVE_HERO_WALL
+  49. UNLIKE_HERO_WALL_POST
+  50. UNLOCK_MERCHANT
+  51. SET_COUNT
+  52. START_COLISEUM_ATTACK
+  53. UPDATE_HOW_TO_PLAY
+  54. HOW_TO_PLAY_VIEW
+  55. DROP_EXPEDITION_DIFFICULTY
+  56. FACEBOOK_LIKED
+  57. CHAT_SILENCE
+  58. REMOVE_CHAT
+  59. VIEWED_CHAT_RULES
+  60. VIEWED_CRYPT_RESULTS
+  61. TAPPED_MONTHLY_CARD_REMINDER
+  62. GET_TITAN_TEMPLE_INVITES
+  63. SEND_TITAN_TEMPLE_INVITE
+  64. VIEWED_GUILD_WALL
+  65. START_TITAN_TEMPLE_ATTACK
+  66. CLAIM_TITAN_TEMPLE_REWARD
+  67. REDEEM_CODE
+  68. SET_FLAG
+  69. USE_ITEM
+  70. GET_ARENA_RANKINGS
+  71. AUTO_PROMOTE
+  72. LEGENDARY_SACRIFICE
+  73. FULL_MOON_GO
+  74. REQUEST_WAR_INFO
+  75. REQUEST_WAR_LOGS
+  76. REQUEST_WAR_MEMBERS
+  77. GET_GUILD_WAR_RANKINGS
+  78. REGISTER_FOR_WAR
+  79. START_WAR_BATTLE
+  80. SURRENDER_WAR_BATTLE
+  81. VIEW_BATTLE_RESULTS
+  82. VIEW_LEGENDARY_QUESTS
+  83. START_QUEST
+  84. SET_SKIN
+  85. DELETE_MAIL_MESSAGE
+  86. ATTACH_RUNE
+  87. REMOVE_RUNE
+  88. SELL_RUNE
+  89. IMBUE_RUNE
+  90. EMPOWER_RUNE
+  91. GET_CONTEST_RANKINGS
+  92. SET_SEED
+  93. VIEWED_CONSUMABLE_ITEM
+  94. GET_PM_THREAD
+  95. ADD_FRIEND
+  96. REMOVE_FRIEND
+  97. APPROVE_FRIEND
+  98. REJECT_FRIEND
+  99. EDIT_CHAT
+  100. TOGGLE_CHAT_STICKY
+  101. QUARTER_MOON_GO
+  102. OPT_OUT_OF_WAR
+  103. BUY_RUNICITE
+  104. BUY_OFFERING_PACKAGE
+  105. UPDATE_TIMEZONE
+  106. VIEWED_CHAT_APP_UPSELL
+  107. VIEWED_SKIN
+  108. CLAIM_LAPSED_CATCH_UP
+  109. VIEWED_CHESTS
+  110. BUY_SKIN
+  111. RESET_GAME_MODE
+  112. ADD_XP_FOR_MAX_LEVEL
+  113. BUY_RAID_TICKETS
+  114. REMOVE_ITEM
+  115. RESET_BOSS_BATTLE
+  116. ADVANCE_BOSS_BATTLE
+  117. DEBUG_SELECT_CHAPTER_BOSS_BATTLE
+  118. LEGENDARY_QUEST_SKIP
+  119. PMTHREAD_HIDECHANNEL
+  120. EXCHANGE_ITEM
+  field: private static CommandType[] values
+  method: valuesCached() -> CommandType[]
+
+## com.perblue.rpg.network.messages.ContestTaskType
+Values (54):
+  0. DEFAULT
+  1. RESOURCE_BURN
+  2. RESOURCE_EARN
+  3. HERO_PROMOTED
+  4. HERO_EVOLVED
+  5. HERO_SKILLS_LEVELED
+  6. ENCHANTING_STARS_EARNED
+  7. HERO_LEVELS_GAINED
+  8. RARITY_EARN_SHARD
+  9. RARITY_EARN_FULL_ITEM
+  10. RARITY_CRAFTED
+  11. RARITY_GEAR_EQUIP
+  12. RARITY_GEAR_ENCHANTED
+  13. ITEM_EARN_SHARD
+  14. ITEM_EARN_FULL_ITEM
+  15. ITEM_CRAFTED
+  16. ITEM_GEAR_EQUIP
+  17. ITEM_GEAR_ENCHANTED
+  18. BATTLE_WON
+  19. BATTLE_POWER_DEFEATED
+  20. BATTLE_POWER_DEFEATED_ABOVE_OWN
+  21. EXPEDITION_NORM_BATTLE_WON
+  22. EXPEDITION_HARD_BATTLE_WON
+  23. EXPEDITION_NORM_HEROES_LEFT
+  24. EXPEDITION_HARD_HEROES_LEFT
+  25. EXPEDITION_NORM_POWER_DEFEATED
+  26. EXPEDITION_HARD_POWER_DEFEATED
+  27. EXPEDITION_NORM_FINISHED
+  28. EXPEDITION_HARD_FINISHED
+  29. FIGHT_PIT_BATTLES_WON
+  30. WAR_BATTLES_WON
+  31. COLISEUM_BATTLES_WON
+  32. FIGHT_PIT_POWER_DEFEATED
+  33. FIGHT_PIT_POWER_DEFEATED_ABOVE_OWN
+  34. COLISEUM_POWER_DEFEATED
+  35. COLISEUM_POWER_DEFEATED_ABOVE_OWN
+  36. WAR_POWER_DEFEATED
+  37. WAR_POWER_DEFEATED_ABOVE_OWN
+  38. ITEM_BURN
+  39. WAR_HEROES_LEFT
+  40. WAR_BATTLES_DONE
+  41. WAR_ALL_BATTLES_DONE
+  42. WAR_GUILD_BATTLES_WON
+  43. BATTLE_HEROES_LEFT
+  44. FIGHT_PIT_HEROES_LEFT
+  45. COLISEUM_HEROES_LEFT
+  46. EXPEDITION_3_HEROES_LEFT
+  47. EXPEDITION_4_HEROES_LEFT
+  48. EXPEDITION_3_POWER_DEFEATED
+  49. EXPEDITION_4_POWER_DEFEATED
+  50. EXPEDITION_3_FINISHED
+  51. EXPEDITION_4_FINISHED
+  52. EXPEDITION_3_BATTLE_WON
+  53. EXPEDITION_4_BATTLE_WON
+  field: private static ContestTaskType[] values
+  method: valuesCached() -> ContestTaskType[]
+
+## com.perblue.rpg.network.messages.CooldownType
+Values (9):
+  0. DEFAULT
+  1. FIGHT_PIT_ATTACK
+  2. THE_SUMMIT_ATTACK
+  3. THE_CAVES_ATTACK
+  4. CHALLENGES_MAGIC_ATTACK
+  5. CHALLENGES_PHYSICAL_ATTACK
+  6. CHALLENGES_DRAGON_ATTACK
+  7. COLISEUM_ATTACK
+  8. WAR_OPT_OUT
+  field: private static CooldownType[] values
+  method: valuesCached() -> CooldownType[]
+
+## com.perblue.rpg.network.messages.CryptAttackResult
+Values (3):
+  0. FAILED
+  1. WHITE
+  2. GOLD
+  field: private static CryptAttackResult[] values
+  method: valuesCached() -> CryptAttackResult[]
+
+## com.perblue.rpg.network.messages.DailySignInClaimableStatus
+Values (8):
+  0. UNCLAIMABLE_TODAY
+  1. UNCLAIMABLE_ALREADY_CLAIMED
+  2. UNCLAIMABLE_REQUIRES_VIP
+  3. NORMAL_CLAIMABLE
+  4. VIP_CLAIMABLE
+  5. BOTH_CLAIMABLE
+  6. UNCLAIMABLE_ALREADY_VIP_CLAIMED
+  7. UNCLAIMABLE_EXTRA_VIP_CLAIMED
+  field: private static DailySignInClaimableStatus[] values
+  method: valuesCached() -> DailySignInClaimableStatus[]
+
+## com.perblue.rpg.network.messages.EnvironmentType
+Values (180):
+  0. DEFAULT
+  1. CH1_COMBAT_SM
+  2. CH1_COMBAT_1
+  3. CH1_COMBAT_2
+  4. CH1_COMBAT_3
+  5. CH1_COMBAT_4
+  6. CH2_COMBAT_SM
+  7. CH2_COMBAT_1
+  8. CH2_COMBAT_2
+  9. CH2_COMBAT_3
+  10. CH2_COMBAT_4
+  11. CH3_COMBAT_SM
+  12. CH3_COMBAT_1
+  13. CH3_COMBAT_2
+  14. CH3_COMBAT_3
+  15. CH3_COMBAT_4
+  16. CH4_COMBAT_SM
+  17. CH4_COMBAT_1
+  18. CH4_COMBAT_2
+  19. CH4_COMBAT_3
+  20. CH4_COMBAT_4
+  21. CH6_COMBAT_SM
+  22. CH6_COMBAT_1
+  23. CH6_COMBAT_2
+  24. CH6_COMBAT_3
+  25. CH6_COMBAT_4
+  26. CH7_COMBAT_1
+  27. CH7_COMBAT_2
+  28. CH7_COMBAT_3
+  29. CH7_COMBAT_4
+  30. CH7_COMBAT_SM
+  31. CH8_COMBAT_SM
+  32. CH8_COMBAT_2
+  33. CH8_COMBAT_3
+  34. CH8_COMBAT_4
+  35. CH9_COMBAT_1
+  36. CH9_COMBAT_SM
+  37. EXP1_1
+  38. EXP1_2
+  39. EXP1_3
+  40. EXP2_1
+  41. EXP2_2
+  42. EXP2_3
+  43. EXP3_1
+  44. EXP3_2
+  45. EXP3_3
+  46. EXP4_1
+  47. EXP4_2
+  48. EXP4_3
+  49. EXP5_1
+  50. EXP5_2
+  51. EXP5_3
+  52. THE_MOUNTAIN_SUMMIT
+  53. THE_MOUNTAIN_CAVES
+  54. CHALLENGES_DRAGON
+  55. CHALLENGES_PHYS_IMMUNE
+  56. CHALLENGES_MAGIC_IMMUNE
+  57. CRYPT
+  58. CH10_COMBAT_SM
+  59. CH10_COMBAT_1
+  60. CH10_COMBAT_2
+  61. CH10_COMBAT_3
+  62. CH10_COMBAT_4
+  63. CH11_COMBAT_SM
+  64. CH11_COMBAT_1
+  65. CH11_COMBAT_2
+  66. CH11_COMBAT_3
+  67. CH12_COMBAT_SM
+  68. CH12_COMBAT_1
+  69. CH12_COMBAT_2
+  70. CH12_COMBAT_3
+  71. CH12_COMBAT_4
+  72. BOSSPIT_FOREST_CLIFF
+  73. BOSSPIT_BONEYARD
+  74. CH13_COMBAT_SM
+  75. CH13_COMBAT_1
+  76. CH13_COMBAT_2
+  77. CH13_COMBAT_3
+  78. CH13_COMBAT_4
+  79. CH14_COMBAT_SM
+  80. CH14_COMBAT_1
+  81. CH14_COMBAT_2
+  82. CH14_COMBAT_3
+  83. CH14_COMBAT_4
+  84. RUNES
+  85. CH15_COMBAT_SM
+  86. CH15_COMBAT_1
+  87. CH15_COMBAT_2
+  88. CH15_COMBAT_3
+  89. CH15_COMBAT_4
+  90. RUNE_SHRINE
+  91. CH16_COMBAT_SM
+  92. CH16_COMBAT_1
+  93. CH16_COMBAT_2
+  94. CH16_COMBAT_3
+  95. CH16_COMBAT_4
+  96. MYSTIC_CLOSET
+  97. CH17_COMBAT_SM
+  98. CH17_COMBAT_1
+  99. CH17_COMBAT_2
+  100. CH17_COMBAT_3
+  101. CH17_COMBAT_4
+  102. CH18_COMBAT_SM
+  103. CH18_COMBAT_1
+  104. CH18_COMBAT_2
+  105. CH18_COMBAT_3
+  106. CH18_COMBAT_4
+  107. CH19_COMBAT_SM
+  108. CH19_COMBAT_1
+  109. CH19_COMBAT_2
+  110. CH19_COMBAT_3
+  111. CH19_COMBAT_4
+  112. CH20_COMBAT_SM
+  113. CH20_COMBAT_1
+  114. CH20_COMBAT_2
+  115. CH20_COMBAT_3
+  116. CH20_COMBAT_4
+  117. CH21_COMBAT_SM
+  118. CH21_COMBAT_1
+  119. CH21_COMBAT_2
+  120. CH21_COMBAT_3
+  121. CH21_COMBAT_4
+  122. CH22_COMBAT_SM
+  123. CH22_COMBAT_1
+  124. CH22_COMBAT_2
+  125. CH22_COMBAT_3
+  126. CH22_COMBAT_4
+  127. CH23_COMBAT_SM
+  128. CH23_COMBAT_1
+  129. CH23_COMBAT_2
+  130. CH23_COMBAT_3
+  131. CH23_COMBAT_4
+  132. CH24_MYSTERIOUSFORTRESS
+  133. CH24_CAVERN
+  134. CH24_HORIZON
+  135. CH24_RUINS
+  136. CH24_TERRACE
+  137. CH25_STONE_BRIDGE
+  138. CH25_HALL
+  139. CH25_RAMPARTWALL_A
+  140. CH25_DUNGEON
+  141. CH25_RAMPARTWALL_B
+  142. CH25_TEMPLE_TOWER
+  143. CH26_SUNBAKED_DESERT
+  144. CH26_NIGHT_DESERT
+  145. CH26_OASIS
+  146. CH26_PALACE_IN_SAND
+  147. CH26_MASSIVE_ALTOR
+  148. BOSSBATTLE_COMBAT_1
+  149. BOSSBATTLE_COMBAT_2
+  150. BOSSBATTLE_COMBAT_3
+  151. CH27_ENTRANCE_TO_ALTER_WORLD
+  152. CH27_ANCIENT_CITY
+  153. CH27_ACOLIGHT_STATUTE
+  154. CH27_ROAD_ALONG_CLIFF
+  155. CH27_DESTROYED_ANCIENT_CITY
+  156. CH27_ROAD_ALONG_CLIFF_REVERSED
+  157. CH28_TRACES_OF_PLUNDER
+  158. CH28_BURNING_WATCHTOWER
+  159. CH28_FLAME_BATTERY
+  160. CH28_SIGNS_OF_DECISIVE_BATTLE
+  161. CH28_ITS_NOW_OR_NEVER
+  162. CH28_DEATH_FIGHT_UMLAUT_THE_FIFTH
+  163. BOSSBATTLE3_COMBAT_1
+  164. BOSSBATTLE3_COMBAT_2
+  165. BOSSBATTLE3_COMBAT_3
+  166. BOSSBATTLE4_COMBAT_1
+  167. BOSSBATTLE4_COMBAT_2
+  168. BOSSBATTLE4_COMBAT_3
+  169. BOSSBATTLE5_COMBAT_1
+  170. BOSSBATTLE5_COMBAT_2
+  171. BOSSBATTLE5_COMBAT_3
+  172. BOSSBATTLE6_COMBAT_1
+  173. BOSSBATTLE6_COMBAT_2
+  174. BOSSBATTLE6_COMBAT_3
+  175. CH29_1_FOREST_WATERFALL
+  176. CH29_2_FOREST_FLOWERT
+  177. CH29_3_FOREST_NIGHT
+  178. CH29_4_FOREST_RUINS
+  179. CH29_5_FOREST_REMAINS
+  field: private static EnvironmentType[] values
+  method: valuesCached() -> EnvironmentType[]
+
+## com.perblue.rpg.network.messages.ErrorType
+Values (4):
+  0. DEFAULT
+  1. RETRY
+  2. STICKY
+  3. DISCONNECT
+  field: private static ErrorType[] values
+  method: valuesCached() -> ErrorType[]
+
+## com.perblue.rpg.network.messages.FriendStatus
+Values (4):
+  0. NOT_FRIENDS
+  1. PENDING_1
+  2. PENDING_2
+  3. APPROVED
+  field: private static FriendStatus[] values
+  method: valuesCached() -> FriendStatus[]
+
+## com.perblue.rpg.network.messages.GameMode
+Values (21):
+  0. CAMPAIGN
+  1. ELITE_CAMPAIGN
+  2. EXPEDITION
+  3. THE_MOUNTAIN_SUMMIT
+  4. THE_MOUNTAIN_CAVES
+  5. CHALLENGES_MAGIC_IMMUNE
+  6. CHALLENGES_PHYSICAL_IMMUNE
+  7. CHALLENGES_ONLY_DRAGONS
+  8. FIGHT_PIT
+  9. CRYPT
+  10. ENCHANTING
+  11. COLISEUM
+  12. TITAN_TEMPLE
+  13. BOSS_PIT
+  14. GUILD_WAR
+  15. GUILD_WAR_REGISTRATION
+  16. RUNES
+  17. CRAFT
+  18. XP_BONUS_TEAM
+  19. BOSS_BATTLE
+  20. EXPERT_CAMPAIGN
+  field: private static GameMode[] values
+  method: valuesCached() -> GameMode[]
+
+## com.perblue.rpg.network.messages.GuildEmblemType
+Values (46):
+  0. LUCKY_ORCS_FOOT
+  1. FLIPPANT_MISSLE
+  2. ATTACK_OF_RIDICULE
+  3. PROFANE_STORM
+  4. BLUNT_FORCE_TRAUMA
+  5. AWKWARD_SILENCE
+  6. PUNCH_OUT
+  7. HUNGER_PAIN
+  8. FEAR_OF_THE_GODS
+  9. EVANGELIZE
+  10. AGGRAVATED_ASSAULT
+  11. AGGRESSIVE_ARMOR
+  12. ALE_JITSU
+  13. BEACON
+  14. BLINDING_LIGHT
+  15. BOCK_JITSU
+  16. BOMBARDMENT
+  17. BRASS_KNUCKLES
+  18. BROS_BEFORE_FOES
+  19. BUST_A_MOVE
+  20. CANNONBALLER
+  21. DANCING_DEVIL
+  22. FREQUENCY_MODULATION
+  23. GET_ON_UP
+  24. GRRL_POWER
+  25. HEART_OF_STONE
+  26. ILLUMINATE
+  27. IMPALE
+  28. PAPER_CROWN
+  29. FREE_MANS_CROWBAR
+  30. MY_FIRST_SHIELD
+  31. RUBBER_VEST
+  32. ENCHANTED_ELBOW_PADS
+  33. GOBLIN_GROG
+  34. FOAM_FINGER
+  35. STOLEN_SNEAKERS
+  36. BIT_O_NIP
+  37. LOADED_DIE
+  38. FINE_BRIE
+  39. STICK_ON_MOUSTACHE
+  40. SNAZZY_VEST
+  41. CHUNKY_FEMUR
+  42. GOBLIN_WHACKER
+  43. BLOODY_BAT
+  44. SWASH_BUCKLER
+  45. BESSIES_BANE
+  field: private static GuildEmblemType[] values
+  method: valuesCached() -> GuildEmblemType[]
+
+## com.perblue.rpg.network.messages.GuildNewMemberPolicy
+Values (3):
+  0. PRIVATE
+  1. APPLICATION_ONLY
+  2. OPEN
+  field: private static GuildNewMemberPolicy[] values
+  method: valuesCached() -> GuildNewMemberPolicy[]
+
+## com.perblue.rpg.network.messages.GuildRole
+Values (6):
+  0. MEMBER
+  1. RULER
+  2. OFFICER
+  3. CHAMPION
+  4. VETERAN
+  5. NONE
+  field: private static GuildRole[] values
+  method: valuesCached() -> GuildRole[]
+
+## com.perblue.rpg.network.messages.GuildWarRewardClaimStatus
+Values (8):
+  0. UNKNOWN
+  1. NOT_ELIGIBLE
+  2. UNCLAIMED
+  3. CLAIMED_TOKENS
+  4. CLAIMED_ONE_PICK
+  5. CLAIMED_TWO_PICK
+  6. CLAIMED_THREE_PICK
+  7. CLAIMED_FOUR_PICK
+  field: private static GuildWarRewardClaimStatus[] values
+  method: valuesCached() -> GuildWarRewardClaimStatus[]
+
+## com.perblue.rpg.network.messages.GuildWarStatus
+Values (7):
+  0. UNKNOWN
+  1. GOOD
+  2. JOINED_LATE
+  3. LEFT
+  4. NO_DEFENSE
+  5. OPTED_OUT
+  6. JOINED_DURING_WAR
+  field: private static GuildWarStatus[] values
+  method: valuesCached() -> GuildWarStatus[]
+
+## com.perblue.rpg.network.messages.HeroBattleDataExtraType
+Values (19):
+  0. DEFAULT
+  1. ZOMBIE_REVIVED
+  2. VISIBLE
+  3. HIT_ANIMATIONS
+  4. ACTION_QUEUE
+  5. ACTIVE
+  6. TITAN_HEALTH_BONUS
+  7. MINION_HEALTH_BONUS
+  8. IS_TITAN
+  9. GENIE_REVIVED_COUNT
+  10. CENTAUR_LEGENDARY_COUNT
+  11. BARDBARIAN_LEGENDARY_COUNT
+  12. SPIDER_QUEEN_TASTY_HEROES
+  13. REVIVED
+  14. MISTRESS_MANICURE_STACK_COUNT
+  15. VILE_BILE_DAMAGE_TAKEN
+  16. BLACK_WING_REVIVED
+  17. UNRIPE_MYTHOLOGY_INCUBATION
+  18. PCH_ANUBISDRAGON_REVIVED
+  field: private static HeroBattleDataExtraType[] values
+  method: valuesCached() -> HeroBattleDataExtraType[]
+
+## com.perblue.rpg.network.messages.HeroEquipSlot
+Values (6):
+  0. ONE
+  1. TWO
+  2. THREE
+  3. FOUR
+  4. FIVE
+  5. SIX
+  field: private static HeroEquipSlot[] values
+  method: valuesCached() -> HeroEquipSlot[]
+
+## com.perblue.rpg.network.messages.HeroLineupType
+Values (34):
+  0. DEFAULT
+  1. NORMAL_CAMPAIGN
+  2. ELITE_CAMPAIGN
+  3. FIGHT_PIT_DEFENSE
+  4. FIGHT_PIT_ATTACK
+  5. THE_MOUNTAIN_SUMMIT
+  6. THE_MOUNTAIN_CAVES
+  7. CHALLENGES_MAGIC_IMMUNE
+  8. CHALLENGES_PHYSICAL_IMMUNE
+  9. CHALLENGES_ONLY_DRAGONS
+  10. EXPEDITION
+  11. CRYPT_RAID
+  12. COLISEUM_DEFENSE_1
+  13. COLISEUM_DEFENSE_2
+  14. COLISEUM_DEFENSE_3
+  15. COLISEUM_ATTACK_1
+  16. COLISEUM_ATTACK_2
+  17. COLISEUM_ATTACK_3
+  18. TITAN_TEMPLE
+  19. BOSS_PIT_EVIL_WIZARD_1
+  20. BOSS_PIT_EVIL_WIZARD_2
+  21. BOSS_PIT_EVIL_WIZARD_3
+  22. BOSS_PIT_GIANT_PLANT_1
+  23. BOSS_PIT_GIANT_PLANT_2
+  24. BOSS_PIT_GIANT_PLANT_3
+  25. BOSS_PIT_GOLDEN_COLOSSUS_1
+  26. BOSS_PIT_GOLDEN_COLOSSUS_2
+  27. BOSS_PIT_GOLDEN_COLOSSUS_3
+  28. GUILD_WAR_ATTACK
+  29. GUILD_WAR_DEFENSE_1
+  30. GUILD_WAR_DEFENSE_2
+  31. GUILD_WAR_DEFENSE_3
+  32. BOSS_BATTLE
+  33. EXPERT_CAMPAIGN
+  field: private static HeroLineupType[] values
+  method: valuesCached() -> HeroLineupType[]
+
+## com.perblue.rpg.network.messages.HeroTag
+Values (65):
+  0. NONE
+  1. PHYSICAL
+  2. MAGIC
+  3. TRUE
+  4. BASHING
+  5. PIERCING
+  6. SLASHING
+  7. NECROTIC
+  8. WATER
+  9. TOXIC
+  10. ELECTRIC
+  11. FIRE
+  12. DAMAGE_OVER_TIME
+  13. KNOCKBACK
+  14. DRAGON
+  15. RANGED
+  16. MELEE
+  17. TASTY
+  18. HEAVY
+  19. ENERGY
+  20. HEALING
+  21. LIFE_STEAL
+  22. TOTAL
+  23. UNSTABLE
+  24. ARMOR
+  25. AXE
+  26. BLIND
+  27. BOWTIE
+  28. CAN
+  29. CHARMED
+  30. STUN
+  31. HASTE
+  32. HEALING2
+  33. STEAL
+  34. HORNS
+  35. INVINCIBLE
+  36. MAGIC_RESISTANCE
+  37. NOSE
+  38. SHEILD_BREAK
+  39. SILENCE
+  40. SLOW
+  41. SNIPER_WOLF
+  42. STAT
+  43. CRIMSON
+  44. HOLY
+  45. REVERENT
+  46. HOLY_BEAST
+  47. MALE
+  48. FEMALE
+  49. PROJECTILE
+  50. GOOD_LOOKING
+  51. INDOORSY
+  52. LAMB_LOVER
+  53. LONELY_HERO
+  54. MIRROR_HATER
+  55. LOYAL_MATEY
+  56. FLAMES_OF_PASSION
+  57. PIOUS_HALO
+  58. EYES_OF_ENLIGHTENMENT
+  59. WILD_INTUITION
+  60. BOAST_OF_HEAD
+  61. ROAMING_THINGS_IN_THE_DARK_NIGHT
+  62. I_LOVE_THE_SEA
+  63. HARVEST_PARTY
+  64. TEA_PARTY_WITH_WIZARDS
+  field: private static HeroTag[] values
+  method: valuesCached() -> HeroTag[]
+
+## com.perblue.rpg.network.messages.HeroTagPrefix
+Values (5):
+  0. NONE
+  1. WEAK_TO
+  2. REQUIRES
+  3. REQUIRES_ONE
+  4. IMMUNE_TO
+  field: private static HeroTagPrefix[] values
+  method: valuesCached() -> HeroTagPrefix[]
+
+## com.perblue.rpg.network.messages.HowToPlayDeckType
+Values (28):
+  0. DEFAULT
+  1. VIP
+  2. EXPEDITION
+  3. MONTHLY_DEAL
+  4. CHAT_RULES
+  5. CRYPT
+  6. ENCHANTING
+  7. TITAN_TEMPLE_OWNER
+  8. TITAN_TEMPLE_OTHER
+  9. HERO_STATS
+  10. BOSS_PIT
+  11. GUILD
+  12. WAR
+  13. LEGENDARY
+  14. CONTESTS
+  15. RUNES
+  16. SILVER_CHEST
+  17. IAP_PURCHASING
+  18. RUNE_SHRINE
+  19. GOLD_CHEST
+  20. SOUL_CHEST
+  21. COLISEUM
+  22. FIGHT_PIT
+  23. PURPLE_CHEST
+  24. ORANGE_CHEST
+  25. BOSS_BATTLE
+  26. BOSS_BATTLE_REWARD
+  27. BOSS_BATTLE_LAYER
+  field: private static HowToPlayDeckType[] values
+  method: valuesCached() -> HowToPlayDeckType[]
+
+## com.perblue.rpg.network.messages.InGameNotificationType
+Values (1):
+  0. GENERIC
+  field: private static InGameNotificationType[] values
+  method: valuesCached() -> InGameNotificationType[]
+
+## com.perblue.rpg.network.messages.ItemType
+Values (1232):
+  0. DEFAULT
+  1. FREE_MANS_CROWBAR
+  2. MY_FIRST_SHIELD
+  3. RUBBER_VEST
+  4. PAPER_CROWN
+  5. ENCHANTED_ELBOW_PADS
+  6. GOBLIN_GROG
+  7. FOAM_FINGER
+  8. STOLEN_SNEAKERS
+  9. BIT_O_NIP
+  10. LOADED_DIE
+  11. FINE_BRIE
+  12. STICK_ON_MOUSTACHE
+  13. SNAZZY_VEST
+  14. CHUNKY_FEMUR
+  15. GOBLIN_WHACKER
+  16. BLOODY_BAT
+  17. SWASH_BUCKLER
+  18. BESSIES_BANE
+  19. LUCKY_ORCS_FOOT
+  20. CAPTAINS_TIGHTPANTS
+  21. PRETTY_SWEET_CAPE
+  22. PROTEIN_POWDER
+  23. LOAFERS_OF_ALACRITY
+  24. SMARTY_PANTS
+  25. GLOVES_OF_CRIT
+  26. SPARKLE_PONY_KEYCHAIN
+  27. BANJO_OF_DUELING
+  28. SHINY_BOTTLECAP
+  29. HEMP_BRACELET
+  30. YA_VAMPIRE_SERIES
+  31. WAND_OF_GOLD_SPARKLES
+  32. RAW_EGG
+  33. ARTIFACT_OF_UNIMAGINABLE_POWER
+  34. ARCANE_SLACKS
+  35. DAISY_CHAINSAW
+  36. CHAPS_OF_ENDURANCE
+  37. SIDE_OF_BACON
+  38. HIPPY_GLO_STICKS
+  39. MAGIC_EIGHT_BALL
+  40. KING_JEFFS_CROSSBOW
+  41. DIRECTORS_CUT
+  42. PLUCKY_HEROINES_SHORTBOW
+  43. BLISSFUL_IGNORANCE
+  44. EXCALIBURTREYNOLDS
+  45. BUTTER_KNIFE
+  46. PLASTIC_VAMPIRE_TEETH
+  47. THONG_OF_VITALITY
+  48. LIFESIPPER
+  49. SOCK_FULL_O_PENNIES
+  50. PENETRABLE_ARMOR
+  51. MELTY_CHOCOLATE_BAR
+  52. TEN_FOOT_POLE
+  53. THE_POWER_OF_MEDICINE
+  54. VAMPIRE_BUNNYEARS
+  55. NONSTICK_SHIELD
+  56. MUSCLE_WAX
+  57. RACING_STRIPES
+  58. SACRED_CODEX
+  59. AND_MY_AXE
+  60. IMPRACTICAL_CHESTPLATE
+  61. MACE_OF_FRIENDSHIP
+  62. THE_UGLY_STICK
+  63. GENTLEMENS_CLUB
+  64. STAFF_OF_BOSS_FIGHTING
+  65. DONT_TASE_ME_BOW
+  66. BAG_O_HAMMERS
+  67. SPUD_GUN
+  68. NECRONOMICON
+  69. INTIMIDATING_BEARD
+  70. LEAD_ZEPPELIN
+  71. LASER_POINTER
+  72. GLAIVE_OF_DISMEMBERMENT
+  73. ROBE_OF_SHARP_COMEBACKS
+  74. THE_MAD_GODS_TRIDENT
+  75. ROD_OF_BADASSERY
+  76. TOME_OF_FORBIDDEN_TRIVIA
+  77. DEATH_METAL_BLADE
+  78. SNAKE_OIL
+  79. DECODER_RING
+  80. AXES_OF_DUAL_WIELDING
+  81. ROD_OF_TASING
+  82. ORB_OF_EVERLASTING_FLAVOR
+  83. THINKING_CAP
+  84. THE_POWER_OF_MEDICINE_2_ORDER
+  85. KINDNESS
+  86. THE_COMPENSATOR
+  87. MUSSEL_MILK
+  88. FLAIL_OF_TOTAL_DEVASTATION
+  89. SHOT_IN_THE_ARM
+  90. BUNNY_SLIPPERS
+  91. ADAMANTIUM_TIARA
+  92. VORPAL_BOOMERANG
+  93. FRAMED_DIPLOMA
+  94. HEAD_BANGER
+  95. SUPER_SPIKEY_SPEAR
+  96. ROD_OF_WITTY_PARTY_BANTER
+  97. LASER_POINTER_2_ORDER
+  98. DIPLOMATIC_IMMUNITY
+  99. THE_1_RING
+  100. DIRK_OF_DISEMBOWELING
+  101. HAMMER_OF_WICKED_BEATS
+  102. ENIDS_EXPENSIVE_ELIXIR
+  103. DECODER_RING_2_ORDER
+  104. MJOLNIRBY
+  105. THE_POWER_OF_MEDICINE_3_ORDER
+  106. TOME_OF_FORBIDDEN_TRIVIA_2_ORDER
+  107. SWORDY_MCEPICPANTS
+  108. SHOVEL
+  109. PHILTER_OF_PURE_TESTOSTERONE
+  110. TOME_OF_NASTY_BEHAVIOR
+  111. BOOTS_MADE_FOR_WALKIN
+  112. POCKET_PROTECTOR
+  113. HAROLDS_HOMEMADE_HALBERD
+  114. SANDWICH_OF_UNSURPASSED_MEATINESS
+  115. LAVISHLY_ADORNED_RAPIER
+  116. TOME_OF_FORBIDDEN_TRIVIA_3_ORDER
+  117. THE_POWER_OF_MEDICINE_4_ORDER
+  118. SVENS_SWORD_OF_DOOOOOM
+  119. LASER_POINTER_3_ORDER
+  120. GRIEVOUS_BODILY_HARM
+  121. DECODER_RING_3_ORDER
+  122. LIFEDRINKER
+  123. MITHRIL_OREEAL
+  124. BIG_STABBY_SPEAR
+  125. EXP_FLASK
+  126. EXP_PHILTER
+  127. EXP_VIAL
+  128. VOID_DUST
+  129. SHIMMER_DUST
+  130. PRIMAL_ESSENCE
+  131. IRON_ORE
+  132. COPPER_ORE
+  133. SILVER_ORE
+  134. VOLCANIC_ORE
+  135. EXP_DECANTER
+  136. RAID_TICKET
+  137. STONE_ELECTROYETI
+  138. STONE_MEDUSA
+  139. STONE_FAITH_HEALER
+  140. HERO_ELECTROYETI
+  141. HERO_MEDUSA
+  142. HERO_FAITH_HEALER
+  143. LASER_POINTER_4_ORDER
+  144. ENIDS_EXPENSIVE_ELIXIR_2_ORDER
+  145. SHOT_IN_THE_ARM_2_ORDER
+  146. SHOT_IN_THE_ARM_3_ORDER
+  147. SHARD_MACE_OF_FRIENDSHIP
+  148. REEL_INTIMIDATING_BEARD
+  149. REEL_SHINY_BOTTLECAP
+  150. REEL_SUPER_SPIKEY_SPEAR
+  151. SHARD_RACING_STRIPES
+  152. SHARD_THE_UGLY_STICK
+  153. REEL_DECODER_RING
+  154. SHARD_MUSCLE_WAX
+  155. REEL_THE_POWER_OF_MEDICINE
+  156. REEL_THE_MAD_GODS_TRIDENT
+  157. REEL_GRIEVOUS_BODILY_HARM
+  158. REEL_SIDE_OF_BACON
+  159. SHARD_DONT_TASE_ME_BOW
+  160. SHARD_FRAMED_DIPLOMA
+  161. REEL_ORB_OF_EVERLASTING_FLAVOR
+  162. REEL_TOME_OF_FORBIDDEN_TRIVIA
+  163. SHARD_SACRED_CODEX
+  164. SHARD_IMPRACTICAL_CHESTPLATE
+  165. REEL_SPARKLE_PONY_KEYCHAIN
+  166. REEL_MJOLNIRBY
+  167. REEL_BIG_STABBY_SPEAR
+  168. REEL_KINDNESS
+  169. SHARD_PHILTER_OF_PURE_TESTOSTERONE
+  170. SHARD_STAFF_OF_BOSS_FIGHTING
+  171. REEL_HAMMER_OF_WICKED_BEATS
+  172. REEL_MAGIC_EIGHT_BALL
+  173. REEL_DIRK_OF_DISEMBOWELING
+  174. REEL_SPUD_GUN
+  175. REEL_FLAIL_OF_TOTAL_DEVASTATION
+  176. REEL_NECRONOMICON
+  177. SHARD_HAROLDS_HOMEMADE_HALBERD
+  178. REEL_LIFEDRINKER
+  179. REEL_SANDWICH_OF_UNSURPASSED_MEATINESS
+  180. REEL_ENIDS_EXPENSIVE_ELIXIR
+  181. REEL_PLASTIC_VAMPIRE_TEETH
+  182. REEL_PRETTY_SWEET_CAPE
+  183. REEL_VAMPIRE_BUNNYEARS
+  184. REEL_THE_COMPENSATOR
+  185. SHARD_GENTLEMENS_CLUB
+  186. REEL_BLOODY_BAT
+  187. REEL_POCKET_PROTECTOR
+  188. REEL_CHUNKY_FEMUR
+  189. REEL_DEATH_METAL_BLADE
+  190. SHARD_HEAD_BANGER
+  191. SHARD_AND_MY_AXE
+  192. REEL_THE_1_RING
+  193. REEL_GOBLIN_WHACKER
+  194. REEL_LEAD_ZEPPELIN
+  195. REEL_THINKING_CAP
+  196. REEL_TEN_FOOT_POLE
+  197. REEL_DIPLOMATIC_IMMUNITY
+  198. SHARD_BOOTS_MADE_FOR_WALKIN
+  199. REEL_LUCKY_ORCS_FOOT
+  200. REEL_ROD_OF_WITTY_PARTY_BANTER
+  201. SHARD_BUNNY_SLIPPERS
+  202. SHARD_VORPAL_BOOMERANG
+  203. REEL_BAG_O_HAMMERS
+  204. REEL_LASER_POINTER
+  205. REEL_SHOVEL
+  206. SHARD_ADAMANTIUM_TIARA
+  207. SHARD_REEL_THE_MAD_GODS_TRIDENT
+  208. SHARD_REEL_INTIMIDATING_BEARD
+  209. SHARD_REEL_FLAIL_OF_TOTAL_DEVASTATION
+  210. SHARD_REEL_KINDNESS
+  211. SHARD_REEL_LEAD_ZEPPELIN
+  212. SHARD_REEL_DECODER_RING
+  213. SHARD_REEL_NECRONOMICON
+  214. SHARD_REEL_TOME_OF_FORBIDDEN_TRIVIA
+  215. SHARD_REEL_THINKING_CAP
+  216. SHARD_REEL_THE_COMPENSATOR
+  217. SHARD_REEL_LASER_POINTER
+  218. SHARD_REEL_ORB_OF_EVERLASTING_FLAVOR
+  219. SHARD_REEL_GRIEVOUS_BODILY_HARM
+  220. SHARD_REEL_LIFEDRINKER
+  221. SHARD_REEL_SANDWICH_OF_UNSURPASSED_MEATINESS
+  222. SHARD_REEL_MJOLNIRBY
+  223. SHARD_REEL_DIRK_OF_DISEMBOWELING
+  224. SHARD_REEL_ROD_OF_WITTY_PARTY_BANTER
+  225. SHARD_REEL_DIPLOMATIC_IMMUNITY
+  226. SHARD_REEL_BIG_STABBY_SPEAR
+  227. SHARD_REEL_ENIDS_EXPENSIVE_ELIXIR
+  228. SHARD_REEL_SUPER_SPIKEY_SPEAR
+  229. SHARD_REEL_HAMMER_OF_WICKED_BEATS
+  230. SHARD_REEL_SHOVEL
+  231. SHARD_REEL_THE_1_RING
+  232. SHARD_REEL_DEATH_METAL_BLADE
+  233. SHARD_REEL_POCKET_PROTECTOR
+  234. STONE_DARK_DRACUL
+  235. HERO_DARK_DRACUL
+  236. STONE_COSMIC_ELF
+  237. HERO_COSMIC_ELF
+  238. STONE_ROLLER_WARRIOR
+  239. HERO_ROLLER_WARRIOR
+  240. STONE_DRAGON_LADY
+  241. HERO_DRAGON_LADY
+  242. STONE_CENTAUR_OF_ATTENTION
+  243. HERO_CENTAUR_OF_ATTENTION
+  244. STONE_UNSTABLE_UNDERSTUDY
+  245. HERO_UNSTABLE_UNDERSTUDY
+  246. STONE_MOON_DRAKE
+  247. HERO_MOON_DRAKE
+  248. STONE_POLEMASTER
+  249. HERO_POLEMASTER
+  250. STONE_CATAPULT_KNIGHT
+  251. HERO_CATAPULT_KNIGHT
+  252. STONE_BARDBARIAN
+  253. HERO_BARDBARIAN
+  254. STONE_SHADOW_ASSASSIN
+  255. HERO_SHADOW_ASSASSIN
+  256. STONE_DUST_DEVIL
+  257. HERO_DUST_DEVIL
+  258. STONE_SNAP_DRAGON
+  259. HERO_SNAP_DRAGON
+  260. STONE_HYDRA
+  261. HERO_HYDRA
+  262. STONE_SAVAGE_CUTIE
+  263. HERO_SAVAGE_CUTIE
+  264. STONE_ZOMBIE_SQUIRE
+  265. HERO_ZOMBIE_SQUIRE
+  266. STONE_MAGIC_DRAGON
+  267. HERO_MAGIC_DRAGON
+  268. STONE_AQUATIC_MAN
+  269. HERO_AQUATIC_MAN
+  270. STONE_CRIMSON_WITCH
+  271. HERO_CRIMSON_WITCH
+  272. STONE_NINJA_DWARF
+  273. HERO_NINJA_DWARF
+  274. STONE_BROZERKER
+  275. HERO_BROZERKER
+  276. STONE_GROOVY_DRUID
+  277. HERO_GROOVY_DRUID
+  278. STONE_BONE_DRAGON
+  279. HERO_BONE_DRAGON
+  280. MITHRIL_ORE
+  281. STONE_SPIKEY_DRAGON
+  282. HERO_SPIKEY_DRAGON
+  283. STONE_FROST_GIANT
+  284. HERO_FROST_GIANT
+  285. STONE_MINOTAUR
+  286. HERO_MINOTAUR
+  287. STONE_DARK_HORSE
+  288. HERO_DARK_HORSE
+  289. STONE_DRUIDINATRIX
+  290. HERO_DRUIDINATRIX
+  291. STONE_ORC_MONK
+  292. HERO_ORC_MONK
+  293. STONE_RABID_DRAGON
+  294. HERO_RABID_DRAGON
+  295. STONE_DWARVEN_ARCHER
+  296. HERO_DWARVEN_ARCHER
+  297. DEAD_EYE
+  298. DRAGON_SCALE
+  299. LOST_DISK_OF_POWER
+  300. LIGER_BALM
+  301. OVERPOWERING_FRAGRANCE
+  302. ANTI_MAGIC_SHIELD
+  303. WAR_SANDALS
+  304. WIZARDY_FOR_IDIOTS
+  305. LICHE_FINGER
+  306. MOTIVATIONAL_CASSETTE
+  307. CHUGG_BOOTS
+  308. PURPLE_PILLS_OF_POTENCY
+  309. BLACKSTEEL_BLADE
+  310. SHARD_DEAD_EYE
+  311. SHARD_LOST_DISK_OF_POWER
+  312. SHARD_LIGER_BALM
+  313. SHARD_ANTI_MAGIC_SHIELD
+  314. SHARD_WAR_SANDALS
+  315. SHARD_WIZARDY_FOR_IDIOTS
+  316. ALCHEMY_COST_RESET
+  317. STAMINA_COST_RESET
+  318. ELITE_CHANCES_COST_RESET
+  319. STAMINA_CONSUMABLE
+  320. DOUBLE_NORMAL_CAMPAIGN_DROPS
+  321. DOUBLE_ELITE_CAMPAIGN_DROPS
+  322. SHOP_REFRESH
+  323. GENERIC_ORANGE
+  324. STONE_SKELETON_KING
+  325. HERO_SKELETON_KING
+  326. STONE_SATYR
+  327. HERO_SATYR
+  328. STONE_STORM_DRAGON
+  329. HERO_STORM_DRAGON
+  330. YODELING_SWORD
+  331. GIRDLE_OF_VICTORY
+  332. RATTLING_SABRE
+  333. PURIFYING_TUNING_FORK
+  334. PETER_PIPERS_PEPPER_SPRAY
+  335. RING_OF_THE_SQUIRREL
+  336. POWER_OF_SCIENCE
+  337. HIGH_TEA
+  338. SELF_PRESERVER
+  339. EXTREME_FAD_DIET
+  340. BOWIE_KNIFE
+  341. JAR_OF_KITTEN_TEAR
+  342. MYSTICAL_ELVEN_JUNK
+  343. PHOTO_BOMB
+  344. READIN_RAIN_BOW
+  345. GLASS_CASE_OF_EMOTION
+  346. ROLL_OF_DUCT_TAPE
+  347. WICKED_MULLET
+  348. UNICORN_PUKE
+  349. SHARD_PETER_PIPERS_PEPPER_SPRAY
+  350. SHARD_RING_OF_THE_SQUIRREL
+  351. SHARD_HIGH_TEA
+  352. SHARD_SELF_PRESERVER
+  353. SHARD_EXTREME_FAD_DIET
+  354. SHARD_BOWIE_KNIFE
+  355. SHARD_PHOTO_BOMB
+  356. SHARD_ROLL_OF_DUCT_TAPE
+  357. VIP5_CONSUMABLE
+  358. STONE_UNICORGI
+  359. HERO_UNICORGI
+  360. STONE_SNIPER_WOLF
+  361. HERO_SNIPER_WOLF
+  362. STONE_GENIE
+  363. HERO_GENIE
+  364. SKIN_DARK_HORSE_ZEBRA
+  365. SKIN_DARK_HORSE_MECH
+  366. CHAMPIONSHIP_BELT
+  367. HEALTHY_DOSE_OF_SKEPTICISM
+  368. AXE_OF_GRATUITOUS_GUITAR_SOLOS
+  369. ANCIENT_TOME_OF_OCCULT_NONSENSE
+  370. DRAGONS_BALLZ
+  371. HELM_OF_THE_RAGING_BEAR
+  372. COSPLAY_SWORD
+  373. IVY_LEAGUE_HAIRCUT
+  374. DUELING_KNIVES_OF_HACKENSLASH
+  375. DEERSTALKER_HAT
+  376. LENSLESS_GLASSES
+  377. UNTESTED_JETPACK
+  378. HELM_OF_SCREAMING_MANFACE
+  379. SWEATBAND_OF_TRAINING_MONTAGES
+  380. MONSTER_HUNTER_ARMOR
+  381. SHARD_HEALTHY_DOSE_OF_SKEPTICISM
+  382. SHARD_AXE_OF_GRATUITOUS_GUITAR_SOLOS
+  383. SHARD_ANCIENT_TOME_OF_OCCULT_NONSENSE
+  384. SHARD_HELM_OF_THE_RAGING_BEAR
+  385. SHARD_COSPLAY_SWORD
+  386. SHARD_LENSLESS_GLASSES
+  387. SHARD_UNTESTED_JETPACK
+  388. SHARD_SWEATBAND_OF_TRAINING_MONTAGES
+  389. RUNICITE_SHARD
+  390. RUNICITE_STONE
+  391. RUNICITE_BLOCK
+  392. RUNICITE_SLAB
+  393. RUNICITE_MONOLITH
+  394. SILVER_CHEST_ROLL_X1
+  395. GOLD_CHEST_ROLL_X1
+  396. SOUL_CHEST_ROLL
+  397. EVENT_CHEST_ROLL_X1
+  398. TAROT_DECK_OF_HYPERBOLE
+  399. MACGUFFIN_FRAGMENT_45
+  400. DIRTY_BASTARD_SWORD
+  401. THE_HOLY_PAIL
+  402. ORNATE_CROWN_OF_THE_GM
+  403. GLORY_SEEKER
+  404. EYE_OF_THE_BEHOLDER
+  405. HOLY_LANCE_OF_PLOT_ADVANCEMENT
+  406. AXE_OF_GRINDING
+  407. AMULET_OF_CONCENTRATED_AWESOME
+  408. EMBARASSING_CHAINMAIL_OF_IMMENSE_POWER
+  409. SLIGHTLY_EVIL_MAGIC_MIRROR
+  410. STONE_DRAGZILLA
+  411. HERO_DRAGZILLA
+  412. STONE_PIRATE
+  413. HERO_PIRATE
+  414. STONE_CYCLOPS_WIZARD
+  415. HERO_CYCLOPS_WIZARD
+  416. STONE_DEMON_TOTEM
+  417. HERO_DEMON_TOTEM
+  418. SHARD_MACGUFFIN_FRAGMENT_45
+  419. SHARD_THE_HOLY_PAIL
+  420. SKIN_CRIMSON_WITCH_CROW
+  421. SKIN_ELECTROYETI_SASQUATCH
+  422. SKIN_HYDRA_SEA_DRAGON
+  423. SKIN_FAITH_HEALER_CTHULU
+  424. OFFERING_TREE
+  425. OFFERING_FIRE
+  426. OFFERING_OCEAN
+  427. OFFERING_ROCK
+  428. OFFERING_MIST
+  429. OFFERING_LIGHTNING
+  430. OFFERING_BLOOD
+  431. OFFERING_RIVER
+  432. OFFERING_HAIL
+  433. OFFERING_KEYSTONE
+  434. OFFERING_MAJOR_1
+  435. OFFERING_MAJOR_2
+  436. OFFERING_MINOR_1
+  437. OFFERING_MINOR_2
+  438. OFFERING_MINOR_3
+  439. SHRINE_ROLL_STONE
+  440. SHRINE_ROLL_CRYSTAL
+  441. STONE_DEEP_DRAGON
+  442. HERO_DEEP_DRAGON
+  443. STONE_DOPPELGANGER
+  444. HERO_DOPPELGANGER
+  445. STONE_KRAKEN_KING
+  446. HERO_KRAKEN_KING
+  447. STONE_STOWAWAY
+  448. HERO_STOWAWAY
+  449. SKIN_BARDBARIAN_CHAMPION
+  450. SKIN_CENTAUR_RESPLENDENT
+  451. SKIN_DRAGON_LADY_MASTERY
+  452. SKIN_MINOTAUR_HOLSTEIN
+  453. SKIN_UNSTABLE_UNDERSTUDY_MASTERY
+  454. REEL_DRAGON_SCALE
+  455. REEL_CHUGG_BOOTS
+  456. REEL_BLACKSTEEL_BLADE
+  457. REEL_YODELING_SWORD
+  458. REEL_POWER_OF_SCIENCE
+  459. REEL_GIRDLE_OF_VICTORY
+  460. REEL_RATTLING_SABRE
+  461. REEL_MYSTICAL_ELVEN_JUNK
+  462. REEL_JAR_OF_KITTEN_TEAR
+  463. REEL_GLASS_CASE_OF_EMOTION
+  464. REEL_UNICORN_PUKE
+  465. REEL_IVY_LEAGUE_HAIRCUT
+  466. REEL_ORNATE_CROWN_OF_THE_GM
+  467. REEL_TAROT_DECK_OF_HYPERBOLE
+  468. REEL_DIRTY_BASTARD_SWORD
+  469. REEL_HOLY_LANCE_OF_PLOT_ADVANCEMENT
+  470. REEL_EYE_OF_THE_BEHOLDER
+  471. REEL_GLORY_SEEKER
+  472. SHARD_REEL_DRAGON_SCALE
+  473. SHARD_REEL_CHUGG_BOOTS
+  474. SHARD_REEL_BLACKSTEEL_BLADE
+  475. SHARD_REEL_YODELING_SWORD
+  476. SHARD_REEL_POWER_OF_SCIENCE
+  477. SHARD_REEL_GIRDLE_OF_VICTORY
+  478. SHARD_REEL_RATTLING_SABRE
+  479. SHARD_REEL_MYSTICAL_ELVEN_JUNK
+  480. SHARD_REEL_JAR_OF_KITTEN_TEAR
+  481. SHARD_REEL_GLASS_CASE_OF_EMOTION
+  482. SHARD_REEL_UNICORN_PUKE
+  483. SHARD_REEL_IVY_LEAGUE_HAIRCUT
+  484. SHARD_REEL_ORNATE_CROWN_OF_THE_GM
+  485. SHARD_REEL_TAROT_DECK_OF_HYPERBOLE
+  486. SHARD_REEL_DIRTY_BASTARD_SWORD
+  487. SHARD_REEL_HOLY_LANCE_OF_PLOT_ADVANCEMENT
+  488. SHARD_REEL_EYE_OF_THE_BEHOLDER
+  489. SHARD_REEL_GLORY_SEEKER
+  490. SKIN_BROZERKER_BODYGUARD
+  491. SKIN_SNAP_DRAGON_MASTERY
+  492. SKIN_CATAPULT_KNIGHT_MASTERY
+  493. SKIN_ELECTROYETI_MASTERY
+  494. SKIN_MOON_DRAKE_MASTERY
+  495. SKIN_MEDUSA_MASTERY
+  496. SKIN_NINJA_DWARF_MASTERY
+  497. SKIN_POLEMASTER_GYMNAST
+  498. SKIN_ROLLER_WARRIOR_LUAU
+  499. SKIN_DUST_DEVIL_PARISIAN
+  500. SKIN_SKELETON_KING_MASTERY
+  501. SKIN_SPIKEY_DRAGON_MASTERY
+  502. SKIN_DARK_DRACUL_FLYING_SQUIRREL
+  503. SKIN_ZOMBIE_SQUIRE_MASTERY
+  504. SKIN_DARK_DRACUL_MASTERY
+  505. SKIN_POLEMASTER_MASTERY
+  506. SKIN_SKELETON_DEER_MASTERY
+  507. STONE_CURSED_STATUE
+  508. HERO_CURSED_STATUE
+  509. STONE_PLANT_SOUL
+  510. HERO_PLANT_SOUL
+  511. STONE_SPIDER_QUEEN
+  512. HERO_SPIDER_QUEEN
+  513. STONE_VULTURE_DRAGON
+  514. HERO_VULTURE_DRAGON
+  515. HAMMER_TIME
+  516. MEATY_BUTTER
+  517. FOUNTAIN_OF_OLD_AGE
+  518. ORGANIC_BOOK_OF_NATURE
+  519. VOLATILE_SMOOTHIE
+  520. ITEM_INFO
+  521. ROCKET_CLOAK
+  522. POLITICAL_PLATFORM_SHOES
+  523. GLASS_CANNON
+  524. LITTLE_PRICKS
+  525. ORBITAL_KITTY
+  526. RING_OF_ILL_WILL
+  527. GOOD_GREEN_GOO
+  528. WHITE_PICKET_SHIELD
+  529. NUMBER_529
+  530. SICK_MULLET
+  531. FOUR_D_GLASSES
+  532. HAIR_OF_THE_DOG
+  533. SKIN_BROZERKER_VETERAN
+  534. SKIN_CRIMSON_WITCH_SORCERESS
+  535. SKIN_GENIE_GOLDEN
+  536. SKIN_MINOTAUR_MARAUDER
+  537. SKIN_SAVAGE_CUTIE_RAVAGER
+  538. SKIN_UNICORGI_ARMORED
+  539. SKIN_SNAP_DRAGON_EVERGLADES
+  540. SKIN_MAGIC_DRAGON_SPAGHETTI
+  541. SKIN_SPIKEY_DRAGON_MECHA
+  542. SKIN_DRUIDINATRIX_SPRING
+  543. SKIN_CATAPULT_KNIGHT_UNICORN
+  544. SKIN_DRAGZILLA_ZILLA
+  545. SKIN_SNIPER_WOLF_DANCER
+  546. STONE_BANSHEE
+  547. HERO_BANSHEE
+  548. STONE_RAGING_REVENANT
+  549. HERO_RAGING_REVENANT
+  550. STONE_SILENT_SPIRIT
+  551. HERO_SILENT_SPIRIT
+  552. STONE_SPECTRAL_DRAGON
+  553. HERO_SPECTRAL_DRAGON
+  554. SKIN_CYCLOPS_WIZARD_MASTERY
+  555. SKIN_DEMON_TOTEM_MASTERY
+  556. SKIN_SATYR_MASTERY
+  557. SKIN_SHADOW_ASSASSIN_MASTERY
+  558. SKIN_STORM_DRAGON_MASTERY
+  559. REEL_SICK_MULLET
+  560. REEL_ORBITAL_KITTY
+  561. REEL_HAMMER_TIME
+  562. SHARD_VOLATILE_SMOOTHIE
+  563. SHARD_RING_OF_ILL_WILL
+  564. SHARD_LITTLE_PRICKS
+  565. SHARD_FOUR_D_GLASSES
+  566. SHARD_REEL_SICK_MULLET
+  567. SHARD_REEL_ORBITAL_KITTY
+  568. SHARD_REEL_HAMMER_TIME
+  569. SKIN_COSMIC_ELF_ALIEN
+  570. SKIN_DEMON_TOTEM_KITTEN
+  571. SKIN_SAVAGE_CUTIE_TADPOLE
+  572. SKIN_DARK_HORSE_MASTERY
+  573. SKIN_UNSTABLE_UNDERSTUDY_BALLERINA
+  574. SKIN_BONE_DRAGON_MASTERY
+  575. SKIN_DWARVEN_ARCHER_MASTERY
+  576. SKIN_FAITH_HEALER_MASTERY
+  577. SKIN_FROST_GIANT_FLAMING
+  578. STONE_WEREDRAGON
+  579. HERO_WEREDRAGON
+  580. BOOM_BOX
+  581. UPHOLSTERED_THRONE
+  582. SHOES_OF_THE_MAD_GOD
+  583. LOST_CONCEPT_ART
+  584. LIGHTNING_GREASE
+  585. PHAT_PANTS
+  586. HEAL_AID
+  587. BRAIN_PILLS
+  588. FLAMEY_POOFS
+  589. TUNNEL_VISION
+  590. STAY_BOARD
+  591. CAVE_DAGGER
+  592. DESERT_SMASHER
+  593. FEATHER_WEIGHT_PAULDRONS
+  594. MUSCLE_BOUND_BOOK
+  595. HOT_ARMOR
+  596. REEL_BOOM_BOX
+  597. REEL_UPHOLSTERED_THRONE
+  598. REEL_SHOES_OF_THE_MAD_GOD
+  599. SHARD_LOST_CONCEPT_ART
+  600. SHARD_LIGHTNING_GREASE
+  601. SHARD_PHAT_PANTS
+  602. SHARD_HEAL_AID
+  603. SHARD_REEL_BOOM_BOX
+  604. SHARD_REEL_UPHOLSTERED_THRONE
+  605. SHARD_REEL_SHOES_OF_THE_MAD_GOD
+  606. STONE_WEE_WITCH
+  607. HERO_WEE_WITCH
+  608. HERO_DUNGEON_MAN
+  609. STONE_DUNGEON_MAN
+  610. STONE_PLAGUE_ENTREPRENEUR
+  611. HERO_PLAGUE_ENTREPRENEUR
+  612. SKIN_MEDUSA_BLACK_MAMBA
+  613. SKIN_GROOVY_DRUID_MASTERY
+  614. SKIN_HYDRA_MASTERY
+  615. SKIN_ORC_MONK_ORCS
+  616. SKIN_DRAGZILLA_DRAG
+  617. HERO_MISTRESS_MANICURE
+  618. STONE_MISTRESS_MANICURE
+  619. STONE_VILE_BILE
+  620. HERO_VILE_BILE
+  621. SKIN_NINJA_DWARF_DATENIGHT
+  622. SKIN_RABID_DRAGON_MASTERY
+  623. SKIN_CENTAUR_OF_ATTENTION_MASTERY
+  624. STONE_VOID_WYVERN
+  625. SKIN_ORC_MONK_UNCLE
+  626. EYE_ON_THE_PRIZE
+  627. BRAIN_GUARD_9000
+  628. BEARLY_THERE_BOOTS
+  629. TIME_KILLER
+  630. DOUBLE_BLADED_SWORD
+  631. SOUL_PUPPET
+  632. HEARTY_CHEST
+  633. MIND_MAP
+  634. TIME_SAVER
+  635. CANNON_CANOE
+  636. NEW_KNIGHT_IN_TOWN
+  637. BLACKSMITH_BREW
+  638. ARCANE_DOODLES
+  639. BELL_OF_SILENCE
+  640. FEATHERWEIGHT_WINGS
+  641. ADVENTURERS_STARTER_PACK
+  642. REEL_EYE_ON_THE_PRIZE
+  643. REEL_BRAIN_GUARD_9000
+  644. REEL_BEARLY_THERE_BOOTS
+  645. SHARD_TIME_KILLER
+  646. SHARD_DOUBLE_BLADED_SWORD
+  647. SHARD_SOUL_PUPPET
+  648. SHARD_HEARTY_CHEST
+  649. SHARD_REEL_EYE_ON_THE_PRIZE
+  650. SHARD_REEL_BRAIN_GUARD_9000
+  651. SHARD_REEL_BEARLY_THERE_BOOTS
+  652. SKIN_STOWAWAY_SANTAS_HELPER
+  653. SKIN_FROST_GIANT_FURIOUS
+  654. SKIN_BONE_DRAGON_PEPPERMINT
+  655. SKIN_BARDBARIAN_WOOD_ELF
+  656. SKIN_MOON_DRAKE_FESTIVE_FAIRY
+  657. SKIN_DWARVEN_ARCHER_ROMANTIC
+  658. SKIN_RABID_DRAGON_DOGGY
+  659. SKIN_PIRATE_SPACE
+  660. SKIN_SILENT_SPIRIT_CLOWN
+  661. SKIN_PIRATE_MASTERY
+  662. SKIN_DUST_DEVIL_MASTERY
+  663. SKIN_ORC_MONK_MASTERY
+  664. HERO_VOID_WYVERN
+  665. SKIN_AQUATIC_MAN_MASTERY
+  666. SKIN_FROST_GIANT_MASTERY
+  667. SKIN_BANSHEE_BUTTON_DOLL
+  668. SKIN_COSMIC_ELF_MASTERY
+  669. MY_JAM
+  670. CREATINE_CACTUS
+  671. MUNDANE_MUSHROOMS
+  672. CROWNING_ACHIEVEMENT
+  673. FRIENDZONITE
+  674. THE_HUSTLE
+  675. FLOPPIN_FLIP_FLOPS
+  676. VOLCANIC_BLADE
+  677. ENGAGEMENT_KNUCKLES
+  678. MOON_LIGHT
+  679. GREAT_HORNED_HORN
+  680. HEART_HEALTH_CANDY
+  681. GROUND_GEARS
+  682. CLOAK_OF_THE_OWL
+  683. DODGY_JEWELRY
+  684. ALCHEMIST_STARTER_PACK
+  685. REEL_FLOPPIN_FLIP_FLOPS
+  686. REEL_HEART_HEALTH_CANDY
+  687. REEL_CLOAK_OF_THE_OWL
+  688. SHARD_REEL_FLOPPIN_FLIP_FLOPS
+  689. SHARD_REEL_HEART_HEALTH_CANDY
+  690. SHARD_REEL_CLOAK_OF_THE_OWL
+  691. SHARD_CREATINE_CACTUS
+  692. SHARD_MUNDANE_MUSHROOMS
+  693. SHARD_THE_HUSTLE
+  694. SHARD_GROUND_GEARS
+  695. STONE_BURNT_ONE
+  696. HERO_BURNT_ONE
+  697. SKIN_DOPPELGANGER_MOLTEN
+  698. CRUDE_SHIELD
+  699. DWARVEN_LIFTING_BELT
+  700. PURPLE_CHEST_ROLL_X1
+  701. ORANGE_CHEST_ROLL_X1
+  702. SKIN_STOWAWAY_MASTERY
+  703. SKIN_DOPPELGANGER_MASTERY
+  704. SKIN_KRAKEN_KING_MASTERY
+  705. SKIN_MAGIC_DRAGON_MASTERY
+  706. SKIN_SNIPER_WOLF_ASTRAL_SPIRIT
+  707. SKIN_BARDBARIAN_HIGHSCORE
+  708. SKIN_GENIE_TARNISHED_DJINN
+  709. SKIN_AQUATIC_MAN_MANATEE
+  710. SKIN_UNICORGI_RAINBOW
+  711. SKIN_BONE_DRAGON_ADAMANTIUM
+  712. SKIN_SATYR_WOLF
+  713. SKIN_MOON_DRAKE_MECHA
+  714. SKIN_PLANT_SOUL_COUNTRY
+  715. SKIN_SKELETON_KING_ASCENDANT
+  716. SKIN_SKELETON_DEER_ASCENDANT_DEER
+  717. STONE_TOMB_ANGEL
+  718. HERO_TOMB_ANGEL
+  719. STONE_ANGELIC_HERALD
+  720. HERO_ANGELIC_HERALD
+  721. STONE_BULWARK_ANGEL
+  722. HERO_BULWARK_ANGEL
+  723. HERO_ANGEL_DRAGON
+  724. STONE_ANGEL_DRAGON
+  725. AGED_DRAGON_MILK
+  726. ANCIENT_CODE
+  727. AUTO_FLUTE
+  728. BLUNT_BLADE
+  729. DRACONIC_FUSE
+  730. FLATTERING_MIRROR
+  731. GIANTS_GROG
+  732. ILLUSORY_HURDLE
+  733. LION_LIQUEUR
+  734. LOST_GREAVES
+  735. POISONED_DAGGER
+  736. RINGS_OF_A_FEATHER
+  737. SPIDER_BOMB
+  738. VANISHING_SCROLL
+  739. SHARD_GIANTS_GROG
+  740. REEL_FLATTERING_MIRROR
+  741. REEL_BLUNT_BLADE
+  742. REEL_LOST_GREAVES
+  743. SHARD_AGED_DRAGON_MILK
+  744. SHARD_POISONED_DAGGER
+  745. SHARD_RINGS_OF_A_FEATHER
+  746. SHARD_REEL_FLATTERING_MIRROR
+  747. SHARD_REEL_BLUNT_BLADE
+  748. SHARD_REEL_LOST_GREAVES
+  749. STONE_DRAGON_SLAYER
+  750. HERO_DRAGON_SLAYER
+  751. STONE_ETERNAL_ENCHANTER
+  752. HERO_ETERNAL_ENCHANTER
+  753. STONE_GRAND_HUNTRESS
+  754. HERO_GRAND_HUNTRESS
+  755. STONE_TRIPLE_THREAT
+  756. HERO_TRIPLE_THREAT
+  757. SKIN_RAGING_REVENANT_MASTERY
+  758. SKIN_VULTURE_DRAGON_MASTERY
+  759. TRIASSIC_TRINKET
+  760. RUBY_FLIP_FLOPS
+  761. PURIFICATION_ROBE
+  762. DENSE_CAKE_OF_HATE
+  763. CRUDE_SNIPPERS
+  764. MAD_GODS_MUG
+  765. GOLDEN_SLINGSHOT
+  766. CAT_O_NINE_TAILS
+  767. FEATHER_WEIGHT_FOIL
+  768. TOME_OF_CURSED_HORTICULTURE
+  769. ESCUTCHEON_OF_EYES
+  770. SOUL_FOR_POWER_VOLUME_45
+  771. OGRES_BATTERING_RAM
+  772. COG_NITIVE_MASK
+  773. BUNNY_BLADE
+  774. HEART_HAT
+  775. DRAGON_BLANKIE
+  776. RING_OF_FIRE
+  777. NAUGHTY_TAPESTRY
+  778. MANLY_FIRST_AID_KIT
+  779. SHARD_CRUDE_SNIPPERS
+  780. SHARD_MAD_GODS_MUG
+  781. SHARD_GOLDEN_SLINGSHOT
+  782. SHARD_CAT_O_NINE_TAILS
+  783. SHARD_DRAGON_BLANKIE
+  784. SHARD_RING_OF_FIRE
+  785. SHARD_NAUGHTY_TAPESTRY
+  786. SHARD_MANLY_FIRST_AID_KIT
+  787. REEL_ROCKET_CLOAK
+  788. REEL_ANCIENT_CODE
+  789. REEL_BLACKSMITH_BREW
+  790. REEL_FEATHER_WEIGHT_PAULDRONS
+  791. REEL_TRIASSIC_TRINKET
+  792. REEL_RUBY_FLIP_FLOPS
+  793. REEL_PURIFICATION_ROBE
+  794. REEL_DENSE_CAKE_OF_HATE
+  795. SREEL_FEATHER_WEIGHT_FOIL
+  796. REEL_TOME_OF_CURSED_HORTICULTURE
+  797. REEL_ESCUTCHEON_OF_EYES
+  798. REEL_SOUL_FOR_POWER_VOLUME_45
+  799. REEL_OGRES_BATTERING_RAM
+  800. REEL_COG_NITIVE_MASK
+  801. REEL_BUNNY_BLADE
+  802. REEL_HEART_HAT
+  803. REEL_FEATHER_WEIGHT_FOIL
+  804. SHARD_REEL_ANCIENT_CODE
+  805. SHARD_REEL_BLACKSMITH_BREW
+  806. SHARD_REEL_BUNNY_BLADE
+  807. SHARD_REEL_DENSE_CAKE_OF_HATE
+  808. SHARD_REEL_ESCUTCHEON_OF_EYES
+  809. SHARD_REEL_FEATHER_WEIGHT_FOIL
+  810. SHARD_REEL_FEATHER_WEIGHT_PAULDRONS
+  811. SHARD_REEL_HEART_HAT
+  812. SHARD_REEL_OGRES_BATTERING_RAM
+  813. SHARD_REEL_PURIFICATION_ROBE
+  814. SHARD_REEL_ROCKET_CLOAK
+  815. SHARD_REEL_RUBY_FLIP_FLOPS
+  816. SHARD_REEL_SOUL_FOR_POWER_VOLUME_45
+  817. SHARD_REEL_TOME_OF_CURSED_HORTICULTURE
+  818. SHARD_REEL_TRIASSIC_TRINKET
+  819. STONE_LAST_DEFENDER
+  820. HERO_LAST_DEFENDER
+  821. STONE_SOJOURNER_SORCERESS
+  822. HERO_SOJOURNER_SORCERESS
+  823. STONE_KARAOKE_KING
+  824. HERO_KARAOKE_KING
+  825. SHARD_REEL_COG_NITIVE_MASK
+  826. SKIN_SOJOURNER_SORCERESS_CHRISTMAS
+  827. STONE_SHADOW_OF_SVEN
+  828. HERO_SHADOW_OF_SVEN
+  829. STONE_SUN_SEEKER
+  830. HERO_SUN_SEEKER
+  831. STONE_STEPLADDER_BROTHERS
+  832. HERO_STEPLADDER_BROTHERS
+  833. STONE_FORGOTTEN_DRAGON
+  834. HERO_FORGOTTEN_DRAGON
+  835. SKIN_WEE_WITCH_MASTERY
+  836. SKIN_BANSHEE_MASTERY
+  837. SKIN_SILENT_SPIRIT_MASTERY
+  838. SKIN_SPECTRAL_DRAGON_MASTERY
+  839. TEAM_XP_BONUS_ITEM_12_HOUR
+  840. TEAM_XP_BONUS_ITEM_24_HOUR
+  841. TEAM_XP_BONUS_ITEM_72_HOUR
+  842. BRACELET_OF_LIGHTNING
+  843. HELMET_OF_FORESIGHT
+  844. DRAGONS_BLADE
+  845. GREAVES_OF_PLEIAS
+  846. SWORD_OF_DESPAIR
+  847. RING_OF_TEMPTATION
+  848. MAI_TAI_OF_IMMUNITY
+  849. WRAITH_BARRIER
+  850. GAUNTLET_OF_THRONE
+  851. BOOK_OF_IRMAC
+  852. PHOENIX_TALISMAN
+  853. LAZARUS_BEANS
+  854. REEL_BRACELET_OF_LIGHTNING
+  855. REEL_HELMET_OF_FORESIGHT
+  856. REEL_DRAGONS_BLADE
+  857. REEL_GREAVES_OF_PLEIAS
+  858. REEL_SWORD_OF_DESPAIR
+  859. REEL_RING_OF_TEMPTATION
+  860. REEL_MAI_TAI_OF_IMMUNITY
+  861. REEL_WRAITH_BARRIER
+  862. SHARD_GAUNTLET_OF_THRONE
+  863. SHARD_BOOK_OF_IRMAC
+  864. SHARD_PHOENIX_TALISMAN
+  865. SHARD_LAZARUS_BEANS
+  866. SHARD_REEL_BRACELET_OF_LIGHTNING
+  867. SHARD_REEL_HELMET_OF_FORESIGHT
+  868. SHARD_REEL_DRAGONS_BLADE
+  869. SHARD_REEL_GREAVES_OF_PLEIAS
+  870. SHARD_REEL_SWORD_OF_DESPAIR
+  871. SHARD_REEL_RING_OF_TEMPTATION
+  872. SHARD_REEL_MAI_TAI_OF_IMMUNITY
+  873. SHARD_REEL_WRAITH_BARRIER
+  874. SKIN_CYCLOPS_WIZARD_VALENTINE
+  875. SKIN_ROLLER_WARRIOR_VALENTINE
+  876. STONE_BLACK_WING
+  877. HERO_BLACK_WING
+  878. STONE_GREED_DRAGON
+  879. HERO_GREED_DRAGON
+  880. STONE_UNRIPE_MYTHOLOGY
+  881. HERO_UNRIPE_MYTHOLOGY
+  882. SKIN_WEREDRAGON_MASTERY
+  883. SKIN_DUNGEON_MAN_MASTERY
+  884. STEAM_ENGINE
+  885. IRON_HELMET_OF_BIKING
+  886. ADVENTURERS_RIDES
+  887. DRAGON_LEATHER_TIGHTS
+  888. BONE_CRUSHING_PLIERS
+  889. MYSTERIOUS_EGG
+  890. MAGICAL_PEST_MAST
+  891. THE_SHIELD_STOPS_YOU
+  892. DOUBLE_AXE
+  893. DEVILS_POT
+  894. DRAGONS_POCKET_WATCH
+  895. FAMILIAR_ENERGY_TANK
+  896. REEL_STEAM_ENGINE
+  897. REEL_IRON_HELMET_OF_BIKING
+  898. REEL_ADVENTURERS_RIDES
+  899. REEL_DRAGON_LEATHER_TIGHTS
+  900. REEL_BONE_CRUSHING_PLIERS
+  901. REEL_MYSTERIOUS_EGG
+  902. REEL_MAGICAL_PEST_MAST
+  903. REEL_THE_SHIELD_STOPS_YOU
+  904. SHARD_DOUBLE_AXE
+  905. SHARD_DEVILS_POT
+  906. SHARD_DRAGONS_POCKET_WATCH
+  907. SHARD_FAMILIAR_ENERGY_TANK
+  908. SHARD_REEL_STEAM_ENGINE
+  909. SHARD_REEL_IRON_HELMET_OF_BIKING
+  910. SHARD_REEL_ADVENTURERS_RIDES
+  911. SHARD_REEL_DRAGON_LEATHER_TIGHTS
+  912. SHARD_REEL_BONE_CRUSHING_PLIERS
+  913. SHARD_REEL_MYSTERIOUS_EGG
+  914. SHARD_REEL_MAGICAL_PEST_MAST
+  915. SHARD_REEL_THE_SHIELD_STOPS_YOU
+  916. WORLD_EGG
+  917. SKIN_WEE_WITCH_EASTER
+  918. SKIN_ETERNAL_ENCHANTER_EASTER
+  919. SKIN_SPECTRAL_DRAGON_EASTER
+  920. SKIN_DRUIDINATRIX_EASTER
+  921. STONE_ANCIENT_DWARF
+  922. HERO_ANCIENT_DWARF
+  923. STONE_DIGGER_MOLE
+  924. HERO_DIGGER_MOLE
+  925. STONE_SADISTIC_DANCER
+  926. HERO_SADISTIC_DANCER
+  927. DRAGON_SAND_BOOTS
+  928. PYRAMID_POWER
+  929. NAVIGATION_TO_THE_PAST
+  930. BALANCE_OF_LIFE
+  931. MIRACLE_FURNACE_OF_BLACKSMITH
+  932. GOOD_SLEEPING_BED
+  933. SUNBLOCK_GOGGLES
+  934. SAND_STORM
+  935. MASK_OF_THE_ANCIENT_KING
+  936. MAGICAL_CREAM
+  937. DANCERS_BRA
+  938. PRICKLING_WHIP
+  939. WILDYS_HAT
+  940. IRON_CLAWS
+  941. MAGICAL_WATER_BOTTLE
+  942. REEL_DRAGON_SAND_BOOTS
+  943. REEL_PYRAMID_POWER
+  944. REEL_NAVIGATION_TO_THE_PAST
+  945. REEL_BALANCE_OF_LIFE
+  946. REEL_MIRACLE_FURNACE_OF_BLACKSMITH
+  947. REEL_GOOD_SLEEPING_BED
+  948. REEL_SUNBLOCK_GOGGLES
+  949. REEL_SAND_STORM
+  950. REEL_MASK_OF_THE_ANCIENT_KING
+  951. REEL_MAGICAL_CREAM
+  952. REEL_DANCERS_BRA
+  953. SHARD_PRICKLING_WHIP
+  954. SHARD_WILDYS_HAT
+  955. SHARD_IRON_CLAWS
+  956. SHARD_MAGICAL_WATER_BOTTLE
+  957. SHARD_REEL_DRAGON_SAND_BOOTS
+  958. SHARD_REEL_PYRAMID_POWER
+  959. SHARD_REEL_NAVIGATION_TO_THE_PAST
+  960. SHARD_REEL_BALANCE_OF_LIFE
+  961. SHARD_REEL_MIRACLE_FURNACE_OF_BLACKSMITH
+  962. SHARD_REEL_GOOD_SLEEPING_BED
+  963. SHARD_REEL_SUNBLOCK_GOGGLES
+  964. SHARD_REEL_SAND_STORM
+  965. SHARD_REEL_MASK_OF_THE_ANCIENT_KING
+  966. SHARD_REEL_MAGICAL_CREAM
+  967. SHARD_REEL_DANCERS_BRA
+  968. SKIN_MISTRESS_MANICURE_MASTERY
+  969. SKIN_VOID_WYVERN_MASTERY
+  970. SKIN_DRAGZILLA_MASTERY
+  971. SKIN_ETERNAL_ENCHANTER_MASTERY
+  972. SKIN_ZOMBIE_SQUIRE_DIGITAL
+  973. SKIN_DRAGON_LADY_SPACE_KNIGHT
+  974. SKIN_SHADOW_ASSASSIN_WATCH
+  975. SKIN_CYCLOPS_WIZARD_CYCLEOPS
+  976. SKIN_VOID_WYVERN_IMAGINATION
+  977. SKIN_DEEP_DRAGON_WYRM
+  978. BOSS_BATTLE_STAGE_RESET
+  979. ANNIVERSARY_1000TH_RESKIN
+  980. DOUBLE_EXPERT_CAMPAIGN_DROPS
+  981. STONE_WHITE_TIGRESS
+  982. HERO_WHITE_TIGRESS
+  983. STONE_SNAPPER_BONE
+  984. HERO_SNAPPER_BONE
+  985. DEDICATED_MEDUSA
+  986. DEDICATED_GENIE
+  987. DEDICATED_DRAGON_LADY
+  988. DEDICATED_SATYR
+  989. DEDICATED_CENTAUR_OF_ATTENTION
+  990. REEL_DEDICATED_MEDUSA
+  991. REEL_DEDICATED_GENIE
+  992. REEL_DEDICATED_DRAGON_LADY
+  993. REEL_DEDICATED_SATYR
+  994. REEL_DEDICATED_CENTAUR_OF_ATTENTION
+  995. SHARD_REEL_DEDICATED_MEDUSA
+  996. SHARD_REEL_DEDICATED_GENIE
+  997. SHARD_REEL_DEDICATED_DRAGON_LADY
+  998. SHARD_REEL_DEDICATED_SATYR
+  999. SHARD_REEL_DEDICATED_CENTAUR_OF_ATTENTION
+  1000. STONE_VERMILION_PRIESTESS
+  1001. HERO_VERMILION_PRIESTESS
+  1002. SKIN_ANGEL_DRAGON_FALLEN
+  1003. SKIN_BURNT_ONE_VOODOO
+  1004. SKIN_CURSED_STATUE_HAWAII
+  1005. SKIN_DRAGON_SLAYER_UNICORN
+  1006. SKIN_GROOVY_DRUID_DISCO
+  1007. SKIN_KRAKEN_KING_MECHALORD
+  1008. SKIN_DRUIDINATRIX_MASTERY
+  1009. SKIN_ROLLER_WARRIOR_MASTERY
+  1010. SKIN_PLANT_SOUL_MASTERY
+  1011. SKIN_SPIDER_QUEEN_MASTERY
+  1012. HERMITS_PILLS
+  1013. SECRET_HAND_SCROLL
+  1014. EXOTIC_FAN
+  1015. FINS_OF_SEA_DRAGON
+  1016. TIGER_UNDERWEAR
+  1017. GOLD_RUSH
+  1018. SAMURAI_SWORD
+  1019. GOURD
+  1020. MAGATAMA
+  1021. TIGER_SALVE
+  1022. WARRIORS_HELMET
+  1023. FEATHER_OF_PHOENIX
+  1024. REEL_HERMITS_PILLS
+  1025. REEL_SECRET_HAND_SCROLL
+  1026. REEL_EXOTIC_FAN
+  1027. REEL_FINS_OF_SEA_DRAGON
+  1028. REEL_TIGER_UNDERWEAR
+  1029. REEL_GOLD_RUSH
+  1030. REEL_SAMURAI_SWORD
+  1031. REEL_GOURD
+  1032. REEL_MAGATAMA
+  1033. REEL_TIGER_SALVE
+  1034. REEL_WARRIORS_HELMET
+  1035. REEL_FEATHER_OF_PHOENIX
+  1036. SHARD_REEL_HERMITS_PILLS
+  1037. SHARD_REEL_SECRET_HAND_SCROLL
+  1038. SHARD_REEL_EXOTIC_FAN
+  1039. SHARD_REEL_FINS_OF_SEA_DRAGON
+  1040. SHARD_REEL_TIGER_UNDERWEAR
+  1041. SHARD_REEL_GOLD_RUSH
+  1042. SHARD_REEL_SAMURAI_SWORD
+  1043. SHARD_REEL_GOURD
+  1044. SHARD_REEL_MAGATAMA
+  1045. SHARD_REEL_TIGER_SALVE
+  1046. SHARD_REEL_WARRIORS_HELMET
+  1047. SHARD_REEL_FEATHER_OF_PHOENIX
+  1048. SKIN_DRAGON_LADY_ANNIVERSARY_1000TH
+  1049. KEY_TO_THE_KINGDOM
+  1050. GREENISH_LANTERN
+  1051. CHAIN_WALLET
+  1052. SKIN_BROZERKER_VEGAS_DUDE
+  1053. SKIN_UNICORGI_PIZZA_MANAGER_CORGI
+  1054. SKIN_ROLLER_WARRIOR_DERBY_GIRL
+  1055. SKIN_BARDBARIAN_EMO_FREDDIE
+  1056. SKIN_NINJA_DWARF_FRIGGING_RABBIT
+  1057. SKIN_DWARVEN_ARCHER_DWARVEN_HUNTRESS
+  1058. SKIN_CRIMSON_WITCH_CRIMSON_PANDA
+  1059. SKIN_PLANT_SOUL_HORSEY_SOUL
+  1060. SKIN_COSMIC_ELF_VELVETEEN_FOX
+  1061. SKIN_GENIE_RANDOM_TUSKER
+  1062. STONE_PCH_ANUBIS_DRAGON
+  1063. HERO_PCH_ANUBIS_DRAGON
+  1064. STONE_ABYSS_DRAGON
+  1065. HERO_ABYSS_DRAGON
+  1066. STONE_UMLAUT_THE_FIRST
+  1067. HERO_UMLAUT_THE_FIRST
+  1068. SKIN_NPC_ANUBIS_DRAGON_MASTERY
+  1069. SKIN_PCH_ANUBIS_DRAGON_MASTERY
+  1070. SKIN_ABYSS_DRAGON_MASTERY
+  1071. SKIN_VOID_WYVERN_TAPIR
+  1072. SKIN_SPIKEY_DRAGON_ROTUNDITY
+  1073. SKIN_SPIDER_QUEEN_TURTLE
+  1074. SKIN_CURSED_STATUE_MEER
+  1075. LEGENDARY_QUEST_SKIP
+  1076. END_CENTURY_FLAME_RADIATOR
+  1077. REEL_END_CENTURY_FLAME_RADIATOR
+  1078. SHARD_REEL_THE_SPEAR_BRINGS_VICTORY
+  1079. PIECE_OF_ACOLYTE_STATUE
+  1080. REEL_PIECE_OF_ACOLYTE_STATUE
+  1081. SHARD_REEL_DRAGON_SCALE_GROVE
+  1082. THE_SPEAR_BRINGS_VICTORY
+  1083. REEL_THE_SPEAR_BRINGS_VICTORY
+  1084. SHARD_REEL_END_CENTURY_FLAME_RADIATOR
+  1085. DROP_OF_MOONLIGHT
+  1086. REEL_DROP_OF_MOONLIGHT
+  1087. SHARD_REEL_DROP_OF_MOONLIGHT
+  1088. DRAGON_SCALE_GROVE
+  1089. REEL_DRAGON_SCALE_GROVE
+  1090. SHARD_REEL_PIECE_OF_ACOLYTE_STATUE
+  1091. EXPLOSIVE_CANNON
+  1092. REEL_EXPLOSIVE_CANNON
+  1093. SHARD_REEL_EXPLOSIVE_CANNON
+  1094. CLOUDY_MONOCULAR_TELESCOPE
+  1095. REEL_CLOUDY_MONOCULAR_TELESCOPE
+  1096. SHARD_REEL_CLOUDY_MONOCULAR_TELESCOPE
+  1097. BANANA_PEEL_MOUNTAIN
+  1098. REEL_BANANA_PEEL_MOUNTAIN
+  1099. SHARD_REEL_BANANA_PEEL_MOUNTAIN
+  1100. DRACONIAN_DISH
+  1101. REEL_DRACONIAN_DISH
+  1102. SHARD_REEL_DRACONIAN_DISH
+  1103. PORTABLE_NUTRITIOUS_DIET
+  1104. REEL_PORTABLE_NUTRITIOUS_DIET
+  1105. SHARD_REEL_PORTABLE_NUTRITIOUS_DIET
+  1106. ANCIENT_COIN
+  1107. REEL_ANCIENT_COIN
+  1108. SHARD_REEL_ANCIENT_COIN
+  1109. FAMILY_TREE_OF_UMLAUT
+  1110. REEL_FAMILY_TREE_OF_UMLAUT
+  1111. SHARD_REEL_FAMILY_TREE_OF_UMLAUT
+  1112. DEDICATED_BROZERKER
+  1113. REEL_DEDICATED_BROZERKER
+  1114. SHARD_REEL_DEDICATED_BROZERKER
+  1115. DEDICATED_COSMIC_ELF
+  1116. REEL_DEDICATED_COSMIC_ELF
+  1117. SHARD_REEL_DEDICATED_COSMIC_ELF
+  1118. DEDICATED_ORC_MONK
+  1119. REEL_DEDICATED_ORC_MONK
+  1120. SHARD_REEL_DEDICATED_ORC_MONK
+  1121. DEDICATED_ROLLER_WARRIOR
+  1122. REEL_DEDICATED_ROLLER_WARRIOR
+  1123. SHARD_REEL_DEDICATED_ROLLER_WARRIOR
+  1124. DEDICATED_SHADOW_ASSASSIN
+  1125. REEL_DEDICATED_SHADOW_ASSASSIN
+  1126. SHARD_REEL_DEDICATED_SHADOW_ASSASSIN
+  1127. SKIN_ANGELIC_HERALD_PIGEON
+  1128. SKIN_BULWARK_ANGEL_SWAN
+  1129. SKIN_GRAND_HUNTRESS_LEOPARD
+  1130. SKIN_KARAOKE_KING_MONKEY
+  1131. SKIN_LAST_DEFENDER_BUFFALO
+  1132. SKIN_MISTRESS_MANICURE_BAT
+  1133. SKIN_CURSED_STATUE_USERCONTEST
+  1134. SKIN_ANGEL_DRAGON_USERCONTEST
+  1135. SKIN_MOON_DRAKE_USERCONTEST
+  1136. SKIN_ETERNAL_ENCHANTER_USERCONTEST
+  1137. SKIN_TOMB_ANGEL_USERCONTEST
+  1138. SKIN_DRAGON_LADY_3RD_ANNIVERSARY
+  1139. SKIN_DARK_DRACUL_HORROR
+  1140. SKIN_STEPLADDER_BROTHERS_HORROR
+  1141. SKIN_COSMIC_ELF_HORROR
+  1142. SKIN_MEDUSA_HORROR
+  1143. SKIN_WEE_WITCH_HORROR
+  1144. SKIN_UMLAUT_THE_FIRST_MASTERY
+  1145. SOUL_OF_DRAGONS
+  1146. SKIN_ANCIENT_DWARF_MECHA
+  1147. SKIN_BLACK_WING_MECHA
+  1148. SKIN_DRAGZILLA_MECHA
+  1149. SKIN_DUNGEON_MAN_MECHA
+  1150. SKIN_ORC_MONK_MECHA
+  1151. SKIN_UNSTABLE_UNDERSTUDY_3RD_ANNIVERSARY
+  1152. SKIN_ELECTROYETI_3RD_ANNIVERSARY
+  1153. SKIN_BROZERKER_MASTERY
+  1154. SKIN_UNICORGI_MASTERY
+  1155. SKIN_BARDBARIAN_MASTERY
+  1156. SKIN_SADISTIC_DANCER_MECHA
+  1157. SKIN_SHADOW_OF_SVEN_MECHA
+  1158. SKIN_MINOTAUR_MASTERY
+  1159. SKIN_UNRIPE_MYTHOLOGY_WINTER
+  1160. SKIN_SADISTIC_DANCER_WINTER
+  1161. SKIN_DRAGON_SLAYER_WINTER
+  1162. SKIN_ABYSS_DRAGON_WINTER
+  1163. SKIN_TOMB_ANGEL_WINTER
+  1164. DEDICATED_DEEP_DRAGON
+  1165. DEDICATED_DEMON_TOTEM
+  1166. DEDICATED_SNAP_DRAGON
+  1167. DEDICATED_NINJA_DWARF
+  1168. DEDICATED_UNSTABLE_UNDERSTUDY
+  1169. REEL_DEDICATED_DEEP_DRAGON
+  1170. REEL_DEDICATED_DEMON_TOTEM
+  1171. REEL_DEDICATED_SNAP_DRAGON
+  1172. REEL_DEDICATED_NINJA_DWARF
+  1173. REEL_DEDICATED_UNSTABLE_UNDERSTUDY
+  1174. SHARD_REEL_DEDICATED_DEEP_DRAGON
+  1175. SHARD_REEL_DEDICATED_DEMON_TOTEM
+  1176. SHARD_REEL_DEDICATED_SNAP_DRAGON
+  1177. SHARD_REEL_DEDICATED_NINJA_DWARF
+  1178. SHARD_REEL_DEDICATED_UNSTABLE_UNDERSTUDY
+  1179. GEAR_TICKET_CYAN
+  1180. GEAR_TICKET_ORANGE
+  1181. GEAR_TICKET_PURPLE
+  1182. SKIN_CRIMSON_WITCH_MASTERY
+  1183. SKIN_SNAPPER_BONE_LIZARD_BONE
+  1184. SKIN_WHITE_TIGRESS_CAT_WOMAN
+  1185. SKIN_VERMILION_PRIESTESS_CLERIC_OF_FALCONERS
+  1186. SKIN_RAGING_REVENANT_DOCTORING_REVENANT
+  1187. STONE_DARK_HERO
+  1188. HERO_DARK_HERO
+  1189. STONE_CLAW_MAN
+  1190. HERO_CLAW_MAN
+  1191. SKIN_SAVAGE_CUTIE_MASTERY
+  1192. SKIN_SPECTRAL_DRAGON_REDDRAGON
+  1193. SKIN_SUN_SEEKER_SNOW
+  1194. SKIN_STOWAWAY_BUISNESS
+  1195. SKIN_WEREDRAGON_FLORIST
+  1196. MAGICAL_HATRACK
+  1197. SHINING_HOLY_TREE
+  1198. HORNS_OF_WHITE_DEER
+  1199. LORD_OF_RIVER
+  1200. GOLD_AX_SILVER_AX
+  1201. POISONED_SILVER_ACCESSORY_OF_SCORPION
+  1202. HANDY_RASP
+  1203. BLACKBERRY_JAM
+  1204. CRYSTAL_MUSHROOM
+  1205. REMOTE_COMMUNICATION_FLOWER
+  1206. SHINING_LIGHT_OF_FIREFLY
+  1207. SHRIMPISH_CREATURE
+  1208. REEL_MAGICAL_HATRACK
+  1209. REEL_SHINING_HOLY_TREE
+  1210. REEL_HORNS_OF_WHITE_DEER
+  1211. REEL_LORD_OF_RIVER
+  1212. REEL_GOLD_AX_SILVER_AX
+  1213. REEL_POISONED_SILVER_ACCESSORY_OF_SCORPION
+  1214. REEL_HANDY_RASP
+  1215. REEL_BLACKBERRY_JAM
+  1216. REEL_CRYSTAL_MUSHROOM
+  1217. REEL_REMOTE_COMMUNICATION_FLOWER
+  1218. REEL_SHINING_LIGHT_OF_FIREFLY
+  1219. REEL_SHRIMPISH_CREATURE
+  1220. SHARD_REEL_MAGICAL_HATRACK
+  1221. SHARD_REEL_SHINING_HOLY_TREE
+  1222. SHARD_REEL_HORNS_OF_WHITE_DEER
+  1223. SHARD_REEL_LORD_OF_RIVER
+  1224. SHARD_REEL_GOLD_AX_SILVER_AX
+  1225. SHARD_REEL_POISONED_SILVER_ACCESSORY_OF_SCORPION
+  1226. SHARD_REEL_HANDY_RASP
+  1227. SHARD_REEL_BLACKBERRY_JAM
+  1228. SHARD_REEL_CRYSTAL_MUSHROOM
+  1229. SHARD_REEL_REMOTE_COMMUNICATION_FLOWER
+  1230. SHARD_REEL_SHINING_LIGHT_OF_FIREFLY
+  1231. SHARD_REEL_SHRIMPISH_CREATURE
+  field: private static ItemType[] values
+  method: valuesCached() -> ItemType[]
+
+## com.perblue.rpg.network.messages.MachinimaActionType
+Values (4):
+  0. PLAY_ANIMATION
+  1. MOVE
+  2. ROTATE_HEAD
+  3. HEAD_TRACKING_MODE
+  field: private static MachinimaActionType[] values
+  method: valuesCached() -> MachinimaActionType[]
+
+## com.perblue.rpg.network.messages.MailExtraDataType
+Values (25):
+  0. DEFAULT
+  1. RANK
+  2. RANK_DELTA
+  3. PLAYER_NAME
+  4. INDEX
+  5. TEAM_LEVEL
+  6. VIP_LEVEL
+  7. REASON
+  8. REASON_SUB_1
+  9. REASON_SUB_2
+  10. CUSTOM_MESSAGE
+  11. UNIT_TYPE
+  12. PLATFORM
+  13. CUSTOM_BUTTON_TEXT
+  14. CUSTOM_BUTTON_DEST
+  15. CUSTOM_SUBJECT
+  16. LEAGUE
+  17. DURATION
+  18. CUSTOM_ICON
+  19. CUSTOM_SENDER
+  20. IS_EVENT
+  21. IS_OFFENSE
+  22. IS_WIN
+  23. SKIP_NEW_USERS
+  24. BUILD_SOURCE
+  field: private static MailExtraDataType[] values
+  method: valuesCached() -> MailExtraDataType[]
+
+## com.perblue.rpg.network.messages.MailType
+Values (32):
+  0. DEFAULT
+  1. GLOBAL
+  2. FIGHT_PIT_REWARDS
+  3. FIGHT_PIT_NEW_BEST
+  4. FIGHT_PIT_DEFENSE
+  5. NEW_USER_WELCOME
+  6. NEW_USER_REWARDS
+  7. SPECIAL_EVENT_TEAM_LEVEL_CHALLENGE
+  8. SPECIAL_EVENT_FIRST_DAILY_PURCHASE
+  9. VIP_BONUS_DIAMONDS
+  10. SYSTEM_MESSAGE
+  11. MERCENARY_HIRED
+  12. MERCENARY_NOT_HIRED
+  13. CRYPT_RAID_REWARDS
+  14. NEW_USER_TIPS
+  15. FIGHT_PIT_DEFEAT
+  16. COLISEUM_REWARDS
+  17. COLISEUM_DEFENSE
+  18. COLISEUM_DEFEAT
+  19. CHAT_SILENCE
+  20. PROMO_CODE_REWARD
+  21. PROMO_CODE_MONEY
+  22. GUILD_WAR_BATTLE_REWARDS
+  23. FIGHT_PIT_SPLIT
+  24. FIGHT_PIT_MERGE
+  25. COLISEUM_SPLIT
+  26. COLISEUM_MERGE
+  27. CONTEST_PROGRESS_REWARD
+  28. CONTEST_RANK_REWARD
+  29. GUILD_GIFT_REWARD
+  30. VIP_FREE_ITEM
+  31. VIP_TRIAL
+  field: private static MailType[] values
+  method: valuesCached() -> MailType[]
+
+## com.perblue.rpg.network.messages.MerchantType
+Values (11):
+  0. DEFAULT
+  1. NORMAL
+  2. FIGHT_PIT
+  3. EXPEDITIONS
+  4. GUILD
+  5. PEDDLER
+  6. BLACK_MARKET
+  7. COLISEUM
+  8. SOULMART
+  9. GUILD_WAR
+  10. BAZAAR
+  field: private static MerchantType[] values
+  method: valuesCached() -> MerchantType[]
+
+## com.perblue.rpg.network.messages.MultipleHeroLineupType
+Values (2):
+  0. COLISEUM_DEFENSE
+  1. COLISEUM_ATTACK
+  field: private static MultipleHeroLineupType[] values
+  method: valuesCached() -> MultipleHeroLineupType[]
+
+## com.perblue.rpg.network.messages.OfferingPackageType
+Values (4):
+  0. DEFAULT
+  1. SET_TWO_PACK
+  2. SET_FOUR_PACK
+  3. SLOT_SIX_PACK
+  field: private static OfferingPackageType[] values
+  method: valuesCached() -> OfferingPackageType[]
+
+## com.perblue.rpg.network.messages.PPEEvent
+Values (6):
+  0. DEFAULT
+  1. TL5
+  2. TL7
+  3. TL10
+  4. DEFEAT_1_1
+  5. TL15
+  field: private static PPEEvent[] values
+  method: valuesCached() -> PPEEvent[]
+
+## com.perblue.rpg.network.messages.Platform
+Values (5):
+  0. DEFAULT
+  1. ANDROID
+  2. IPHONE
+  3. IPAD
+  4. WEB
+  field: private static Platform[] values
+  method: valuesCached() -> Platform[]
+
+## com.perblue.rpg.network.messages.RandomSeedType
+Values (47):
+  0. DEFAULT
+  1. CHEST
+  2. ALCHEMY
+  3. LOOT
+  4. COMBAT
+  5. FIGHT_PIT
+  6. CRYPT_RAID
+  7. MERCHANT
+  8. COLISEUM
+  9. TITAN_TEMPLE
+  10. CHEST_SILVER_1
+  11. CHEST_SILVER_10
+  12. CHEST_GOLD_1
+  13. CHEST_GOLD_10
+  14. CHEST_SOUL
+  15. CHEST_EVENT_1
+  16. CHEST_EVENT_10
+  17. GUILD_WAR
+  18. GUILD_WAR_REWARDS
+  19. RUNES
+  20. SHRINE_WOODEN_DEFAULT
+  21. SHRINE_WOODEN_KEYSTONE
+  22. SHRINE_WOODEN_MAJOR_1
+  23. SHRINE_WOODEN_MAJOR_2
+  24. SHRINE_WOODEN_MINOR_1
+  25. SHRINE_WOODEN_MINOR_2
+  26. SHRINE_WOODEN_MINOR_3
+  27. SHRINE_STONE_DEFAULT
+  28. SHRINE_STONE_KEYSTONE
+  29. SHRINE_STONE_MAJOR_1
+  30. SHRINE_STONE_MAJOR_2
+  31. SHRINE_STONE_MINOR_1
+  32. SHRINE_STONE_MINOR_2
+  33. SHRINE_STONE_MINOR_3
+  34. SHRINE_CRYSTAL_KEYSTONE
+  35. SHRINE_CRYSTAL_MAJOR_1
+  36. SHRINE_CRYSTAL_MAJOR_2
+  37. SHRINE_CRYSTAL_MINOR_1
+  38. SHRINE_CRYSTAL_MINOR_2
+  39. SHRINE_CRYSTAL_MINOR_3
+  40. BOSS_PIT_LOOT
+  41. DIFFICULTY_MODE_LOOT
+  42. EXPEDITION_CHEST
+  43. CHEST_PURPLE_1
+  44. CHEST_PURPLE_10
+  45. CHEST_ORANGE_1
+  46. CHEST_ORANGE_10
+  field: private static RandomSeedType[] values
+  method: valuesCached() -> RandomSeedType[]
+
+## com.perblue.rpg.network.messages.RankType
+Values (7):
+  0. DEFAULT
+  1. TOTAL_POWER
+  2. TEAM_POWER
+  3. TOTAL_STARS
+  4. FIGHT_PIT
+  5. COLISEUM
+  6. BIRTHDAY
+  field: private static RankType[] values
+  method: valuesCached() -> RankType[]
+
+## com.perblue.rpg.network.messages.Rarity
+Values (27):
+  0. DEFAULT
+  1. WHITE
+  2. GREEN
+  3. GREEN_1
+  4. BLUE
+  5. BLUE_1
+  6. BLUE_2
+  7. PURPLE
+  8. PURPLE_1
+  9. PURPLE_2
+  10. PURPLE_3
+  11. PURPLE_4
+  12. ORANGE
+  13. ORANGE_1
+  14. ORANGE_2
+  15. ORANGE_3
+  16. ORANGE_4
+  17. ORANGE_5
+  18. ORANGE_6
+  19. ORANGE_7
+  20. ORANGE_8
+  21. CYAN
+  22. CYAN_1
+  23. CYAN_2
+  24. CYAN_3
+  25. CYAN_4
+  26. RED
+  field: private static Rarity[] values
+  method: valuesCached() -> Rarity[]
+
+## com.perblue.rpg.network.messages.RedeemCodeStatus
+Values (5):
+  0. INVALID
+  1. EXPIRED
+  2. ALREADY_REDEEMED
+  3. SUCCESS_IMMEDIATE
+  4. SUCCESS_MONEY
+  field: private static RedeemCodeStatus[] values
+  method: valuesCached() -> RedeemCodeStatus[]
+
+## com.perblue.rpg.network.messages.ResourceType
+Values (24):
+  0. DEFAULT
+  1. DIAMONDS
+  2. GOLD
+  3. STAMINA
+  4. TEAM_XP
+  5. POWER_POINTS
+  6. VIP_TICKETS
+  7. SILVER_CHEST
+  8. GOLD_CHEST
+  9. SOUL_CHEST
+  10. FIGHT_TOKENS
+  11. FREE_DIAMONDS
+  12. PAID_DIAMONDS
+  13. EXPEDITION_TOKENS
+  14. GUILD_TOKENS
+  15. COLISEUM_TOKENS
+  16. SOULMART_TOKENS
+  17. WAR_TOKENS
+  18. RUNICITE
+  19. STONE_SHRINE_ROLLS
+  20. CRYSTAL_SHRINE_ROLLS
+  21. BAZAAR_TOKENS
+  22. PURPLE_CHEST
+  23. ORANGE_CHEST
+  field: private static ResourceType[] values
+  method: valuesCached() -> ResourceType[]
+
+## com.perblue.rpg.network.messages.RuneBonusType
+Values (4):
+  0. DEFAULT
+  1. PRIMARY
+  2. SECONDARY
+  3. TERTIARY
+  field: private static RuneBonusType[] values
+  method: valuesCached() -> RuneBonusType[]
+
+## com.perblue.rpg.network.messages.RuneEquipSlot
+Values (7):
+  0. DEFAULT
+  1. KEYSTONE
+  2. MAJOR_1
+  3. MAJOR_2
+  4. MINOR_1
+  5. MINOR_2
+  6. MINOR_3
+  field: private static RuneEquipSlot[] values
+  method: valuesCached() -> RuneEquipSlot[]
+
+## com.perblue.rpg.network.messages.RuneSetType
+Values (11):
+  0. DEFAULT
+  1. TREE
+  2. FIRE
+  3. OCEAN
+  4. ROCK
+  5. MIST
+  6. LIGHTNING
+  7. BLOOD
+  8. RIVER
+  9. HAIL
+  10. DEFAULT4
+  field: private static RuneSetType[] values
+  method: valuesCached() -> RuneSetType[]
+
+## com.perblue.rpg.network.messages.RuneShrineActivationType
+Values (3):
+  0. RESOURCE
+  1. ITEM
+  2. DIAMONDS
+  field: private static RuneShrineActivationType[] values
+  method: valuesCached() -> RuneShrineActivationType[]
+
+## com.perblue.rpg.network.messages.RuneShrineType
+Values (4):
+  0. DEFAULT
+  1. WOODEN
+  2. STONE
+  3. CRYSTAL
+  field: private static RuneShrineType[] values
+  method: valuesCached() -> RuneShrineType[]
+
+## com.perblue.rpg.network.messages.SaleBadgeType
+Values (5):
+  0. NONE
+  1. ONE_TIME_OFFER
+  2. SALE
+  3. MOST_POPULAR
+  4. BEST_VALUE
+  field: private static SaleBadgeType[] values
+  method: valuesCached() -> SaleBadgeType[]
+
+## com.perblue.rpg.network.messages.SectionType
+Values (3):
+  0. FRONT
+  1. CENTRAL
+  2. BACK
+  field: private static SectionType[] values
+  method: valuesCached() -> SectionType[]
+
+## com.perblue.rpg.network.messages.SkillType
+Values (676):
+  0. DEFAULT
+  1. ELECTROYETI_0
+  2. ELECTROYETI_1
+  3. ELECTROYETI_2
+  4. ELECTROYETI_3
+  5. ELECTROYETI_4
+  6. MEDUSA_0
+  7. MEDUSA_1
+  8. MEDUSA_2
+  9. MEDUSA_3
+  10. MEDUSA_4
+  11. FAITH_HEALER_0
+  12. FAITH_HEALER_1
+  13. FAITH_HEALER_2
+  14. FAITH_HEALER_3
+  15. FAITH_HEALER_4
+  16. DARK_DRACUL_0
+  17. DARK_DRACUL_1
+  18. DARK_DRACUL_2
+  19. DARK_DRACUL_3
+  20. DARK_DRACUL_4
+  21. COSMIC_ELF_0
+  22. COSMIC_ELF_1
+  23. COSMIC_ELF_2
+  24. COSMIC_ELF_3
+  25. COSMIC_ELF_4
+  26. ROLLER_WARRIOR_0
+  27. ROLLER_WARRIOR_1
+  28. ROLLER_WARRIOR_2
+  29. ROLLER_WARRIOR_3
+  30. ROLLER_WARRIOR_4
+  31. DRAGON_LADY_0
+  32. DRAGON_LADY_1
+  33. DRAGON_LADY_2
+  34. DRAGON_LADY_3
+  35. DRAGON_LADY_4
+  36. CENTAUR_OF_ATTENTION_0
+  37. CENTAUR_OF_ATTENTION_1
+  38. CENTAUR_OF_ATTENTION_2
+  39. CENTAUR_OF_ATTENTION_3
+  40. CENTAUR_OF_ATTENTION_4
+  41. UNSTABLE_UNDERSTUDY_0
+  42. UNSTABLE_UNDERSTUDY_1
+  43. UNSTABLE_UNDERSTUDY_2
+  44. UNSTABLE_UNDERSTUDY_3
+  45. UNSTABLE_UNDERSTUDY_4
+  46. MOON_DRAKE_0
+  47. MOON_DRAKE_1
+  48. MOON_DRAKE_2
+  49. MOON_DRAKE_3
+  50. MOON_DRAKE_4
+  51. NPC_GOBLIN_0
+  52. NPC_WILDLING_ARCHER_0
+  53. NPC_CRYSTAL_GOLEM_0
+  54. NPC_ICE_GOLEM_0
+  55. NPC_FIRE_IMP_0
+  56. NPC_FIRE_IMP_1
+  57. NPC_STONE_IMP_0
+  58. NPC_STONE_IMP_1
+  59. NPC_MYSTIC_WILDLING_0
+  60. NPC_WILDLING_SNIPER_0
+  61. POLEMASTER_0
+  62. POLEMASTER_1
+  63. POLEMASTER_2
+  64. POLEMASTER_3
+  65. POLEMASTER_4
+  66. CATAPULT_KNIGHT_0
+  67. CATAPULT_KNIGHT_1
+  68. CATAPULT_KNIGHT_2
+  69. CATAPULT_KNIGHT_3
+  70. CATAPULT_KNIGHT_4
+  71. BARDBARIAN_0
+  72. BARDBARIAN_1
+  73. BARDBARIAN_2
+  74. BARDBARIAN_3
+  75. BARDBARIAN_4
+  76. SHADOW_ASSASSIN_0
+  77. SHADOW_ASSASSIN_1
+  78. SHADOW_ASSASSIN_2
+  79. SHADOW_ASSASSIN_3
+  80. SHADOW_ASSASSIN_4
+  81. DUST_DEVIL_0
+  82. DUST_DEVIL_1
+  83. DUST_DEVIL_2
+  84. DUST_DEVIL_3
+  85. DUST_DEVIL_4
+  86. SNAP_DRAGON_0
+  87. SNAP_DRAGON_1
+  88. SNAP_DRAGON_2
+  89. SNAP_DRAGON_3
+  90. SNAP_DRAGON_4
+  91. HYDRA_0
+  92. HYDRA_1
+  93. HYDRA_2
+  94. HYDRA_3
+  95. HYDRA_4
+  96. SAVAGE_CUTIE_0
+  97. SAVAGE_CUTIE_1
+  98. SAVAGE_CUTIE_2
+  99. SAVAGE_CUTIE_3
+  100. SAVAGE_CUTIE_4
+  101. ZOMBIE_SQUIRE_0
+  102. ZOMBIE_SQUIRE_1
+  103. ZOMBIE_SQUIRE_2
+  104. ZOMBIE_SQUIRE_3
+  105. ZOMBIE_SQUIRE_4
+  106. MAGIC_DRAGON_0
+  107. MAGIC_DRAGON_1
+  108. MAGIC_DRAGON_2
+  109. MAGIC_DRAGON_3
+  110. MAGIC_DRAGON_4
+  111. AQUATIC_MAN_0
+  112. AQUATIC_MAN_1
+  113. AQUATIC_MAN_2
+  114. AQUATIC_MAN_3
+  115. AQUATIC_MAN_4
+  116. CRIMSON_WITCH_0
+  117. CRIMSON_WITCH_1
+  118. CRIMSON_WITCH_2
+  119. CRIMSON_WITCH_3
+  120. CRIMSON_WITCH_4
+  121. NINJA_DWARF_0
+  122. NINJA_DWARF_1
+  123. NINJA_DWARF_2
+  124. NINJA_DWARF_3
+  125. NINJA_DWARF_4
+  126. BROZERKER_0
+  127. BROZERKER_1
+  128. BROZERKER_2
+  129. BROZERKER_3
+  130. BROZERKER_4
+  131. GROOVY_DRUID_0
+  132. GROOVY_DRUID_1
+  133. GROOVY_DRUID_2
+  134. GROOVY_DRUID_3
+  135. GROOVY_DRUID_4
+  136. BONE_DRAGON_0
+  137. BONE_DRAGON_1
+  138. BONE_DRAGON_2
+  139. BONE_DRAGON_3
+  140. BONE_DRAGON_4
+  141. NPC_HEALER_SPRITE_0
+  142. NPC_BUFF_SPRITE_0
+  143. NPC_TROLL_BLOB_0
+  144. NPC_INFERNO_SPIDER_0
+  145. NPC_SCARECROW_0
+  146. NPC_POTTED_PLANT_0
+  147. NPC_POTTED_PLANT_1
+  148. SPIKEY_DRAGON_0
+  149. SPIKEY_DRAGON_1
+  150. SPIKEY_DRAGON_2
+  151. SPIKEY_DRAGON_3
+  152. SPIKEY_DRAGON_4
+  153. FROST_GIANT_0
+  154. FROST_GIANT_1
+  155. FROST_GIANT_2
+  156. FROST_GIANT_3
+  157. FROST_GIANT_4
+  158. MINOTAUR_0
+  159. MINOTAUR_1
+  160. MINOTAUR_2
+  161. MINOTAUR_3
+  162. MINOTAUR_4
+  163. DARK_HORSE_0
+  164. DARK_HORSE_1
+  165. DARK_HORSE_2
+  166. DARK_HORSE_3
+  167. DARK_HORSE_4
+  168. DRUIDINATRIX_0
+  169. DRUIDINATRIX_1
+  170. DRUIDINATRIX_2
+  171. DRUIDINATRIX_3
+  172. DRUIDINATRIX_4
+  173. NPC_KAMIKAZE_GNOME_0
+  174. NPC_MR_SMASHY_0
+  175. BARDBARIAN_TITAN
+  176. BROZERKER_TITAN
+  177. CENTAUR_OF_ATTENTION_TITAN
+  178. SNAP_DRAGON_TITAN
+  179. FAITH_HEALER_TITAN
+  180. MEDUSA_TITAN
+  181. UNSTABLE_UNDERSTUDY_TITAN
+  182. BONE_DRAGON_TITAN
+  183. DRAGON_LADY_TITAN
+  184. AQUATIC_MAN_TITAN
+  185. NPC_EVIL_WIZARD_SUMMON_0
+  186. NPC_EVIL_WIZARD_BOMB_0
+  187. NPC_EVIL_WIZARD_SUMMON_1
+  188. NPC_EVIL_WIZARD_BOMB_1
+  189. NPC_EVIL_WIZARD_SUMMON_2
+  190. NPC_EVIL_WIZARD_BOMB_2
+  191. NPC_EVIL_WIZARD_UNTARGETABLE
+  192. ORC_MONK_0
+  193. ORC_MONK_1
+  194. ORC_MONK_2
+  195. ORC_MONK_3
+  196. ORC_MONK_4
+  197. DWARVEN_ARCHER_0
+  198. DWARVEN_ARCHER_1
+  199. DWARVEN_ARCHER_2
+  200. DWARVEN_ARCHER_3
+  201. DWARVEN_ARCHER_4
+  202. RABID_DRAGON_0
+  203. RABID_DRAGON_1
+  204. RABID_DRAGON_2
+  205. RABID_DRAGON_3
+  206. RABID_DRAGON_4
+  207. NPC_GOLD_COLOSSUS_MELEE_0
+  208. NPC_GOLD_COLOSSUS_SPEW_GOLD_0
+  209. NPC_GOLD_COLOSSUS_JUMP_0
+  210. NPC_GOLD_COLOSSUS_MELEE_1
+  211. NPC_GOLD_COLOSSUS_SPEW_GOLD_1
+  212. NPC_GOLD_COLOSSUS_JUMP_1
+  213. NPC_GOLD_COLOSSUS_MELEE_2
+  214. NPC_GOLD_COLOSSUS_SPEW_GOLD_2
+  215. NPC_GOLD_COLOSSUS_JUMP_2
+  216. NPC_GOLD_COLOSSUS_EAT_GOLD_2
+  217. NPC_GOLD_COLOSSUS_WIND
+  218. NPC_GOLD_COLOSSUS_SPIKES
+  219. NPC_CAULDRON_MONSTER_0
+  220. NPC_SQUID_0
+  221. NPC_GIANT_PLANT_BITE
+  222. NPC_GIANT_PLANT_SPEW_POISON_0
+  223. NPC_GIANT_PLANT_SPEW_POISON_1
+  224. NPC_GIANT_PLANT_SPEW_POISON_2
+  225. NPC_GIANT_PLANT_HOP_FORWARD
+  226. NPC_GIANT_PLANT_SPAWNER
+  227. NPC_GIANT_PLANT_ROOT_0
+  228. BOSS_CANT_BE_DISABLED
+  229. SKELETON_KING_0
+  230. SKELETON_KING_1
+  231. SKELETON_KING_2
+  232. SKELETON_KING_3
+  233. SKELETON_KING_4
+  234. SATYR_0
+  235. SATYR_1
+  236. SATYR_2
+  237. SATYR_3
+  238. SATYR_4
+  239. STORM_DRAGON_0
+  240. STORM_DRAGON_1
+  241. STORM_DRAGON_2
+  242. STORM_DRAGON_3
+  243. STORM_DRAGON_4
+  244. NPC_SKELETON_DEER_0
+  245. NPC_SKELETON_DEER_1
+  246. NPC_SKELETON_DEER_2
+  247. NPC_MUSHROOM_0
+  248. BROZERKER_5
+  249. MEDUSA_5
+  250. DUST_DEVIL_5
+  251. FAITH_HEALER_5
+  252. POLEMASTER_5
+  253. DARK_DRACUL_5
+  254. CATAPULT_KNIGHT_5
+  255. NINJA_DWARF_5
+  256. SNAP_DRAGON_5
+  257. UNICORGI_0
+  258. UNICORGI_1
+  259. UNICORGI_2
+  260. UNICORGI_3
+  261. UNICORGI_4
+  262. SNIPER_WOLF_0
+  263. SNIPER_WOLF_1
+  264. SNIPER_WOLF_2
+  265. SNIPER_WOLF_3
+  266. SNIPER_WOLF_4
+  267. GENIE_0
+  268. GENIE_1
+  269. GENIE_2
+  270. GENIE_3
+  271. GENIE_4
+  272. NPC_HEAD_CRAB_0
+  273. NPC_CLOUD_MONSTER_0
+  274. NPC_CLOUD_MONSTER_1
+  275. ZOMBIE_SQUIRE_5
+  276. MAGIC_DRAGON_5
+  277. GROOVY_DRUID_5
+  278. CENTAUR_OF_ATTENTION_5
+  279. DRAGON_LADY_5
+  280. SHADOW_ASSASSIN_5
+  281. ELECTROYETI_5
+  282. FROST_GIANT_5
+  283. UNSTABLE_UNDERSTUDY_5
+  284. HYDRA_5
+  285. BARDBARIAN_5
+  286. SAVAGE_CUTIE_5
+  287. ORC_MONK_5
+  288. COSMIC_ELF_5
+  289. AQUATIC_MAN_5
+  290. MOON_DRAKE_5
+  291. ROLLER_WARRIOR_5
+  292. DRUIDINATRIX_5
+  293. DRAGZILLA_0
+  294. DRAGZILLA_1
+  295. DRAGZILLA_2
+  296. DRAGZILLA_3
+  297. DRAGZILLA_4
+  298. PIRATE_0
+  299. PIRATE_1
+  300. PIRATE_2
+  301. PIRATE_3
+  302. PIRATE_4
+  303. CYCLOPS_WIZARD_0
+  304. CYCLOPS_WIZARD_1
+  305. CYCLOPS_WIZARD_2
+  306. CYCLOPS_WIZARD_3
+  307. CYCLOPS_WIZARD_4
+  308. DEMON_TOTEM_0
+  309. DEMON_TOTEM_1
+  310. DEMON_TOTEM_2
+  311. DEMON_TOTEM_3
+  312. DEMON_TOTEM_4
+  313. NPC_EYEBALL_0
+  314. DEEP_DRAGON_0
+  315. DEEP_DRAGON_1
+  316. DEEP_DRAGON_2
+  317. DEEP_DRAGON_3
+  318. DEEP_DRAGON_4
+  319. DOPPELGANGER_0
+  320. DOPPELGANGER_1
+  321. DOPPELGANGER_2
+  322. DOPPELGANGER_3
+  323. DOPPELGANGER_4
+  324. KRAKEN_KING_0
+  325. KRAKEN_KING_1
+  326. KRAKEN_KING_2
+  327. KRAKEN_KING_3
+  328. KRAKEN_KING_4
+  329. STOWAWAY_0
+  330. STOWAWAY_1
+  331. STOWAWAY_2
+  332. STOWAWAY_3
+  333. STOWAWAY_4
+  334. NPC_SHARK_0
+  335. NPC_SHARK_1
+  336. NPC_SQUIRREL_0
+  337. CURSED_STATUE_0
+  338. CURSED_STATUE_1
+  339. CURSED_STATUE_2
+  340. CURSED_STATUE_3
+  341. CURSED_STATUE_4
+  342. PLANT_SOUL_0
+  343. PLANT_SOUL_1
+  344. PLANT_SOUL_2
+  345. PLANT_SOUL_3
+  346. PLANT_SOUL_4
+  347. SPIDER_QUEEN_0
+  348. SPIDER_QUEEN_1
+  349. SPIDER_QUEEN_2
+  350. SPIDER_QUEEN_3
+  351. SPIDER_QUEEN_4
+  352. VULTURE_DRAGON_0
+  353. VULTURE_DRAGON_1
+  354. VULTURE_DRAGON_2
+  355. VULTURE_DRAGON_3
+  356. VULTURE_DRAGON_4
+  357. NPC_ANT_0
+  358. NPC_ANT_1
+  359. FROST_GIANT_TITAN
+  360. ORC_MONK_TITAN
+  361. RABID_DRAGON_TITAN
+  362. GENIE_TITAN
+  363. SKELETON_KING_TITAN
+  364. SPIKEY_DRAGON_TITAN
+  365. BANSHEE_0
+  366. BANSHEE_1
+  367. BANSHEE_2
+  368. BANSHEE_3
+  369. BANSHEE_4
+  370. RAGING_REVENANT_0
+  371. RAGING_REVENANT_1
+  372. RAGING_REVENANT_2
+  373. RAGING_REVENANT_3
+  374. RAGING_REVENANT_4
+  375. SILENT_SPIRIT_0
+  376. SILENT_SPIRIT_1
+  377. SILENT_SPIRIT_2
+  378. SILENT_SPIRIT_3
+  379. SILENT_SPIRIT_4
+  380. SPECTRAL_DRAGON_0
+  381. SPECTRAL_DRAGON_1
+  382. SPECTRAL_DRAGON_2
+  383. SPECTRAL_DRAGON_3
+  384. SPECTRAL_DRAGON_4
+  385. NPC_LYING_LANTERN_0
+  386. NPC_LYING_LANTERN_1
+  387. NPC_LYING_LANTERN_2
+  388. RABID_DRAGON_5
+  389. BONE_DRAGON_5
+  390. SNIPER_WOLF_5
+  391. WEREDRAGON_0
+  392. WEREDRAGON_1
+  393. WEREDRAGON_2
+  394. WEREDRAGON_3
+  395. WEREDRAGON_4
+  396. WEE_WITCH_0
+  397. WEE_WITCH_1
+  398. WEE_WITCH_2
+  399. WEE_WITCH_3
+  400. WEE_WITCH_4
+  401. DUNGEON_MAN_0
+  402. DUNGEON_MAN_1
+  403. DUNGEON_MAN_2
+  404. DUNGEON_MAN_3
+  405. DUNGEON_MAN_4
+  406. NPC_PLAGUE_SKULKER_0
+  407. NPC_PLAGUE_SKULKER_1
+  408. PLAGUE_ENTREPRENEUR_0
+  409. PLAGUE_ENTREPRENEUR_1
+  410. PLAGUE_ENTREPRENEUR_2
+  411. PLAGUE_ENTREPRENEUR_3
+  412. PLAGUE_ENTREPRENEUR_4
+  413. MISTRESS_MANICURE_0
+  414. MISTRESS_MANICURE_1
+  415. MISTRESS_MANICURE_2
+  416. MISTRESS_MANICURE_3
+  417. MISTRESS_MANICURE_4
+  418. VILE_BILE_0
+  419. VILE_BILE_1
+  420. VILE_BILE_2
+  421. VILE_BILE_3
+  422. VILE_BILE_4
+  423. NPC_FLEA_DEMON_0
+  424. UNICORGI_5
+  425. PIRATE_5
+  426. DWARVEN_ARCHER_5
+  427. VOID_WYVERN_0
+  428. VOID_WYVERN_1
+  429. VOID_WYVERN_2
+  430. VOID_WYVERN_3
+  431. VOID_WYVERN_4
+  432. DARK_HORSE_5
+  433. BURNT_ONE_0
+  434. BURNT_ONE_1
+  435. BURNT_ONE_2
+  436. BURNT_ONE_3
+  437. BURNT_ONE_4
+  438. SKELETON_KING_5
+  439. SATYR_5
+  440. DEEP_DRAGON_5
+  441. STORM_DRAGON_5
+  442. NPC_ANGELIC_AVENGER_0
+  443. MINOTAUR_5
+  444. CRIMSON_WITCH_5
+  445. SPIKEY_DRAGON_5
+  446. GENIE_5
+  447. DEMON_TOTEM_5
+  448. TOMB_ANGEL_0
+  449. TOMB_ANGEL_1
+  450. TOMB_ANGEL_2
+  451. TOMB_ANGEL_3
+  452. TOMB_ANGEL_4
+  453. ANGELIC_HERALD_0
+  454. ANGELIC_HERALD_1
+  455. ANGELIC_HERALD_2
+  456. ANGELIC_HERALD_3
+  457. ANGELIC_HERALD_4
+  458. BULWARK_ANGEL_0
+  459. BULWARK_ANGEL_1
+  460. BULWARK_ANGEL_2
+  461. BULWARK_ANGEL_3
+  462. BULWARK_ANGEL_4
+  463. ANGEL_DRAGON_0
+  464. ANGEL_DRAGON_1
+  465. ANGEL_DRAGON_2
+  466. ANGEL_DRAGON_3
+  467. ANGEL_DRAGON_4
+  468. DRAGON_SLAYER_0
+  469. DRAGON_SLAYER_1
+  470. DRAGON_SLAYER_2
+  471. DRAGON_SLAYER_3
+  472. DRAGON_SLAYER_4
+  473. ETERNAL_ENCHANTER_0
+  474. ETERNAL_ENCHANTER_1
+  475. ETERNAL_ENCHANTER_2
+  476. ETERNAL_ENCHANTER_3
+  477. ETERNAL_ENCHANTER_4
+  478. GRAND_HUNTRESS_0
+  479. GRAND_HUNTRESS_1
+  480. GRAND_HUNTRESS_2
+  481. GRAND_HUNTRESS_3
+  482. GRAND_HUNTRESS_4
+  483. TRIPLE_THREAT_0
+  484. TRIPLE_THREAT_1
+  485. TRIPLE_THREAT_2
+  486. TRIPLE_THREAT_3
+  487. TRIPLE_THREAT_4
+  488. LAST_DEFENDER_0
+  489. LAST_DEFENDER_1
+  490. LAST_DEFENDER_2
+  491. LAST_DEFENDER_3
+  492. LAST_DEFENDER_4
+  493. NUMBER_493
+  494. SOJOURNER_SORCERESS_0
+  495. SOJOURNER_SORCERESS_1
+  496. SOJOURNER_SORCERESS_2
+  497. SOJOURNER_SORCERESS_3
+  498. SOJOURNER_SORCERESS_4
+  499. SOJOURNER_SORCERESS_5
+  500. KARAOKE_KING_0
+  501. KARAOKE_KING_1
+  502. KARAOKE_KING_2
+  503. KARAOKE_KING_3
+  504. KARAOKE_KING_4
+  505. NUMBER_505
+  506. SHADOW_OF_SVEN_0
+  507. SHADOW_OF_SVEN_1
+  508. SHADOW_OF_SVEN_2
+  509. SHADOW_OF_SVEN_3
+  510. SHADOW_OF_SVEN_4
+  511. NUMBER_511
+  512. SUN_SEEKER_0
+  513. SUN_SEEKER_1
+  514. SUN_SEEKER_2
+  515. SUN_SEEKER_3
+  516. SUN_SEEKER_4
+  517. NUMBER_517
+  518. STEPLADDER_BROTHERS_0
+  519. STEPLADDER_BROTHERS_1
+  520. STEPLADDER_BROTHERS_2
+  521. STEPLADDER_BROTHERS_3
+  522. STEPLADDER_BROTHERS_4
+  523. NUMBER_523
+  524. FORGOTTEN_DRAGON_0
+  525. FORGOTTEN_DRAGON_1
+  526. FORGOTTEN_DRAGON_2
+  527. FORGOTTEN_DRAGON_3
+  528. FORGOTTEN_DRAGON_4
+  529. NUMBER_529
+  530. NPC_CRYSTAL_LIZARD_0
+  531. NPC_CRYSTAL_LIZARD_1
+  532. ETERNAL_ENCHANTER_5
+  533. BLACK_WING_0
+  534. BLACK_WING_1
+  535. BLACK_WING_2
+  536. BLACK_WING_3
+  537. BLACK_WING_4
+  538. NUMBER_538
+  539. GREED_DRAGON_0
+  540. GREED_DRAGON_1
+  541. GREED_DRAGON_2
+  542. GREED_DRAGON_3
+  543. GREED_DRAGON_4
+  544. NUMBER_544
+  545. UNRIPE_MYTHOLOGY_0
+  546. UNRIPE_MYTHOLOGY_1
+  547. UNRIPE_MYTHOLOGY_2
+  548. UNRIPE_MYTHOLOGY_3
+  549. UNRIPE_MYTHOLOGY_4
+  550. NUMBER_550
+  551. NPC_BREAKER_MKII_0
+  552. NPC_BREAKER_MKII_1
+  553. DRAGZILLA_5
+  554. ANCIENT_DWARF_0
+  555. ANCIENT_DWARF_1
+  556. ANCIENT_DWARF_2
+  557. ANCIENT_DWARF_3
+  558. ANCIENT_DWARF_4
+  559. NUMBER_559
+  560. DIGGER_MOLE_0
+  561. DIGGER_MOLE_1
+  562. DIGGER_MOLE_2
+  563. DIGGER_MOLE_3
+  564. DIGGER_MOLE_4
+  565. NUMBER_565
+  566. SADISTIC_DANCER_0
+  567. SADISTIC_DANCER_1
+  568. SADISTIC_DANCER_2
+  569. SADISTIC_DANCER_3
+  570. SADISTIC_DANCER_4
+  571. NUMBER_571
+  572. NPC_ANUBIS_DRAGON_0
+  573. NPC_ANUBIS_DRAGON_1
+  574. NPC_ANUBIS_DRAGON_2
+  575. RAGING_REVENANT_5
+  576. NPC_KING_IMP_0
+  577. NPC_KING_IMP_1
+  578. WHITE_TIGRESS_0
+  579. WHITE_TIGRESS_1
+  580. WHITE_TIGRESS_2
+  581. WHITE_TIGRESS_3
+  582. WHITE_TIGRESS_4
+  583. NUMBER_583
+  584. SNAPPER_BONE_0
+  585. SNAPPER_BONE_1
+  586. SNAPPER_BONE_2
+  587. SNAPPER_BONE_3
+  588. SNAPPER_BONE_4
+  589. NUMBER_589
+  590. NUMBER_590
+  591. NUMBER_591
+  592. NUMBER_592
+  593. NUMBER_593
+  594. NUMBER_594
+  595. NUMBER_595
+  596. NUMBER_596
+  597. NUMBER_597
+  598. NUMBER_598
+  599. MEDUSA_6
+  600. GENIE_6
+  601. DRAGON_LADY_6
+  602. SATYR_6
+  603. CENTAUR_OF_ATTENTION_6
+  604. VERMILION_PRIESTESS_0
+  605. VERMILION_PRIESTESS_1
+  606. VERMILION_PRIESTESS_2
+  607. VERMILION_PRIESTESS_3
+  608. VERMILION_PRIESTESS_4
+  609. NUMBER_609
+  610. NPC_ABYSS_DRAGON_0
+  611. NPC_ABYSS_DRAGON_1
+  612. NPC_ABYSS_DRAGON_2
+  613. ANGELIC_HERALD_5
+  614. BOSS_BATTLE_FIELD_BUFF
+  615. NPC_BOSS_ANUBIS_DRAGON_0
+  616. NPC_BOSS_ANUBIS_DRAGON_1
+  617. NPC_BOSS_ANUBIS_DRAGON_2
+  618. PCH_ANUBIS_DRAGON_0
+  619. PCH_ANUBIS_DRAGON_1
+  620. PCH_ANUBIS_DRAGON_2
+  621. PCH_ANUBIS_DRAGON_3
+  622. PCH_ANUBIS_DRAGON_4
+  623. NUMBER_623
+  624. ABYSS_DRAGON_0
+  625. ABYSS_DRAGON_1
+  626. ABYSS_DRAGON_2
+  627. ABYSS_DRAGON_3
+  628. ABYSS_DRAGON_4
+  629. NUMBER_629
+  630. UMLAUT_THE_FIRST_0
+  631. UMLAUT_THE_FIRST_1
+  632. UMLAUT_THE_FIRST_2
+  633. UMLAUT_THE_FIRST_3
+  634. UMLAUT_THE_FIRST_4
+  635. NUMBER_635
+  636. NPC_UMLAUT_THE_FIFTH_FIRST_0
+  637. NPC_UMLAUT_THE_FIFTH_FIRST_1
+  638. NPC_UMLAUT_THE_FIFTH_FIRST_2
+  639. NPC_BOSS_ABYSS_DRAGON_0
+  640. NPC_BOSS_ABYSS_DRAGON_1
+  641. NPC_BOSS_ABYSS_DRAGON_2
+  642. BROZERKER_6
+  643. COSMIC_ELF_6
+  644. ORC_MONK_6
+  645. ROLLER_WARRIOR_6
+  646. SHADOW_ASSASSIN_6
+  647. WEREDRAGON_5
+  648. NPC_BOSS_ANDRAGONUS_THE_FIRST_0
+  649. NPC_BOSS_ANDRAGONUS_THE_FIRST_1
+  650. NPC_BOSS_ANDRAGONUS_THE_FIRST_2
+  651. VULTURE_DRAGON_5
+  652. NPC_BOSS_UMLAUT_THE_FIFTH_FIRST_0
+  653. NPC_BOSS_UMLAUT_THE_FIFTH_FIRST_1
+  654. NPC_BOSS_UMLAUT_THE_FIFTH_FIRST_2
+  655. NPC_BOSS_UMLAUT_THE_FIFTH_FIRST_3
+  656. NINJA_DWARF_6
+  657. UNSTABLE_UNDERSTUDY_6
+  658. DEEP_DRAGON_6
+  659. SNAP_DRAGON_6
+  660. DEMON_TOTEM_6
+  661. NPC_SINISTER_ASSAILANT_0
+  662. NPC_SINISTER_ASSAILANT_1
+  663. NPC_RED_TIGER_0
+  664. NPC_RED_TIGER_1
+  665. DARK_HERO_0
+  666. DARK_HERO_1
+  667. DARK_HERO_2
+  668. DARK_HERO_3
+  669. DARK_HERO_4
+  670. NUMBER_670
+  671. CLAW_MAN_0
+  672. CLAW_MAN_1
+  673. CLAW_MAN_2
+  674. CLAW_MAN_3
+  675. CLAW_MAN_4
+  field: private static SkillType[] values
+  method: valuesCached() -> SkillType[]
+
+## com.perblue.rpg.network.messages.TimeType
+Values (41):
+  0. DEFAULT
+  1. LAST_NON_FREE_TIME_ZONE_CHANGE
+  2. CHAT_SILENCE_END
+  3. MONTHLY_DIAMOND_END
+  4. LAST_DAILY_RESET
+  5. LAST_MONTHLY_SIGNIN
+  6. LAST_SPECIAL_EVENT_CHECK
+  7. LAST_USER_DAILY_RESET
+  8. LAST_EVENT_VIEW_TIME
+  9. LAST_MERCHANT_VIEW_TIME
+  10. LAST_MERCENARY_EARN_RESET
+  11. LAST_PURCHASE
+  12. LAST_EVENT_CHEST_RESET
+  13. MONTHLY_CARD_EXPIRE_TIME
+  14. TEMPLE_EXPIRATION
+  15. LAST_GUILD_WALL_VIEW
+  16. LAST_SOUL_CHEST_RESET
+  17. DOUBLE_NORMAL_DROP_ITEM_END
+  18. DOUBLE_ELITE_DROP_ITEM_END
+  19. LAST_MONTHLY_SERVER_SIGNIN
+  20. LAST_DOUBLE_NORMAL_PAUSE
+  21. LAST_DOUBLE_ELITE_PAUSE
+  22. GUILD_LEAVE_TIME
+  23. TEMPORARY_VIP_END
+  24. LAST_TIME_ZONE_CHANGE
+  25. CHAT_APP_AUTH_TOKEN_IAT
+  26. CHAT_APP_LAST_LOGIN
+  27. LAPSED_CATCH_UP_LAST_LOGOUT
+  28. LAST_CHESTS_VIEW_TIME
+  29. DOUBLE_NORMAL_DROP_ITEM_START
+  30. DOUBLE_ELITE_DROP_ITEM_START
+  31. SUSPENSION_END
+  32. LAST_SUSPENSION_TIME
+  33. CRAFT_SUCCESS_START
+  34. CRAFT_SUCCESS_END
+  35. XP_BONUS_TEAM_START
+  36. XP_BONUS_TEAM_END
+  37. XP_BONUS_TEAM_PAUSE
+  38. DOUBLE_EXPERT_DROP_ITEM_START
+  39. DOUBLE_EXPERT_DROP_ITEM_END
+  40. LAST_DOUBLE_EXPERT_PAUSE
+  field: private static TimeType[] values
+  method: valuesCached() -> TimeType[]
+
+## com.perblue.rpg.network.messages.TutorialActType
+Values (79):
+  0. DEFAULT
+  1. INTRO
+  2. POWER_USE
+  3. ACHIEVEMENTS
+  4. UNLOCK_HERO
+  5. PROMOTE_HERO
+  6. DAILY_QUEST
+  7. POWER_POINTS
+  8. CRAFTING
+  9. EQUIPPING_HERO
+  10. EVOLVING_HERO
+  11. AUTO_FIGHT
+  12. FIGHT_PIT
+  13. STORY
+  14. ENCHANTING
+  15. CRYPT
+  16. TEMPLE_YOURS
+  17. TEMPLE_INVITE
+  18. BOSS_PIT
+  19. EVIL_WIZARD_STORY
+  20. GIANT_PLANT_STORY
+  21. GOLD_COLOSSUS_STORY
+  22. GUILD_WAR
+  23. LEGENDARY_QUEST_INFO
+  24. LQ_BROZERKER
+  25. LQ_MEDUSA
+  26. LQ_DUST_DEVIL
+  27. LQ_FAITH_HEALER
+  28. LQ_DARK_DRAKUL
+  29. LQ_CATAPULT_KNIGHT
+  30. LQ_NINJA_DWARF
+  31. LQ_SNAP_DRAGON
+  32. LQ_POLEMASTER
+  33. LQ_ZOMBIE_SQUIRE
+  34. LQ_MAGIC_DRAGON
+  35. LQ_GROOVY_DRUID
+  36. LQ_DRAGON_LADY
+  37. LQ_SHADOW_ASSASSIN
+  38. LQ_ELECTROYETI
+  39. LQ_FROST_GIANT
+  40. LQ_UNSTABLE_UNDERSTUDY
+  41. RUNES
+  42. RUNE_SHRINE
+  43. RUNE_FUSION
+  44. LQ_HYDRA
+  45. LQ_BARDBARIAN
+  46. LQ_AQUATIC_MAN
+  47. LQ_DRUIDINATRIX
+  48. LQ_CENTAUR_OF_ATTENTION
+  49. LQ_MOON_DRAKE
+  50. LQ_COSMIC_ELF
+  51. LQ_SAVAGE_CUTIE
+  52. MYSTIC_CLOSET
+  53. MYSTIC_CLOSET_EQUIP
+  54. LQ_BONE_DRAGON
+  55. LQ_SPIRIT_WOLF
+  56. LQ_RABID_DRAGON
+  57. LQ_ORC_MONK
+  58. LQ_ROLLER_WARRIOR
+  59. LQ_UNICORGI
+  60. LQ_PIRATE
+  61. LQ_DWARVEN_ARCHER
+  62. LQ_SATYR
+  63. LQ_SKELETON_KING
+  64. LQ_DARK_HORSE
+  65. LQ_DEEP_DRAGON
+  66. LQ_STORM_DRAGON
+  67. LQ_MINOTAUR
+  68. LQ_SPIKEY_DRAGON
+  69. LQ_CRIMSON_WITCH
+  70. LQ_DEMON_TOTEM
+  71. LQ_GENIE
+  72. LQ_ETERNAL_ENCHANTER
+  73. LQ_DRAGZILLA
+  74. LQ_RAGING_REVENANT
+  75. LQ_ANGELIC_HERALD
+  76. LQ_WEREDRAGON
+  77. LQ_VULTURE_DRAGON
+  78. LQ_SOJOURNER_SORCERESS
+  field: private static TutorialActType[] values
+  method: valuesCached() -> TutorialActType[]
+
+## com.perblue.rpg.network.messages.UnitType
+Values (145):
+  0. DEFAULT
+  1. ELECTROYETI
+  2. MEDUSA
+  3. FAITH_HEALER
+  4. DARK_DRACUL
+  5. COSMIC_ELF
+  6. ROLLER_WARRIOR
+  7. DRAGON_LADY
+  8. CENTAUR_OF_ATTENTION
+  9. UNSTABLE_UNDERSTUDY
+  10. MOON_DRAKE
+  11. NPC_GOBLIN
+  12. NPC_WILDLING_ARCHER
+  13. NPC_CRYSTAL_GOLEM
+  14. NPC_ICE_GOLEM
+  15. NPC_FIRE_IMP
+  16. NPC_STONE_IMP
+  17. NPC_MYSTIC_WILDLING
+  18. NPC_WILDLING_SNIPER
+  19. POLEMASTER
+  20. CATAPULT_KNIGHT
+  21. BARDBARIAN
+  22. SHADOW_ASSASSIN
+  23. DUST_DEVIL
+  24. SNAP_DRAGON
+  25. HYDRA
+  26. SAVAGE_CUTIE
+  27. ZOMBIE_SQUIRE
+  28. MAGIC_DRAGON
+  29. AQUATIC_MAN
+  30. CRIMSON_WITCH
+  31. NINJA_DWARF
+  32. BROZERKER
+  33. GROOVY_DRUID
+  34. BONE_DRAGON
+  35. NPC_INFERNO_SPIDER
+  36. NPC_HEALER_SPRITE
+  37. NPC_BUFF_SPRITE
+  38. NPC_TROLL_BLOB
+  39. NPC_SCARECROW
+  40. NPC_POTTED_PLANT
+  41. SPIKEY_DRAGON
+  42. FROST_GIANT
+  43. MINOTAUR
+  44. DARK_HORSE
+  45. DRUIDINATRIX
+  46. NPC_KAMIKAZE_GNOME
+  47. NPC_MR_SMASHY
+  48. TITAN_BUFF
+  49. NPC_EVIL_WIZARD
+  50. NPC_GIANT_PLANT
+  51. NPC_GOLD_COLOSSUS
+  52. ORC_MONK
+  53. DWARVEN_ARCHER
+  54. RABID_DRAGON
+  55. NPC_CAULDRON_MONSTER
+  56. NPC_SQUID
+  57. NPC_GIANT_PLANT_ROOT
+  58. SKELETON_KING
+  59. SATYR
+  60. STORM_DRAGON
+  61. NPC_SKELETON_DEER
+  62. NPC_MUSHROOM
+  63. UNICORGI
+  64. SNIPER_WOLF
+  65. GENIE
+  66. NPC_HEAD_CRAB
+  67. NPC_CLOUD_MONSTER
+  68. DRAGZILLA
+  69. PIRATE
+  70. CYCLOPS_WIZARD
+  71. DEMON_TOTEM
+  72. NPC_EYEBALL
+  73. NPC_TEST_DUMMY
+  74. DEEP_DRAGON
+  75. DOPPELGANGER
+  76. KRAKEN_KING
+  77. STOWAWAY
+  78. NPC_SHARK
+  79. NPC_SQUIRREL
+  80. CURSED_STATUE
+  81. PLANT_SOUL
+  82. SPIDER_QUEEN
+  83. VULTURE_DRAGON
+  84. NPC_ANT
+  85. BANSHEE
+  86. RAGING_REVENANT
+  87. SILENT_SPIRIT
+  88. SPECTRAL_DRAGON
+  89. NPC_LYING_LANTERN
+  90. WEREDRAGON
+  91. WEE_WITCH
+  92. DUNGEON_MAN
+  93. NPC_PLAGUE_SKULKER
+  94. PLAGUE_ENTREPRENEUR
+  95. MISTRESS_MANICURE
+  96. VILE_BILE
+  97. NPC_FLEA_DEMON
+  98. VOID_WYVERN
+  99. BURNT_ONE
+  100. NPC_ANGELIC_AVENGER
+  101. NPC_GENIE_COW
+  102. NPC_GENIE_GOAT
+  103. NPC_GENIE_CHICKEN
+  104. TOMB_ANGEL
+  105. ANGELIC_HERALD
+  106. BULWARK_ANGEL
+  107. ANGEL_DRAGON
+  108. DRAGON_SLAYER
+  109. ETERNAL_ENCHANTER
+  110. GRAND_HUNTRESS
+  111. TRIPLE_THREAT
+  112. LAST_DEFENDER
+  113. SOJOURNER_SORCERESS
+  114. KARAOKE_KING
+  115. SHADOW_OF_SVEN
+  116. SUN_SEEKER
+  117. STEPLADDER_BROTHERS
+  118. FORGOTTEN_DRAGON
+  119. NPC_CRYSTAL_LIZARD
+  120. BLACK_WING
+  121. GREED_DRAGON
+  122. UNRIPE_MYTHOLOGY
+  123. NPC_BREAKER_MKII
+  124. ANCIENT_DWARF
+  125. DIGGER_MOLE
+  126. SADISTIC_DANCER
+  127. NPC_ANUBIS_DRAGON
+  128. NPC_KING_IMP
+  129. WHITE_TIGRESS
+  130. SNAPPER_BONE
+  131. VERMILION_PRIESTESS
+  132. NPC_ABYSS_DRAGON
+  133. NPC_BOSS_ANUBIS_DRAGON
+  134. PCH_ANUBIS_DRAGON
+  135. ABYSS_DRAGON
+  136. UMLAUT_THE_FIRST
+  137. NPC_UMLAUT_THE_FIFTH_FIRST
+  138. NPC_BOSS_ABYSS_DRAGON
+  139. NPC_BOSS_ANDRAGONUS_THE_FIRST
+  140. NPC_BOSS_UMLAUT_THE_FIFTH_FIRST
+  141. NPC_SINISTER_ASSAILANT
+  142. NPC_RED_TIGER
+  143. DARK_HERO
+  144. CLAW_MAN
+  field: private static UnitType[] values
+  method: valuesCached() -> UnitType[]
+
+## com.perblue.rpg.network.messages.UseItemEventType
+Values (5):
+  0. DEFAULT
+  1. DROP_BONUS_NORMAL_2X
+  2. DROP_BONUS_ELITE_2X
+  3. TEAM_XP_BONUS_2X
+  4. DROP_BONUS_EXPERT_2X
+  field: private static UseItemEventType[] values
+  method: valuesCached() -> UseItemEventType[]
+
+## com.perblue.rpg.network.messages.WarState
+Values (8):
+  0. UNKNOWN
+  1. UNREGISTERED
+  2. COUNTDOWN_UNTIL_WAR_START
+  3. WATING_TO_START_BATTLE
+  4. BATTLE_ACTIVE
+  5. ALL_BATTLES_COMPLETE
+  6. COUNTDOWN_UNTIL_REGISTRATION
+  7. COUNTDOWN_UNTIL_WAR_START_NOT_READY
+  field: private static WarState[] values
+  method: valuesCached() -> WarState[]
+
+## com.perblue.rpg.purchasing.IPurchasing$Product
+Values (14):
+  0. DAILY_30
+  1. DAILY_90
+  2. DAILY_180
+  3. DAILY_360
+  4. FIRST_DIAMONDS_1
+  5. FIRST_DIAMONDS_2
+  6. FIRST_DIAMONDS_3
+  7. FIRST_DIAMONDS_4
+  8. FIRST_DIAMONDS_5
+  9. DIAMONDS_1
+  10. DIAMONDS_2
+  11. DIAMONDS_3
+  12. DIAMONDS_4
+  13. DIAMONDS_5
+  field: private final String defaultCost
+  field: private final String productID
+  method: convertCentsDoubleToString(double) -> String
+  method: convertStringPriceToCents(String) -> int
+  method: getProductID() -> String
+  method: getDefaultCost() -> String
+  method: getDefaultCostCents() -> int
+  method: getFromProductID(String) -> Product
+
+## com.perblue.rpg.purchasing.IPurchasing$PurchaseErrorState
+Values (7):
+  0. IAP_ERROR_ASYNC_IN_PROGRESS
+  1. IAP_ERROR_SERVICE_DOWN
+  2. IAP_LAUNCH_PURCHASE_SUCCESS
+  3. AMAZON_SKU_UNAVAILABLE
+  4. IOS_ITUNES_ACCOUNT_CAN_NOT_PURCHASE
+  5. IOS_PURCHASING_NEED_UPGRADE
+  6. IOS_PURCHASING_COULD_NOT_FIND_PRODUCT
+
+## com.perblue.rpg.replay.ReplayPlayer$PlayState
+Values (3):
+  0. DO_UPDATE
+  1. COMBAT_DONE
+  2. PAUSED
+
+## com.perblue.rpg.replay.autoqueue.QueueData$CommandType
+Values (13):
+  0. DEFAULT
+  1. QUEUE_SKILL
+  2. SET_HP
+  3. SET_ENERGY
+  4. SET_HP_RATE
+  5. SET_ENERGY_RATE
+  6. DO_DIRECT_DAMAGE
+  7. ADD_STUN_BUFF
+  8. ADD_INVINCIBLE_BUFF
+  9. ADD_UNTARGETABLE_BUFF
+  10. REMOVE_ALL_BUFFS
+  11. PAUSE
+  12. SET_SPEED
+
+## com.perblue.rpg.replay.autoqueue.QueueData$Side
+Values (6):
+  0. ATTACKER
+  1. DEFENDER
+  2. BOTH
+  3. ATTACKER_THEN_DEFENDER
+  4. DEFENDER_THEN_ATTACKER
+  5. NONE
+
+## com.perblue.rpg.simulation.AnimationType
+Values (23):
+  0. idle
+  1. walk
+  2. attack
+  3. hit
+  4. victory
+  5. death
+  6. jump
+  7. kick
+  8. skill1
+  9. skill2
+  10. skill3
+  11. skill4
+  12. new_death
+  13. idle_special
+  14. walk_special
+  15. hit_special
+  16. victory_special
+  17. death_special
+  18. attack_special
+  19. skill1_special
+  20. on_tap
+  21. disabled
+  22. active
+  field: private static AnimationType[] values
+  method: valuesCached() -> AnimationType[]
+
+## com.perblue.rpg.simulation.DamageSource$CritBehaviorType
+Values (3):
+  0. NEVER
+  1. CHECK
+  2. ALWAYS
+
+## com.perblue.rpg.simulation.DamageSource$DamageSourceType
+Values (3):
+  0. PHYSICAL
+  1. MAGIC
+  2. TRUE
+
+## com.perblue.rpg.simulation.DamageSource$DamageSubType
+Values (11):
+  0. NONE
+  1. BASHING
+  2. PIERCING
+  3. SLASHING
+  4. ENERGY
+  5. WATER
+  6. NECROTIC
+  7. TOXIC
+  8. ELECTRICAL
+  9. FIRE
+  10. HOLY
+  field: private HeroTag tag
+  method: getTag() -> HeroTag
+
+## com.perblue.rpg.simulation.ai.AIHelper$AIMode
+Values (2):
+  0. COMBAT
+  1. ANIM_TOOL
+
+## com.perblue.rpg.simulation.ai.Direction
+Values (2):
+  0. LEFT
+  1. RIGHT
+
+## com.perblue.rpg.simulation.skills.AncientDwarfSkill2$EventSkills
+Values (4):
+  0. EMPTY
+  1. SKILL2_05
+  2. SKILL2_06
+  3. SKILL2_07
+
+## com.perblue.rpg.simulation.skills.MinotaurSkill3$CastType
+Values (4):
+  0. HP_GAIN
+  1. ENERGY_GAIN
+  2. ATTACK_DAMAGE_BUFF
+  3. ARMOR_BUFF
+
+## com.perblue.rpg.simulation.skills.bosses.GiantPlantBiteSkill$BiteSkillState
+Values (6):
+  0. DEFAULT
+  1. ATTACK_START_1
+  2. ATTACK_START_2
+  3. CHEWING
+  4. ATTACK_EXIT_1
+  5. ATTACK_EXIT_2
+
+## com.perblue.rpg.simulation.skills.generic.SkillCategory
+Values (4):
+  0. OTHER
+  1. AUTO_ATTACK
+  2. ACTIVE
+  3. TITAN
+
+## com.perblue.rpg.simulation.skills.generic.SkillDamageProvider$DamageFunction
+Values (7):
+  0. NONE
+  1. X
+  2. Y
+  3. Z
+  4. W
+  5. ATTACK_DAMAGE
+  6. CUSTOM
+
+## com.perblue.rpg.social.ISocialNetwork$UserDataType
+Values (13):
+  0. ID
+  1. FIRSTNAME
+  2. TIMEZONE
+  3. HOMETOWN
+  4. LOCATION
+  5. LOCALE
+  6. LASTNAME
+  7. GENDER
+  8. MINAGE
+  9. MAXAGE
+  10. DISPLAY_NAME
+  11. NICKNAME
+  12. BIRTHDAY
+
+## com.perblue.rpg.tools.CombatDebugOptions$DebugType
+Values (25):
+  0. DEBUG_TEXT
+  1. DEBUG_LOGGING
+  2. ATTACKERS_FREEZE
+  3. DEFENDERS_FREEZE
+  4. FULL_ENERGY
+  5. REDUCED_DAMAGE
+  6. ALWAYS_AUTO
+  7. BUFF_ADDED
+  8. BUFF_UPDATED
+  9. INITIAL_STATS
+  10. HP_CHANGE
+  11. ENERGY_CHANGE
+  12. STAT_CHANGE
+  13. SKILL_CANCELED
+  14. SKILL_DODGE
+  15. UNIT_DEATH
+  16. HIDE_DEBUG
+  17. RECORD_BATTLE
+  18. AUDIO_EVENTS
+  19. COMBAT_OUTLINE
+  20. DISABLE_TIMER
+  21. DISABLE_DODGE
+  22. COOLDOWN_ATTACKER
+  23. COOLDOWN_DEFENDER
+  24. DEBUG_AUTO_QUEUE
+
+## com.perblue.rpg.tools.RandomCombatScreen$CASTING_FREEZE
+Values (4):
+  0. NONE
+  1. ATTACKERS
+  2. DEFENDERS
+  3. BOTH
+  method: getNext() -> CASTING_FREEZE
+
+## com.perblue.rpg.tools.RandomCombatScreen$UNIT_POSITION
+Values (10):
+  0. ATTACKER_1
+  1. ATTACKER_2
+  2. ATTACKER_3
+  3. ATTACKER_4
+  4. ATTACKER_5
+  5. DEFENDER_1
+  6. DEFENDER_2
+  7. DEFENDER_3
+  8. DEFENDER_4
+  9. DEFENDER_5
+
+## com.perblue.rpg.ui.ButtonColor
+Values (24):
+  0. BLUE
+  1. BLUE_DOWN
+  2. GREEN
+  3. ORANGE
+  4. YELLOW_SQUARE
+  5. GRAY
+  6. RED
+  7. CHAT
+  8. CHAT_GLOBAL
+  9. CHAT_GUILD
+  10. BLUE_CIRCLE
+  11. PINK
+  12. RAINBOW
+  13. RAINBOW2
+  14. PURPLE
+  15. CHAT_MINIMAL_LEFT
+  16. CHAT_MINIMAL_CENTER
+  17. CHAT_MINIMAL_RIGHT
+  18. CHAT_MINIMAL
+  19. CHAT_CIRCLE
+  20. GOLD_GRADIENT
+  21. SKIN_EQUIPPED
+  22. SKIN_EQUIP
+  23. RADIO_BUTTON
+  field: public String down
+  field: public String up
+
+## com.perblue.rpg.ui.SpineUIType
+Values (10):
+  0. MAIN_FLAG
+  1. MAIN_CAMPAIGN
+  2. MAIN_EVENTS
+  3. MAIN_FIGHTPIT
+  4. MAIN_GUILDS
+  5. MAIN_TRADER
+  6. MAIN_CHALLENGES
+  7. MAIN_SUMMIT
+  8. MAIN_EXPEDITIONS
+  9. MAIN_BOSS_PIT
+
+## com.perblue.rpg.ui.Style$Fonts
+Values (8):
+  0. Klepto
+  1. Klepto_Shadow
+  2. Swanse
+  3. Swanse_Shadow
+  4. ChineseFont
+  5. JapaneseFont
+  6. KoreanFont
+  7. RussianFont
+  field: private String fontName
+  field: private boolean isShadow
+  method: isShadow() -> boolean
+  method: getFontName() -> String
+
+## com.perblue.rpg.ui.TimeSyncUtilWindow$AutoPing
+Values (4):
+  0. 
+  1. : 1m
+  2. : 10s
+  3. : 1s
+  field:  String display
+  field:  long interval
+  method: interval() -> long
+  method: toString() -> String
+
+## com.perblue.rpg.ui.UINavHelper$Destination
+Values (40):
+  0. MERCHANT
+  1. CAMPAIGN
+  2. PURCHASING
+  3. SIGN_IN
+  4. CHESTS
+  5. HERO_MANAGEMENT
+  6. FIGHT_PIT
+  7. ALCHEMY
+  8. MOUNTAIN
+  9. CHALLENGES
+  10. EXPEDITION
+  11. JOB_BOARD
+  12. ENCHANTING
+  13. CRYPT
+  14. JOIN_GUILD
+  15. EVENTS
+  16. DEBUG
+  17. GUILDS
+  18. RANKINGS
+  19. BLACK_MARKET
+  20. PEDDLER
+  21. STAMINA
+  22. CHEST_DETAILS
+  23. COLISEUM
+  24. FACEBOOK_LIKE
+  25. TEMPLE
+  26. BOSS_PIT
+  27. SOULMART
+  28. GUILD_WAR
+  29. WAR_SHOP
+  30. CONTESTS
+  31. RUNES
+  32. CHAT
+  33. RUNE_SHRINE
+  34. DIRECT_PURCHASE
+  35. SKINS
+  36. LAPSED_CATCH_UP
+  37. BAZAAR
+  38. VIP
+  39. BOSS_BATTLE
+  field: private String serverKey
+  method: getKey() -> String
+
+## com.perblue.rpg.ui.howtoplay.HowToPlayCardType
+Values (4):
+  0. NORMAL
+  1. ARENA_LEAGUES
+  2. BOSS_BATTLE_REWARD
+  3. BOSS_BATTLE_LAYER
+  field: private static HowToPlayCardType[] values
+  method: valuesCached() -> HowToPlayCardType[]
+
+## com.perblue.rpg.ui.howtoplay.HowToPlayIcon
+Values (58):
+  0. NONE
+  1. DIAMONDS
+  2. GOLD
+  3. STAMINA
+  4. VIP_TICKETS
+  5. SILVER_CHEST
+  6. GOLD_CHEST
+  7. SOUL_CHEST
+  8. EXPEDITION_CHEST
+  9. EVENT_CHEST
+  10. FIGHT_TOKENS
+  11. EXPEDITION_TOKENS
+  12. GUILD_TOKENS
+  13. COLISEUM_TOKENS
+  14. STAR
+  15. VIP
+  16. TEAM_LEVEL
+  17. RAID_TICKET
+  18. RANK_CROWN
+  19. RANK_STAR
+  20. RANK_CHEVRON
+  21. RANK_DOUBLE_CHEVRON
+  22. EXPEDITION_ABOUT
+  23. EXPEDITION_HARD_MODE
+  24. VIP_ABOUT
+  25. VIP_HOW_TO_GET
+  26. MONTHLY_DEAL_CALENDAR
+  27. CRYPT_ABOUT
+  28. CRYPT_HEROES
+  29. CRYPT_THREE_SKULLS
+  30. CRYPT_STRATEGY
+  31. ENCHANTING
+  32. TITAN_TEMPLE
+  33. BOSS_PIT
+  34. GUILD_BENEFITS
+  35. GUILD_WALL
+  36. WAR
+  37. LEGENDARY
+  38. RUNE_TEMPLE
+  39. RUNE_ANATOMY
+  40. RUNE_KEYSTONE
+  41. RUNE_EMPOWERING
+  42. RUNE_FUSION
+  43. SHRINE
+  44. OFFERING_TYPES
+  45. SHRINE_TYPES
+  46. CONTEST_ICON
+  47. CONTEST_CURRENCY
+  48. CONTEST_PROGRESS
+  49. CONTEST_RANK
+  50. CHEST_ICON
+  51. CHEST_SILVER_ICON
+  52. CHEST_GOLD_ICON
+  53. CHEST_SOUL_ICON
+  54. CHEST_PURPLE_ICON
+  55. CHEST_ORANGE_ICON
+  56. PURCHASING_ICON
+  57. BOSS_BATTLE
+  field: private boolean external
+  field: private String icon
+  method: isExternal() -> boolean
+  method: getIcon() -> String
+
+## com.perblue.rpg.ui.resources.UI$Scroll$fields
+Values (3):
+  0. scroll
+  1. scroll_header
+  2. scroll_inlay
+
+## com.perblue.rpg.ui.resources.UI$Skills$fields
+Values (17):
+  0. centaur_of_attention_skill1
+  1. centaur_of_attention_skill2
+  2. centaur_of_attention_skill3
+  3. centaur_of_attention_skill4
+  4. centaur_of_attention_skill5
+  5. dragon_lady_skill1
+  6. dragon_lady_skill2
+  7. dragon_lady_skill3
+  8. dragon_lady_skill4
+  9. dragon_lady_skill5
+  10. placeholder_icon
+  11. unstable_understudy_skill1
+  12. unstable_understudy_skill2
+  13. unstable_understudy_skill3
+  14. unstable_understudy_skill4
+  15. unstable_understudy_skill5
+  16. unstable_understudy_skill6
+
+## com.perblue.rpg.ui.resources.UI$achievements$fields
+Values (4):
+  0. achievement_promoting_heros
+  1. achievement_team_level
+  2. games_controller_grey
+  3. heroCollection
+
+## com.perblue.rpg.ui.resources.UI$arena$fields
+Values (21):
+  0. alert_red
+  1. bracket
+  2. divider_challenger
+  3. icon_rank_star
+  4. medal
+  5. new_reserved
+  6. panel_player_info
+  7. panel_selected
+  8. rank_down
+  9. rank_up
+  10. ranking_banner
+  11. spotlight
+  12. tier_frame_patch
+  13. top_5_divider
+  14. top_5_divider_right
+  15. trophy_bronze
+  16. trophy_challenger
+  17. trophy_copper
+  18. trophy_gold
+  19. trophy_platinum
+  20. trophy_silver
+
+## com.perblue.rpg.ui.resources.UI$attack$fields
+Values (8):
+  0. attack_bar_bg
+  1. attack_bar_blue
+  2. attack_bar_green
+  3. attack_bar_orange
+  4. attack_bar_purple
+  5. attack_bar_red
+  6. attack_bar_white
+  7. attack_bar_yellow
+
+## com.perblue.rpg.ui.resources.UI$boot$fields
+Values (3):
+  0. boot_progress
+  1. logo
+  2. tip
+
+## com.perblue.rpg.ui.resources.UI$borders$fields
+Values (25):
+  0. active
+  1. banner
+  2. bg_quick_fight_loading
+  3. border_chest_colorizer
+  4. border_chest_selection_silver
+  5. border_highlight
+  6. border_main
+  7. border_main_small
+  8. border_main_small2
+  9. border_priority_mail
+  10. border_submenu
+  11. border_submenu_big
+  12. border_vertical_divider
+  13. header
+  14. headerV2
+  15. headerV2_colorizer
+  16. header_colorizer
+  17. header_defeat
+  18. header_small
+  19. header_victory_with_banner
+  20. item_frame
+  21. item_frame_strikethrough
+  22. narrator_hero_info_glow
+  23. narrator_panel
+  24. quest_border
+
+## com.perblue.rpg.ui.resources.UI$boss_pit$fields
+Values (3):
+  0. icon_medal_boss_colossus
+  1. icon_medal_boss_plant
+  2. icon_medal_boss_wizard
+
+## com.perblue.rpg.ui.resources.UI$buffs$fields
+Values (34):
+  0. buff_armor
+  1. buff_armor_buff
+  2. buff_armor_chest
+  3. buff_armor_chest_minus
+  4. buff_armor_chest_plus
+  5. buff_attack_dmg_debuff
+  6. buff_axe
+  7. buff_bag_holding
+  8. buff_blind
+  9. buff_bowtie
+  10. buff_can
+  11. buff_charmed
+  12. buff_coffin
+  13. buff_damage
+  14. buff_dot
+  15. buff_energy
+  16. buff_energy_minus
+  17. buff_energy_plus
+  18. buff_haste
+  19. buff_healing
+  20. buff_horns
+  21. buff_icon_container
+  22. buff_invincible
+  23. buff_kraken_head
+  24. buff_life_steal
+  25. buff_magic_resistance
+  26. buff_magic_resistance_minus
+  27. buff_magic_resistance_plus
+  28. buff_nose
+  29. buff_silence
+  30. buff_slow
+  31. buff_stun
+  32. buff_swirl
+  33. buff_wolf
+
+## com.perblue.rpg.ui.resources.UI$buttons$fields
+Values (56):
+  0. button_alpha60
+  1. button_alpha75_down
+  2. button_back
+  3. button_back_on
+  4. button_blue
+  5. button_blue_off
+  6. button_blue_on
+  7. button_blue_round_off
+  8. button_blue_round_on
+  9. button_circular
+  10. button_close
+  11. button_close_on
+  12. button_dark_green
+  13. button_equip_default
+  14. button_equip_equipped
+  15. button_equip_pressed
+  16. button_equipped_blue
+  17. button_gray
+  18. button_gray_off
+  19. button_gray_on
+  20. button_green
+  21. button_green_off
+  22. button_green_on
+  23. button_hero_orange
+  24. button_mapNav_left
+  25. button_mapNav_left_on
+  26. button_mapNav_right
+  27. button_mapNav_right_gray
+  28. button_mapNav_right_on
+  29. button_mapNav_right_on_gray
+  30. button_orange
+  31. button_orange_off
+  32. button_orange_on
+  33. button_pink_off
+  34. button_pink_on
+  35. button_purple_off
+  36. button_purple_on
+  37. button_rainbow2_off
+  38. button_rainbow2_on
+  39. button_rainbow_off
+  40. button_rainbow_on
+  41. button_red
+  42. button_red_patch_off
+  43. button_red_patch_on
+  44. button_square_yellow
+  45. button_square_yellow_on
+  46. button_wretched_off
+  47. button_wretched_on
+  48. buy
+  49. buy_on
+  50. help
+  51. hud_dropdown_down
+  52. hud_dropdown_down_pressed
+  53. hud_dropdown_up
+  54. hud_dropdown_up_pressed
+  55. info
+
+## com.perblue.rpg.ui.resources.UI$campaign$fields
+Values (20):
+  0. campaign_map_hero_button_glow
+  1. ch1_boss1
+  2. ch1_boss2
+  3. ch1_boss3
+  4. ch1_boss4
+  5. ch1_boss5
+  6. ch1_boss6
+  7. ch1_boss7
+  8. ch2_boss1
+  9. ch2_boss2
+  10. ch2_boss3
+  11. ch2_boss4
+  12. ch2_boss5
+  13. ch2_boss6
+  14. ch2_boss7
+  15. chapter_one_map
+  16. chapter_two_map
+  17. crumbly_tower
+  18. intact_tower
+  19. item_frame_glow
+
+## com.perblue.rpg.ui.resources.UI$challenges$fields
+Values (0):
+
+## com.perblue.rpg.ui.resources.UI$chat$fields
+Values (23):
+  0. button_chat_toggle_off
+  1. button_chat_toggle_on
+  2. chat_message_bg_alt_patch
+  3. chat_message_panel
+  4. chat_message_panel_gray
+  5. chat_panel_notch
+  6. chat_panel_notch_gray
+  7. chat_tab_global_off
+  8. chat_tab_global_on
+  9. chat_tab_guild_off
+  10. chat_tab_guild_on
+  11. chat_textfield_patch
+  12. icon_chat_off
+  13. icon_chat_on
+  14. icon_chat_white
+  15. icon_dropdown_down
+  16. icon_dropdown_up
+  17. icon_global_chat
+  18. like_off
+  19. like_on
+  20. message_of_day
+  21. pin
+  22. settings
+
+## com.perblue.rpg.ui.resources.UI$chat_2_3$fields
+Values (24):
+  0. chat_list_style_dark
+  1. chat_list_style_light
+  2. chat_list_style_medium
+  3. chat_minimal_button_full
+  4. chat_minimal_button_full_on
+  5. chat_panel
+  6. chat_panel_container
+  7. chat_panel_notch
+  8. chat_panel_on_center
+  9. chat_panel_on_right
+  10. chat_panel_toggle_off_center
+  11. chat_panel_toggle_off_right
+  12. chat_panel_toggle_on_left
+  13. chat_toggle_off_left
+  14. circular_container
+  15. icon_accept
+  16. icon_attatchment
+  17. icon_ban
+  18. icon_block
+  19. icon_friend_add
+  20. icon_group
+  21. icon_horse
+  22. icon_horse_right
+  23. icon_person
+
+## com.perblue.rpg.ui.resources.UI$chat_update$fields
+Values (0):
+
+## com.perblue.rpg.ui.resources.UI$chests$fields
+Values (38):
+  0. bannerTop_L
+  1. bannerTop_R
+  2. banner_limited_time
+  3. chest_event_bottom
+  4. chest_event_top
+  5. chest_gold_bottom
+  6. chest_gold_closed
+  7. chest_gold_top
+  8. chest_orange_bottom
+  9. chest_orange_closed
+  10. chest_orange_top
+  11. chest_purple_bottom
+  12. chest_purple_closed
+  13. chest_purple_top
+  14. chest_silver_bottom
+  15. chest_silver_closed
+  16. chest_silver_top
+  17. chest_soul_bottom
+  18. chest_soul_closed
+  19. chest_soul_top
+  20. chests_background
+  21. event_chest_large_closed
+  22. flare_Stars_3X_BG
+  23. flare_Stars_3X_BG_C
+  24. goldchest_large_closed
+  25. goldchest_large_open
+  26. lock
+  27. orangechest_large_closed
+  28. orangechest_large_open
+  29. purplechest_large_closed
+  30. purplechest_large_open
+  31. sale
+  32. sale10
+  33. sale_blank
+  34. silverchest_large_closed
+  35. silverchest_large_open
+  36. soulchest_large_open
+  37. soulstone_large_closed
+
+## com.perblue.rpg.ui.resources.UI$coliseum$fields
+Values (8):
+  0. mailbox_icon_grand_arena
+  1. token_grand_arena
+  2. trophy_failed
+  3. trophy_failed_small
+  4. trophy_grand_arena
+  5. trophy_grand_arena_current
+  6. trophy_grand_arena_off
+  7. view_team
+
+## com.perblue.rpg.ui.resources.UI$combat$fields
+Values (5):
+  0. boss_icon_border
+  1. crit_icon
+  2. precombat_background
+  3. shadow
+  4. stopwatch
+
+## com.perblue.rpg.ui.resources.UI$common$fields
+Values (161):
+  0. Popup_Bottom
+  1. Popup_Top
+  2. arrow_green
+  3. arrow_stat_upgrade
+  4. black_border_bottom
+  5. black_border_left
+  6. black_border_right
+  7. chat_cursor
+  8. check_box_legendary
+  9. chevron_how_to_get
+  10. difficulty_abysmal
+  11. difficulty_abysmal_2
+  12. difficulty_angry_fear
+  13. difficulty_bomb_of_bombs
+  14. difficulty_brutal
+  15. difficulty_brutal_2
+  16. difficulty_city_ender
+  17. difficulty_death_incarnate
+  18. difficulty_death_incarnate_2
+  19. difficulty_dont_even_try
+  20. difficulty_dont_even_try_2
+  21. difficulty_dont_even_try_glow
+  22. difficulty_easy
+  23. difficulty_easy_2
+  24. difficulty_extraorbital
+  25. difficulty_extraorbital_2
+  26. difficulty_fatal_solitude
+  27. difficulty_freestyle_agony
+  28. difficulty_ghastly_scream
+  29. difficulty_hard
+  30. difficulty_hard_2
+  31. difficulty_hard_as_f__k_
+  32. difficulty_hard_as_f__k__2
+  33. difficulty_heart_ripping
+  34. difficulty_heart_ripping_2
+  35. difficulty_inter_dimensional
+  36. difficulty_inter_dimensional_2
+  37. difficulty_medium
+  38. difficulty_medium_2
+  39. difficulty_pea_in_a_lake
+  40. difficulty_pea_in_a_pond
+  41. difficulty_pea_in_the_sea
+  42. difficulty_pin_in_haystack
+  43. difficulty_really_freakin_easy
+  44. difficulty_really_freakin_easy_2
+  45. difficulty_really_freakin_hard
+  46. difficulty_really_freakin_hard_2
+  47. difficulty_really_m_ther_fu__in_hard
+  48. difficulty_really_m_ther_fu__in_hard_2
+  49. difficulty_really_m_ther_fu__in_hard_glow
+  50. difficulty_sadistic
+  51. difficulty_sadistic_2
+  52. difficulty_soulless
+  53. difficulty_soulless_2
+  54. difficulty_suicide_night
+  55. difficulty_umlaut_my_______
+  56. difficulty_umlaut_my________2
+  57. difficulty_unbearable
+  58. difficulty_unbearable_2
+  59. difficulty_video_game_hell
+  60. difficulty_video_game_hell_2
+  61. difficulty_world_ender
+  62. difficulty_wretched
+  63. difficulty_wretched_2
+  64. double_arrow_right
+  65. double_arrow_right_glow
+  66. effect_easy
+  67. effect_hard
+  68. effect_hard_as_f__k_
+  69. effect_medium
+  70. effect_really_freakin_easy
+  71. effect_really_freakin_hard
+  72. gRays_light
+  73. gear_unavailable
+  74. generic_bg
+  75. guild_token
+  76. hero_type_control
+  77. hero_type_dps
+  78. hero_type_support
+  79. hero_type_tank
+  80. hud_resource_bg
+  81. icon_achievements
+  82. icon_arena_coin
+  83. icon_blue_plus
+  84. icon_check
+  85. icon_check_large
+  86. icon_dead
+  87. icon_evolve
+  88. icon_expedition_shop
+  89. icon_fast_forward
+  90. icon_gem
+  91. icon_gold
+  92. icon_green
+  93. icon_green_plus
+  94. icon_grey_plus
+  95. icon_grey_plus2
+  96. icon_hero_shard
+  97. icon_hero_skin
+  98. icon_heroes
+  99. icon_inventory
+  100. icon_loading
+  101. icon_loot
+  102. icon_loot_dropped
+  103. icon_mercinary
+  104. icon_messages
+  105. icon_name_generator
+  106. icon_pause
+  107. icon_plus
+  108. icon_pvp_shop
+  109. icon_quick_attack
+  110. icon_record
+  111. icon_red
+  112. icon_scrolls
+  113. icon_skill_points
+  114. icon_stamina
+  115. icon_team_level_up
+  116. icon_ticket_vip
+  117. icon_used
+  118. icon_used_french
+  119. icon_used_german
+  120. icon_used_spanish
+  121. icon_xp
+  122. item_state_container
+  123. item_state_go_get
+  124. item_state_ready_to_equip
+  125. item_state_too_low_level
+  126. list_glow
+  127. mailbox_icon_arena
+  128. mailbox_icon_arena_defense
+  129. mailbox_icon_battlepoints
+  130. mailbox_icon_contests
+  131. mailbox_icon_crypt_raid
+  132. mailbox_icon_daily_purchase
+  133. mailbox_icon_global
+  134. mailbox_icon_new_user
+  135. mailbox_icon_new_user_arena
+  136. mailbox_icon_team_challenge
+  137. mailbox_icon_vip_gem
+  138. mercinary_mail
+  139. on_off_switch_bg
+  140. on_off_switch_bg_small
+  141. on_off_switch_bg_small_patch
+  142. popup_bg
+  143. round_box
+  144. runicite
+  145. sale_badge_right_corner
+  146. scroll_more
+  147. settings_dark
+  148. single_arrow_down
+  149. single_arrow_left
+  150. single_arrow_left_orange
+  151. single_arrow_right
+  152. single_arrow_right_orange
+  153. single_arrow_up
+  154. sort
+  155. soulmart_token
+  156. tooltip_sale
+  157. unsummoned_left
+  158. unsummoned_right
+  159. war_token
+  160. white_square
+
+## com.perblue.rpg.ui.resources.UI$connection_error$fields
+Values (5):
+  0. connect1
+  1. connect2
+  2. connect3
+  3. connect4
+  4. crystal
+
+## com.perblue.rpg.ui.resources.UI$contests$fields
+Values (35):
+  0. beamRayDownLeft
+  1. beamRayDownOne
+  2. beamRayDownRight
+  3. beamRayOne
+  4. beamRayThree
+  5. beamRayTwo
+  6. beamRay_01
+  7. beamRay_02
+  8. beamRay_03
+  9. circle_glow
+  10. contest_progress_bar
+  11. contest_progress_bar_bg_update
+  12. contest_rewards_line
+  13. contest_tier_0
+  14. contest_tier_1
+  15. contest_tier_10
+  16. contest_tier_11
+  17. contest_tier_12
+  18. contest_tier_13
+  19. contest_tier_14
+  20. contest_tier_15
+  21. contest_tier_16
+  22. contest_tier_17
+  23. contest_tier_18
+  24. contest_tier_19
+  25. contest_tier_2
+  26. contest_tier_20
+  27. contest_tier_3
+  28. contest_tier_4
+  29. contest_tier_5
+  30. contest_tier_6
+  31. contest_tier_7
+  32. contest_tier_8
+  33. contest_tier_9
+  34. snow
+
+## com.perblue.rpg.ui.resources.UI$crypt$fields
+Values (0):
+
+## com.perblue.rpg.ui.resources.UI$defeat_tips$fields
+Values (4):
+  0. tip_equip_gear
+  1. tip_evolve_hero
+  2. tip_level_up
+  3. tip_upgrade_skills
+
+## com.perblue.rpg.ui.resources.UI$enchanting$fields
+Values (16):
+  0. Green
+  1. Orange
+  2. Red
+  3. enchanting_energy
+  4. enchanting_slot
+  5. funnel
+  6. header_glow
+  7. icon_enchanting
+  8. rune_Enchant_Funnel
+  9. sort
+  10. sort_down
+  11. sort_up
+  12. star_base
+  13. star_fill
+  14. star_off
+  15. star_on
+
+## com.perblue.rpg.ui.resources.UI$events$fields
+Values (8):
+  0. event_beginners_offer
+  1. event_craft_success
+  2. event_double_drops
+  3. event_double_gold
+  4. event_level_challenge
+  5. event_merchant_sale
+  6. event_xp_bonus
+  7. holiday_event_border
+
+## com.perblue.rpg.ui.resources.UI$expeditions$fields
+Values (0):
+
+## com.perblue.rpg.ui.resources.UI$external$fields
+Values (0):
+
+## com.perblue.rpg.ui.resources.UI$external_boss_pit$fields
+Values (29):
+  0. boss_health_bar
+  1. boss_health_bar_large
+  2. boss_health_bar_large_fill
+  3. defeated
+  4. defeated_de
+  5. defeated_es
+  6. defeated_fr
+  7. first_slot
+  8. first_slot_castle_courtard
+  9. fled
+  10. fled_icon
+  11. gold_defeated
+  12. plant_defeated
+  13. progress
+  14. progress_bar
+  15. progress_bg
+  16. progress_frame
+  17. progress_glow
+  18. selector
+  19. slot_alchemy_lab
+  20. slot_bone_path
+  21. slot_forest_cliff
+  22. slot_forest_path
+  23. slot_goblin_dragon_hall
+  24. slot_goblin_kitchen
+  25. slot_rocky_path
+  26. slot_rope_bridge
+  27. slot_taxidermy_room
+  28. wizard_defeated
+
+## com.perblue.rpg.ui.resources.UI$external_bossbattle_maps$fields
+Values (11):
+  0. boss_map
+  1. boss_map3
+  2. boss_map4
+  3. boss_map5
+  4. boss_map6
+  5. slot_bossbattle_combat3_3
+  6. slot_bossbattle_combat4_3
+  7. slot_bossbattle_combat5_3
+  8. slot_bossbattle_combat6_3
+  9. slot_bossbattle_combat_3
+  10. summit_for_showdown
+
+## com.perblue.rpg.ui.resources.UI$external_campaign_maps$fields
+Values (213):
+  0. Ocean_Minor_Node_crumbled
+  1. Ocean_Minor_Node_intact
+  2. ch10_boss1
+  3. ch10_boss2
+  4. ch10_boss3
+  5. ch10_boss4
+  6. ch10_boss5
+  7. ch10_boss6
+  8. ch10_boss7
+  9. ch11_boss1
+  10. ch11_boss2
+  11. ch11_boss3
+  12. ch11_boss4
+  13. ch11_boss5
+  14. ch11_boss6
+  15. ch11_boss7
+  16. ch12_boss1
+  17. ch12_boss2
+  18. ch12_boss3
+  19. ch12_boss4
+  20. ch12_boss5
+  21. ch12_boss6
+  22. ch12_boss7
+  23. ch13_boss1
+  24. ch13_boss2
+  25. ch13_boss3
+  26. ch13_boss4
+  27. ch13_boss5
+  28. ch13_boss6
+  29. ch13_boss7
+  30. ch14_boss1
+  31. ch14_boss2
+  32. ch14_boss3
+  33. ch14_boss4
+  34. ch14_boss5
+  35. ch14_boss6
+  36. ch14_boss7
+  37. ch15_boss1
+  38. ch15_boss2
+  39. ch15_boss3
+  40. ch15_boss4
+  41. ch15_boss5
+  42. ch15_boss6
+  43. ch15_boss7
+  44. ch16_boss1
+  45. ch16_boss2
+  46. ch16_boss3
+  47. ch16_boss4
+  48. ch16_boss5
+  49. ch16_boss6
+  50. ch16_boss7
+  51. ch17_boss1
+  52. ch17_boss2
+  53. ch17_boss3
+  54. ch17_boss4
+  55. ch17_boss5
+  56. ch17_boss6
+  57. ch17_boss7
+  58. ch18_boss1
+  59. ch18_boss2
+  60. ch18_boss3
+  61. ch18_boss4
+  62. ch18_boss5
+  63. ch18_boss6
+  64. ch18_boss7
+  65. ch19_boss1
+  66. ch19_boss2
+  67. ch19_boss3
+  68. ch19_boss4
+  69. ch19_boss5
+  70. ch19_boss6
+  71. ch19_boss7
+  72. ch20_boss1
+  73. ch20_boss2
+  74. ch20_boss3
+  75. ch20_boss4
+  76. ch20_boss5
+  77. ch20_boss6
+  78. ch20_boss7
+  79. ch21_boss1
+  80. ch21_boss2
+  81. ch21_boss3
+  82. ch21_boss4
+  83. ch21_boss5
+  84. ch21_boss6
+  85. ch21_boss7
+  86. ch22_boss1
+  87. ch22_boss2
+  88. ch22_boss3
+  89. ch22_boss4
+  90. ch22_boss5
+  91. ch22_boss6
+  92. ch22_boss7
+  93. ch23_boss1
+  94. ch23_boss2
+  95. ch23_boss3
+  96. ch23_boss4
+  97. ch23_boss5
+  98. ch23_boss6
+  99. ch23_boss7
+  100. ch24_boss1
+  101. ch24_boss2
+  102. ch24_boss3
+  103. ch24_boss4
+  104. ch24_boss5
+  105. ch24_boss6
+  106. ch24_boss7
+  107. ch25_boss1
+  108. ch25_boss2
+  109. ch25_boss3
+  110. ch25_boss4
+  111. ch25_boss5
+  112. ch25_boss6
+  113. ch25_boss7
+  114. ch26_boss1
+  115. ch26_boss2
+  116. ch26_boss3
+  117. ch26_boss4
+  118. ch26_boss5
+  119. ch26_boss6
+  120. ch26_boss7
+  121. ch27_boss1
+  122. ch27_boss2
+  123. ch27_boss3
+  124. ch27_boss4
+  125. ch27_boss5
+  126. ch27_boss6
+  127. ch27_boss7
+  128. ch28_boss1
+  129. ch28_boss2
+  130. ch28_boss3
+  131. ch28_boss4
+  132. ch28_boss5
+  133. ch28_boss6
+  134. ch28_boss7
+  135. ch29_boss1
+  136. ch29_boss2
+  137. ch29_boss3
+  138. ch29_boss4
+  139. ch29_boss5
+  140. ch29_boss6
+  141. ch29_boss7
+  142. ch3_boss1
+  143. ch3_boss2
+  144. ch3_boss3
+  145. ch3_boss4
+  146. ch3_boss5
+  147. ch3_boss6
+  148. ch3_boss7
+  149. ch4_boss1
+  150. ch4_boss2
+  151. ch4_boss3
+  152. ch4_boss4
+  153. ch4_boss5
+  154. ch4_boss6
+  155. ch4_boss7
+  156. ch5_boss1
+  157. ch5_boss2
+  158. ch5_boss3
+  159. ch5_boss4
+  160. ch5_boss5
+  161. ch5_boss6
+  162. ch5_boss7
+  163. ch6_boss1
+  164. ch6_boss2
+  165. ch6_boss3
+  166. ch6_boss4
+  167. ch6_boss5
+  168. ch6_boss6
+  169. ch6_boss7
+  170. ch7_boss1
+  171. ch7_boss2
+  172. ch7_boss3
+  173. ch7_boss4
+  174. ch7_boss5
+  175. ch7_boss6
+  176. ch7_boss7
+  177. ch8_boss1
+  178. ch8_boss2
+  179. ch8_boss3
+  180. ch8_boss4
+  181. ch8_boss5
+  182. ch8_boss6
+  183. ch8_boss7
+  184. ch9_boss1
+  185. ch9_boss2
+  186. ch9_boss3
+  187. ch9_boss4
+  188. ch9_boss5
+  189. ch9_boss6
+  190. ch9_boss7
+  191. chapter_eight_map
+  192. chapter_eighteen_map
+  193. chapter_five_map
+  194. chapter_four_map
+  195. chapter_nine_map
+  196. chapter_nineteen_map
+  197. chapter_seven_map
+  198. chapter_seventeen_map
+  199. chapter_six_map
+  200. chapter_sixteen_map
+  201. chapter_thirteen_map
+  202. chapter_three_map
+  203. chapter_twenty_eight_map
+  204. chapter_twenty_five_map
+  205. chapter_twenty_four_map
+  206. chapter_twenty_map
+  207. chapter_twenty_nine_map
+  208. chapter_twenty_one_map
+  209. chapter_twenty_seven_map
+  210. chapter_twenty_six_map
+  211. chapter_twenty_three_map
+  212. chapter_twenty_two_map
+
+## com.perblue.rpg.ui.resources.UI$external_challenges$fields
+Values (5):
+  0. dragons_only
+  1. magic_immune
+  2. phys_immunne
+  3. seek_wealth
+  4. seek_xp
+
+## com.perblue.rpg.ui.resources.UI$external_crypt$fields
+Values (13):
+  0. crypt_bg
+  1. crypt_defeat
+  2. crypt_header
+  3. crypt_header_bg
+  4. crypt_player_panel
+  5. crypt_status_complete
+  6. crypt_status_current
+  7. crypt_status_gold
+  8. crypt_status_incomplete
+  9. crypt_victory
+  10. glow
+  11. icon_crypt_rank
+  12. score_divider
+
+## com.perblue.rpg.ui.resources.UI$external_events$fields
+Values (54):
+  0. abyssal_eldritch_skin_deal
+  1. abyssal_hydra_skin_contest
+  2. alchemy_scale
+  3. bardbarian_champion_diamond_contest
+  4. big_raid_deal
+  5. chest_boss_battle_bottom
+  6. chest_boss_battle_closed
+  7. chest_boss_battle_open
+  8. chest_boss_battle_top
+  9. chest_spring_bottom
+  10. chest_spring_closed
+  11. chest_spring_open
+  12. chest_spring_top
+  13. chest_valentine_bottom
+  14. chest_valentine_closed
+  15. chest_valentine_open
+  16. chest_valentine_top
+  17. crow_skin_contest
+  18. dark_horse_all_hero_contest
+  19. easter_chest_closed
+  20. easter_chest_open
+  21. eldritch_skin_contest
+  22. event_bossbattle
+  23. event_chest_deal
+  24. event_chest_large_closed
+  25. event_chest_large_open
+  26. goblin_trio_all_hero_contest
+  27. golden_genie_all_hero_contest
+  28. hero_stone_deal
+  29. holiday_chest_closed
+  30. holiday_chest_open
+  31. holstein_zebra_skin_deal
+  32. hydra_all_hero_chest
+  33. icon_box_bronze
+  34. icon_box_gold
+  35. icon_box_silver
+  36. icon_gold_box_aniversary
+  37. icon_gold_box_welcom_eback
+  38. icon_gold_box_welcome
+  39. kitchen_sink_chest
+  40. master_thief_all_hero_chest
+  41. mecha_horse_skin_deal
+  42. premium_chest_orange_bottom
+  43. premium_chest_orange_closed
+  44. premium_chest_orange_open
+  45. premium_chest_orange_top
+  46. premium_chest_purple_bottom
+  47. premium_chest_purple_closed
+  48. premium_chest_purple_open
+  49. premium_chest_purple_top
+  50. rabid_dragon_all_hero_chest
+  51. sasquatch_contest_skin
+  52. sasquatch_zebra_skin_contest
+  53. stamina_contest
+
+## com.perblue.rpg.ui.resources.UI$external_expeditions$fields
+Values (30):
+  0. arrow_node_progression
+  1. campaign_map_hero_button
+  2. campaign_map_hero_button_shadow
+  3. chest_expedition
+  4. chest_expedition_bottom
+  5. chest_expedition_bottom_shadow
+  6. chest_expedition_shadow
+  7. chest_expedition_top
+  8. expedition_bg1
+  9. expedition_bg2
+  10. expedition_bg3
+  11. expedition_bg4
+  12. expedition_bg5
+  13. expedition_node1
+  14. expedition_node10
+  15. expedition_node11
+  16. expedition_node12
+  17. expedition_node13
+  18. expedition_node14
+  19. expedition_node15
+  20. expedition_node2
+  21. expedition_node3
+  22. expedition_node4
+  23. expedition_node5
+  24. expedition_node6
+  25. expedition_node7
+  26. expedition_node8
+  27. expedition_node9
+  28. node_active
+  29. pointer
+
+## com.perblue.rpg.ui.resources.UI$external_flags$fields
+Values (143):
+  0. albania
+  1. anguilla
+  2. antigua_and_barbuda
+  3. argentina
+  4. armenia
+  5. australia
+  6. austria
+  7. azerbaijan
+  8. bahamas
+  9. bahrain
+  10. barbados
+  11. belarus
+  12. belgium
+  13. belize
+  14. bermuda
+  15. bolivia
+  16. botswana
+  17. brazil
+  18. bulgaria
+  19. cameroon
+  20. canada
+  21. cayman_islands
+  22. central_african_republic
+  23. chile
+  24. china
+  25. colombia
+  26. costa_rica
+  27. cote_d_Ivoire
+  28. cuba
+  29. cyprus
+  30. czech_republic
+  31. democratic_republic_of_the_congo
+  32. denmark
+  33. dominica
+  34. dominican_republic
+  35. ecuador
+  36. egypt
+  37. el_salvador
+  38. equatorial_guinea
+  39. estonia
+  40. ethiopia
+  41. finland
+  42. france
+  43. french_guiana
+  44. germany
+  45. gibraltar
+  46. greece
+  47. greenland
+  48. grenada
+  49. guam
+  50. guatemala
+  51. guinea
+  52. guinea_bissau
+  53. guyana
+  54. haiti
+  55. honduras
+  56. hong_kong
+  57. hungary
+  58. iceland
+  59. india
+  60. indonesia
+  61. international
+  62. ireland
+  63. israel
+  64. italy
+  65. jamaica
+  66. japan
+  67. jordan
+  68. kazakhstan
+  69. kenya
+  70. korea_south
+  71. kuwait
+  72. latvia
+  73. liechtenstein
+  74. lithuania
+  75. luxembourg
+  76. macao
+  77. macedonia
+  78. madagascar
+  79. malaysia
+  80. maldives
+  81. mali
+  82. malta
+  83. martinique
+  84. mexico
+  85. moldova
+  86. monaco
+  87. montenegro
+  88. montserrat
+  89. morocco
+  90. mozambique
+  91. namibia
+  92. nepal
+  93. netherlands
+  94. new_zealand
+  95. nicaragua
+  96. niger
+  97. norway
+  98. oman
+  99. palestinian_territory
+  100. panama
+  101. paraguay
+  102. peru
+  103. philippines
+  104. poland
+  105. portugal
+  106. puerto_rico
+  107. qatar
+  108. republic_of_china
+  109. romania
+  110. russia
+  111. rwanda
+  112. saint_lucia
+  113. saint_martin
+  114. saint_pierre_and_miquelon
+  115. saint_vincent_and_the_grenadines
+  116. saudi_arabia
+  117. senegal
+  118. singapore
+  119. slovakia
+  120. slovenia
+  121. somalia
+  122. south_africa
+  123. spain
+  124. sri_lanka
+  125. sweden
+  126. switzerland
+  127. tanzania
+  128. thailand
+  129. trinidad_and_tobago
+  130. tunisia
+  131. turkey
+  132. turks_and_caicos_islands
+  133. uganda
+  134. ukraine
+  135. united_arab_emirates
+  136. united_kingdom
+  137. united_states_of_america
+  138. uruguay
+  139. venezuela
+  140. vietnam
+  141. virgin_islands_british
+  142. virgin_islands_us
+
+## com.perblue.rpg.ui.resources.UI$external_hero_tags$fields
+Values (64):
+  0. armor
+  1. axe
+  2. blind
+  3. boast_of_head
+  4. bowtie
+  5. can
+  6. charmed
+  7. crimson
+  8. damage_over_time
+  9. dark_night
+  10. dragon
+  11. electric
+  12. energy
+  13. eyes_of_enlightenment
+  14. female
+  15. fire
+  16. flames_of_passion
+  17. good_looking
+  18. harvest_party
+  19. haste
+  20. healing
+  21. healing2
+  22. holy
+  23. holy_beast
+  24. horns
+  25. i_love_the_sea
+  26. indoorsy
+  27. invincible
+  28. lamb_lover
+  29. life_steal
+  30. lonely_hero
+  31. loyal_matey
+  32. magic
+  33. magic_resistance
+  34. male
+  35. melee
+  36. mirror_hater
+  37. necrotic
+  38. nose
+  39. physical_damage
+  40. piercing
+  41. pious_halo
+  42. pushback
+  43. ranged
+  44. ranged_skill
+  45. revive
+  46. shattering
+  47. sheild_break
+  48. silence
+  49. slash
+  50. slow
+  51. sniper_wolf
+  52. stat
+  53. steal
+  54. stun
+  55. tasty
+  56. total
+  57. toxic
+  58. true_damage
+  59. unstable
+  60. water
+  61. weight
+  62. wild_intuition
+  63. wizard_tea_party
+
+## com.perblue.rpg.ui.resources.UI$external_how_to_play$fields
+Values (17):
+  0. about_boss_pit
+  1. about_enchanting
+  2. about_expedition
+  3. about_expedition_hard_mode
+  4. about_legendary_skill
+  5. boss_battle_home_icon
+  6. crypt_about
+  7. crypt_heroes
+  8. crypt_three_skulls
+  9. offering_types
+  10. rune_anatomy
+  11. rune_empowering
+  12. rune_fusion
+  13. rune_keystone
+  14. rune_temple_lit
+  15. shrine
+  16. shrine_types
+
+## com.perblue.rpg.ui.resources.UI$external_items$fields
+Values (465):
+  0. Item_manly_first_aid_kit
+  1. corrupt_kunai
+  2. crystal_shrine_roll
+  3. enlightenment_earrings
+  4. gear_ticket_bg_cyan
+  5. gear_ticket_bg_orange
+  6. gear_ticket_bg_purple
+  7. gear_ticket_nobg_cyan
+  8. gear_ticket_nobg_orange
+  9. gear_ticket_nobg_purple
+  10. guiding_light
+  11. health_smile
+  12. item_4d_glasses
+  13. item_P_H_A_T_pants_color
+  14. item__glasses_of_lenslessness
+  15. item_adamantium_tiara
+  16. item_adventurer_s_starter_pack
+  17. item_adventurers_rides
+  18. item_adventurers_starter_pack
+  19. item_aged_dragon_milk
+  20. item_air_cleaning_flower
+  21. item_alchemist_starter_pack
+  22. item_amazing_fish
+  23. item_amulet_of_concentrated_awesome
+  24. item_ancient_code
+  25. item_ancient_coin
+  26. item_and_my_axe
+  27. item_anniversary_1000th_reskin
+  28. item_anti_magic_shell
+  29. item_arcane_doodles
+  30. item_arcane_slacks
+  31. item_artifact_of_power
+  32. item_auto_flute
+  33. item_axe_of_grinding
+  34. item_axe_of_major_riffage
+  35. item_axes_dual_wielding
+  36. item_bacon
+  37. item_bag_o_hammers
+  38. item_balance_of_life
+  39. item_banana_peel_mountain
+  40. item_banjo
+  41. item_beaded_bag_of_holding
+  42. item_bearly_there_boots
+  43. item_bell_of_silence
+  44. item_bessies_bane
+  45. item_big_stabby_spear
+  46. item_bit_o_nip
+  47. item_black_belt
+  48. item_blackberry_jam
+  49. item_blacksmith_brew
+  50. item_blacksteel_blade
+  51. item_blissful_ignorance
+  52. item_bloody_bat
+  53. item_blunt_blade
+  54. item_bone_crushing_pliers
+  55. item_book_of_irmac
+  56. item_boom_box
+  57. item_boots_made_for_walkin
+  58. item_boss_battle_stage_reset
+  59. item_bottlecap
+  60. item_bowie_knife
+  61. item_bracelet_of_lightning
+  62. item_brain_guard_9000
+  63. item_brain_pills
+  64. item_bunny_blade
+  65. item_bunny_slippers
+  66. item_butter_knife
+  67. item_campaign_a
+  68. item_campaign_b
+  69. item_campaign_c
+  70. item_cannon_canoe
+  71. item_captains_tightpants
+  72. item_cat_o_nine_tails
+  73. item_cave_dagger
+  74. item_chain_wallet
+  75. item_championship_belt
+  76. item_chaps_of_endurance
+  77. item_chest_events
+  78. item_chest_gold
+  79. item_chest_silver
+  80. item_chest_soulstone
+  81. item_chocolate
+  82. item_chugg_boots
+  83. item_chunky_femur
+  84. item_cloak_of_the_owl
+  85. item_cloudy_monocular_telescope
+  86. item_cog_nitive_mask
+  87. item_compensator
+  88. item_copper_ore
+  89. item_cosplay_sword
+  90. item_creatine_cactus
+  91. item_crowning_achievement
+  92. item_crude_shield
+  93. item_crude_snippers
+  94. item_cryptozoology
+  95. item_crystal_mushroom
+  96. item_cuticle_curl
+  97. item_daisy_chainsaw
+  98. item_dancers_bra
+  99. item_dead_eye
+  100. item_death_metal_blade
+  101. item_deck_of_the_future
+  102. item_decoder_ring
+  103. item_deerstalker_hat
+  104. item_dense_cake_of_hate
+  105. item_desert_smasher
+  106. item_devils_pot
+  107. item_diplomatic_immunity
+  108. item_directors_cut
+  109. item_dirk_of_disemboweling
+  110. item_disk_of_power
+  111. item_dodgy_jewelry
+  112. item_dont_tase_me_bow
+  113. item_double_axe
+  114. item_double_bladed_sword
+  115. item_draconian_dish
+  116. item_draconic_fuse
+  117. item_dragon_blankie
+  118. item_dragon_leather_tights
+  119. item_dragon_s_ballz
+  120. item_dragon_sand_boots
+  121. item_dragon_scale
+  122. item_dragon_scale_glove
+  123. item_dragon_sward
+  124. item_dragons_blade
+  125. item_dragons_pocket_watch
+  126. item_drop_of_moonlight
+  127. item_dwarven_lifting_belt
+  128. item_enchanted_elbow_pads
+  129. item_end_century_flame_radiator
+  130. item_engagement_knuckles
+  131. item_enids_elixir
+  132. item_escutcheon_of_eyes
+  133. item_excaliburtreynolds
+  134. item_exotic_fan
+  135. item_exp_decanter
+  136. item_exp_flask
+  137. item_exp_philter
+  138. item_exp_vial
+  139. item_explosive_cannon
+  140. item_extreme_fad_diet
+  141. item_eye_of_the_beholder
+  142. item_eye_on_the_prize
+  143. item_fallen_cartridge
+  144. item_familiar_energy_tank
+  145. item_family_tree_of_umlaut
+  146. item_feather_of_phoenix
+  147. item_feather_weight_foil
+  148. item_feather_weight_pauldrons
+  149. item_featherweight_wings
+  150. item_fine_brie
+  151. item_fins_of_sea_dragon
+  152. item_flail_of_devastation
+  153. item_flame_poofs
+  154. item_flattering_mirror
+  155. item_floppin_flip_flops
+  156. item_foam_finger
+  157. item_fountain_of_old_age
+  158. item_framed_diploma
+  159. item_free_mans_crowbar
+  160. item_friendzonite
+  161. item_gauntlet_of_throne
+  162. item_gentlemens_club
+  163. item_giant_s_grog
+  164. item_girdle_of_victory
+  165. item_glaive_of_dismemberment
+  166. item_glass_cannon
+  167. item_glass_case_of__emotion
+  168. item_glass_case_of_emotion
+  169. item_glasses_of_lenslessness
+  170. item_glo_sticks
+  171. item_glory_seeker
+  172. item_gloves_of_crit
+  173. item_goblin_grog
+  174. item_goblin_knife
+  175. item_goblin_whacker
+  176. item_gold_ax_silver_ax
+  177. item_gold_rush
+  178. item_golden_slingshot
+  179. item_good_green_goo
+  180. item_good_luck_dumbell
+  181. item_good_sleeping_bed
+  182. item_gourd
+  183. item_graphite_ore
+  184. item_great_horned_horn
+  185. item_greaves_of_pleias
+  186. item_greenish_lantern
+  187. item_grievous_bodily_harm
+  188. item_ground_gears
+  189. item_gun_sword
+  190. item_hair_of_the_dog
+  191. item_hammer_of_beats
+  192. item_hammer_time
+  193. item_handy_rasp
+  194. item_head_banger
+  195. item_heal_aid_color
+  196. item_healthy_dose_of_skepticism
+  197. item_heart_hat
+  198. item_heart_health_candy
+  199. item_hearty_chest
+  200. item_helm_of_screaming_manface
+  201. item_helm_of_the_raging_bear
+  202. item_helmet_of_foresight
+  203. item_helmet_to_train_the_head
+  204. item_hemp_bracelet
+  205. item_hermits_pills
+  206. item_heroines_shortbow
+  207. item_high_tea
+  208. item_holy_hand_grenade
+  209. item_holy_lance_heretic_slayer
+  210. item_homemade_halberd
+  211. item_horned_demoness_mask
+  212. item_horns_of_white_deer
+  213. item_hot_armor
+  214. item_illusory_hurdle
+  215. item_impractical_chestplate
+  216. item_intimidating_beard
+  217. item_iron_clows
+  218. item_iron_helmet_of_biking
+  219. item_iron_ore
+  220. item_ivy_league_haircut
+  221. item_jar_of_kitten_tears
+  222. item_key_to_the_kingdom
+  223. item_kindness
+  224. item_king_jeffs_crossbow
+  225. item_knives_of_hackenslash
+  226. item_laser_kitten
+  227. item_laser_pointer
+  228. item_laser_sword
+  229. item_laser_visor
+  230. item_lavish_rapier
+  231. item_lazarus_beans
+  232. item_lead_zeppelin
+  233. item_lens_of_decryption
+  234. item_liche_finger
+  235. item_lifedrinker
+  236. item_lifesipper
+  237. item_liger_balm
+  238. item_lightning_grease
+  239. item_lion_liqueur
+  240. item_little_pricks
+  241. item_loaded_die
+  242. item_loafers_of_alacrity
+  243. item_lord_of_river
+  244. item_lost_conept_art_color
+  245. item_lost_greaves
+  246. item_lucky_orcs_foot
+  247. item_mace_of_friendship
+  248. item_macguffin_fragment
+  249. item_mad_gods_mug
+  250. item_mad_gods_trident
+  251. item_magatama
+  252. item_magic_eight_ball
+  253. item_magical_cream
+  254. item_magical_hatrack
+  255. item_magical_pest_mask
+  256. item_magical_water_bottle
+  257. item_mai_tai_of_immunity
+  258. item_mask_of_the_ancient_king
+  259. item_meaty_butter
+  260. item_meaty_sandwich
+  261. item_mind_map
+  262. item_miracle_furnace_of_blacksmith
+  263. item_mirthril_ore
+  264. item_mjolnir_pun
+  265. item_monster_hunter_armor
+  266. item_moon_light
+  267. item_motivational_cassette
+  268. item_mundane_mushrooms
+  269. item_muscle_bound_book
+  270. item_muscle_wax
+  271. item_mussel_milk
+  272. item_my_first_shield
+  273. item_my_jam
+  274. item_mysterious_egg
+  275. item_mystical_elven_sht
+  276. item_naughty_tapestry
+  277. item_navigation_to_the_past
+  278. item_necronomicon
+  279. item_new_knight_in_town
+  280. item_night_vision
+  281. item_nonstick_shield
+  282. item_ogres_battering_ram
+  283. item_old_dirty_bastard_sword
+  284. item_one_ring
+  285. item_orb_everlasting_flavor
+  286. item_orbital_kitty
+  287. item_organic_book_of_nature
+  288. item_ornate_crown__of_the_gm
+  289. item_ornate_crown_of_the_gm
+  290. item_overpowering_fragrance
+  291. item_paper_crown
+  292. item_penetrable_armor
+  293. item_peter_piper_s_pepper_spray
+  294. item_phoenix_talisman
+  295. item_photo_bomb
+  296. item_piece_of_acolyte_statue
+  297. item_playing_with_fire
+  298. item_pocket_protector
+  299. item_poison_dagger
+  300. item_poisoned_silver_accessory_of_scorpion
+  301. item_political_platform_shoes
+  302. item_pony_keychain
+  303. item_portable_nutritious_diet
+  304. item_power_friendship
+  305. item_power_love
+  306. item_power_of_medicine
+  307. item_power_positive_thinking
+  308. item_pretty_sweet_cape
+  309. item_prickling_whip
+  310. item_protein_powder
+  311. item_pure_testosterone
+  312. item_purification_robe
+  313. item_purifying_tuning_fork
+  314. item_purple_pills_potency
+  315. item_pyramid_power
+  316. item_quest_skip
+  317. item_racing_stripes
+  318. item_raid_ticket
+  319. item_ranged_inner_fighter
+  320. item_rattling_sabre
+  321. item_raw_egg
+  322. item_readin_rain_bow
+  323. item_remote_communication_flower
+  324. item_ring_of_fire
+  325. item_ring_of_ill_will
+  326. item_ring_of_squirrel
+  327. item_ring_of_temptation
+  328. item_rings_of_a_feather
+  329. item_robe_sharp_comebacks
+  330. item_rocket_cloak
+  331. item_rod_of_shenanigans
+  332. item_rod_of_tasing
+  333. item_rod_party_banter
+  334. item_roll_of_duct_tape
+  335. item_rubber_vest
+  336. item_ruby_flip_flops
+  337. item_rune_bg
+  338. item_sacred_codex
+  339. item_samurai_sword
+  340. item_sand_storm
+  341. item_scrap
+  342. item_scroll
+  343. item_scroll_scrap
+  344. item_secret_hand_scroll
+  345. item_self_preserver
+  346. item_shining_holy_tree
+  347. item_shining_light_of_firefly
+  348. item_shoe_of_the_mad_god
+  349. item_shot_arm
+  350. item_shot_cortisone
+  351. item_shot_knightcodin
+  352. item_shovel
+  353. item_shrimpish_creature
+  354. item_shrine_crystal
+  355. item_shrine_stone
+  356. item_shrub_of_shame
+  357. item_sick_mullet
+  358. item_skimpy_chainmail_of_immense_power
+  359. item_slapping_fish
+  360. item_slightly_evil_magic_mirror
+  361. item_smarty_pants
+  362. item_snake_oil
+  363. item_snake_wig
+  364. item_snazzy_vest
+  365. item_sock_o_pennies
+  366. item_soul_for_power_volume_45
+  367. item_soul_of_dragons
+  368. item_soul_puppet
+  369. item_spider_bomb
+  370. item_spikey_spear
+  371. item_spudgun
+  372. item_staff_boss_fighting
+  373. item_stay_board_color
+  374. item_steam_engine
+  375. item_stick_on_moustache
+  376. item_stolen_sneakers
+  377. item_stool_of_old_tree
+  378. item_sunblock_goggles
+  379. item_swash_buckler
+  380. item_sweatband_of_bewitching
+  381. item_sword_doom
+  382. item_sword_of_despair
+  383. item_ten_foot_pole
+  384. item_the_holey_pail
+  385. item_the_hustle
+  386. item_the_power_of_science
+  387. item_the_shield_stops_you
+  388. item_the_spear_brings_victory
+  389. item_thinking_cap
+  390. item_thong_of_vitality
+  391. item_tiger_s_gloves
+  392. item_tiger_salve
+  393. item_tiger_underwear
+  394. item_tight_manly_tights
+  395. item_time_killer
+  396. item_time_saver
+  397. item_tome_hearsay
+  398. item_tome_nasty_behavior
+  399. item_tome_of_cursed_horticulture
+  400. item_tome_of_eldritch
+  401. item_tome_of_occult_nonsense
+  402. item_tome_of_trivia
+  403. item_trader
+  404. item_triassic_trinket
+  405. item_tunnel_vision_color
+  406. item_turtleback_shield
+  407. item_ugly_stick
+  408. item_unicorn_on_the_cob
+  409. item_unicorn_puke
+  410. item_untested_jetpack
+  411. item_upholstered_throne
+  412. item_usable_60stamina
+  413. item_usable_campaign
+  414. item_usable_gold
+  415. item_usable_stamina
+  416. item_vampire_bunnyears
+  417. item_vampire_teeth
+  418. item_vanishing_scroll
+  419. item_vip_consumable
+  420. item_volatile_smoothie
+  421. item_volcanic_blade
+  422. item_volcanic_ore
+  423. item_vorpal_boomerang
+  424. item_wand_of_gold_sparkles
+  425. item_wand_of_the_magic_book
+  426. item_war_sandles
+  427. item_warrior_s_helmet
+  428. item_white_picket_shield
+  429. item_wicked_mullet
+  430. item_wildys_hat
+  431. item_wooden_cup
+  432. item_world_egg
+  433. item_wraith_barrier
+  434. item_xp_bonus_team_hour_12
+  435. item_xp_bonus_team_hour_24
+  436. item_xp_bonus_team_hour_72
+  437. item_ya_vampire_series
+  438. item_yodeling_sword
+  439. items_wizardry_for_idiots
+  440. offering_blood
+  441. offering_fire
+  442. offering_hail
+  443. offering_lightning
+  444. offering_mist
+  445. offering_ocean
+  446. offering_river
+  447. offering_rock
+  448. offering_stone_bottom_center
+  449. offering_stone_bottom_left
+  450. offering_stone_bottom_right
+  451. offering_stone_keystone
+  452. offering_stone_top_left
+  453. offering_stone_top_right
+  454. offering_tree
+  455. roller_skates_of_destruction
+  456. runicite_block
+  457. runicite_chunk
+  458. runicite_monolith
+  459. runicite_shard
+  460. runicite_slab
+  461. soulStone
+  462. soulStoneSale
+  463. stone_shrine_roll
+  464. unicorgi_legendary_skill_20160720
+
+## com.perblue.rpg.ui.resources.UI$external_narrator$fields
+Values (140):
+  0. abyss_dragon
+  1. abyss_dragon_possessed
+  2. ancient_dwarf
+  3. ancient_dwarf_possessed
+  4. angel_dragon
+  5. angel_dragon_possessed
+  6. angelic_avenger
+  7. angelic_herald
+  8. anubis_dragon
+  9. anubis_dragon_possessed
+  10. aquatic_man
+  11. banshee
+  12. bardbarian
+  13. black_wing
+  14. black_wing_possessed
+  15. bone_dragon
+  16. bone_dragon_possessed
+  17. brozerker
+  18. bulwark_angel
+  19. catapult_knight
+  20. centaur_chest_hair
+  21. centaur_mastery
+  22. centaur_snake_hat
+  23. claw_man
+  24. dark_hero
+  25. dark_horse
+  26. deep_dragon
+  27. deep_dragon_possessed
+  28. demon_totem
+  29. demon_totem_blue
+  30. demon_totem_green
+  31. demon_totem_red
+  32. digger_mole
+  33. digger_mole_possessed
+  34. dragon_slayer
+  35. dragon_slayer_possessed
+  36. dragzilla
+  37. dragzilla_possessed
+  38. druidinatrix
+  39. dungeon_man
+  40. dwarven_archer
+  41. electroyeti_mastery
+  42. eternal_enchanter
+  43. evil_wizard
+  44. faith_healer
+  45. forgotten_dragon
+  46. forgotten_dragon_possessed
+  47. frost_giant
+  48. genie
+  49. giant_plant
+  50. goblin
+  51. golden_colossus
+  52. grand_huntress
+  53. grand_huntress_possessed
+  54. greed_dragon
+  55. greed_dragon_possessed
+  56. groovy_druid
+  57. hydra
+  58. hydra_possessed
+  59. karaoke_king
+  60. karaoke_king_possessed
+  61. last_defender
+  62. last_defender_possessed
+  63. magic_dragon
+  64. magic_dragon_possesed
+  65. medusa
+  66. minotaur
+  67. moon_drake
+  68. moon_drake_possessed
+  69. mr_smashy_angry
+  70. mr_smashy_happy
+  71. narrator_everyone
+  72. ninja_dwarf
+  73. orc_monk
+  74. pirate
+  75. plant_soul
+  76. polemaster
+  77. rabid_dragon
+  78. rabid_dragon_possessed
+  79. raging_revenant
+  80. redtiger
+  81. roller_warrior
+  82. sadistic_dancer
+  83. sadistic_dancer_possessed
+  84. satyr
+  85. savage_cutie_cute
+  86. savage_cutie_cute_possessed
+  87. savage_cutie_evil
+  88. savage_cutie_evil_possessed
+  89. shadow_assassin
+  90. shadow_of_sven
+  91. shadow_of_sven_possessed
+  92. sinister_assailant
+  93. skeleton_king
+  94. snap_dragon_possessed
+  95. sniper_wolf
+  96. sojourner_sorceress
+  97. sojourner_sorceress_possessed
+  98. solid_longevity
+  99. solid_longevity_possessed
+  100. spectral_dragon
+  101. spectral_dragon_possessed
+  102. spikey_dragon_normal
+  103. spikey_dragon_possessed
+  104. stepladder_brothers_hammer
+  105. stepladder_brothers_hammer_possessed
+  106. stepladder_brothers_nail
+  107. stepladder_brothers_nail_possessed
+  108. storm_dragon
+  109. storm_dragon_possessed
+  110. stowaway
+  111. sun_seeker
+  112. sun_seeker_possessed
+  113. tomb_angel
+  114. tomb_angel_possessed
+  115. triple_threat
+  116. triple_threat_possessed
+  117. umlaut_silhouette
+  118. umlaut_the_fifth
+  119. umlaut_the_fifth_possessed
+  120. umlaut_the_first
+  121. umlaut_the_first_possessed
+  122. understudy_magical_girl
+  123. unicorgi
+  124. unripe_mythology
+  125. unripe_mythology_egg
+  126. unripe_mythology_possessed
+  127. venusia
+  128. vermilion_bird
+  129. vermilion_bird_possessed
+  130. vile_bile
+  131. void_wyern_possessed
+  132. void_wyvern
+  133. vulcan
+  134. vulture_dragon
+  135. weewitch
+  136. weredragon
+  137. weredragon_possessed
+  138. white_tiger
+  139. zombie
+
+## com.perblue.rpg.ui.resources.UI$external_runes$fields
+Values (49):
+  0. circle_glow_outer
+  1. cracks
+  2. cracks_alt
+  3. cracks_tall
+  4. glow_bottom
+  5. glow_bottom_left
+  6. glow_bottom_right
+  7. glow_keystone
+  8. glow_top_left
+  9. glow_top_right
+  10. keystone_holder
+  11. offering_set_generic
+  12. offering_set_selected
+  13. offering_stone_generic
+  14. offering_stone_selected
+  15. rune_bottom_center
+  16. rune_bottom_left
+  17. rune_bottom_right
+  18. rune_holder
+  19. rune_holder_dark_overlay
+  20. rune_keystone
+  21. rune_keystone_no_hero
+  22. rune_tile
+  23. rune_tile_stretchable
+  24. rune_top_left
+  25. rune_top_right
+  26. shard_star
+  27. shrine_crystal
+  28. shrine_crystal_glow
+  29. shrine_crystal_slot_glow_bottom
+  30. shrine_crystal_slot_glow_top
+  31. shrine_stone
+  32. shrine_stone_glow
+  33. shrine_stone_slot_glow
+  34. shrine_wood
+  35. shrine_wood_glow
+  36. shrine_wood_slot_glow
+  37. slot_offerings_icon
+  38. starburst
+  39. symbol_all
+  40. symbol_blood
+  41. symbol_fire
+  42. symbol_hail
+  43. symbol_lightning
+  44. symbol_mist
+  45. symbol_ocean
+  46. symbol_river
+  47. symbol_rock
+  48. symbol_tree
+
+## com.perblue.rpg.ui.resources.UI$external_skills$fields
+Values (441):
+  0. angel_dragon_skill1
+  1. angel_dragon_skill2
+  2. angel_dragon_skill3
+  3. angel_dragon_skill4
+  4. angelic_herald_skill1
+  5. angelic_herald_skill2
+  6. angelic_herald_skill3
+  7. angelic_herald_skill4
+  8. angelic_herald_skill5
+  9. anubis_dragon_skill1
+  10. anubis_dragon_skill2
+  11. anubis_dragon_skill3
+  12. anubis_dragon_skill4
+  13. aquatic_man_skill1
+  14. aquatic_man_skill2
+  15. aquatic_man_skill3
+  16. aquatic_man_skill4
+  17. aquatic_man_skill5
+  18. banshee_skill1
+  19. banshee_skill2
+  20. banshee_skill3
+  21. banshee_skill4
+  22. bardbarian_skill1
+  23. bardbarian_skill2
+  24. bardbarian_skill3
+  25. bardbarian_skill4
+  26. bardbarian_skill5
+  27. blue_dragon_skill1
+  28. blue_dragon_skill2
+  29. blue_dragon_skill3
+  30. blue_dragon_skill4
+  31. bone_dragon_legendary_skill
+  32. bone_dragon_skill1
+  33. bone_dragon_skill2
+  34. bone_dragon_skill3
+  35. bone_dragon_skill4
+  36. bone_dragon_skill5
+  37. brozerker_skill1
+  38. brozerker_skill2
+  39. brozerker_skill3
+  40. brozerker_skill4
+  41. brozerker_skill5
+  42. brozerker_skill6
+  43. bulwark_angel_skill1
+  44. bulwark_angel_skill2
+  45. bulwark_angel_skill3
+  46. bulwark_angel_skill4
+  47. burnt_one_skill1
+  48. burnt_one_skill2
+  49. burnt_one_skill3
+  50. burnt_one_skill4
+  51. catapult_knight_skill1
+  52. catapult_knight_skill2
+  53. catapult_knight_skill3
+  54. catapult_knight_skill4
+  55. catapult_knight_skill5
+  56. cosmic_elf_skill1
+  57. cosmic_elf_skill2
+  58. cosmic_elf_skill3
+  59. cosmic_elf_skill4
+  60. cosmic_elf_skill5
+  61. cosmic_elf_skill6
+  62. crimson_witch_skill1
+  63. crimson_witch_skill2
+  64. crimson_witch_skill3
+  65. crimson_witch_skill4
+  66. crimson_witch_skill5
+  67. cursed_statue_skill1
+  68. cursed_statue_skill2
+  69. cursed_statue_skill3
+  70. cursed_statue_skill4
+  71. cyclops_wizard_skill1
+  72. cyclops_wizard_skill2
+  73. cyclops_wizard_skill3
+  74. cyclops_wizard_skill4
+  75. cyclops_wizard_skill5
+  76. dark_dracul_skill1
+  77. dark_dracul_skill2
+  78. dark_dracul_skill3
+  79. dark_dracul_skill4
+  80. dark_dracul_skill5
+  81. dark_horse_skill1
+  82. dark_horse_skill2
+  83. dark_horse_skill3
+  84. dark_horse_skill4
+  85. dark_horse_skill5
+  86. deep_dragon_skill1
+  87. deep_dragon_skill2
+  88. deep_dragon_skill3
+  89. deep_dragon_skill4
+  90. deep_dragon_skill5
+  91. deep_dragon_skill6
+  92. demon_totem_skill1
+  93. demon_totem_skill2
+  94. demon_totem_skill3
+  95. demon_totem_skill4
+  96. demon_totem_skill5
+  97. demon_totem_skill6
+  98. digger_mole_skill1
+  99. digger_mole_skill2
+  100. digger_mole_skill3
+  101. digger_mole_skill4
+  102. digger_mole_skill5
+  103. doppelganger_skill1
+  104. doppelganger_skill2
+  105. doppelganger_skill3
+  106. doppelganger_skill4
+  107. dragon_slayer_skill1
+  108. dragon_slayer_skill2
+  109. dragon_slayer_skill3
+  110. dragon_slayer_skill4
+  111. dragzilla_skill1
+  112. dragzilla_skill2
+  113. dragzilla_skill3
+  114. dragzilla_skill4
+  115. druidinatrix_skill1
+  116. druidinatrix_skill2
+  117. druidinatrix_skill3
+  118. druidinatrix_skill4
+  119. druidinatrix_skill5
+  120. dungeon_man_skill1
+  121. dungeon_man_skill2
+  122. dungeon_man_skill3
+  123. dungeon_man_skill4
+  124. dust_devil_skill1
+  125. dust_devil_skill2
+  126. dust_devil_skill3
+  127. dust_devil_skill4
+  128. dust_devil_skill5
+  129. dwarven_archer_legendary_skill
+  130. dwarven_archer_skill1
+  131. dwarven_archer_skill2
+  132. dwarven_archer_skill3
+  133. dwarven_archer_skill4
+  134. dwarven_archer_skill5
+  135. electroyeti_skill1
+  136. electroyeti_skill2
+  137. electroyeti_skill3
+  138. electroyeti_skill4
+  139. electroyeti_skill5
+  140. eternal_enchanter_skill1
+  141. eternal_enchanter_skill2
+  142. eternal_enchanter_skill3
+  143. eternal_enchanter_skill4
+  144. faith_healer_skill1
+  145. faith_healer_skill2
+  146. faith_healer_skill3
+  147. faith_healer_skill4
+  148. faith_healer_skill5
+  149. frost_giant_skill1
+  150. frost_giant_skill2
+  151. frost_giant_skill3
+  152. frost_giant_skill4
+  153. frost_giant_skill5
+  154. genie_skill1
+  155. genie_skill2
+  156. genie_skill3
+  157. genie_skill4
+  158. genie_skill5
+  159. grand_huntress_skill1
+  160. grand_huntress_skill2
+  161. grand_huntress_skill3
+  162. grand_huntress_skill4
+  163. groovy_druid_skill1
+  164. groovy_druid_skill2
+  165. groovy_druid_skill3
+  166. groovy_druid_skill4
+  167. groovy_druid_skill5
+  168. hero_ancient_dwarf_skill1
+  169. hero_ancient_dwarf_skill2
+  170. hero_ancient_dwarf_skill3
+  171. hero_ancient_dwarf_skill4
+  172. hero_black_wing_skill1
+  173. hero_black_wing_skill2
+  174. hero_black_wing_skill3
+  175. hero_black_wing_skill4
+  176. hero_centaur_of_attention_skill6
+  177. hero_claw_man_skill1
+  178. hero_claw_man_skill2
+  179. hero_claw_man_skill3
+  180. hero_claw_man_skill4
+  181. hero_dark_hero_skill1
+  182. hero_dark_hero_skill2
+  183. hero_dark_hero_skill3
+  184. hero_dark_hero_skill4
+  185. hero_dragon_lady_skill6
+  186. hero_dragzilla_skill5
+  187. hero_eternal_enchanter_skill5
+  188. hero_forgotten_dragon_skill1
+  189. hero_forgotten_dragon_skill2
+  190. hero_forgotten_dragon_skill3
+  191. hero_forgotten_dragon_skill4
+  192. hero_forgotten_dragon_skill5
+  193. hero_genie_skill6
+  194. hero_grand_huntress_skill1
+  195. hero_grand_huntress_skill2
+  196. hero_grand_huntress_skill3
+  197. hero_grand_huntress_skill4
+  198. hero_greedy_dragon_skill1
+  199. hero_greedy_dragon_skill2
+  200. hero_greedy_dragon_skill3
+  201. hero_greedy_dragon_skill4
+  202. hero_last_defender_skill1
+  203. hero_last_defender_skill2
+  204. hero_last_defender_skill3
+  205. hero_last_defender_skill4
+  206. hero_last_defender_skill5
+  207. hero_medusa_skill6
+  208. hero_sadistic_dancer_skill1
+  209. hero_sadistic_dancer_skill2
+  210. hero_sadistic_dancer_skill3
+  211. hero_sadistic_dancer_skill4
+  212. hero_satyr_skill6
+  213. hero_stepladder_brothers_skill1
+  214. hero_stepladder_brothers_skill2
+  215. hero_stepladder_brothers_skill3
+  216. hero_stepladder_brothers_skill4
+  217. hero_stepladder_brothers_skill5
+  218. hero_sun_seeker_skill1
+  219. hero_sun_seeker_skill2
+  220. hero_sun_seeker_skill3
+  221. hero_sun_seeker_skill4
+  222. hero_sun_seeker_skill5
+  223. hero_unripe_mythology_skill1
+  224. hero_unripe_mythology_skill2
+  225. hero_unripe_mythology_skill3
+  226. hero_unripe_mythology_skill4
+  227. hydra_skill1
+  228. hydra_skill2
+  229. hydra_skill3
+  230. hydra_skill4
+  231. hydra_skill5
+  232. karaoke_king_skill1
+  233. karaoke_king_skill2
+  234. karaoke_king_skill3
+  235. karaoke_king_skill4
+  236. karaoke_king_skill5
+  237. kraken_king_skill1
+  238. kraken_king_skill2
+  239. kraken_king_skill3
+  240. kraken_king_skill4
+  241. magic_dragon_skill1
+  242. magic_dragon_skill2
+  243. magic_dragon_skill3
+  244. magic_dragon_skill4
+  245. magic_dragon_skill5
+  246. medusa_skill1
+  247. medusa_skill2
+  248. medusa_skill3
+  249. medusa_skill4
+  250. medusa_skill5
+  251. minotaur_skill1
+  252. minotaur_skill2
+  253. minotaur_skill3
+  254. minotaur_skill4
+  255. minotaur_skill5
+  256. mistress_manicure_skill1
+  257. mistress_manicure_skill2
+  258. mistress_manicure_skill3
+  259. mistress_manicure_skill4
+  260. moon_drake_skill1
+  261. moon_drake_skill2
+  262. moon_drake_skill3
+  263. moon_drake_skill4
+  264. moon_drake_skill5
+  265. ninja_dwarf_skill1
+  266. ninja_dwarf_skill2
+  267. ninja_dwarf_skill3
+  268. ninja_dwarf_skill4
+  269. ninja_dwarf_skill5
+  270. ninja_dwarf_skill6
+  271. orc_monk_skill1
+  272. orc_monk_skill2
+  273. orc_monk_skill3
+  274. orc_monk_skill4
+  275. orc_monk_skill5
+  276. orc_monk_skill6
+  277. pirate_skill1
+  278. pirate_skill2
+  279. pirate_skill3
+  280. pirate_skill4
+  281. pirate_skill5
+  282. plague_entrepreneur_skill1
+  283. plague_entrepreneur_skill2
+  284. plague_entrepreneur_skill3
+  285. plague_entrepreneur_skill4
+  286. plant_soul_skill1
+  287. plant_soul_skill2
+  288. plant_soul_skill3
+  289. plant_soul_skill4
+  290. polemaster_skill1
+  291. polemaster_skill2
+  292. polemaster_skill3
+  293. polemaster_skill4
+  294. polemaster_skill5
+  295. rabid_dragon_skill1
+  296. rabid_dragon_skill2
+  297. rabid_dragon_skill3
+  298. rabid_dragon_skill4
+  299. rabid_dragon_skill5
+  300. raging_revenant_skill1
+  301. raging_revenant_skill2
+  302. raging_revenant_skill3
+  303. raging_revenant_skill4
+  304. raging_revenant_skill5
+  305. roller_warrior_skill1
+  306. roller_warrior_skill2
+  307. roller_warrior_skill3
+  308. roller_warrior_skill4
+  309. roller_warrior_skill5
+  310. roller_warrior_skill6
+  311. sadistic_dancer_skill1
+  312. sadistic_dancer_skill2
+  313. sadistic_dancer_skill3
+  314. sadistic_dancer_skill4
+  315. satyr_skill1
+  316. satyr_skill2
+  317. satyr_skill3
+  318. satyr_skill4
+  319. satyr_skill5
+  320. savage_cutie_skill1
+  321. savage_cutie_skill2
+  322. savage_cutie_skill3
+  323. savage_cutie_skill4
+  324. savage_cutie_skill5
+  325. shadow_assassin_skill1
+  326. shadow_assassin_skill2
+  327. shadow_assassin_skill3
+  328. shadow_assassin_skill4
+  329. shadow_assassin_skill5
+  330. shadow_assassin_skill6
+  331. shadow_of_sven_skill1
+  332. shadow_of_sven_skill2
+  333. shadow_of_sven_skill3
+  334. shadow_of_sven_skill4
+  335. shadow_of_sven_skill5
+  336. silent_spirit_skill1
+  337. silent_spirit_skill2
+  338. silent_spirit_skill3
+  339. silent_spirit_skill4
+  340. skeleton_king_skill1
+  341. skeleton_king_skill2
+  342. skeleton_king_skill3
+  343. skeleton_king_skill4
+  344. skeleton_king_skill5
+  345. snap_dragon_skill1
+  346. snap_dragon_skill2
+  347. snap_dragon_skill3
+  348. snap_dragon_skill4
+  349. snap_dragon_skill5
+  350. snap_dragon_skill6
+  351. sniper_wolf_legendary_skill
+  352. sniper_wolf_skill1
+  353. sniper_wolf_skill2
+  354. sniper_wolf_skill3
+  355. sniper_wolf_skill4
+  356. sniper_wolf_skill5
+  357. sojourner_sorceress_skill1
+  358. sojourner_sorceress_skill2
+  359. sojourner_sorceress_skill3
+  360. sojourner_sorceress_skill4
+  361. sojourner_sorceress_skill5
+  362. solid_longevity_skill1
+  363. solid_longevity_skill2
+  364. solid_longevity_skill3
+  365. solid_longevity_skill4
+  366. spectral_dragon_skill1
+  367. spectral_dragon_skill2
+  368. spectral_dragon_skill3
+  369. spectral_dragon_skill4
+  370. spider_queen_skill1
+  371. spider_queen_skill2
+  372. spider_queen_skill3
+  373. spider_queen_skill4
+  374. spikey_dragon_skill1
+  375. spikey_dragon_skill2
+  376. spikey_dragon_skill3
+  377. spikey_dragon_skill4
+  378. spikey_dragon_skill5
+  379. storm_dragon_legendary_skill
+  380. storm_dragon_skill1
+  381. storm_dragon_skill2
+  382. storm_dragon_skill3
+  383. storm_dragon_skill4
+  384. storm_dragon_skill5
+  385. stowaway_skill1
+  386. stowaway_skill2
+  387. stowaway_skill3
+  388. stowaway_skill4
+  389. tomb_angel_skill1
+  390. tomb_angel_skill2
+  391. tomb_angel_skill3
+  392. tomb_angel_skill4
+  393. triple_threat_skill1
+  394. triple_threat_skill2
+  395. triple_threat_skill3
+  396. triple_threat_skill4
+  397. umlaut_the_first_skill1
+  398. umlaut_the_first_skill2
+  399. umlaut_the_first_skill3
+  400. umlaut_the_first_skill4
+  401. unicorgi_skill1
+  402. unicorgi_skill2
+  403. unicorgi_skill3
+  404. unicorgi_skill4
+  405. unicorgi_skill5
+  406. vermilion_bird_skill1
+  407. vermilion_bird_skill2
+  408. vermilion_bird_skill3
+  409. vermilion_bird_skill4
+  410. vile_bile_skill1
+  411. vile_bile_skill2
+  412. vile_bile_skill3
+  413. vile_bile_skill4
+  414. void_wyvern_skill1
+  415. void_wyvern_skill2
+  416. void_wyvern_skill3
+  417. void_wyvern_skill4
+  418. vulture_dragon_skill1
+  419. vulture_dragon_skill2
+  420. vulture_dragon_skill3
+  421. vulture_dragon_skill4
+  422. vulture_dragon_skill5
+  423. wee_witch_skill1
+  424. wee_witch_skill2
+  425. wee_witch_skill3
+  426. wee_witch_skill4
+  427. weredragon_skill1
+  428. weredragon_skill2
+  429. weredragon_skill3
+  430. weredragon_skill4
+  431. weredragon_skill5
+  432. white_tiger_skill1
+  433. white_tiger_skill2
+  434. white_tiger_skill3
+  435. white_tiger_skill4
+  436. zombie_squire_skill1
+  437. zombie_squire_skill2
+  438. zombie_squire_skill3
+  439. zombie_squire_skill4
+  440. zombie_squire_skill5
+
+## com.perblue.rpg.ui.resources.UI$external_skins$fields
+Values (201):
+  0. hero_button_1000th_dragon_lady
+  1. hero_button_abyss_dragon_ice_dragon
+  2. hero_button_abyss_dragon_mastery
+  3. hero_button_ancient_dwarf_mecha_dwarf
+  4. hero_button_angel_dragon_fallen
+  5. hero_button_angel_dragon_usercontest
+  6. hero_button_angelic_herald_pigeon
+  7. hero_button_angelic_herald_pigeon_green_eye
+  8. hero_button_anubis_dragon_mastery
+  9. hero_button_aquatic_man_mastery
+  10. hero_button_aquatic_manatee
+  11. hero_button_banshee_button_doll
+  12. hero_button_banshee_mastery
+  13. hero_button_bardbarian_champion
+  14. hero_button_bardbarian_emo_freddie
+  15. hero_button_bardbarian_highscore
+  16. hero_button_bardbarian_mastery
+  17. hero_button_bardbarian_wood_elf
+  18. hero_button_black_wing_sliver_wing
+  19. hero_button_bone_dragon_adamantium
+  20. hero_button_bone_dragon_mastery
+  21. hero_button_bone_dragon_peppermint
+  22. hero_button_brozerker_bodyguard
+  23. hero_button_brozerker_mastery
+  24. hero_button_brozerker_vegas_dude
+  25. hero_button_brozerker_veteran
+  26. hero_button_brute_dragon_everglades
+  27. hero_button_brute_dragon_mastery
+  28. hero_button_bulwark_angel_swan
+  29. hero_button_bulwark_angel_swan_green_eye
+  30. hero_button_burnt_one_voodoo
+  31. hero_button_catapult_knight_mastery
+  32. hero_button_catapult_knight_unicorn
+  33. hero_button_centaur_of_attention_mastery
+  34. hero_button_centaur_resplendent
+  35. hero_button_cursed_statue_hawaii
+  36. hero_button_cursed_statue_meer
+  37. hero_button_cursed_statue_usercontest
+  38. hero_button_cyclops_wizard_cycleops
+  39. hero_button_cyclops_wizard_mastery
+  40. hero_button_cyclops_wizard_valentine
+  41. hero_button_dark_horse_mastery
+  42. hero_button_dark_horse_mech
+  43. hero_button_dark_horse_zebra
+  44. hero_button_deep_dragon_wyrm
+  45. hero_button_demon_totem_kitten
+  46. hero_button_demon_totem_mastery
+  47. hero_button_doppelganger_mastery
+  48. hero_button_doppelganger_molten
+  49. hero_button_doppleganger_molten
+  50. hero_button_dragon_lady_champion
+  51. hero_button_dragon_lady_space_knight
+  52. hero_button_dragon_lady_year_anniversary3rd
+  53. hero_button_dragon_slayer_unicorn
+  54. hero_button_dragon_slayer_watermelon_slayer
+  55. hero_button_dragzilla_drag
+  56. hero_button_dragzilla_mastery
+  57. hero_button_dragzilla_mecha_kaiju
+  58. hero_button_dragzilla_zilla
+  59. hero_button_druidinatrix_easter
+  60. hero_button_druidinatrix_mastery
+  61. hero_button_druidinatrix_spring
+  62. hero_button_dungeon_man_mastery
+  63. hero_button_dungeon_man_mecha_man
+  64. hero_button_dwarven_archer_bear
+  65. hero_button_dwarven_archer_mastery
+  66. hero_button_dwarven_archer_romantic
+  67. hero_button_electro_yeti_year_anniversary3rd
+  68. hero_button_electroyetti_mastery
+  69. hero_button_electroyetti_sasquatch
+  70. hero_button_enigma_fox_scarlett_fox
+  71. hero_button_eternal_enchanter_easter
+  72. hero_button_eternal_enchanter_mastery
+  73. hero_button_eternal_enchanter_usercontest
+  74. hero_button_fairy_dragon_festive_fairy
+  75. hero_button_fairy_dragon_mastery
+  76. hero_button_fairy_dragon_mecha
+  77. hero_button_fairy_dragon_usercontest
+  78. hero_button_faith_healer_cthulu
+  79. hero_button_faith_healer_mastery
+  80. hero_button_frost_giant_flaming
+  81. hero_button_frost_giant_furious
+  82. hero_button_frost_giant_mastery
+  83. hero_button_genie_elephant
+  84. hero_button_genie_golden
+  85. hero_button_genie_tarnished_djinn
+  86. hero_button_grand_huntress_leopard
+  87. hero_button_grand_huntress_leopard_green_eye
+  88. hero_button_groovy_druid_disco
+  89. hero_button_groovy_druid_mastery
+  90. hero_button_hero_satyr_mastery
+  91. hero_button_karaoke_king_monkey
+  92. hero_button_karaoke_king_monkey_green_eye
+  93. hero_button_kraken_king_mastery
+  94. hero_button_kraken_king_mechalord
+  95. hero_button_last_defender_buffalo
+  96. hero_button_last_defender_buffalo_green_eye
+  97. hero_button_magic_dragon_mastery
+  98. hero_button_magic_dragon_spaghetti
+  99. hero_button_master_thief_business_master
+  100. hero_button_medusa_black_mamba
+  101. hero_button_medusa_futakuchi
+  102. hero_button_medusa_mastery
+  103. hero_button_minotaur_marauder
+  104. hero_button_minotaur_mastery
+  105. hero_button_minotuar_holstein
+  106. hero_button_mistress_manicure_bat
+  107. hero_button_mistress_manicure_bat_green_eye
+  108. hero_button_mistress_manicure_mastery
+  109. hero_button_ninja_dwarf_datenight
+  110. hero_button_ninja_dwarf_mastery
+  111. hero_button_ninja_dwarf_rabbit
+  112. hero_button_orc_monk_mastery
+  113. hero_button_orc_monk_mecha_monk
+  114. hero_button_orc_monk_orcs
+  115. hero_button_orc_monk_uncle
+  116. hero_button_pirate_mastery
+  117. hero_button_pirate_space
+  118. hero_button_plague_skulker
+  119. hero_button_plant_soul_country
+  120. hero_button_plant_soul_horse
+  121. hero_button_plant_soul_mastery
+  122. hero_button_polemaster_gymnast
+  123. hero_button_polemaster_mastery
+  124. hero_button_rabid_dragon_doggy
+  125. hero_button_rabid_dragon_matery
+  126. hero_button_raging_revenant_doctoring
+  127. hero_button_raging_revenant_mastery
+  128. hero_button_red_shaman_crow
+  129. hero_button_red_shaman_mastery
+  130. hero_button_red_shaman_panda
+  131. hero_button_red_shamen_sorceress
+  132. hero_button_roller_viking_luau
+  133. hero_button_roller_viking_mastery
+  134. hero_button_roller_viking_valentine
+  135. hero_button_rollerwarrior_derby_girl
+  136. hero_button_sadistic_dancer_enigma_fox
+  137. hero_button_sand_dragon_mastery
+  138. hero_button_sand_dragon_parisian
+  139. hero_button_satyr_wolf
+  140. hero_button_savage_cutie_mastery
+  141. hero_button_savage_cutie_ravanger
+  142. hero_button_savage_cutie_tadpole
+  143. hero_button_shadow_assassin_mastery
+  144. hero_button_shadow_assassin_watch
+  145. hero_button_shadow_of_sven_light_of_sven
+  146. hero_button_silent_spirit_clown
+  147. hero_button_silent_spirit_mastery
+  148. hero_button_skeleton_king_ascendant
+  149. hero_button_skeleton_king_mastery
+  150. hero_button_snake_dragon_mastery
+  151. hero_button_snake_dragon_sea_dragon
+  152. hero_button_snapper_bone_lizard_bone
+  153. hero_button_sniper_wolf_astral_spirit
+  154. hero_button_sniper_wolf_dancer
+  155. hero_button_sojourner_sorceress_christmas
+  156. hero_button_spectral_dragon_easter
+  157. hero_button_spectral_dragon_mastery
+  158. hero_button_spectral_dragon_variant_dragon
+  159. hero_button_spider_queen_mastery
+  160. hero_button_spider_queen_turtle
+  161. hero_button_spikey_dragon_mastery
+  162. hero_button_spikey_dragon_mecha
+  163. hero_button_spikey_dragon_rotundity
+  164. hero_button_stepladder_brothers_kabuki_brothers
+  165. hero_button_storm_dragon_mastery
+  166. hero_button_stowaway_mastery
+  167. hero_button_stowaway_santas_helper
+  168. hero_button_sun_seeker_snow_seeker
+  169. hero_button_tomb_angel_raider_angel
+  170. hero_button_tomb_angel_usercontest
+  171. hero_button_umlaut_the_first_mastery
+  172. hero_button_understudy_ballerina
+  173. hero_button_understudy_supreme
+  174. hero_button_understudy_year_anniversary3rd
+  175. hero_button_unicorgi_mastery
+  176. hero_button_unicorgi_pizza_manager_corgi
+  177. hero_button_unicorgi_rainbow
+  178. hero_button_unitcorgi_armored
+  179. hero_button_unripe_hatching_hatching_ornament
+  180. hero_button_vampire_dragon_flying_squirrel
+  181. hero_button_vampire_dragon_mastery
+  182. hero_button_vampire_dragon_vamp_dracul
+  183. hero_button_vermilion_bird_cleric_of_falconers
+  184. hero_button_void_wyvern_imagination
+  185. hero_button_void_wyvern_mastery
+  186. hero_button_void_wyvern_tapir
+  187. hero_button_vulcan_elf_alien
+  188. hero_button_vulcan_elf_cyber_elf
+  189. hero_button_vulcan_elf_fennec_fox
+  190. hero_button_vulcan_elf_mastery
+  191. hero_button_vulture_dragon_mastery
+  192. hero_button_wee_witch_easter
+  193. hero_button_wee_witch_mastery
+  194. hero_button_wee_witch_pumpkin_witch
+  195. hero_button_weredragon_cutie_flower
+  196. hero_button_weredragon_mastery
+  197. hero_button_white_tiger_cat_woman
+  198. hero_button_zombie_squire_digital
+  199. hero_button_zombie_squire_mastery
+  200. monster_button_anubis_dragon_mastery
+
+## com.perblue.rpg.ui.resources.UI$external_temple$fields
+Values (13):
+  0. background
+  1. border_buff
+  2. border_buff_on
+  3. buff_activate_ring
+  4. door_left
+  5. door_right
+  6. icon_about_titan_temple
+  7. spotlight
+  8. temple_defeat
+  9. temple_outside
+  10. temple_victory
+  11. wall_left
+  12. wall_right
+
+## com.perblue.rpg.ui.resources.UI$external_units$fields
+Values (123):
+  0. hero_button_Last_Defender
+  1. hero_button_ancient_dwarf
+  2. hero_button_angel_dragon
+  3. hero_button_angelic_avenger
+  4. hero_button_angelic_herald
+  5. hero_button_anubis_dragon
+  6. hero_button_anubis_dragon_green_eye
+  7. hero_button_aquaticman
+  8. hero_button_banshee
+  9. hero_button_bardbarian
+  10. hero_button_black_wing
+  11. hero_button_blue_dragon
+  12. hero_button_bonedragon
+  13. hero_button_boss_abyss_dragon
+  14. hero_button_boss_anubis_dragon
+  15. hero_button_boss_umlaut_the_first
+  16. hero_button_breaker_mkii
+  17. hero_button_bulwark_angel
+  18. hero_button_burnt_one
+  19. hero_button_catapult_knight
+  20. hero_button_cauldron_monster
+  21. hero_button_claw_man
+  22. hero_button_crystal_golem
+  23. hero_button_crystal_lizard
+  24. hero_button_cursed_statue
+  25. hero_button_cyclops_wizard
+  26. hero_button_dark_hero
+  27. hero_button_dark_horse
+  28. hero_button_deep_dragon
+  29. hero_button_demon_totem
+  30. hero_button_digger_mole
+  31. hero_button_doppelganger
+  32. hero_button_dragon_slayer
+  33. hero_button_dragzilla
+  34. hero_button_druidinatrix
+  35. hero_button_dungeon_man
+  36. hero_button_dwarven_archer
+  37. hero_button_eternal_enchanter
+  38. hero_button_evil_wizard
+  39. hero_button_eyeball_monster
+  40. hero_button_fire_imp
+  41. hero_button_flea_demon
+  42. hero_button_forgotten_dragon
+  43. hero_button_frost_giant
+  44. hero_button_genie
+  45. hero_button_gold_colossus
+  46. hero_button_grand_huntress
+  47. hero_button_greedy_dragon
+  48. hero_button_ice_golem
+  49. hero_button_inferno_spider
+  50. hero_button_kamikaze_gnome
+  51. hero_button_karaoke_king
+  52. hero_button_king_imp
+  53. hero_button_kraken_king
+  54. hero_button_lying_lantern
+  55. hero_button_man_eating_plant
+  56. hero_button_minotaur
+  57. hero_button_mistress_manicure
+  58. hero_button_monster_ant
+  59. hero_button_monster_cloud
+  60. hero_button_monster_head_crab
+  61. hero_button_monster_sprite_buff
+  62. hero_button_monster_sprite_heal
+  63. hero_button_monstergoblin
+  64. hero_button_mr_smashy
+  65. hero_button_mushroom
+  66. hero_button_ninjadwarf
+  67. hero_button_orc_monk
+  68. hero_button_pirate
+  69. hero_button_plague_entrepreneur
+  70. hero_button_plague_skulker
+  71. hero_button_plant_soul
+  72. hero_button_polemaster
+  73. hero_button_punkin_scarecrow
+  74. hero_button_rabid_dragon
+  75. hero_button_raging_revenant
+  76. hero_button_rollerviking
+  77. hero_button_sadistic_dancer
+  78. hero_button_sanddragon
+  79. hero_button_satyr
+  80. hero_button_savage_cutie
+  81. hero_button_shadow_assassin
+  82. hero_button_shadow_of_sven
+  83. hero_button_shark
+  84. hero_button_silent_spirit
+  85. hero_button_skeleton_deer
+  86. hero_button_skeleton_king
+  87. hero_button_snakedragon
+  88. hero_button_sniper_wolf
+  89. hero_button_sojourner_sorceress
+  90. hero_button_solid_longevity
+  91. hero_button_spectral_dragon
+  92. hero_button_spider_queen
+  93. hero_button_spikey_dragon
+  94. hero_button_squid
+  95. hero_button_squirrel
+  96. hero_button_stepladder_brothers
+  97. hero_button_stone_imp
+  98. hero_button_storm_dragon
+  99. hero_button_stowaway
+  100. hero_button_sun_seeker
+  101. hero_button_tomb_angel
+  102. hero_button_triple_threat
+  103. hero_button_trollblob
+  104. hero_button_umlaut_the_first
+  105. hero_button_unicorgi
+  106. hero_button_unripe_mythology
+  107. hero_button_vermilion_bird
+  108. hero_button_vile_bile
+  109. hero_button_void_wyvern
+  110. hero_button_vulcan_elf
+  111. hero_button_vulture_dragon
+  112. hero_button_wee_witch
+  113. hero_button_weredragon
+  114. hero_button_white_tiger
+  115. hero_button_wildling1
+  116. hero_button_wildling2
+  117. hero_button_zombie
+  118. hero_giant_boss_plant
+  119. monster_button_redtiger
+  120. monster_button_sinister_assailant
+  121. monster_button_umlaut_the_fifth
+  122. monster_button_umlaut_the_fifth_green_eye
+
+## com.perblue.rpg.ui.resources.UI$external_war$fields
+Values (51):
+  0. about_guild_war
+  1. bag
+  2. blue_progress
+  3. button_finish
+  4. button_surrender
+  5. defense_broken
+  6. defense_held
+  7. goal_pointer
+  8. guild_defeat
+  9. guild_nameplate
+  10. guild_victory
+  11. hud_bottom
+  12. hud_timer_center
+  13. hud_timer_left
+  14. hud_timer_right
+  15. hud_top
+  16. hud_top_results_dark_overlay
+  17. icon_battle_points
+  18. icon_battle_points_blue
+  19. icon_battle_ticket
+  20. icon_guild_rank
+  21. laurels
+  22. list_glow
+  23. node
+  24. node_defeated
+  25. node_in_progress
+  26. orange_overlay
+  27. orange_progress
+  28. rank1
+  29. rank10
+  30. rank2
+  31. rank3
+  32. rank4
+  33. rank5
+  34. rank6
+  35. rank7
+  36. rank8
+  37. rank9
+  38. reward_tier1
+  39. reward_tier2
+  40. reward_tier3
+  41. reward_tier4
+  42. reward_tier5
+  43. reward_tier_gold
+  44. reward_tier_gold_broken
+  45. scroll_panel
+  46. spears
+  47. surrender_button_holder
+  48. surrender_glow
+  49. war_contribution
+  50. yellow_check
+
+## com.perblue.rpg.ui.resources.UI$flags$fields
+Values (3):
+  0. flag_background
+  1. flag_frame
+  2. flag_selected
+
+## com.perblue.rpg.ui.resources.UI$guild$fields
+Values (21):
+  0. emblem_border
+  1. emblem_small
+  2. guild_rank1
+  3. guild_rank2
+  4. guild_rank3
+  5. guild_rank4
+  6. guild_rank5
+  7. guild_rank_small1
+  8. guild_rank_small2
+  9. guild_rank_small3
+  10. guild_rank_small4
+  11. guild_rank_small5
+  12. icon_champion
+  13. icon_guild_member
+  14. icon_leader
+  15. icon_mercinary
+  16. icon_officer
+  17. icon_veteran
+  18. input_checkmark
+  19. minus_red
+  20. x_red
+
+## com.perblue.rpg.ui.resources.UI$hero_tags$fields
+Values (0):
+
+## com.perblue.rpg.ui.resources.UI$how_to_play$fields
+Values (9):
+  0. about_contests
+  1. about_currency
+  2. about_guild_benifits
+  3. about_guild_wall
+  4. about_progress
+  5. about_top_rank
+  6. about_vip
+  7. about_vip_how_to_get
+  8. info_button_glow
+
+## com.perblue.rpg.ui.resources.UI$icons_test$fields
+Values (6):
+  0. check
+  1. star
+  2. star_big
+  3. star_placeholder
+  4. star_small
+  5. teamXP
+
+## com.perblue.rpg.ui.resources.UI$items$fields
+Values (23):
+  0. icon_question_mark
+  1. item_bloody_bat
+  2. item_enchanted_elbow_pads
+  3. item_fine_brie
+  4. item_foam_finger
+  5. item_free_mans_crowbar
+  6. item_goblin_grog
+  7. item_lead_zeppelin
+  8. item_lifesipper
+  9. item_loaded_die
+  10. item_my_first_shield
+  11. item_paper_crown
+  12. item_rod_of_shenanigans
+  13. item_rune_bg
+  14. item_scrap
+  15. item_scroll
+  16. item_scroll_scrap
+  17. item_spudgun
+  18. item_stick_on_moustache
+  19. item_stolen_sneakers
+  20. item_thinking_cap
+  21. item_vampire_bunnyears
+  22. item_vorpal_boomerang
+
+## com.perblue.rpg.ui.resources.UI$main_screen$fields
+Values (53):
+  0. battleground_dim
+  1. battleground_glow
+  2. battleground_lit
+  3. bazaar
+  4. bazaar_dim
+  5. bazaar_glow
+  6. boss_battle_dim
+  7. boss_battle_glow
+  8. boss_battle_lit
+  9. boss_pit_dim
+  10. boss_pit_glow
+  11. boss_pit_icon
+  12. boss_pit_lit
+  13. caverns_glow
+  14. caverns_lit
+  15. challengers_dragon_lit
+  16. coliseum_dim
+  17. coliseum_glow
+  18. coliseum_lit
+  19. dark_label_bg
+  20. dragon_merchant_dim
+  21. dragon_merchant_lit
+  22. enchanting_dim
+  23. enchanting_lit
+  24. enchanting_table_glow
+  25. expedetion_lit
+  26. house_glow
+  27. house_lit
+  28. pawn_shop_dim
+  29. pawn_shop_glow
+  30. pawn_shop_lit
+  31. peddlar_dim
+  32. peddlar_glow
+  33. peddlar_lit
+  34. sign_in_dim
+  35. sign_in_lit
+  36. soul_mart_glow
+  37. stone_circle_glow
+  38. stone_circle_lit
+  39. temple_dim
+  40. temple_glow
+  41. temple_lit
+  42. the_real_boss_pit_glow2
+  43. the_summit_glow_purple
+  44. the_summit_glow_yellow
+  45. the_summit_lit
+  46. the_summit_neutral
+  47. tournaments_dim
+  48. tournaments_glow
+  49. tournaments_lit
+  50. treasure_chest_dim
+  51. treasure_chest_lit
+  52. treasure_chest_ontap
+
+## com.perblue.rpg.ui.resources.UI$narrator$fields
+Values (14):
+  0. apprentice
+  1. apprentice_possessed
+  2. brozerker_possessed
+  3. centaur
+  4. dark_dracul
+  5. dark_dracul_possessed
+  6. dragon_lady
+  7. dust_devil
+  8. dust_devil_possessed
+  9. shaman
+  10. shaman_possessed
+  11. snap_dragon
+  12. yeti
+  13. yeti_possessed
+
+## com.perblue.rpg.ui.resources.UI$purchasing$fields
+Values (14):
+  0. best_value
+  1. calendar
+  2. checkmark
+  3. crossed_out
+  4. crossed_out_horizontal
+  5. diamon_package1
+  6. diamond_offer
+  7. diamond_package2
+  8. diamond_package3
+  9. diamond_package4
+  10. diamond_package5
+  11. discount
+  12. most_popular
+  13. one_time_offer
+
+## com.perblue.rpg.ui.resources.UI$quests$fields
+Values (15):
+  0. quest_boss_pit
+  1. quests_alchemy
+  2. quests_arena_challenges
+  3. quests_bossbattle
+  4. quests_chest_summons
+  5. quests_daily_raids
+  6. quests_elite_finishes
+  7. quests_free_stamina
+  8. quests_helping_hand
+  9. quests_instance_finishes
+  10. quests_monthly_card
+  11. quests_runes
+  12. quests_skill_upgrades
+  13. rune_shrine
+  14. the_summit
+
+## com.perblue.rpg.ui.resources.UI$resources$fields
+Values (12):
+  0. diamond
+  1. gold
+  2. icon_bazaar_coin
+  3. item_chest_events
+  4. item_chest_gold
+  5. item_chest_orange
+  6. item_chest_purple
+  7. item_chest_silver
+  8. item_chest_soulstone
+  9. raid_ticket
+  10. team_level
+  11. vip_level
+
+## com.perblue.rpg.ui.resources.UI$shop_icons$fields
+Values (9):
+  0. bazaar
+  1. black_market
+  2. coliseum
+  3. expedition
+  4. fight_pit
+  5. guilds
+  6. market
+  7. peddler
+  8. soul_shop
+
+## com.perblue.rpg.ui.resources.UI$signin$fields
+Values (15):
+  0. vip1
+  1. vip10
+  2. vip11
+  3. vip12
+  4. vip13
+  5. vip14
+  6. vip15
+  7. vip2
+  8. vip3
+  9. vip4
+  10. vip5
+  11. vip6
+  12. vip7
+  13. vip8
+  14. vip9
+
+## com.perblue.rpg.ui.resources.UI$social$fields
+Values (9):
+  0. email_icon
+  1. facebook_icon
+  2. gamecenter_icon
+  3. games_controller
+  4. games_controller_grey
+  5. games_controller_white
+  6. google_plus_icon
+  7. google_signin_normal
+  8. google_signin_pressed
+
+## com.perblue.rpg.ui.resources.UI$summit$fields
+Values (0):
+
+## com.perblue.rpg.ui.resources.UI$temple$fields
+Values (0):
+
+## com.perblue.rpg.ui.resources.UI$textures$fields
+Values (34):
+  0. award_texture
+  1. awards_panel_small
+  2. blue_slate_texture
+  3. bullet
+  4. crafting_arrow
+  5. crafting_tree
+  6. divider
+  7. dropdown_scroll
+  8. dropshadow
+  9. gold_slate_texture
+  10. horizontal_divider
+  11. hud_texture
+  12. list_panel_small_brown
+  13. list_panel_smalll
+  14. long_tap
+  15. notch
+  16. notification_bar_patch
+  17. pagenation_off
+  18. pagenation_on
+  19. panel_how_to_get
+  20. parchment
+  21. player_info_panel
+  22. player_info_panel_background
+  23. power_panel
+  24. progress_bar_universal
+  25. progress_bg_universal
+  26. resource_bar
+  27. text_container
+  28. text_input_bg
+  29. timer
+  30. title_bg_small
+  31. tooltip
+  32. vertical_dropshadow
+  33. vip_package_bg
+
+## com.perblue.rpg.ui.resources.UI$tutorial$fields
+Values (8):
+  0. narrator_glow
+  1. tutorial_arrow_yellow
+  2. tutorial_border
+  3. tutorial_button_glow
+  4. tutorial_castle_glow
+  5. tutorial_chevron
+  6. tutorial_dragon_glow
+  7. tutorial_nameplate
+
+## com.perblue.rpg.ui.resources.UI$units$fields
+Values (50):
+  0. boss
+  1. hero_apprentice
+  2. hero_button_brozerker
+  3. hero_button_brutedragon
+  4. hero_button_centaur
+  5. hero_button_charge
+  6. hero_button_dragon_lady
+  7. hero_button_electroyeti
+  8. hero_button_fairydragon
+  9. hero_button_faith_healer
+  10. hero_button_frame
+  11. hero_button_groovy_druid
+  12. hero_button_magic_dragon
+  13. hero_button_medusa
+  14. hero_button_red_shaman
+  15. hero_button_slot
+  16. hero_button_team_glow
+  17. hero_button_vampiredragon
+  18. hero_button_wildling
+  19. hero_picked
+  20. hero_rarity_eight
+  21. hero_rarity_five
+  22. hero_rarity_four
+  23. hero_rarity_legendary_gem
+  24. hero_rarity_legendary_gem_disabled
+  25. hero_rarity_one
+  26. hero_rarity_seven
+  27. hero_rarity_six
+  28. hero_rarity_three
+  29. hero_rarity_two
+  30. hero_rarity_zero
+  31. hero_selected
+  32. hero_status_bar
+  33. hero_status_bar_single
+  34. icon_BLUR
+  35. legendary_glove
+  36. legendary_music_note
+  37. levelUp_barGlow
+  38. levelUp_french
+  39. levelUp_german
+  40. levelUp_glow
+  41. levelUp_spanish
+  42. newHero_Flare
+  43. progress_health_big
+  44. progress_mana_big
+  45. skill_skull
+  46. vortex_A
+  47. vortex_B
+  48. vortex_C
+  49. vortex_Glow_Soft
+
+## com.perblue.rpg.ui.screens.AttackScreen$FFButtonState
+Values (4):
+  0. HIDDEN
+  1. AVAILABLE
+  2. TL_UPSELL
+  3. VIP_UPSELL
+
+## com.perblue.rpg.ui.screens.BaseScreen$LoadState
+Values (4):
+  0. UNINITIALIZED
+  1. CREATING
+  2. CREATED
+  3. ERROR
+
+## com.perblue.rpg.ui.screens.BossPitEntryScreen$BossState
+Values (6):
+  0. AVAILABLE
+  1. DEFEATED_OTHER_AVAILABLE
+  2. DEFEATED_NONE_AVAILABLE
+  3. TEAM_LEVEL_TOO_LOW
+  4. OTHER_BOSS_IN_PROGRESS
+  5. FLED
+
+## com.perblue.rpg.ui.screens.BossPitStageScreen$BossState
+Values (4):
+  0. AVAILABLE
+  1. FLED
+  2. DEFEATED
+  3. NO_CHANCES_LEFT
+
+## com.perblue.rpg.ui.screens.ContestsScreen$ContestScreenTabState
+Values (5):
+  0. OVERVIEW
+  1. POINTS
+  2. RANKINGS
+  3. PROGRESS
+  4. RANK
+
+## com.perblue.rpg.ui.screens.ContestsScreen$IconType
+Values (4):
+  0. ITEM
+  1. HERO
+  2. RESOURCE
+  3. DEFAULT
+
+## com.perblue.rpg.ui.screens.CryptScreen$LeftSideState
+Values (2):
+  0. RAIDINFO
+  1. GUILDTABS
+
+## com.perblue.rpg.ui.screens.CryptScreen$RightSideState
+Values (4):
+  0. LOADING
+  1. ENEMY
+  2. FRIENDLY
+  3. LOG
+
+## com.perblue.rpg.ui.screens.DebugGiveHeroScreen$Mode
+Values (2):
+  0. RARITY
+  1. LEVEL
+
+## com.perblue.rpg.ui.screens.GuildMembersScreen$MemberSortType
+Values (5):
+  0. ONLINE
+  1. TOTAL_POWER
+  2. FIGHT_PIT
+  3. RANK
+  4. COLISEUM
+
+## com.perblue.rpg.ui.screens.LoadingScreen$LoadingState
+Values (7):
+  0. FONTS
+  1. SPLASH_PART_2
+  2. ASSET_LOAD
+  3. ASSET_UPDATE
+  4. WAITING_FOR_ANIMATION
+  5. PRE_GAME
+  6. GAME
+
+## com.perblue.rpg.ui.screens.SkullAnimation
+Values (5):
+  0. NONE
+  1. SILVER
+  2. GOLD
+  3. CRYPT_VICTORY
+  4. CRYPT_DEFEAT
+
+## com.perblue.rpg.ui.screens.TempleEntryScreen$ChooserInteraction
+Values (5):
+  0. NONE
+  1. DRAGGING
+  2. SNAPPING
+  3. SET_TARGETS_FOR_ANIMATE_IN
+  4. ANIMATING_IN
+
+## com.perblue.rpg.ui.screens.TempleEntryScreen$TempleMode
+Values (3):
+  0. LOADING
+  1. CHOOSER
+  2. DETAILS
+
+## com.perblue.rpg.ui.war.WarAttackDetailsScreen$LineupState
+Values (5):
+  0. DEFEATED
+  1. ATTACKABLE
+  2. LOCKED
+  3. UNDER_ATTACK
+  4. NO_MORE_ATTACKS
+
+## com.perblue.rpg.ui.war.WarBattleLogScreen$BattleLogType
+Values (5):
+  0. FIGHTS_ATTACK
+  1. FIGHTS_DEFENSE
+  2. BATTLES_ATTACK
+  3. WARS_THIS_WEEK
+  4. WARS_ALL_TIME
+  field: private CharSequence buttonText
+  method: getButtonText() -> CharSequence
+
+## com.perblue.rpg.ui.war.WarGuildMembersScreen$RowState
+Values (4):
+  0. BATTLE
+  1. WAR
+  2. PRIZES
+  3. MANAGE
+
+## com.perblue.rpg.ui.war.WarResultsOverlay$OverlayState
+Values (3):
+  0. INITIAL_OVERLAY
+  1. CONTRIBUTIONS_OVERLAY
+  2. PROGRESS_OVERLAY_REWARDS
+
+## com.perblue.rpg.ui.widgets.BaseModalWindow$WindowState
+Values (2):
+  0. HIDDEN
+  1. SHOWN
+
+## com.perblue.rpg.ui.widgets.BattleStatsScreen$DamageType
+Values (4):
+  0. DAMAGE_DEALT
+  1. DAMAGE_TAKEN
+  2. HEALING_DONE
+  3. KNOCKBACK
+
+## com.perblue.rpg.ui.widgets.BattleStatsScreen$HealingType
+Values (3):
+  0. TOTAL
+  1. HEALING
+  2. LIFE_STEAL
+
+## com.perblue.rpg.ui.widgets.BattleStatsScreen$PowerType
+Values (5):
+  0. NONE
+  1. TOTAL
+  2. PHYSICAL
+  3. MAGIC
+  4. TRUE
+## com.perblue.rpg.ui.widgets.BattleStatsScreen$SubPowerType
+Values (11):
+  0. NONE
+  1. BASHING
+  2. PIERCING
+  3. SLASHING
+  4. ENERGY
+  5. WATER
+  6. NECROTIC
+  7. TOXIC
+  8. ELECTRICAL
+  9. FIRE
+  10. HOLY
+## com.perblue.rpg.ui.widgets.CelebrationWindow$ConfettiType
+Values (4):
+  0. LIGHT
+  1. MEDIUM
+  2. HEAVY
+  3. DENSE
+
+## com.perblue.rpg.ui.widgets.ClientNotificationType
+Values (1):
+  0. DEFAULT
+
+## com.perblue.rpg.ui.widgets.ColiseumTrophyTable$TrophyState
+Values (4):
+  0. EMPTY
+  1. FAILED
+  2. CURRENT
+  3. COMPLETE
+
+## com.perblue.rpg.ui.widgets.DecisionResult
+Values (4):
+  0. BUTTON_1
+  1. BUTTON_2
+  2. BUTTON_3
+  3. CANCEL
+
+## com.perblue.rpg.ui.widgets.HeaderStyle
+Values (2):
+  0. SMALL
+  1. NORMAL
+
+## com.perblue.rpg.ui.widgets.HeroSkinCard$MasterySkinState
+Values (5):
+  0. HERO_LOCKED
+  1. OWNED
+  2. COMING_SOON
+  3. PROMOTE_HERO
+  4. DO_EXPEDITION_BATTLES
+
+## com.perblue.rpg.ui.widgets.HeroStatTableHelper$StatTableMode
+Values (2):
+  0. HERO_MGMT
+  1. RUNES
+
+## com.perblue.rpg.ui.widgets.HeroSummaryWindow$HeroSummaryTabType
+Values (3):
+  0. GEAR
+  1. POWERS
+  2. STATS
+
+## com.perblue.rpg.ui.widgets.HeroSummaryWindow$RightSideState
+Values (3):
+  0. GEAR
+  1. SKILLS
+  2. STATS
+
+## com.perblue.rpg.ui.widgets.IDropDownMenu$MenuIconType
+Values (5):
+  0. HEROES
+  1. ITEMS
+  2. MAILBOX
+  3. QUESTS
+  4. MEDALS
+  field: private static MenuIconType[] values
+  field: public String assetKey
+  field: public CharSequence name
+  method: valuesCached() -> MenuIconType[]
+
+## com.perblue.rpg.ui.widgets.SkinDetailWindow$SkinHowToGetState
+Values (8):
+  0. OWNED
+  1. UNAVAILABLE
+  2. DIRECT_PURCHASE
+  3. AVAILABLE_AS_REWARD
+  4. PROMOTE_HERO
+  5. DO_EXPEDITION_BATTLES
+  6. HERO_LOCKED
+  7. COMING_SOON
+
+## com.perblue.rpg.ui.widgets.SkinDetailWindow$SkinState
+Values (6):
+  0. OWNED
+  1. LOCKED
+  2. UNLOCKED
+  3. AVAILABLE
+  4. UNAVAILABLE
+  5. COMING_SOON
+
+## com.perblue.rpg.ui.widgets.SkinDetailWindow$SkinType
+Values (3):
+  0. ORIGINAL
+  1. CUSTOM
+  2. MASTERY
+
+## com.perblue.rpg.ui.widgets.UpdateTimeZonePrompt$ChangeState
+Values (3):
+  0. NO_CHANGE_NEEDED
+  1. CAN_CHANGE
+  2. CANT_CHANGE
+
+## com.perblue.rpg.ui.widgets.WindowStyle
+Values (8):
+  0. DEFAULT
+  1. TAN_BACKGROUND
+  2. SUB_WINDOW
+  3. DEFEAT
+  4. CONNECTION_ISSUE
+  5. INFO_HEADER
+  6. INFO_HEADER_HOW_TO_PLAY
+  7. SUB_WINDOW_DARK_BACKGROUND
+
+## com.perblue.rpg.ui.widgets.bossbattle.BossBattleCampaignMapData$MajorNodeIconData
+Values (1):
+  0. CH1_BOSS1
+  field: public String assetKey
+  field: public float bottomPercentOffset
+  field: public float heightPercent
+  field: public float internalScaling
+  field: public float leftPercentOffset
+  field: public float widthPercent
+
+## com.perblue.rpg.ui.widgets.bossbattle.BossBattleCampaignMapData$MinorNodeIconData
+Values (4):
+  0. TOWER_INTACT
+  1. TOWER_CRUMBLED
+  2. ORCEAN_TOWER_INTACT
+  3. ORCEAN_TOWER_CRUMBLED
+  field: public float heightPercent
+  field: public String icon
+  field: public float leftOffset
+  field: public float widthPercent
+
+## com.perblue.rpg.ui.widgets.campaign.CampaignMapData$MajorNodeIconData
+Values (203):
+  0. CH1_BOSS1
+  1. CH1_BOSS2
+  2. CH1_BOSS3
+  3. CH1_BOSS4
+  4. CH1_BOSS5
+  5. CH1_BOSS6
+  6. CH1_BOSS7
+  7. CH2_BOSS1
+  8. CH2_BOSS2
+  9. CH2_BOSS3
+  10. CH2_BOSS4
+  11. CH2_BOSS5
+  12. CH2_BOSS6
+  13. CH2_BOSS7
+  14. CH3_BOSS1
+  15. CH3_BOSS2
+  16. CH3_BOSS3
+  17. CH3_BOSS4
+  18. CH3_BOSS5
+  19. CH3_BOSS6
+  20. CH3_BOSS7
+  21. CH4_BOSS1
+  22. CH4_BOSS2
+  23. CH4_BOSS3
+  24. CH4_BOSS4
+  25. CH4_BOSS5
+  26. CH4_BOSS6
+  27. CH4_BOSS7
+  28. CH5_BOSS1
+  29. CH5_BOSS2
+  30. CH5_BOSS3
+  31. CH5_BOSS4
+  32. CH5_BOSS5
+  33. CH5_BOSS6
+  34. CH5_BOSS7
+  35. CH6_BOSS1
+  36. CH6_BOSS2
+  37. CH6_BOSS3
+  38. CH6_BOSS4
+  39. CH6_BOSS5
+  40. CH6_BOSS6
+  41. CH6_BOSS7
+  42. CH7_BOSS1
+  43. CH7_BOSS2
+  44. CH7_BOSS3
+  45. CH7_BOSS4
+  46. CH7_BOSS5
+  47. CH7_BOSS6
+  48. CH7_BOSS7
+  49. CH8_BOSS1
+  50. CH8_BOSS2
+  51. CH8_BOSS3
+  52. CH8_BOSS4
+  53. CH8_BOSS5
+  54. CH8_BOSS6
+  55. CH8_BOSS7
+  56. CH9_BOSS1
+  57. CH9_BOSS2
+  58. CH9_BOSS3
+  59. CH9_BOSS4
+  60. CH9_BOSS5
+  61. CH9_BOSS6
+  62. CH9_BOSS7
+  63. CH10_BOSS1
+  64. CH10_BOSS2
+  65. CH10_BOSS3
+  66. CH10_BOSS4
+  67. CH10_BOSS5
+  68. CH10_BOSS6
+  69. CH10_BOSS7
+  70. CH11_BOSS1
+  71. CH11_BOSS2
+  72. CH11_BOSS3
+  73. CH11_BOSS4
+  74. CH11_BOSS5
+  75. CH11_BOSS6
+  76. CH11_BOSS7
+  77. CH12_BOSS1
+  78. CH12_BOSS2
+  79. CH12_BOSS3
+  80. CH12_BOSS4
+  81. CH12_BOSS5
+  82. CH12_BOSS6
+  83. CH12_BOSS7
+  84. CH13_BOSS1
+  85. CH13_BOSS2
+  86. CH13_BOSS3
+  87. CH13_BOSS4
+  88. CH13_BOSS5
+  89. CH13_BOSS6
+  90. CH13_BOSS7
+  91. CH14_BOSS1
+  92. CH14_BOSS2
+  93. CH14_BOSS3
+  94. CH14_BOSS4
+  95. CH14_BOSS5
+  96. CH14_BOSS6
+  97. CH14_BOSS7
+  98. CH15_BOSS1
+  99. CH15_BOSS2
+  100. CH15_BOSS3
+  101. CH15_BOSS4
+  102. CH15_BOSS5
+  103. CH15_BOSS6
+  104. CH15_BOSS7
+  105. CH16_BOSS1
+  106. CH16_BOSS2
+  107. CH16_BOSS3
+  108. CH16_BOSS4
+  109. CH16_BOSS5
+  110. CH16_BOSS6
+  111. CH16_BOSS7
+  112. CH17_BOSS1
+  113. CH17_BOSS2
+  114. CH17_BOSS3
+  115. CH17_BOSS4
+  116. CH17_BOSS5
+  117. CH17_BOSS6
+  118. CH17_BOSS7
+  119. CH18_BOSS1
+  120. CH18_BOSS2
+  121. CH18_BOSS3
+  122. CH18_BOSS4
+  123. CH18_BOSS5
+  124. CH18_BOSS6
+  125. CH18_BOSS7
+  126. CH19_BOSS1
+  127. CH19_BOSS2
+  128. CH19_BOSS3
+  129. CH19_BOSS4
+  130. CH19_BOSS5
+  131. CH19_BOSS6
+  132. CH19_BOSS7
+  133. CH20_BOSS1
+  134. CH20_BOSS2
+  135. CH20_BOSS3
+  136. CH20_BOSS4
+  137. CH20_BOSS5
+  138. CH20_BOSS6
+  139. CH20_BOSS7
+  140. CH21_BOSS1
+  141. CH21_BOSS2
+  142. CH21_BOSS3
+  143. CH21_BOSS4
+  144. CH21_BOSS5
+  145. CH21_BOSS6
+  146. CH21_BOSS7
+  147. CH22_BOSS1
+  148. CH22_BOSS2
+  149. CH22_BOSS3
+  150. CH22_BOSS4
+  151. CH22_BOSS5
+  152. CH22_BOSS6
+  153. CH22_BOSS7
+  154. CH23_BOSS1
+  155. CH23_BOSS2
+  156. CH23_BOSS3
+  157. CH23_BOSS4
+  158. CH23_BOSS5
+  159. CH23_BOSS6
+  160. CH23_BOSS7
+  161. CH24_BOSS1
+  162. CH24_BOSS2
+  163. CH24_BOSS3
+  164. CH24_BOSS4
+  165. CH24_BOSS5
+  166. CH24_BOSS6
+  167. CH24_BOSS7
+  168. CH25_BOSS1
+  169. CH25_BOSS2
+  170. CH25_BOSS3
+  171. CH25_BOSS4
+  172. CH25_BOSS5
+  173. CH25_BOSS6
+  174. CH25_BOSS7
+  175. CH26_BOSS1
+  176. CH26_BOSS2
+  177. CH26_BOSS3
+  178. CH26_BOSS4
+  179. CH26_BOSS5
+  180. CH26_BOSS6
+  181. CH26_BOSS7
+  182. CH27_BOSS1
+  183. CH27_BOSS2
+  184. CH27_BOSS3
+  185. CH27_BOSS4
+  186. CH27_BOSS5
+  187. CH27_BOSS6
+  188. CH27_BOSS7
+  189. CH28_BOSS1
+  190. CH28_BOSS2
+  191. CH28_BOSS3
+  192. CH28_BOSS4
+  193. CH28_BOSS5
+  194. CH28_BOSS6
+  195. CH28_BOSS7
+  196. CH29_BOSS1
+  197. CH29_BOSS2
+  198. CH29_BOSS3
+  199. CH29_BOSS4
+  200. CH29_BOSS5
+  201. CH29_BOSS6
+  202. CH29_BOSS7
+  field: public String assetKey
+  field: public float bottomPercentOffset
+  field: public float heightPercent
+  field: public float internalScaling
+  field: public float leftPercentOffset
+  field: public float widthPercent
+
+## com.perblue.rpg.ui.widgets.campaign.CampaignMapData$MinorNodeIconData
+Values (4):
+  0. TOWER_INTACT
+  1. TOWER_CRUMBLED
+  2. OCEAN_TOWER_INTACT
+  3. OCEAN_TOWER_CRUMBLED
+  field: public float heightPercent
+  field: public String icon
+  field: public float leftOffset
+  field: public float widthPercent
+
+## com.perblue.rpg.ui.widgets.chat.ChatActionPopup$ChatAction
+Values (9):
+  0. VIEW_GUILD
+  1. INVITE_TO_GUILD
+  2. ACCEPT_APPLICATION
+  3. DENY_APPLICATION
+  4. MODERATE
+  5. ENABLE_MOTD
+  6. DISABLE_MOTD
+  7. ENABLE_STICKY
+  8. DISABLE_STICKY
+
+## com.perblue.rpg.ui.widgets.chat.ChatView$ChatViewSort
+Values (2):
+  0. RECENT
+  1. LIKES
+
+## com.perblue.rpg.ui.widgets.custom.ManageAccountsWindow$ViewReason
+Values (3):
+  0. USER_INITATED
+  1. SERVER_FOUND_ACCOUNT_ON_BOOT
+  2. SERVER_FOUND_ACCOUNT_LATE
+
+## com.perblue.rpg.ui.widgets.guilds.FlagData
+Values (143):
+  0. ALB
+  1. AIA
+  2. ATG
+  3. ARG
+  4. ARM
+  5. AUS
+  6. AUT
+  7. AZE
+  8. BHS
+  9. BHR
+  10. BRB
+  11. BLR
+  12. BEL
+  13. BLZ
+  14. BMU
+  15. BOL
+  16. BWA
+  17. BRA
+  18. VGB
+  19. BGR
+  20. CMR
+  21. CAN
+  22. CYM
+  23. CAF
+  24. CHL
+  25. CHN
+  26. COL
+  27. COD
+  28. CRI
+  29. CIV
+  30. CUB
+  31. CYP
+  32. CZE
+  33. DNK
+  34. DMA
+  35. DOM
+  36. ECU
+  37. EGY
+  38. SLV
+  39. GNQ
+  40. EST
+  41. ETH
+  42. FIN
+  43. FRA
+  44. GUF
+  45. DEU
+  46. GIB
+  47. GRC
+  48. GRL
+  49. GRD
+  50. GUM
+  51. GTM
+  52. GIN
+  53. GNB
+  54. GUY
+  55. HTI
+  56. HND
+  57. HKG
+  58. HUN
+  59. ISL
+  60. IND
+  61. IDN
+  62. IRL
+  63. ISR
+  64. ITA
+  65. JAM
+  66. JPN
+  67. JOR
+  68. KAZ
+  69. KEN
+  70. KOR
+  71. KWT
+  72. LVA
+  73. LIE
+  74. LTU
+  75. LUX
+  76. MAC
+  77. MKD
+  78. MDG
+  79. MYS
+  80. MDV
+  81. MLI
+  82. MLT
+  83. MTQ
+  84. MEX
+  85. MDA
+  86. MCO
+  87. MSR
+  88. MNE
+  89. MAR
+  90. MOZ
+  91. NAM
+  92. NPL
+  93. NLD
+  94. NZL
+  95. NIC
+  96. NER
+  97. NOR
+  98. OMN
+  99. PSE
+  100. PAN
+  101. PRY
+  102. PER
+  103. PHL
+  104. POL
+  105. PRT
+  106. PRI
+  107. QAT
+  108. ROU
+  109. RUS
+  110. RWA
+  111. LCA
+  112. MAF
+  113. SPM
+  114. VCT
+  115. SAU
+  116. SEN
+  117. SGP
+  118. SVK
+  119. SVN
+  120. SOM
+  121. ZAF
+  122. ESP
+  123. LKA
+  124. SWE
+  125. CHE
+  126. TWN
+  127. TZA
+  128. THA
+  129. TTO
+  130. TUN
+  131. TUR
+  132. TCA
+  133. UGA
+  134. UKR
+  135. ARE
+  136. GBR
+  137. USA
+  138. URY
+  139. VEN
+  140. VNM
+  141. VIR
+  142. INT
+  field: public String assetKey
+  field: public String defaultTimeZone
+  method: getFlagRegion() -> FlagRegion
+  method: getCountryCode() -> String
+
+## com.perblue.rpg.ui.widgets.guilds.FlagRegion
+Values (6):
+  0. AFRICA
+  1. ASIA
+  2. EUROPE
+  3. MIDDLE_EAST
+  4. OCEANIA
+  5. AMERICAS
+
+## com.perblue.rpg.ui.widgets.guilds.GuildMemberRow$MemberActionType
+Values (4):
+  0. PROMOTE
+  1. DEMOTE
+  2. KICK
+  3. CLAIM_LEADER
+
+## com.perblue.rpg.ui.widgets.home.HomeIcon$IconState
+Values (6):
+  0. DEFAULT
+  1. ENABLED
+  2. DISABLED
+  3. ACTIVE
+  4. HIDDEN
+  5. LEVEL_TOO_LOW
+
+## com.perblue.rpg.ui.widgets.home.HomeIconType
+Values (27):
+  0. CAMPAIGN
+  1. GUILDS
+  2. CHESTS
+  3. EVENTS
+  4. FIGHT_PIT
+  5. THE_MOUNTAIN
+  6. RANKED_EVENTS
+  7. CRYPT
+  8. CHALLENGES
+  9. ENCHANTING
+  10. SIGN_IN
+  11. MERCHANT
+  12. CONTESTS
+  13. BOSS_PIT
+  14. COLISEUM
+  15. EXPEDITION
+  16. TEMPLE
+  17. DEBUG
+  18. SKINS
+  19. BLACK_MARKET
+  20. SOUL_SHOP
+  21. PEDDLER
+  22. GUILD_WAR
+  23. RUNES
+  24. RUNE_SHRINE
+  25. BAZAAR
+  26. BOSS_BATTLE
+  field: private static HomeIconType[] values
+  method: valuesCached() -> HomeIconType[]
+
+## com.perblue.rpg.util.DelayedPromptData$DelayedPromptType
+Values (8):
+  0. RELOAD
+  1. UPDATE
+  2. SOFT_UPDATE
+  3. LOGIN_SERVER_ERROR
+  4. DOWNLOAD_REQUIRED
+  5. AGREEMENT
+  6. PRIVACY_POLICY
+  7. TERMS_OF_SERVICE
+
+## com.perblue.rpg.util.ErrorReportCategory
+Values (5):
+  0. CONTENT_DOWNLOAD
+  1. OUT_OF_MEMORY
+  2. MEMORY_CRITICAL
+  3. LOGIN_REQUEST
+  4. BOOT_DATA_NOT_RECEIVED
+  field: private String searchString
+  method: getSearchString() -> String
+
+## com.perblue.rpg.util.FadeDirection
+Values (4):
+  0. LEFT
+  1. RIGHT
+  2. UP
+  3. DOWN
+
+## com.perblue.rpg.util.LanguageHelper$FontType
+Values (5):
+  0. ChineseFont
+  1. JapaneseFont
+  2. KoreanFont
+  3. RussianFont
+  4. DefaultFont
+
+## com.perblue.rpg.util.NotificationHelper$NotificationType
+Values (29):
+  0. INVALID
+  1. FREE_STAMINA
+  2. STORE_RESTOCK
+  3. STAMINA_FULL
+  4. POWER_POINTS_FULL
+  5. FIGHT_PIT_REWARDS_WARNING
+  6. REMOVAL
+  7. FIGHT_PIT_PROMOTION
+  8. FIGHT_PIT_DEMOTION_WARNING
+  9. NEW_PLAYER_1
+  10. NEW_PLAYER_2
+  11. NEW_PLAYER_3
+  12. NEW_PLAYER_4
+  13. NEW_PLAYER_5
+  14. NEW_PLAYER_6
+  15. NEW_PLAYER_7
+  16. CRYPT_RAID_ENDING
+  17. TITAN_TEMPLE_INVITE
+  18. SERVER_UPDATES
+  19. GUILD_WAR
+  20. GUILD_WAR_REG_START
+  21. GUILD_WAR_REG_WARNING
+  22. GUILD_CHAT
+  23. GUILD_WALL_CHAT
+  24. PRIVATE_CHAT
+  25. LAPSED_CATCH_UP_GIFT_5_DAY
+  26. LAPSED_CATCH_UP_GIFT_10_DAY
+  27. LAPSED_CATCH_UP_GIFT_15_DAY
+  28. ALL_PUSH_NOTIFICATIONS
+
+## com.perblue.rpg.util.PreferenceKey
+Values (11):
+  0. INSTALL_REFERRER
+  1. REGISTRATION
+  2. REFERRAL_CODE
+  3. NUM_ATTACKS
+  4. TROOP_REQUEST_MSG
+  5. EVENT_ID
+  6. HAS_ACCOUNT
+  7. GL_EXTENSIONS_SENT
+  8. LAST_BETA_PAYMENT_AWARD
+  9. LAST_LOGOUT
+  10. CREATION_TIME
+  field: public static final String DELIMITER
+  method: getCreationTimeKey(long) -> String
+
+## com.perblue.rpg.util.SkillTextHelper$MathTokens
+Values (6):
+  0. add
+  1. sub
+  2. mul
+  3. div
+  4. value
+  5. skill
+
+## com.perblue.rpg.util.SkillTextHelper$Param
+Values (8):
+  0. x
+  1. y
+  2. z
+  3. w
+  4. duration
+  5. lvl
+  6. cooldown
+  7. hp
+
+## com.perblue.rpg.util.SkillTextHelper$ScalesOffOf
+Values (4):
+  0. ATTACK_DAMAGE
+  1. SKILL_POWER
+  2. LEVEL
+  3. NONE
+
+## com.perblue.rpg.util.TimeType
+Values (4):
+  0. DAYS
+  1. HOURS
+  2. MINUTES
+  3. SECONDS
+
+## com.perblue.rpg.util.UserPref
+Values (37):
+  0. MUSIC_ENABLED
+  1. SOUND_ENABLED
+  2. NOTIF_FREE_STAMINA
+  3. NOTIF_STORE_RESTOCK
+  4. NOTIF_STAMINA_FULL
+  5. NOTIF_POWER_POINTS_FULL
+  6. NOTIF_FIGHT_PIT_REWARDS_WARNING
+  7. NOTIF_FIGHT_PIT_PROMOTION
+  8. NOTIF_FIGHT_PIT_DEMOTION_WARNING
+  9. NOTIF_CRYPT_RAID_ENDING
+  10. GLOBAL_CHAT_PREVIEW_ON
+  11. GUILD_CHAT_PREVIEW_ON
+  12. ALL_PUSH_NOTIFICATIONS
+  13. MUSIC_LEVEL
+  14. SOUND_LEVEL
+  15. VIP_CHAT_PREVIEW_ON
+  16. NOTIF_TITAN_TEMPLE_INVITE
+  17. NOTIF_SERVER_UPDATES
+  18. NOTIF_GUILD_WAR
+  19. NOTIF_GUILD_CHAT
+  20. GUILD_WALL_CHAT_PREVIEW_ON
+  21. PERSONAL_MESSAGE_PREVIEW_ON
+  22. GUILD_PRIVATE_CHAT
+  23. GLOBAL_PRIVATE_CHAT
+  24. NOTIF_GUILD_WALL_CHAT
+  25. NOTIF_PRIVATE_CHAT
+  26. CHALLENGES_MAGIC_DIFFICULTY
+  27. CHALLENGES_DRAGONS_DIFFICULTY
+  28. CHALLENGES_PHYSICAL_DIFFICULTY
+  29. MOUNTAIN_CAVES_DIFFICULTY
+  30. MOUNTAIN_SUMMIT_DIFFICULTY
+  31. BOSS_PIT_WIZARD_DIFFICULTY
+  32. BOSS_PIT_PLANT_DIFFICULTY
+  33. BOSS_PIT_COLOSSUS_DIFFICULTY
+  34. RUNE_OFFERING_TRAY_SHOW_SETS
+  35. HERO_SORT
+  36. CHAT_DROPDOWN_OPEN
+  field: public static final String USER_PREFS_KEY
+  field: private static m prefs
+  field: private static Map userPrefs
+  field: private int defaultInt
+  field: private boolean defaultVal
+  field: private boolean isBoolean
+  field: private boolean userSpecific
+  method: getPreferredHeroSort() -> HeroSort
+  method: getPrefForNotif(NotificationType) -> UserPref
+  method: setDifficulty(GameMode, ModeDifficulty, UnitType) -> void
+  method: getDefaultInt() -> int
+  method: getPrefForModeDifficulty(GameMode, UnitType) -> UserPref
+  method: getPrefForChatRoom(ChatRoomType) -> UserPref
+  method: setPreferredHeroSort(HeroSort) -> void
+  method: initializeUser(long, m, Map) -> void
+  method: getDifficulty(GameMode, UnitType) -> ModeDifficulty
+  method: get() -> boolean
+  method: getInt() -> int
+  method: getDefault() -> boolean
+  method: initialize(m) -> void
+  method: set(int) -> void
+  method: set(boolean) -> void
+  method: set(boolean, boolean) -> void
+  method: set(int, boolean) -> void
+
+## com.perblue.rpg.util.localization.ClientErrorCode
+Values (245):
+  0. ERROR
+  1. INTERNAL_SERVER_CONNECTION_DOWN
+  2. TOO_MANY_REQUESTS
+  3. USER_REQUIRED
+  4. NOT_ENOUGH_GOLD
+  5. NOT_ENOUGH_DIAMONDS
+  6. PURCHASE_ERROR
+  7. TRANSACTION_ALREADY_COMPLETE
+  8. CANT_FIND_HOST
+  9. CANT_CONNECT
+  10. SERVER_TIMEOUT
+  11. GENERIC_CONNECTION_ERROR
+  12. SERVER_CONNECTION_LOST
+  13. BAD_TIME
+  14. CLIENT_OUT_OF_SYNC
+  15. INVALID_RECEIPT
+  16. ITEM_SLOT_FULL
+  17. DONT_HAVE_ITEM
+  18. WRONG_ITEM
+  19. AT_MAX_STARS
+  20. NOT_ENOUGH_STONES
+  21. AT_MAX_RARITY
+  22. MISSING_GEAR
+  23. DONT_HAVE_SKILL
+  24. SKILL_ABOVE_HERO_LEVEL
+  25. SKILL_AT_MAX_LEVEL
+  26. NOT_ENOUGH_POWER_POINTS
+  27. ALREADY_HAVE_HERO
+  28. HERO_ABOVE_TEAM_LEVEL
+  29. NOT_ENOUGH_STAMINA
+  30. MAX_LEVEL_HERO
+  31. MAX_HERO_FOR_TEAM_LEVEL
+  32. STAMINA_FULL
+  33. STAMINA_PURCHASES_USED
+  34. GOLD_PURCHASES_USED
+  35. POWER_POINTS_FULL
+  36. NOT_ENOUGH_CHESTS
+  37. BUY_CHEST_VERIFICATION_ERROR
+  38. MAIL_MESSAGE_NOT_FOUND
+  39. CRAFTING_MISSING_PARTS
+  40. TRADER_ITEM_NOT_FOUND
+  41. CANT_SELL_ITEM
+  42. NOT_ENOUGH_RAID_TICKETS
+  43. CANT_CLAIM_REWARD
+  44. AVATAR_NOT_UNLOCKED
+  45. TOO_MANY_HEROES
+  46. MISSING_HERO
+  47. INVALID_LOOT
+  48. NO_ELITE_CAMPAIGN_RESETS_LEFT
+  49. HERO_LEVEL_TOO_LOW
+  50. FEATURE_NOT_UNLOCKED
+  51. NOT_ENOUGH_DAILY_CHANCES
+  52. CAMPAIGN_LEVEL_LOCKED
+  53. CAMPAIGN_LEVEL_RAID_LOCKED
+  54. QUEST_REQUIREMENTS_NOT_SATISFIED
+  55. HERO_REQUIRED
+  56. FIGHT_PIT_RESETS_USED
+  57. FIGHT_PIT_ON_COOLDOWN
+  58. FIGHT_PIT_CANT_ATTACK_LOWER
+  59. FIGHT_PIT_CANT_ATTACK_CROSS
+  60. NO_ATTACK_SERVER_RESTART
+  61. NOT_ENOUGH_FIGHT_TOKENS
+  62. FIGHT_PIT_PROMOTION_REWARD_ALREADY_CLAIMED
+  63. FIGHT_PIT_CHANCES_USED
+  64. NO_FIGHT_PIT_DEFENSE
+  65. TEAM_LEVEL_LOCK
+  66. GAME_MODE_LOCKED
+  67. GAME_MODE_CHANCES_GONE
+  68. GAME_MODE_COOLDOWN
+  69. GAME_MODE_NOT_OPEN
+  70. DRAGONS_ONLY
+  71. EXPEDITION_HERO_TOO_LOW
+  72. EXPEDITION_HERO_DEAD
+  73. NO_AVAILABLE_EXPEDTION_CHEST
+  74. CANT_CREATE_GUILD_WHILE_IN_GUILD
+  75. ONLY_LEADERS_CAN_ACCEPT_NEW_MEMBERS
+  76. GUILD_IS_FULL
+  77. CANT_JOIN_GUILD_WHILE_IN_GUILD
+  78. CANT_CLAIM_THIS_GUILD
+  79. ONLY_RULER_CAN_CROWN_LEADER
+  80. ONLY_RULER_CAN_DEMOTE_OFFICERS
+  81. ONLY_RULER_CAN_PROMOTE_OFFICERS
+  82. ONLY_LEADERS_CAN_EDIT_GUILD
+  83. ONLY_RULER_CAN_EDIT_GUILD_EMBLEM
+  84. TEAM_LEVEL_TOO_LOW_FOR_GUILD
+  85. REQUEST_LIMIT
+  86. GUILD_MEMBERSHIP_CLOSED
+  87. GUILD_DOES_NOT_EXIST
+  88. CANT_KICK_LEADERS
+  89. ONLY_LEADERS_CAN_KICK_FROM_GUILD
+  90. NOT_IN_GUILD
+  91. MERCENARY_NO_LONGER_EXISTS
+  92. MERCENARY_ALREADY_HIRED
+  93. CANT_HIRE_OWN_HERO
+  94. HERO_LEVEL_TOO_HIGH_FOR_HIRE
+  95. CAN_ONLY_USE_ONE_OF_EACH_HERO
+  96. MERCENARIES_AT_DIFFERENT_GUILD
+  97. NO_OPPONENTS_FOUND
+  98. ONLY_RULER_CAN_DISBAND
+  99. NOT_ENOUGH_GOLD_NO_ALCHEMY
+  100. MAX_ENCHANT
+  101. CRYPT_RAID_OVER
+  102. CRYPT_RAID_NOT_IN_GUILD
+  103. CRYPT_RAID_OPPONENT_DEFEATED
+  104. CRYPT_HERO_USED
+  105. CRYPT_RAID_ATTACK_IN_PROGRESS
+  106. CRYPT_RAID_ATTACK_NOT_IN_PROGRESS
+  107. NOT_ENOUGH_GUILD_TOKENS
+  108. NOT_ENOUGH_EXPEDITION_TOKENS
+  109. CRYPT_RAID_OPPONENT_PROGRESSED
+  110. NEED_TO_USE_YOUR_HERO_IN_CRYPT
+  111. TRADER_NOT_AVAILABLE
+  112. TRADER_ALREADY_UNLOCKED
+  113. CANT_PROMOTE_THAT_RANK
+  114. CANT_DEMOTE_THAT_RANK
+  115. TOO_MANY_BLOCKED_USERS
+  116. CHEST_EVENT_ENDED
+  117. GUILD_SETTINGS_PERMISSION_ERROR
+  118. CANT_KICK_HIGHER_MEMBERS
+  119. COLISEUM_RESETS_USED
+  120. COLISEUM_ON_COOLDOWN
+  121. COLISEUM_CANT_ATTACK_LOWER
+  122. COLISEUM_CANT_ATTACK_CROSS
+  123. NOT_ENOUGH_COLISEUM_TOKENS
+  124. COLISEUM_PROMOTION_REWARD_ALREADY_CLAIMED
+  125. COLISEUM_CHANCES_USED
+  126. NO_COLISEUM_DEFENSE
+  127. NO_EXPEDITION_IN_PROGRESS
+  128. CANT_DROP_NORMAL_EXPEDITION
+  129. COMPLETE_PREVIOUS_EXPEDITION_FIRST
+  130. GUILD_RANK_OUT_OF_SYNC
+  131. NOT_MODERATOR
+  132. INVALID_NAME
+  133. TEMPLE_USER_ALREADY_INVITED
+  134. FREE_TEMPLE_INVITES_USED
+  135. CANT_EDIT_GUILD_WALL
+  136. TITAN_TEMPLE_EXPIRED
+  137. NOT_INVITED_TO_TITAN_TEMPLE
+  138. TITAN_ALREADY_KILLED
+  139. TITAN_TEMPLE_ATTACK_IN_PROGRESS
+  140. TITAN_TEMPLE_ATTACK_NOT_IN_PROGRESS
+  141. TITAN_REWARD_ALREADY_CLAIMED
+  142. CRYPT_DIFFICULTY_TOO_HIGH
+  143. SHARD_DOESNT_EXIST
+  144. ABOVE_SHARD_TEAM_LEVEL
+  145. ABOVE_SHARD_RARITY
+  146. ABOVE_SHARD_CONTENT
+  147. BOSS_PIT_WRONG_PHASE
+  148. BOSS_PIT_WRONG_BOSS
+  149. BOSS_PIT_BOSS_COMPLETE
+  150. BOSS_PIT_TOO_DIFFICULT
+  151. NOT_ENOUGH_SOULMART_TOKENS
+  152. ITEM_CANT_BE_USED
+  153. STAMINA_FULL_ITEM
+  154. CANT_USE_WHILE_DOUBLE_DROP_EVENT_ACTIVE
+  155. CANT_USE_ALREADY_MINIMUM_COST
+  156. CANT_USE_ELITE_LOCKED
+  157. CANT_REFRESH_THAT_MERCHANT
+  158. CANT_DO_CRYPT_RAID
+  159. QUEST_LOCKED
+  160. GUILD_MISSING_WAR_PERMISSION
+  161. NOT_IN_REGISTRATION_PERIOD
+  162. NOT_ENOUGH_WAR_MEMBERS
+  163. ALREADY_REGISTERED_FOR_WAR
+  164. WAR_NOT_ACTIVE
+  165. GUILD_NOT_AT_WAR
+  166. GUILD_ALREADY_IN_BATTLE
+  167. NOT_ENOUGH_WAR_TICKETS
+  168. NO_WAR_MATCH_FOUND
+  169. GUILD_NOT_IN_BATTLE
+  170. GUILD_WAR_HERO_USED
+  171. GUILD_WAR_NOT_IN_BATTLE
+  172. GUILD_WAR_OPPONENT_DEFEATED
+  173. GUILD_WAR_ATTACK_IN_PROGRESS
+  174. GUILD_WAR_ATTACK_NOT_IN_PROGRESS
+  175. DEFEAT_PREVIOUS_GUILD_WAR_LINEUP
+  176. GUILD_WAR_NO_ATTACKS
+  177. MERCENARY_ALREADY_POSTED
+  178. GUILD_WAR_CANT_SURRENDER_YET
+  179. NOT_ELIGIBLE_FOR_WAR_REWARDS
+  180. WAR_REWARD_ALREADY_CLAIMED
+  181. PICK_WAR_REWARDS_ERROR
+  182. GUILD_CANT_SURRENDER_VICTORIOUS_BATTLE
+  183. NOT_ENOUGH_WAR_TOKENS
+  184. WAR_REGISTRATION_CLOSED
+  185. INVALID_LINEUP
+  186. CANT_ATTACH_RUNE_NO_HERO
+  187. CANT_ATTACH_RUNE_WRONG_HERO
+  188. RUNE_ALREADY_ATTACHED
+  189. RUNE_ALREADY_REMOVED
+  190. NOT_ENOUGH_RUNICITE
+  191. CANT_SELL_ATTACHED_RUNE
+  192. RUNE_AT_MAX_LEVEL
+  193. KEYSTONE_RUNE_ALREADY_IMBUED
+  194. NOT_ENOUGH_SOULSTONES
+  195. REMOVE_RUNE_RUNE_LIMIT
+  196. CAMPAIGN_RUNE_LIMIT
+  197. MERCHANT_RUNE_LIMIT
+  198. SHRINE_RUNE_LIMIT
+  199. NOT_ENOUGH_WAR_MEMBERS_BATTLE
+  200. CANT_USE_NO_EVENT_CHEST
+  201. RARITY_CANT_BE_LEGENDARY
+  202. RARITY_CAN_NOT_BE_DEFAULT
+  203. STARS_TOO_LOW
+  204. CANT_GO_DOWN_IN_RARITY
+  205. CANT_ADD_FRIEND_BLOCKED
+  206. CANT_PM_NOT_FRIENDS
+  207. CANT_DELETE_GUILD_WALL
+  208. CANT_EDIT_OTHER_GUILD_WALL
+  209. YOU_HAVE_TOO_MANY_FRIENDS
+  210. THEY_HAVE_TOO_MANY_FRIENDS
+  211. CANT_PM_BLOCKED
+  212. GUILD_MISSING_WAR_MEMBER_PERMISSION
+  213. CANT_ADD_FRIEND_BLOCKED_BY_YOU
+  214. RUNE_AT_MAX_STARS
+  215. CANT_FUSE_DIFFERENT_RUNE_TYPES
+  216. NEW_USER_WRONG_SHARD
+  217. LOGIN_WRONG_SHARD
+  218. CANT_ADD_FRIEND_OTHER_SERVER
+  219. CANT_PM_OTHER_SERVER
+  220. FEATURE_SHARD_LOCKED
+  221. FEATURE_TEAM_LEVEL_LOCKED
+  222. RUNICITE_PURCHASES_USED
+  223. CANT_PM_BLOCKED_BY_YOU
+  224. RUNE_AT_MAX_LEVEL_AND_STARS
+  225. CRYPT_RAID_NO_ATTACKS_LEFT
+  226. ALREADY_HAVE_SKIN
+  227. CANT_BUY_SKIN
+  228. NO_MORE_VIP_MERCHANT_REFRESHES
+  229. NO_MORE_RESETS
+  230. NEEDS_THREE_STARS
+  231. NOT_ENOUGH_SHRINE_ROLLS
+  232. NOT_ENOUGH_BAZAAR_TOKENS
+  233. CANT_RAISE_EXPEDITION_LEVEL
+  234. RAID_TICKET_PURCHASES_USED
+  235. GUILD_NOT_REGISTERED_FOR_WAR
+  236. CANT_USE_WHILE_XP_BONUS_EVENT_ACTIVE
+  237. CANT_USE_WHILE_BONUS_EVENT_DIFF_RATE
+  238. CRAFTING_INVALID_DATA
+  239. BOSS_BATTLE_NOT_AVAILABLE
+  240. NO_MORE_FREE_BOSS_BATTLE_RESETS
+  241. NO_MORE_FREE_BOSS_BATTLE_ADVANCES
+  242. CLAIM_REWARD_EVENT_EXPIRED
+  243. CANT_USE_EXPERT_LOCKED
+  244. DONT_HAVE_GEAR_TICKET
+  method: supportsFormatting(ClientErrorCode) -> boolean
+  method: supportsFormattingForString(ClientErrorCode) -> boolean
+
+## com.perblue.rpg.util.localization.Language
+Values (17):
+  0. ENGLISH
+  1. GERMAN
+  2. FRENCH
+  3. SPANISH
+  4. RUSSIAN
+  5. KOREAN
+  6. JAPANESE
+  7. SIMPCHINESE
+  8. TRADCHINESE
+  9. INDONESIAN
+  10. ITALIAN
+  11. TURKISH
+  12. DANISH
+  13. SWEDISH
+  14. NORWEGIAN
+  15. DUTCH
+  16. BRAZILIAN
+  field: private static Language[] values
+  field: private String code
+  field: private boolean inBeta
+  method: getNormalizedLanguage(String) -> String
+  method: isCJKRFont(Language) -> boolean
+  method: isInBeta() -> boolean
+  method: getCode() -> String
+  method: valuesCached() -> Language[]
+  method: getLanguage(String) -> Language
+
+## com.tapjoy.TapjoyErrorMessage$ErrorType
+Values (5):
+  0. INTERNAL_ERROR
+  1. SDK_ERROR
+  2. SERVER_ERROR
+  3. INTEGRATION_ERROR
+  4. NETWORK_ERROR
+  field: private static final ErrorType[] a
+
+## com.tapjoy.internal.ag
+Values (16):
+  0. UNSPECIFIED
+  1. PORTRAIT
+  2. LANDSCAPE
+  3. SQUARE
+  4. NATURAL_PORTRAIT
+  5. RIGHT_LANDSCAPE
+  6. REVERSE_PORTRAIT
+  7. LEFT_LANDSCAPE
+  8. NATURAL_LANDSCAPE
+  9. RIGHT_PORTRAIT
+  10. REVERSE_LANDSCAPE
+  11. LEFT_PORTRAIT
+  12. NATURAL_SQUARE
+  13. RIGHT_SQUARE
+  14. REVERSE_SQUARE
+  15. LEFT_SQUARE
+  field: private static final ag[] s
+  field: private final ag q
+  field: private final ag r
+  method: b() -> boolean
+  method: b(Context) -> ag
+  method: c() -> int
+  method: a() -> boolean
+  method: a(Context) -> ag
+
+## com.tapjoy.internal.aj$a
+  field: private static final int[] e
+  method: a() -> int[]
+
+## com.tapjoy.internal.bv
+Values (8):
+  0. EMPTY_ARRAY
+  1. NONEMPTY_ARRAY
+  2. EMPTY_OBJECT
+  3. DANGLING_NAME
+  4. NONEMPTY_OBJECT
+  5. EMPTY_DOCUMENT
+  6. NONEMPTY_DOCUMENT
+  7. CLOSED
+  field: private static final bv[] i
+
+## com.tapjoy.internal.bx
+Values (10):
+  0. BEGIN_ARRAY
+  1. END_ARRAY
+  2. BEGIN_OBJECT
+  3. END_OBJECT
+  4. NAME
+  5. STRING
+  6. NUMBER
+  7. BOOLEAN
+  8. NULL
+  9. END_DOCUMENT
+  field: private static final bx[] k
+
+## com.tapjoy.internal.dh$a
+Values (6):
+  0. NEW
+  1. STARTING
+  2. RUNNING
+  3. STOPPING
+  4. TERMINATED
+  5. FAILED
+  field: private static final a[] g
+
+## com.tapjoy.internal.em$a
+Values (2):
+  0. SDK_ANDROID
+  1. RPC_ANALYTICS
+  field: private static final a[] b
+  field: public byte a
+  method: a(byte) -> a
+
+## com.tapjoy.internal.et$c
+  field: private static final int[] f
+  method: a() -> int[]
+
+## com.tapjoy.internal.fn$a
+  field: private static final int[] e
+
+## com.tapjoy.internal.gm
+Values (11):
+  0. Not Yet
+  1. Okay
+  2. Connection Error
+  3. Host Not Found
+  4. Network Timeout
+  5. Internal Error
+  6. Host Verification Error
+  7. Interrupted
+  8. Invalid ORG ID
+  9. Configuration Error
+  10. Partial Profile
+  field: private static final gm[] n
+  field: final String l
+  field: private final String m
+  method: toString() -> String
+
+## com.tapjoy.internal.gn$c
+Values (3):
+  0. doProfileRequest
+  1. doPackageScan
+  2. init
+  field: private static final c[] d
+
+## com.tapjoy.internal.hy$i
+Values (3):
+  0. APP
+  1. CAMPAIGN
+  2. CUSTOM
+  field: private static b e
+  field: private static final i[] f
+  field: final int d
+  method: a(int) -> i
+  method: a() -> int
+
+## com.tapjoy.mraid.util.NavigationStringEnum
+Values (5):
+  0. NONE
+  1. CLOSE
+  2. BACK
+  3. FORWARD
+  4. REFRESH
+  field: private static final NavigationStringEnum[] b
+  field: private String a
+  method: fromString(String) -> NavigationStringEnum
+  method: getText() -> String
+
+## com.tapjoy.mraid.util.TransitionStringEnum
+Values (7):
+  0. DEFAULT
+  1. DISSOLVE
+  2. FADE
+  3. ROLL
+  4. SLIDE
+  5. ZOOM
+  6. NONE
+  field: private static final TransitionStringEnum[] b
+  field: private String a
+  method: fromString(String) -> TransitionStringEnum
+  method: getText() -> String
+
+## com.tapjoy.mraid.view.MraidView$Action
+Values (2):
+  0. PLAY_AUDIO
+  1. PLAY_VIDEO
+  field: private static final Action[] a
+
+## com.tapjoy.mraid.view.MraidView$PLACEMENT_TYPE
+Values (2):
+  0. INLINE
+  1. INTERSTITIAL
+  field: private static final PLACEMENT_TYPE[] a
+
+## com.tapjoy.mraid.view.MraidView$VIEW_STATE
+Values (6):
+  0. DEFAULT
+  1. RESIZED
+  2. EXPANDED
+  3. HIDDEN
+  4. LEFT_BEHIND
+  5. OPENED
+  field: private static final VIEW_STATE[] a
+
+## com.tapjoy.mraid.view.MraidView$customCloseState
+Values (3):
+  0. HIDDEN
+  1. OPEN
+  2. UNKNOWN
+  field: private static final customCloseState[] a
+
+## com.tune.c.a.a.c
+Values (4):
+  0. NONE
+  1. MD5
+  2. SHA1
+  3. SHA256
+  field: private static final c[] e
+
+## com.tune.c.a.a.d
+Values (6):
+  0. STRING
+  1. DATETIME
+  2. BOOLEAN
+  3. FLOAT
+  4. GEOLOCATION
+  5. VERSION
+  field: private static final d[] g
+
+## com.tune.c.g.a.f$a
+  field: private static final int[] d
+  method: a() -> int[]
+
+## com.zendesk.belvedere.BelvedereSource
+Values (2):
+  0. Camera
+  1. Gallery
+
+## com.zendesk.logger.Logger$d
+Values (5):
+  0. VERBOSE
+  1. DEBUG
+  2. INFO
+  3. WARN
+  4. ERROR
+  field: private static final d[] g
+  field: private final int f
+
+## com.zendesk.sdk.attachment.ZendeskBelvedereProvider
+Values (1):
+  0. INSTANCE
+  field: private Belvedere mBelvedere
+  method: getBelvedere(Context) -> Belvedere
+
+## com.zendesk.sdk.deeplinking.ZendeskDeepLinking
+Values (1):
+  0. INSTANCE
+  field: private WeakHashMap mActiveHandlers
+  method: getCompatibleEntries(ActionType, ActionData) -> List
+  method: getArticleIntent(Context, Article, String, ArrayList, Intent, String, String, String) -> Intent
+  method: getArticleIntent(Context, SimpleArticle, String, ArrayList, Intent) -> Intent
+  method: getArticleIntent(Context, Article, String, ArrayList, Intent) -> Intent
+  method: getArticleIntent(Context, SimpleArticle, String, ArrayList, Intent, String, String, String) -> Intent
+  method: refreshComments(String) -> boolean
+  method: registerAction(ActionHandler, Action[]) -> void
+  method: unregisterAction(ActionHandler) -> void
+  method: getRequestIntent(Context, String, String, ArrayList, Intent, String, String, String) -> Intent
+  method: getRequestIntent(Context, String, String, ArrayList, Intent) -> Intent
+  method: canHandle(ActionType, ActionData) -> boolean
+  method: execute(ActionType, ActionData) -> void
+
+## com.zendesk.sdk.deeplinking.actions.ActionType
+Values (1):
+  0. RELOAD_COMMENT_STREAM
+
+## com.zendesk.sdk.deeplinking.targets.DeepLinkType
+Values (3):
+  0. Request
+  1. Article
+  2. Unknown
+
+## com.zendesk.sdk.feedback.ui.AttachmentContainerHost$AttachmentState
+Values (3):
+  0. UPLOADING
+  1. UPLOADED
+  2. DISABLE
+
+## com.zendesk.sdk.model.access.AuthenticationType
+Values (2):
+  0. JWT
+  1. ANONYMOUS
+  field: private String authenticationType
+  method: getAuthenticationType() -> String
+  method: getAuthType(String) -> AuthenticationType
+
+## com.zendesk.sdk.model.helpcenter.AttachmentType
+Values (2):
+  0. INLINE
+  1. BLOCK
+  field: private String attachmentType
+  method: getAttachmentType() -> String
+
+## com.zendesk.sdk.model.helpcenter.SortBy
+Values (4):
+  0. POSITION
+  1. TITLE
+  2. CREATED_AT
+  3. UPDATED_AT
+  method: getApiValue() -> String
+
+## com.zendesk.sdk.model.helpcenter.SortOrder
+Values (2):
+  0. ASCENDING
+  1. DESCENDING
+  field: private final String apiValue
+  method: getApiValue() -> String
+
+## com.zendesk.sdk.network.impl.ZendeskConfig
+Values (1):
+  0. INSTANCE
+  field: public static final int HEADER_SUFFIX_MAX_LENGTH
+  field: private static final String LOG_TAG
+  field: private static final String SLASH
+  field: private ApplicationScope applicationScope
+  field: private boolean initialised
+  field: private List uaHeaderSuffixes
+  field: private i zendeskConfigHelper
+  method: getSdkOptions() -> SdkOptions
+  method: getUserAgentHeader() -> String
+  method: initWithStubs() -> void
+  method: isDevelopment() -> boolean
+  method: disablePush(String, ZendeskCallback) -> void
+  method: enablePush(String, ZendeskCallback) -> void
+  method: getDeviceLocale() -> Locale
+  method: setCoppaEnabled(boolean) -> void
+  method: setDeviceLocale(Locale) -> void
+  method: setSdkOptions(SdkOptions) -> void
+  method: clearUserAgentHeaderSuffixes() -> void
+  method: enablePushWithIdentifier(String, ZendeskCallback) -> void
+  method: enablePushWithUAChannelId(String, ZendeskCallback) -> void
+  method: isAuthenticationAvailable() -> boolean
+  method: buildUserAgentHeader() -> String
+  method: initApplicationScope(ApplicationScope) -> void
+  method: suffixContainsInvalidCharacter(Pair) -> boolean
+  method: suffixWouldMakeHeaderTooLong(Pair) -> boolean
+  method: addUserAgentHeaderSuffix(Pair) -> boolean
+  method: getZendeskUrl() -> String
+  method: getOauthClientId() -> String
+  method: isCoppaEnabled() -> boolean
+  method: getCustomFields() -> List
+  method: setCustomFields(List) -> void
+  method: getTicketFormId() -> Long
+  method: setTicketFormId(Long) -> void
+  method: getMobileSettings() -> SafeMobileSettings
+  method: setIdentity(Identity) -> void
+  method: getApplicationId() -> String
+  method: isInitialized() -> boolean
+  method: storage() -> StorageStore
+  method: getSettings() -> MobileSettings
+  method: provider() -> ProviderStore
+  method: init(Context, String, String, String, ZendeskCallback) -> void
+  method: init(Context, String, String, String) -> void
+  method: reset(Context) -> void
+
+## com.zendesk.sdk.network.impl.m$a
+Values (2):
+  0. Identifier
+  1. UrbanAirshipChannelId
+## com.zendesk.sdk.requests.ViewRequestFragment$a
+  field: private static final int[] d
+  method: a() -> int[]
+
+## com.zendesk.sdk.requests.b
+Values (1):
+  0. INSTANCE
+  field: private static final String b
+  field: private static final b[] d
+  field: private ae c
+  method: a(Attachment, Context, ZendeskCallback, Belvedere) -> void
+
+## com.zendesk.sdk.support.SupportActivity$StartConfiguration
+Values (4):
+  0. CATEGORIES
+  1. SECTIONS
+  2. ARTICLES
+  3. ARTICLES_LIST
+  field: private final String extraDataKey
+  method: getExtraDataKey() -> String
+
+## com.zendesk.sdk.ui.LoadingState
+Values (3):
+  0. LOADING
+  1. DISPLAYING
+  2. ERRORED
+
+## com.zendesk.sdk.ui.ZendeskPicassoTransformationFactory
+Values (1):
+  0. INSTANCE
+  method: getRoundedTransformation(int, int) -> ag
+  method: getResizeTransformationHeight(int) -> ag
+  method: getResizeTransformationWidth(int) -> ag
+
+## com.zendesk.sdk.util.UiUtils$ScreenSize
+Values (6):
+  0. UNKNOWN
+  1. UNDEFINED
+  2. X_LARGE
+  3. LARGE
+  4. NORMAL
+  5. SMALL
+
+## okhttp3.CipherSuite
+Values (96):
+  0. TLS_RSA_WITH_NULL_MD5
+  1. TLS_RSA_WITH_NULL_SHA
+  2. TLS_RSA_EXPORT_WITH_RC4_40_MD5
+  3. TLS_RSA_WITH_RC4_128_MD5
+  4. TLS_RSA_WITH_RC4_128_SHA
+  5. TLS_RSA_EXPORT_WITH_DES40_CBC_SHA
+  6. TLS_RSA_WITH_DES_CBC_SHA
+  7. TLS_RSA_WITH_3DES_EDE_CBC_SHA
+  8. TLS_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA
+  9. TLS_DHE_DSS_WITH_DES_CBC_SHA
+  10. TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA
+  11. TLS_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA
+  12. TLS_DHE_RSA_WITH_DES_CBC_SHA
+  13. TLS_DHE_RSA_WITH_3DES_EDE_CBC_SHA
+  14. TLS_DH_anon_EXPORT_WITH_RC4_40_MD5
+  15. TLS_DH_anon_WITH_RC4_128_MD5
+  16. TLS_DH_anon_EXPORT_WITH_DES40_CBC_SHA
+  17. TLS_DH_anon_WITH_DES_CBC_SHA
+  18. TLS_DH_anon_WITH_3DES_EDE_CBC_SHA
+  19. TLS_KRB5_WITH_DES_CBC_SHA
+  20. TLS_KRB5_WITH_3DES_EDE_CBC_SHA
+  21. TLS_KRB5_WITH_RC4_128_SHA
+  22. TLS_KRB5_WITH_DES_CBC_MD5
+  23. TLS_KRB5_WITH_3DES_EDE_CBC_MD5
+  24. TLS_KRB5_WITH_RC4_128_MD5
+  25. TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA
+  26. TLS_KRB5_EXPORT_WITH_RC4_40_SHA
+  27. TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5
+  28. TLS_KRB5_EXPORT_WITH_RC4_40_MD5
+  29. TLS_RSA_WITH_AES_128_CBC_SHA
+  30. TLS_DHE_DSS_WITH_AES_128_CBC_SHA
+  31. TLS_DHE_RSA_WITH_AES_128_CBC_SHA
+  32. TLS_DH_anon_WITH_AES_128_CBC_SHA
+  33. TLS_RSA_WITH_AES_256_CBC_SHA
+  34. TLS_DHE_DSS_WITH_AES_256_CBC_SHA
+  35. TLS_DHE_RSA_WITH_AES_256_CBC_SHA
+  36. TLS_DH_anon_WITH_AES_256_CBC_SHA
+  37. TLS_RSA_WITH_NULL_SHA256
+  38. TLS_RSA_WITH_AES_128_CBC_SHA256
+  39. TLS_RSA_WITH_AES_256_CBC_SHA256
+  40. TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
+  41. TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
+  42. TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
+  43. TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
+  44. TLS_DH_anon_WITH_AES_128_CBC_SHA256
+  45. TLS_DH_anon_WITH_AES_256_CBC_SHA256
+  46. TLS_RSA_WITH_AES_128_GCM_SHA256
+  47. TLS_RSA_WITH_AES_256_GCM_SHA384
+  48. TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
+  49. TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
+  50. TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
+  51. TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+  52. TLS_DH_anon_WITH_AES_128_GCM_SHA256
+  53. TLS_DH_anon_WITH_AES_256_GCM_SHA384
+  54. TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+  55. TLS_ECDH_ECDSA_WITH_NULL_SHA
+  56. TLS_ECDH_ECDSA_WITH_RC4_128_SHA
+  57. TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA
+  58. TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+  59. TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA
+  60. TLS_ECDHE_ECDSA_WITH_NULL_SHA
+  61. TLS_ECDHE_ECDSA_WITH_RC4_128_SHA
+  62. TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA
+  63. TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+  64. TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+  65. TLS_ECDH_RSA_WITH_NULL_SHA
+  66. TLS_ECDH_RSA_WITH_RC4_128_SHA
+  67. TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA
+  68. TLS_ECDH_RSA_WITH_AES_128_CBC_SHA
+  69. TLS_ECDH_RSA_WITH_AES_256_CBC_SHA
+  70. TLS_ECDHE_RSA_WITH_NULL_SHA
+  71. TLS_ECDHE_RSA_WITH_RC4_128_SHA
+  72. TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+  73. TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+  74. TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+  75. TLS_ECDH_anon_WITH_NULL_SHA
+  76. TLS_ECDH_anon_WITH_RC4_128_SHA
+  77. TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA
+  78. TLS_ECDH_anon_WITH_AES_128_CBC_SHA
+  79. TLS_ECDH_anon_WITH_AES_256_CBC_SHA
+  80. TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+  81. TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384
+  82. TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+  83. TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384
+  84. TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+  85. TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+  86. TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256
+  87. TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384
+  88. TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+  89. TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+  90. TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+  91. TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384
+  92. TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+  93. TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+  94. TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256
+  95. TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384
+  field: final String javaName
+  method: forJavaName(String) -> CipherSuite
+  method: javaName() -> String
+
+## okhttp3.HttpUrl$Builder$ParseResult
+Values (5):
+  0. SUCCESS
+  1. MISSING_SCHEME
+  2. UNSUPPORTED_SCHEME
+  3. INVALID_PORT
+  4. INVALID_HOST
+
+## okhttp3.Protocol
+Values (4):
+  0. http/1.0
+  1. http/1.1
+  2. spdy/3.1
+  3. h2
+  field: private final String protocol
+  method: get(String) -> Protocol
+  method: toString() -> String
+
+## okhttp3.TlsVersion
+Values (4):
+  0. TLS_1_2
+  1. TLS_1_1
+  2. TLS_1_0
+  3. SSL_3_0
+  field: final String javaName
+  method: forJavaName(String) -> TlsVersion
+  method: javaName() -> String
+
+## okhttp3.internal.framed.ErrorCode
+Values (18):
+  0. NO_ERROR
+  1. PROTOCOL_ERROR
+  2. INVALID_STREAM
+  3. UNSUPPORTED_VERSION
+  4. STREAM_IN_USE
+  5. STREAM_ALREADY_CLOSED
+  6. INTERNAL_ERROR
+  7. FLOW_CONTROL_ERROR
+  8. STREAM_CLOSED
+  9. FRAME_TOO_LARGE
+  10. REFUSED_STREAM
+  11. CANCEL
+  12. COMPRESSION_ERROR
+  13. CONNECT_ERROR
+  14. ENHANCE_YOUR_CALM
+  15. INADEQUATE_SECURITY
+  16. HTTP_1_1_REQUIRED
+  17. INVALID_CREDENTIALS
+  field: public final int httpCode
+  field: public final int spdyGoAwayCode
+  field: public final int spdyRstCode
+  method: fromHttp2(int) -> ErrorCode
+  method: fromSpdy3Rst(int) -> ErrorCode
+  method: fromSpdyGoAway(int) -> ErrorCode
+
+## okhttp3.internal.framed.HeadersMode
+Values (4):
+  0. SPDY_SYN_STREAM
+  1. SPDY_REPLY
+  2. SPDY_HEADERS
+  3. HTTP_20_HEADERS
+  method: failIfStreamAbsent() -> boolean
+  method: failIfHeadersAbsent() -> boolean
+  method: failIfHeadersPresent() -> boolean
+  method: failIfStreamPresent() -> boolean
+
+## okhttp3.logging.HttpLoggingInterceptor$Level
+Values (4):
+  0. NONE
+  1. BASIC
+  2. HEADERS
+  3. BODY
+
+## org.a.a$b
+Values (5):
+  0. GET
+  1. POST
+  2. PUT
+  3. DELETE
+  4. PATCH
+  field: private static final b[] g
+  field: private final boolean f
+  method: a() -> boolean
+
+## org.a.b.c
+Values (23):
+  0. Initial
+  1. BeforeHtml
+  2. BeforeHead
+  3. InHead
+  4. InHeadNoscript
+  5. AfterHead
+  6. InBody
+  7. Text
+  8. InTable
+  9. InTableText
+  10. InCaption
+  11. InColumnGroup
+  12. InTableBody
+  13. InRow
+  14. InCell
+  15. InSelect
+  16. InSelectInTable
+  17. AfterBody
+  18. InFrameset
+  19. AfterFrameset
+  20. AfterAfterBody
+  21. AfterAfterFrameset
+  22. ForeignContent
+  field: private static String x
+  field: private static final c[] y
+  method: b(String) -> boolean
+  method: a(h, b) -> boolean
+
+## org.a.b.h$h
+Values (6):
+  0. Doctype
+  1. StartTag
+  2. EndTag
+  3. Comment
+  4. Character
+  5. EOF
+  field: private static final h[] g
+
+## org.a.b.k
+Values (67):
+  0. Data
+  1. CharacterReferenceInData
+  2. Rcdata
+  3. CharacterReferenceInRcdata
+  4. Rawtext
+  5. ScriptData
+  6. PLAINTEXT
+  7. TagOpen
+  8. EndTagOpen
+  9. TagName
+  10. RcdataLessthanSign
+  11. RCDATAEndTagOpen
+  12. RCDATAEndTagName
+  13. RawtextLessthanSign
+  14. RawtextEndTagOpen
+  15. RawtextEndTagName
+  16. ScriptDataLessthanSign
+  17. ScriptDataEndTagOpen
+  18. ScriptDataEndTagName
+  19. ScriptDataEscapeStart
+  20. ScriptDataEscapeStartDash
+  21. ScriptDataEscaped
+  22. ScriptDataEscapedDash
+  23. ScriptDataEscapedDashDash
+  24. ScriptDataEscapedLessthanSign
+  25. ScriptDataEscapedEndTagOpen
+  26. ScriptDataEscapedEndTagName
+  27. ScriptDataDoubleEscapeStart
+  28. ScriptDataDoubleEscaped
+  29. ScriptDataDoubleEscapedDash
+  30. ScriptDataDoubleEscapedDashDash
+  31. ScriptDataDoubleEscapedLessthanSign
+  32. ScriptDataDoubleEscapeEnd
+  33. BeforeAttributeName
+  34. AttributeName
+  35. AfterAttributeName
+  36. BeforeAttributeValue
+  37. AttributeValue_doubleQuoted
+  38. AttributeValue_singleQuoted
+  39. AttributeValue_unquoted
+  40. AfterAttributeValue_quoted
+  41. SelfClosingStartTag
+  42. BogusComment
+  43. MarkupDeclarationOpen
+  44. CommentStart
+  45. CommentStartDash
+  46. Comment
+  47. CommentEndDash
+  48. CommentEnd
+  49. CommentEndBang
+  50. Doctype
+  51. BeforeDoctypeName
+  52. DoctypeName
+  53. AfterDoctypeName
+  54. AfterDoctypePublicKeyword
+  55. BeforeDoctypePublicIdentifier
+  56. DoctypePublicIdentifier_doubleQuoted
+  57. DoctypePublicIdentifier_singleQuoted
+  58. AfterDoctypePublicIdentifier
+  59. BetweenDoctypePublicAndSystemIdentifiers
+  60. AfterDoctypeSystemKeyword
+  61. BeforeDoctypeSystemIdentifier
+  62. DoctypeSystemIdentifier_doubleQuoted
+  63. DoctypeSystemIdentifier_singleQuoted
+  64. AfterDoctypeSystemIdentifier
+  65. BogusDoctype
+  66. CdataSection
+  field: private static final char[] ap
+  field: private static final char[] aq
+  field: private static final char[] ar
+  field: private static final String as
+  field: private static final k[] at
+  method: a(j, a) -> void
+
+## org.acra.ReportField
+Values (41):
+  0. REPORT_ID
+  1. APP_VERSION_CODE
+  2. APP_VERSION_NAME
+  3. PACKAGE_NAME
+  4. FILE_PATH
+  5. PHONE_MODEL
+  6. ANDROID_VERSION
+  7. BUILD
+  8. BRAND
+  9. PRODUCT
+  10. TOTAL_MEM_SIZE
+  11. AVAILABLE_MEM_SIZE
+  12. BUILD_CONFIG
+  13. CUSTOM_DATA
+  14. STACK_TRACE
+  15. STACK_TRACE_HASH
+  16. INITIAL_CONFIGURATION
+  17. CRASH_CONFIGURATION
+  18. DISPLAY
+  19. USER_COMMENT
+  20. USER_APP_START_DATE
+  21. USER_CRASH_DATE
+  22. DUMPSYS_MEMINFO
+  23. DROPBOX
+  24. LOGCAT
+  25. EVENTSLOG
+  26. RADIOLOG
+  27. IS_SILENT
+  28. DEVICE_ID
+  29. INSTALLATION_ID
+  30. USER_EMAIL
+  31. DEVICE_FEATURES
+  32. ENVIRONMENT
+  33. SETTINGS_SYSTEM
+  34. SETTINGS_SECURE
+  35. SETTINGS_GLOBAL
+  36. SHARED_PREFERENCES
+  37. APPLICATION_LOG
+  38. MEDIA_CODEC_LIST
+  39. THREAD_DETAILS
+  40. USER_IP
+  method: containsKeyValuePairs() -> boolean
+
+## org.acra.ReportingInteractionMode
+Values (4):
+  0. SILENT
+  1. NOTIFICATION
+  2. TOAST
+  3. DIALOG
+
+## org.acra.b.g$a
+  field: private static final int[] e
+  method: a() -> int[]
+
+## org.acra.e.b$a
+Values (2):
+  0. POST
+  1. PUT
+  field: private static final a[] c
+
+## org.acra.e.b$b
+Values (2):
+  0. FORM
+  1. JSON
+  field: private static final b[] c
+  method: a() -> String
+
+## org.jsoup.nodes.f$a$a
+  field: private static final int[] c
+
+## org.jsoup.nodes.f$b
+  field: private static final int[] d
+
+## org.jsoup.nodes.i$a
+  field: private static final int[] d
+  method: a() -> int[]
+
+
+Total enums: 618

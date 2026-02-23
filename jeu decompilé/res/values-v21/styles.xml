@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse">
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog">
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar">
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar.Horizontal">
+    </style>
+    <style name="Platform.AppCompat">
+        <item name="?0x1010056">true</item>
+        <item name="?0x101009b">?unknown_attr_ref: 1010435</item>
+        <item name="?0x10102cd">false</item>
+        <item name="?0x101032e">?attr/buttonBarStyle</item>
+        <item name="?0x101032f">?attr/buttonBarButtonStyle</item>
+        <item name="?0x1010350">?unknown_attr_ref: 1010435</item>
+    </style>
+    <style name="Platform.AppCompat.Light">
+        <item name="?0x1010056">true</item>
+        <item name="?0x101009b">?unknown_attr_ref: 1010435</item>
+        <item name="?0x10102cd">false</item>
+        <item name="?0x101032e">?attr/buttonBarStyle</item>
+        <item name="?0x101032f">?attr/buttonBarButtonStyle</item>
+        <item name="?0x1010350">?unknown_attr_ref: 1010435</item>
+    </style>
+    <style name="Base.Widget.AppCompat.AutoCompleteTextView">
+        <item name="?0x10100d4">?attr/editTextBackground</item>
+    </style>
+    <style name="Base.Widget.AppCompat.EditText">
+        <item name="?0x10100d4">?attr/editTextBackground</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Button">
+    </style>
+    <style name="Base.TextAppearance.AppCompat">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body1">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body2">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display1">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display2">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display3">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display4">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Headline">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Switch">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.V21.Theme.AppCompat">
+        <item name="?0x1010429">?attr/colorControlNormal</item>
+        <item name="?0x101042a">?attr/colorControlActivated</item>
+        <item name="?0x101042b">?attr/colorButtonNormal</item>
+        <item name="?0x101042c">?attr/colorControlHighlight</item>
+        <item name="?0x1010433">?attr/colorPrimary</item>
+        <item name="?0x1010434">?attr/colorPrimaryDark</item>
+        <item name="?0x1010435">?attr/colorAccent</item>
+        <item name="actionOverflowButtonStyle">?unknown_attr_ref: 10102f6</item>
+        <item name="actionBarSize">?unknown_attr_ref: 10102eb</item>
+        <item name="actionBarDivider">?unknown_attr_ref: 101039b</item>
+        <item name="actionBarItemBackground">@drawable/abc_action_bar_item_background_material</item>
+        <item name="actionModeBackground">?unknown_attr_ref: 10102db</item>
+        <item name="actionModeCloseDrawable">?unknown_attr_ref: 10102dc</item>
+        <item name="textAppearanceLargePopupMenu">?unknown_attr_ref: 1010301</item>
+        <item name="textAppearanceSmallPopupMenu">?unknown_attr_ref: 1010302</item>
+        <item name="homeAsUpIndicator">?unknown_attr_ref: 101030b</item>
+        <item name="actionButtonStyle">?unknown_attr_ref: 10102d8</item>
+        <item name="selectableItemBackground">?unknown_attr_ref: 101030e</item>
+        <item name="selectableItemBackgroundBorderless">?unknown_attr_ref: 101045c</item>
+        <item name="borderlessButtonStyle">?unknown_attr_ref: 101032b</item>
+        <item name="dividerVertical">?unknown_attr_ref: 101030a</item>
+        <item name="dividerHorizontal">?unknown_attr_ref: 101032c</item>
+        <item name="editTextColor">?unknown_attr_ref: 1010351</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="listPreferredItemHeightSmall">?unknown_attr_ref: 1010387</item>
+        <item name="listChoiceBackgroundIndicator">?unknown_attr_ref: 10102f0</item>
+        <item name="buttonStyle">?unknown_attr_ref: 1010048</item>
+        <item name="buttonStyleSmall">?unknown_attr_ref: 1010049</item>
+        <item name="checkboxStyle">?unknown_attr_ref: 101006c</item>
+        <item name="checkedTextViewStyle">?unknown_attr_ref: 10103c8</item>
+        <item name="radioButtonStyle">?unknown_attr_ref: 101007e</item>
+        <item name="ratingBarStyle">?unknown_attr_ref: 101007c</item>
+        <item name="spinnerStyle">?unknown_attr_ref: 1010081</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Dialog">
+        <item name="?0x1010490">@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Light">
+        <item name="?0x1010429">?attr/colorControlNormal</item>
+        <item name="?0x101042a">?attr/colorControlActivated</item>
+        <item name="?0x101042b">?attr/colorButtonNormal</item>
+        <item name="?0x101042c">?attr/colorControlHighlight</item>
+        <item name="?0x1010433">?attr/colorPrimary</item>
+        <item name="?0x1010434">?attr/colorPrimaryDark</item>
+        <item name="?0x1010435">?attr/colorAccent</item>
+        <item name="actionOverflowButtonStyle">?unknown_attr_ref: 10102f6</item>
+        <item name="actionBarSize">?unknown_attr_ref: 10102eb</item>
+        <item name="actionBarDivider">?unknown_attr_ref: 101039b</item>
+        <item name="actionBarItemBackground">@drawable/abc_action_bar_item_background_material</item>
+        <item name="actionModeBackground">?unknown_attr_ref: 10102db</item>
+        <item name="actionModeCloseDrawable">?unknown_attr_ref: 10102dc</item>
+        <item name="textAppearanceLargePopupMenu">?unknown_attr_ref: 1010301</item>
+        <item name="textAppearanceSmallPopupMenu">?unknown_attr_ref: 1010302</item>
+        <item name="homeAsUpIndicator">?unknown_attr_ref: 101030b</item>
+        <item name="actionButtonStyle">?unknown_attr_ref: 10102d8</item>
+        <item name="selectableItemBackground">?unknown_attr_ref: 101030e</item>
+        <item name="selectableItemBackgroundBorderless">?unknown_attr_ref: 101045c</item>
+        <item name="borderlessButtonStyle">?unknown_attr_ref: 101032b</item>
+        <item name="dividerVertical">?unknown_attr_ref: 101030a</item>
+        <item name="dividerHorizontal">?unknown_attr_ref: 101032c</item>
+        <item name="editTextColor">?unknown_attr_ref: 1010351</item>
+        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="listPreferredItemHeightSmall">?unknown_attr_ref: 1010387</item>
+        <item name="listChoiceBackgroundIndicator">?unknown_attr_ref: 10102f0</item>
+        <item name="buttonStyle">?unknown_attr_ref: 1010048</item>
+        <item name="buttonStyleSmall">?unknown_attr_ref: 1010049</item>
+        <item name="checkboxStyle">?unknown_attr_ref: 101006c</item>
+        <item name="checkedTextViewStyle">?unknown_attr_ref: 10103c8</item>
+        <item name="radioButtonStyle">?unknown_attr_ref: 101007e</item>
+        <item name="ratingBarStyle">?unknown_attr_ref: 101007c</item>
+        <item name="spinnerStyle">?unknown_attr_ref: 1010081</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Light.Dialog">
+        <item name="?0x1010490">@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabText">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabView">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.CloseMode">
+        <item name="?0x101013f">56dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow">
+    </style>
+    <style name="Base.Widget.AppCompat.Button">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Small">
+    </style>
+    <style name="Base.Widget.AppCompat.ButtonBar">
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.CheckBox">
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.RadioButton">
+    </style>
+    <style name="Base.Widget.AppCompat.DropDownItem.Spinner">
+    </style>
+    <style name="Base.Widget.AppCompat.ImageButton">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="?0x10102ac">-4dp</item>
+        <item name="?0x1010462">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListPopupWindow">
+    </style>
+    <style name="Base.Widget.AppCompat.ListView">
+    </style>
+    <style name="Base.Widget.AppCompat.ListView.DropDown">
+    </style>
+    <style name="Base.Widget.AppCompat.ListView.Menu">
+    </style>
+    <style name="Base.Widget.AppCompat.PopupMenu">
+    </style>
+    <style name="Base.Widget.AppCompat.PopupMenu.Overflow">
+        <item name="?0x10102ac">-4dp</item>
+        <item name="?0x1010462">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar">
+    </style>
+    <style name="Base.Widget.AppCompat.SeekBar">
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner">
+    </style>
+    <style name="Base.Widget.AppCompat.TextView.SpinnerItem">
+    </style>
+    <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation">
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat">
+        <item name="?0x1010429">?attr/colorControlNormal</item>
+        <item name="?0x101042a">?attr/colorControlActivated</item>
+        <item name="?0x101042b">?attr/colorButtonNormal</item>
+        <item name="?0x101042c">?attr/colorControlHighlight</item>
+        <item name="?0x1010433">?attr/colorPrimary</item>
+        <item name="?0x1010434">?attr/colorPrimaryDark</item>
+        <item name="?0x1010435">?attr/colorAccent</item>
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Dark">
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Light">
+    </style>
+    <style name="TextAppearance.Compat.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media">
+        <item name="?0x1010098">@color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Media">
+        <item name="?0x1010098">@color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media">
+        <item name="?0x1010098">@color/secondary_text_default_material_dark</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title.Media">
+        <item name="?0x1010098">@color/primary_text_default_material_dark</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer">
+        <item name="?0x10100d4">@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionText">
+        <item name="?0x1010034">?unknown_attr_ref: 1010207</item>
+        <item name="?0x1010095">@dimen/notification_action_text_size</item>
+        <item name="?0x1010098">@color/secondary_text_default_material_light</item>
+    </style>
+</resources>

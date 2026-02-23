@@ -1,0 +1,592 @@
+package com.perblue.rpg.ui.widgets.home;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.badlogic.gdx.math.Rectangle;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Table;
+import com.badlogic.gdx.utils.Align;
+import com.badlogic.gdx.utils.Scaling;
+import com.perblue.rpg.RPG;
+import com.perblue.rpg.g2d.ParticleType;
+import com.perblue.rpg.game.ClientActionHelper;
+import com.perblue.rpg.game.objects.UserFlag;
+import com.perblue.rpg.game.tutorial.UIComponentName;
+import com.perblue.rpg.tween.ActorAccessor;
+import com.perblue.rpg.ui.*;
+import com.perblue.rpg.ui.resources.Strings;
+import com.perblue.rpg.ui.resources.UI;
+import com.perblue.rpg.ui.widgets.home.HomeIcon.IconState;
+import com.perblue.rpg.util.UIHelper;
+
+import aurelienribon.tweenengine.*;
+import aurelienribon.tweenengine.equations.Cubic;
+
+public abstract class HomeIconHelper {
+
+	public static boolean isAnimating;
+	public static final boolean DEBUG_HOME_SCREEN = false;
+	
+	private static final Map<HomeIconType, HomeIconData> HOME_ICONS = new HashMap<HomeIconType, HomeIconData>();
+	
+	private static void createData() {
+		isAnimating = false;
+		//CHALLENGES
+		HomeIconData data = new HomeIconData();
+		data.x = 3950;
+		data.y = 1170;
+		data.spineAsset = SpineUIType.MAIN_CHALLENGES;
+		data.width = 340;
+		data.height = 400;
+		data.displayName = Strings.MENU_CHALLENGES;
+		data.foregroundIcon = true;
+		data.clickBounds = new Rectangle(.07f, -.2f, 1f, 1f);
+		HOME_ICONS.put(HomeIconType.CHALLENGES, data);
+		
+		//RUNE SHRINE
+		data = new HomeIconData();
+		data.x = 3600;
+		data.y = 950;
+		data.assetKeyDim = UI.main_screen.stone_circle_lit;
+		data.assetKeyLit = UI.main_screen.stone_circle_lit;
+		data.pressedImage = UI.main_screen.stone_circle_glow;
+		data.pressedImageOffset.x = .05f;
+		data.pressedImageOffset.y = 0.05f;
+		data.pressedImageScale.x = .9f;
+		data.pressedImageScale.y = .9f;
+		data.displayName = Strings.RUNE_SHRINE_TITLE;
+		data.foregroundIcon = false;
+		data.clickBounds = new Rectangle(-.3f, -.2f, 1f, 1f);
+		data.tutorialName = UIComponentName.MAIN_SCREEN_RUNE_SHRINE_BUTTON;
+		HOME_ICONS.put(HomeIconType.RUNE_SHRINE, data);
+
+		//RUNES
+		data = new HomeIconData();
+		data.x = 3020;
+		data.y = 870;
+		data.assetKeyDim = UI.main_screen.house_lit;
+		data.assetKeyLit = UI.main_screen.house_lit;
+		data.pressedImage = UI.main_screen.house_glow;
+		data.pressedImageOffset.x = .05f;
+		data.pressedImageOffset.y = .2f;
+		data.pressedImageScale.x = .9f;
+		data.pressedImageScale.y = .72f;
+		data.displayName = Strings.RUNE_SCREEN_TITLE;
+		data.foregroundIcon = false;
+		data.clickBounds = new Rectangle(0.05f, 0, 1.1f, 1f);
+		data.tutorialName = UIComponentName.MAIN_SCREEN_RUNE_TEMPLE_BUTTON;
+		HOME_ICONS.put(HomeIconType.RUNES, data);
+
+		//GUILD_WAR
+		data = new HomeIconData();
+		data.x = 500;
+		data.y = 700;
+		data.assetKeyDim = UI.main_screen.battleground_dim;
+		data.assetKeyLit = UI.main_screen.battleground_lit;
+		data.displayName = Strings.MENU_GUILD_WAR;
+		data.foregroundIcon = true;
+		data.pressedImage = UI.main_screen.battleground_glow;
+		data.pressedImageOffset.x = .14f;
+		data.pressedImageOffset.y = .03f;
+		data.pressedImageScale.x = .6f;
+		data.pressedImageScale.y = 1f;
+		data.tutorialName = UIComponentName.MAIN_SCREEN_GUILD_WAR_BUTTON;
+		data.clickBounds = new Rectangle(.15f, 0, .8f, .8f);
+		HOME_ICONS.put(HomeIconType.GUILD_WAR, data);
+
+		//PEDDLER
+		data = new HomeIconData();
+		data.x = 5050;
+		data.y = 280;
+		data.textX = -.35f;
+		data.assetKeyDim = UI.main_screen.peddlar_dim;
+		data.assetKeyLit = UI.main_screen.peddlar_lit;
+		data.displayName = Strings.MENU_PEDDLAR;
+		data.foregroundIcon = false;
+		data.pressedImage = UI.main_screen.peddlar_glow;
+		data.pressedImageOffset.x = .25f;
+		data.pressedImageOffset.y = .1f;
+		data.pressedImageScale.x = .95f;
+		data.pressedImageScale.y = .95f;
+		data.clickBounds = new Rectangle(.15f, -.15f, 1.1f, .95f);
+		HOME_ICONS.put(HomeIconType.PEDDLER, data);
+
+		//SOUL_SHOP
+		data = new HomeIconData();
+		data.x = 3350;
+		data.y = 400;
+		data.assetKeyDim = UI.main_screen.dragon_merchant_dim;
+		data.assetKeyLit = UI.main_screen.dragon_merchant_lit;
+		data.displayName = Strings.MENU_SOUL_SHOP;
+		data.foregroundIcon = false;
+		data.pressedImage = UI.main_screen.soul_mart_glow;
+		data.pressedImageOffset.x = -.04f;
+		data.pressedImageOffset.y = -0.09f;
+		data.pressedImageScale.x = 1.18f;
+		data.pressedImageScale.y = 1.18f;
+		data.clickBounds = new Rectangle(.1f, -.05f, 1.3f, .9f);
+		HOME_ICONS.put(HomeIconType.SOUL_SHOP, data);
+
+		//BLACK_MARKET
+		data = new HomeIconData();
+		data.x = 3730;
+		data.y = 500;
+		data.assetKeyDim = UI.main_screen.pawn_shop_dim;
+		data.assetKeyLit = UI.main_screen.pawn_shop_lit;
+		data.displayName = Strings.MENU_PAWN_SHOP;
+		data.foregroundIcon = false;
+		data.pressedImage = UI.main_screen.pawn_shop_glow;
+		data.pressedImageOffset.x = 0f;
+		data.pressedImageOffset.y = -.05f;
+		data.pressedImageScale.x = 1.3f;
+		data.pressedImageScale.y = 1.2f;
+		data.clickBounds = new Rectangle(.05f, -.2f, 1.1f, 1f);
+		HOME_ICONS.put(HomeIconType.BLACK_MARKET, data);
+
+		//SKINS MYSTIC CLOSET
+		data = new HomeIconData();
+		data.x = 4185;
+		data.y = 550;
+		data.assetKeyDim = UI.main_screen.caverns_lit;
+		data.assetKeyLit = UI.main_screen.caverns_lit; 
+		data.displayName = Strings.SKIN_SCREEN_TITLE;
+		data.foregroundIcon = false;
+		data.clickBounds = new Rectangle(.1f, .17f, 1f, 1f);
+		data.pressedImage = UI.main_screen.caverns_glow;
+		data.pressedImageOffset.x = -.1f;
+		data.pressedImageOffset.y = .06f;
+		data.pressedImageScale.x = 1.25f;
+		data.pressedImageScale.y = 1.1f;
+		data.tutorialName = UIComponentName.MAIN_SCREEN_MYSTIC_CLOSET;
+		HOME_ICONS.put(HomeIconType.SKINS, data);
+		
+		//BAZAAR
+		data = new HomeIconData();
+		data.x = 4670;
+		data.y = 430;
+		data.textX = -.1f;
+		data.textY = -.15f;
+		data.assetKeyLit = UI.main_screen.arcane_merchant;
+		data.assetKeyDim = UI.main_screen.arcane_merchant_dim; 
+		data.displayName = Strings.ARCANE_TRADER;
+		data.foregroundIcon = false;
+		data.clickBounds = new Rectangle(.1f, .17f, 1f, 1f);
+		data.pressedImage = UI.main_screen.arcane_merchant_glow;
+		data.pressedImageScale.x = 1f;
+		data.pressedImageScale.y = .95f;
+		HOME_ICONS.put(HomeIconType.ARCANE_MERCHANT, data);
+
+		//CONTESTS
+		data = new HomeIconData();
+		data.x = 600;
+		data.y = 180;
+		data.textY = .15f;
+		data.assetKeyDim = UI.main_screen.tournaments_dim;
+		data.assetKeyLit = UI.main_screen.tournaments_lit;
+		data.displayName = Strings.MENU_CONTESTS;
+		data.foregroundIcon = true;
+		data.clickBounds = new Rectangle(0f, .05f, 1.25f, 1f);
+		data.pressedImage = UI.main_screen.tournaments_glow;
+		data.pressedImageOffset.x = .075f;
+		data.pressedImageOffset.y = .2f;
+		data.pressedImageScale.x = .85f;
+		data.pressedImageScale.y = .72f;
+		HOME_ICONS.put(HomeIconType.CONTESTS, data);
+
+		//DEBUG
+		data = new HomeIconData();
+		data.x = 2950;
+		data.y = 120;
+		data.assetKeyDim = UI.common.gear_unavailable;
+		data.assetKeyLit = UI.common.gear_unavailable;
+		data.displayName = "*Debug*";
+		data.foregroundIcon = true;
+		data.clickBounds = new Rectangle(-2f, -2f, 3f, 3f); 
+		HOME_ICONS.put(HomeIconType.DEBUG, data);
+		
+		//TEMPLE
+		data = new HomeIconData();
+		data.x = 850;
+		data.y = 1080;
+		data.assetKeyDim = UI.main_screen.temple_dim;
+		data.assetKeyLit = UI.main_screen.temple_lit;
+		data.displayName = Strings.TEMPLE_MAIN_SCREEN_TEXT;
+		data.foregroundIcon = true;
+		data.pressedImage = UI.main_screen.temple_glow;
+		data.pressedImageOffset.x = -.28f;
+		data.pressedImageOffset.y = -0.05f;
+		data.pressedImageScale.x = 1.55f;
+		data.pressedImageScale.y = 1.7f;
+		data.tutorialName = UIComponentName.MAIN_SCREEN_TEMPLE_BUTTON;
+		data.clickBounds = new Rectangle(0, -.17f, 1, 1);
+		HOME_ICONS.put(HomeIconType.TEMPLE, data);
+		
+		//EXPEDITION
+		data = new HomeIconData();
+		data.x = 4265;
+		data.y = 340;
+		data.spineAsset = SpineUIType.MAIN_EXPEDITIONS;
+		data.width = 333;
+		data.height = 319;
+		data.displayName = Strings.MENU_EXPEDITION;
+		data.foregroundIcon = true;
+		data.clickBounds = new Rectangle(-.1f, -.15f, 1f, 1.1f);
+		HOME_ICONS.put(HomeIconType.EXPEDITION, data);
+		
+		//COLISEUM
+		data = new HomeIconData();
+		data.x = 1770;
+		data.y = 160;
+		data.textY = .165f;
+		data.assetKeyDim = UI.main_screen.coliseum_dim;
+		data.assetKeyLit = UI.main_screen.coliseum_lit;
+		data.displayName = Strings.MENU_COLISEUM;
+		data.foregroundIcon = true;
+		data.pressedImage = UI.main_screen.coliseum_glow;
+		data.pressedImageOffset.x = -.01f;
+		data.pressedImageOffset.y = .05f;
+		data.pressedImageScale.x = 1.1f;
+		data.pressedImageScale.y = 1.1f;
+		data.clickBounds = new Rectangle(.05f, .05f, .95f, .85f);
+		HOME_ICONS.put(HomeIconType.COLISEUM, data);
+		
+		//BOSS_PIT
+		data = new HomeIconData();
+		data.x = 1100;
+		data.y = 625;
+		data.spineAsset = SpineUIType.MAIN_BOSS_PIT;
+		data.width = 500;
+		data.height = 500;
+		data.displayName = Strings.MENU_BOSS_PIT;
+		data.foregroundIcon = true;
+		data.pressedImage = UI.main_screen.the_real_boss_pit_glow2;
+		data.pressedImageOffset.x = -.07f;
+		data.pressedImageOffset.y = -.15f;
+		data.pressedImageScale.x = 1.3f;
+		data.pressedImageScale.y = .8f;
+		data.tutorialName = UIComponentName.MAIN_SCREEN_BOSS_PIT_BUTTON;
+		data.clickBounds = new Rectangle(0f, -.1f, 1.05f, .5f);
+		HOME_ICONS.put(HomeIconType.BOSS_PIT, data);
+		
+		//MERCHANT
+		data = new HomeIconData();
+		data.x = 1504;
+		data.y = 895;
+		data.spineAsset = SpineUIType.MAIN_TRADER;
+		data.width = 601;
+		data.height = 516;
+		data.displayName = Strings.MENU_MERCHANT;
+		data.foregroundIcon = true;
+		data.enabledEffect = ParticleType.ui_main_lightBugs_LITE_combined;
+		data.clickBounds = new Rectangle(0, -.05f, 1, 1);
+		HOME_ICONS.put(HomeIconType.MERCHANT, data);
+		
+		//SIGN_IN
+		data = new HomeIconData();
+		data.x = 2318;
+		data.y = 540;
+		data.assetKeyDim = UI.main_screen.sign_in_dim;
+		data.assetKeyLit = UI.main_screen.sign_in_lit;
+		data.displayName = Strings.MENU_SIGN_IN;
+		data.foregroundIcon = true;
+		data.enabledEffect = ParticleType.ui_main_campFire_HI;
+		data.activeEffect = ParticleType.ui_main_campFire_LO;
+		data.clickBounds = new Rectangle(-.1f, -.05f, 1.1f, .9f);
+		HOME_ICONS.put(HomeIconType.SIGN_IN, data);
+		
+		//ENCHANTING
+		data = new HomeIconData();
+		data.x = 3000;
+		data.y = 450;
+		data.assetKeyDim = UI.main_screen.enchanting_dim;
+		data.assetKeyLit = UI.main_screen.enchanting_lit;
+		data.displayName = Strings.MENU_ENCHANTING;
+		data.foregroundIcon = true;
+		data.pressedImage = UI.main_screen.enchanting_table_glow;
+		data.tutorialName = UIComponentName.MAIN_SCREEN_ENCHANTING_BUTTON;
+		data.enabledEffect = ParticleType.ui_main_cauldron;
+		data.clickBounds = new Rectangle(0f, .05f, .8f, .90f);
+		HOME_ICONS.put(HomeIconType.ENCHANTING, data);
+		
+		//CRYPT
+		data = new HomeIconData();
+		data.x = 3876;
+		data.y = 650;
+		data.assetKeyDim = UI.main_screen.boss_pit_dim;
+		data.assetKeyLit = UI.main_screen.boss_pit_lit;
+		data.displayName = Strings.MENU_CRYPT;
+		data.foregroundIcon = true;
+		data.pressedImage = UI.main_screen.boss_pit_glow;
+		data.pressedImageOffset.x = .02f;
+		data.pressedImageOffset.y = .05f;
+		data.pressedImageScale.x = .9f;
+		data.pressedImageScale.y = .85f;
+		data.tutorialName = UIComponentName.MAIN_SCREEN_CRYPT_BUTTON;
+		data.clickBounds = new Rectangle(0f, -.05f, 1f, .9f);
+		HOME_ICONS.put(HomeIconType.CRYPT, data);
+		
+		//RANKED_EVENTS
+		data = new HomeIconData();
+		data.x = 3580;
+		data.y = 370;
+		data.spineAsset = SpineUIType.MAIN_FLAG;
+		data.width = 381;
+		data.height = 452;
+		data.displayName = Strings.MENU_RANKED_EVENTS;
+		data.foregroundIcon = true;
+		data.clickBounds = new Rectangle(0, 0, .5f, 1f);
+		HOME_ICONS.put(HomeIconType.RANKED_EVENTS, data);
+		
+
+		//THE_MOUNTAIN
+		data = new HomeIconData();
+		data.x = 3560;
+		data.y = 1250;
+		data.assetKeyDim = UI.main_screen.the_summit_neutral;
+		data.assetKeyLit = UI.main_screen.the_summit_neutral;//changed in HomeIcon depending on if the caves or the summit is open and have chances left
+		data.displayName = Strings.MENU_MOUNTAIN;
+		data.foregroundIcon = true;
+		data.pressedImage = UI.main_screen.the_summit_lit;
+		data.pressedImageOffset.x = 0f;
+		data.pressedImageOffset.y = 0f;
+		data.pressedImageScale.x = 1f;
+		data.pressedImageScale.y = 1f;
+		data.enabledEffect = ParticleType.ui_main_summit_mist;
+		data.clickBounds = new Rectangle(-.25f, -.15f, .95f, 1f);
+		HOME_ICONS.put(HomeIconType.THE_MOUNTAIN, data);
+		
+		//FIGHT_PIT
+		data = new HomeIconData();
+		data.x = 2930;
+		data.y = 1025;
+		data.spineAsset = SpineUIType.MAIN_FIGHTPIT;
+		data.width = 388;
+		data.height = 374;
+		data.displayName = Strings.MENU_FIGHT_PIT;
+		data.foregroundIcon = true;
+		data.tutorialName = UIComponentName.MAIN_SCREEN_FIGHT_PIT_BUTTON;
+		data.clickBounds = new Rectangle(0f, -.2f, 1f, .95f);
+		HOME_ICONS.put(HomeIconType.FIGHT_PIT, data);
+		
+		//EVENTS
+		data = new HomeIconData();
+		data.x = 2601;
+		data.y = 820;
+		data.spineAsset = SpineUIType.MAIN_EVENTS;
+		data.width = 338;
+		data.height = 398;
+		data.displayName = Strings.MENU_EVENTS;
+		data.foregroundIcon = true;
+		data.clickBounds = new Rectangle(-.2f, 0f, .8f, .95f);
+		HOME_ICONS.put(HomeIconType.EVENTS, data);
+		
+		//CHESTS
+		data = new HomeIconData();
+		data.x = 2550;
+		data.y = 200;
+		data.assetKeyDim = UI.main_screen.treasure_chest_dim;
+		data.assetKeyLit = UI.main_screen.treasure_chest_lit;
+		data.displayName = Strings.MENU_CHESTS;
+		data.foregroundIcon = true;
+		data.tutorialName = UIComponentName.MAIN_SCREEN_CHESTS_BUTTON;
+		data.activeEffect = ParticleType.ui_main_chestSparkles;
+		data.clickBounds = new Rectangle(.05f, .15f, .8f, .95f);
+		HOME_ICONS.put(HomeIconType.CHESTS, data);
+		
+		//GUILDS
+		data = new HomeIconData();
+		data.x = 1850;
+		data.y = 560;
+		data.spineAsset = SpineUIType.MAIN_GUILDS;
+		data.width = 402;
+		data.height = 273;
+		data.displayName = Strings.MENU_GUILDS;
+		data.foregroundIcon = true;
+		data.clickBounds = new Rectangle(0f, -.2f, 1.1f, 1f);
+		HOME_ICONS.put(HomeIconType.GUILDS, data);
+		
+		//CAMPAIGN
+		data = new HomeIconData();
+		data.x = 2093;
+		data.y = 910;
+		data.spineAsset = SpineUIType.MAIN_CAMPAIGN;
+		data.width = 261;
+		data.height = 230;
+		data.displayName = Strings.MENU_CAMPAIGN;
+		data.foregroundIcon = true;
+		data.tutorialName = UIComponentName.MAIN_SCREEN_CAMPAIGN_BUTTON;
+		data.clickBounds = new Rectangle(-.38f, -.25f, 1.35f, 1.5f);
+		HOME_ICONS.put(HomeIconType.CAMPAIGN, data);
+		
+<<<<<<< .mine
+		//BAZAAR_MERCHANT
+		// TODO:[25683] home icon position/clickBounds
+		data = new HomeIconData();
+		data.x = 3630;
+		data.y = 500;
+		data.assetKeyDim = UI.main_screen.bazaar_dim;
+		data.assetKeyLit = UI.main_screen.bazaar;
+		data.displayName = Strings.MENU_BAZAAR_MERCHANT;
+		data.foregroundIcon = false;
+		data.pressedImage = UI.main_screen.bazaar_glow;
+		data.pressedImageOffset.x = 0f;
+		data.pressedImageOffset.y = 0f;
+		data.pressedImageScale.x = 1f;
+		data.pressedImageScale.y = 1f;
+		data.clickBounds = new Rectangle(.05f, -.2f, 1.1f, 1f);
+		HOME_ICONS.put(HomeIconType.BAZAAR, data);
+=======
+>>>>>>> .r16889
+	}
+	
+	public static HomeIconData getData(HomeIconType type) {
+		if(HOME_ICONS.isEmpty() || DEBUG_HOME_SCREEN) {
+			createData();
+		}
+		
+		return HOME_ICONS.get(type);
+	}
+	
+	//TODO
+	public static void doContestVFX(final HomeIcon icon, RPGSkin skin) {
+
+		if(!icon.getType().equals(HomeIconType.CONTESTS)) {
+			return;
+		}
+		if(isAnimating){
+			return;
+		}
+		else {
+			isAnimating = true;
+			ParticleEffectContainer flamingSword = new ParticleEffectContainer(ParticleType.ui_main_contests_flamingSword);
+			flamingSword.setEffectScale(.82f);
+			
+			//down beams
+			final Image midBeam = new Image(skin.getDrawable(UI.contests.beamRayOne));
+			final Image leftBeam = new Image(skin.getDrawable(UI.contests.beamRayTwo));
+			final Image rightBeam = new Image(skin.getDrawable(UI.contests.beamRayThree));
+			
+			leftBeam.setColor(Style.color.vip());
+			leftBeam.getColor().a = .5f;
+			leftBeam.setY(icon.getHeight());
+			leftBeam.setX(-icon.getX()*.4f);
+			leftBeam.setScale(1.25f);
+			
+			rightBeam.setColor(Style.color.vip());
+			rightBeam.getColor().a = .5f;
+			rightBeam.setY(icon.getHeight());
+			rightBeam.setX(icon.getX()*.4f);
+			rightBeam.setScale(1.25f);
+			
+			midBeam.setColor(Style.color.vip());
+			midBeam.getColor().a = .65f;
+			midBeam.setY(icon.getHeight());
+			midBeam.setX(0);
+			midBeam.setScale(1.25f);
+
+			icon.addActor(leftBeam);
+			leftBeam.getColor().a = 0f;
+			icon.addActor(rightBeam);
+			rightBeam.getColor().a = 0f;
+			icon.addActor(midBeam);
+			midBeam.getColor().a = 0f;
+			
+			final Table swordStack = new Table();
+			swordStack.add(flamingSword);
+			swordStack.setX(icon.getX()/1.6f);
+			swordStack.setY(UIHelper.ph(200));
+			
+			Tween.to(leftBeam, ActorAccessor.ALPHA, 1f).delay(.5f).target(1f).start(RPG.app.getTweenManager());
+			Tween.to(rightBeam, ActorAccessor.ALPHA, 1f).delay(.5f).target(1f).start(RPG.app.getTweenManager());
+			Tween.to(midBeam, ActorAccessor.ALPHA, 1f).delay(.5f).target(1f).start(RPG.app.getTweenManager());
+			
+			icon.addActor(swordStack);
+			Tween.to(swordStack, ActorAccessor.Y, 2f).delay(.5f).target(-icon.getY()/2).ease(Cubic.IN).start(RPG.app.getTweenManager());
+			
+			final Image leftUpBeam = new Image(skin.getDrawable(UI.contests.beamRayDownLeft));
+			final Image rightUpBeam = new Image(skin.getDrawable(UI.contests.beamRayDownRight));
+			
+			//up beams
+			leftUpBeam.setColor(Style.color.vip());
+			leftUpBeam.setX(icon.getX()*.1f);
+			leftUpBeam.setY(icon.getY()/2 + icon.getHeight()/2);
+			
+			rightUpBeam.setColor(Style.color.vip());
+			rightUpBeam.setX(icon.getX()*.35f);
+			rightUpBeam.setY(icon.getY()/2 + icon.getHeight()/2);
+			
+			leftUpBeam.getColor().a = .7f;
+			rightUpBeam.getColor().a = .7f;
+			
+			final ParticleEffectContainer shine = new ParticleEffectContainer(ParticleType.ui_main_contests_hold_Rr);
+			shine.setEffectScale(.7f);
+			shine.align(Align.center);
+			shine.setX(icon.getX()/1.6f);
+			shine.setY(icon.getY()/2+icon.getHeight()/1.75f);
+			
+			final ParticleEffectContainer haze = new ParticleEffectContainer(ParticleType.ui_main_contests_hold_Fr);
+			haze.setEffectScale(1f);
+			haze.setX(icon.getX()/1.55f);
+			haze.setY(icon.getY()/2+icon.getHeight()/2);
+			
+			final Image glow = new Image(skin.getDrawable(UI.contests.snow), Scaling.fit);
+			glow.setColor(Style.color.vip());
+			glow.getColor().a = .5f;
+			glow.setX(icon.getX()*.1f);
+			glow.setY(icon.getY()/2 + icon.getHeight()*.2f);
+			
+			final ParticleEffectContainer landing = new ParticleEffectContainer(ParticleType.ui_main_contests_sword_shockwave);
+			landing.setEffectScale(1f);
+			landing.setX(icon.getX()/1.6f);
+			landing.setY(icon.getY()/2+icon.getHeight()/2);
+			
+			//lets animate this sh*t
+			Tween.call(new TweenCallback() {
+				@Override
+				public void onEvent(int type, BaseTween<?> source) {
+					swordStack.remove();
+					icon.setState(IconState.ENABLED);
+					
+					icon.addActor(landing);
+					
+					icon.addActor(shine);
+					
+					icon.addActor(glow);
+					glow.toBack();
+					
+					icon.addActor(haze);
+					
+					icon.addActor(leftUpBeam);
+					icon.addActor(rightUpBeam);
+					
+					leftBeam.remove();
+					midBeam.remove();
+					rightBeam.remove();
+					
+					ClientActionHelper.setFlag(UserFlag.HAS_SEEN_CONTEST_START, true);
+					isAnimating = false;
+					
+				}
+			}).delay(2.5f).start(RPG.app.getTweenManager());
+			
+			icon.toFront();
+			Tween.to(leftUpBeam, ActorAccessor.ALPHA, 2.5f).target(0f).delay(7f).start(RPG.app.getTweenManager());
+			Tween.to(rightUpBeam, ActorAccessor.ALPHA, 2.5f).target(0f).delay(7f).start(RPG.app.getTweenManager());
+			Tween.to(haze, ActorAccessor.ALPHA, 2.5f).target(0f).delay(7f).start(RPG.app.getTweenManager());
+			Tween.to(shine, ActorAccessor.ALPHA, 2.5f).target(0f).delay(7f).start(RPG.app.getTweenManager());
+			
+			//get rid of animation stuff and set flag as having seen the contest
+			Tween.call(new TweenCallback() {
+				@Override
+				public void onEvent(int type, BaseTween<?> source) {
+					leftUpBeam.remove();
+					rightUpBeam.remove();
+					shine.remove();
+					haze.remove();
+				}
+			}).delay(10f).start(RPG.app.getTweenManager());
+		
+		}
+	}
+}

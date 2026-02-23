@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" style="@style/articles_search_results_list_fragment_container">
+    <LinearLayout style="@style/articles_search_results_list_fragment_listview_container">
+        <ListView android:id="0x102000a" style="@style/articles_search_results_list_fragment_listview"/>
+        <LinearLayout android:id="0x1020004" style="@style/articles_search_results_list_fragment_empty_container">
+            <TextView android:id="@+id/articles_search_results_list_fragment_empty_view" android:text="@string/articles_search_results_list_fragment_no_articles_found" style="@style/articles_search_results_list_fragment_empty_view"/>
+            <Button android:id="@+id/articles_search_results_list_fragment_contact_us" android:text="@string/articles_search_results_list_fragment_contact_us" style="@style/articles_search_results_list_fragment_contact_us"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar android:id="@+id/articles_search_results_list_fragment_progress" style="@style/articles_search_results_list_fragment_progress"/>
+</FrameLayout>

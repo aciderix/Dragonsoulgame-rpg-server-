@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="articles_list_retry_button_background">?unknown_ref: 1080004</drawable>
+    <drawable name="categories_list_retry_button_background">?unknown_ref: 1080004</drawable>
+    <drawable name="com_facebook_picker_default_separator_color">#33464c59</drawable>
+    <drawable name="notification_template_icon_bg">#3333b5e5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <drawable name="request_list_retry_button_background">?unknown_ref: 1080004</drawable>
+    <drawable name="sections_list_retry_button_background">?unknown_ref: 1080004</drawable>
+</resources>

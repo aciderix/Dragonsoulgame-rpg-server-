@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_attachment" android:id="@+id/fragment_contact_zendesk_attachment" android:title="@string/attachment_add_menu" app:showAsAction="always"/>
+    <item android:icon="@drawable/ic_action_send_now" android:id="@+id/fragment_contact_zendesk_menu_done" android:title="@string/contact_fragment_send_button_label" app:showAsAction="always"/>
+</menu>

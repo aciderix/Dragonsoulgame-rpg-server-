@@ -1,0 +1,45 @@
+"""
+DragonSoul Server Emulator - Configuration
+"""
+
+# Server network settings
+HOST = "0.0.0.0"
+PORT = 9500
+
+# Database
+DB_PATH = "dragonsoul.db"
+
+# Game version info
+GAME_VERSION = 155
+FULL_VERSION = 15500
+SDK_VERSION = 1
+
+# Server shard info
+SHARD_ID = 1
+SERVER_NAME = "DragonSoul Emulator"
+MAX_TEAM_LEVEL = 130
+NUM_CHAPTERS = 15
+
+# Starting resources for new players
+STARTING_GOLD = 50000
+STARTING_STAMINA = 120
+STARTING_DIAMONDS = 500
+STARTING_XP = 0
+STARTING_TEAM_LEVEL = 10
+MAX_STAMINA = 120
+
+# XOR key (unsigned bytes)
+XOR_KEY = [0x02, 0xA6, 0xEE, 0xD5, 0xD0, 0xBC, 0x6A, 0x98]
+
+# Address the HTTP login server tells clients to connect to for the TCP game server
+# Set to "auto" to auto-detect your LAN IP at startup
+# Or manually set: "192.168.1.42:9500", "myserver.ddns.net:9500", etc.
+GAME_SERVER_ADVERTISE = "127.0.0.1:9500" 
+HTTP_PORT = 8080
+
+# Logging
+LOG_LEVEL = "INFO"
+LOG_MESSAGES = True  # Log all incoming/outgoing message types
+
+# Compression chunk size
+ZLIB_CHUNK_SIZE = 512

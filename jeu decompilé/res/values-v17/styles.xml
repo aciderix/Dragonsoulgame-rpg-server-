@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RtlOverlay.DialogWindowTitle.AppCompat">
+        <item name="?0x10103b1">5</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem">
+        <item name="?0x10100b3">800013</item>
+        <item name="?0x10103b4">8dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon">
+        <item name="?0x10103b6">8dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem">
+        <item name="?0x10103b4">16dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup">
+        <item name="?0x10103b5">16dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text">
+        <item name="?0x10103b1">5</item>
+        <item name="?0x10103bb">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown">
+        <item name="?0x10103b3">@dimen/abc_dropdownitem_text_padding_left</item>
+        <item name="?0x10103b4">4dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1">
+        <item name="?0x10103bb">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2">
+        <item name="?0x10103b7">@id/edit_query</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Query">
+        <item name="?0x10103bc">true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Text">
+        <item name="?0x10103b7">?unknown_ref: 1020008</item>
+        <item name="?0x10103b8">?unknown_ref: 1020007</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon">
+        <item name="?0x10103b5">@dimen/abc_dropdownitem_text_padding_left</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton">
+        <item name="?0x10103b3">12dp</item>
+        <item name="?0x10103b4">12dp</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow">
+        <item name="?0x10103b3">@dimen/abc_action_bar_overflow_padding_start_material</item>
+        <item name="?0x10103b4">@dimen/abc_action_bar_overflow_padding_end_material</item>
+    </style>
+</resources>
