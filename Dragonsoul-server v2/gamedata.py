@@ -340,11 +340,6 @@ def get_campaign_level(chapter, level):
 ITEMS = {}
 
 # ─── Stamina Costs ────────────────────────────────────────────────────────────
-STAMINA_COSTS = {ch: 6 + (ch - 1) * 2 for ch in range(1, 16)}
-
-
-# ─── Items (placeholder - real items come from .tab files on client) ──────────
-ITEMS = {}
-
-# ─── Stamina Costs ────────────────────────────────────────────────────────────
-STAMINA_COSTS = {ch: 6 + (ch - 1) * 2 for ch in range(1, 16)}
+# Chapter 0 costs 6 stamina, then scales: ch1=6, ch2=8, ch3=10, ...
+STAMINA_COSTS = {0: 6}
+STAMINA_COSTS.update({ch: 6 + (ch - 1) * 2 for ch in range(1, 16)})

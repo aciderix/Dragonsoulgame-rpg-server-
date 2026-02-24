@@ -84,12 +84,15 @@ def _find_hero_by_type(player, hero_type):
 
 # ─── Helper: check and apply hero level-up ──────────────────────────────────
 def _check_hero_level_up(hero, max_level):
-    """Check if hero has enough XP to level up. Mutates hero dict in place."""
+    """Check if hero has enough XP to level up. Mutates hero dict in place.
+
+    HERO_XP_TABLE values are CUMULATIVE thresholds (total XP to reach that level),
+    so we compare hero XP against the threshold without subtracting.
+    """
     leveled = False
     while hero["level"] < max_level:
-        xp_needed = HERO_XP_TABLE.get(hero["level"] + 1, 999999999)
-        if hero["xp"] >= xp_needed:
-            hero["xp"] -= xp_needed
+        next_xp = HERO_XP_TABLE.get(hero["level"] + 1, float('inf'))
+        if hero["xp"] >= next_xp:
             hero["level"] += 1
             leveled = True
         else:
